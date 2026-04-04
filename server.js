@@ -6,10 +6,15 @@ import chatbotRouter from "./routes/chatbot.js";
 const app = express();
 
 /* =========================
-   🌐 CORS (QUAN TRỌNG)
+    🌐 CORS (FIX CHO PRODUCTION)
 ========================= */
 app.use(cors({
-  origin: "http://127.0.0.1:5500", // 🔥 đổi theo frontend bạn
+  // Cho phép cả localhost (để bạn test máy nhà) và GitHub Pages của bạn
+  origin: [
+    "http://127.0.0.1:5500", 
+    "https://kiemlamdongthap.github.io",
+    "https://quanlylamsan.github.io"
+  ],
   credentials: true
 }));
 
@@ -70,10 +75,15 @@ app.use((err, req, res, next) => {
 });
 
 /* =========================
-   🚀 START SERVER
+    🚀 START SERVER (FIX CHO RENDER)
 ========================= */
-const PORT = 3000;
+// Ưu tiên lấy cổng từ Render (process.env.PORT), nếu không có mới dùng 3000
+const PORT = process.env.PORT || 10000;
 
-app.listen(PORT, () => {
-  console.log(`🤖 Server đang chạy tại http://localhost:${PORT}`);
+// Render yêu cầu lắng nghe trên '0.0.0.0' thay vì 'localhost'
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`----------------------------------------------`);
+  console.log(`🤖 Chatbot Kiểm Lâm Đồng Tháp đang hoạt động!`);
+  console.log(`📡 Cổng kết nối: ${PORT}`);
+  console.log(`----------------------------------------------`);
 });
