@@ -1,0 +1,36 @@
+{
+  "id": "dieu_34",
+  "article": "Điều 34",
+  "title": "Phân định thẩm quyền xử phạt",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "phân định thẩm quyền",
+    "phạm vi quản lý xử phạt"
+      ],
+  "description": "Nguyên tắc xác định thẩm quyền xử phạt của các lực lượng chức năng đối với từng nhóm hành vi vi phạm cụ thể trong Nghị định:",
+   "punishments": [
+    {
+      "clause": "1",
+       "fine_range": "Những người có thẩm quyền của Kiểm lâm, Ủy ban nhân dân các cấp, Thanh tra chuyên ngành, Công an nhân dân có thẩm quyền xử phạt vi phạm hành chính, có quyền áp dụng các hình thức xử phạt bổ sung và biện pháp khắc phục hậu quả đối với các hành vi vi phạm hành chính quy định tại Nghị định này theo thẩm quyền quy định tại Điều 26, Điều 27, Điều 28 và Điều 29 của Nghị định này thuộc phạm vi quản lý và chức năng, nhiệm vụ, quyền hạn được giao"
+       },
+	 {
+      "clause": "2",
+       "fine_range": "Những người có thẩm quyền của lực lượng Bộ đội Biên phòng có thẩm quyền xử phạt vi phạm hành chính, có quyền áp dụng các hình thức xử phạt bổ sung và biện pháp khắc phục hậu quả đối với các hành vi vi phạm hành chính quy định tại Điều 13, Điều 17, Điều 20, Điều 21, Điều 22, Điều 23 và Điều 24 theo thẩm quyền quy định tại Điều 30 của Nghị định này thuộc phạm vi quản lý và chức năng, nhiệm vụ, quyền hạn được giao"
+       },  
+	   {
+      "clause": "3",
+       "fine_range": "Những người có thẩm quyền của lực lượng Cảnh sát biển có thẩm quyền xử phạt vi phạm hành chính, có quyền áp dụng các hình thức xử phạt bổ sung và biện pháp khắc phục hậu quả đối với các hành vi vi phạm hành chính quy định tại Điều 22, Điều 23 và Điều 24 theo thẩm quyền quy định tại Điều 31 của Nghị định này thuộc phạm vi quản lý và chức năng, nhiệm vụ, quyền hạn được giao"
+       },
+	    {
+      "clause": "4",
+       "fine_range": "Những người có thẩm quyền của lực lượng Quản lý thị trường có thẩm quyền xử phạt vi phạm hành chính, có quyền áp dụng các hình thức xử phạt bổ sung và biện pháp khắc phục hậu quả đối với các hành vi vi phạm quy định tại Điều 14, Điều 23, Điều 24 theo thẩm quyền quy định tại Điều 32 của Nghị định này thuộc phạm vi quản lý và chức năng, nhiệm vụ, quyền hạn được giao"
+       },
+	   {
+      "clause": "5",
+       "fine_range": "Những người có thẩm quyền của lực lượng Hải quan có thẩm quyền xử phạt vi phạm hành chính, có quyền áp dụng các hình thức xử phạt bổ sung và biện pháp khắc phục hậu quả đối với các hành vi vi phạm hành chính quy định tại Điều 22 và Điều 23 theo thẩm quyền quy định tại Điều 33 của Nghị định này thuộc phạm vi quản lý và chức năng, nhiệm vụ, quyền hạn được giao"
+       }
+ ]
+}

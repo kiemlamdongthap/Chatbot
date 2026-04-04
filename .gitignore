@@ -1,0 +1,7 @@
+node_modules/
+.env
+.evn
+# Tạo file ignore để Git không quét bậy
+echo "node_modules/" > .gitignore
+echo ".env" >> .gitignore
+echo "desktop.ini" >> .gitignore

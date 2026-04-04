@@ -1,0 +1,54 @@
+{
+  "id": "dieu_08",
+  "article": "Điều 8",
+  "title": "Khai thác trái phép môi trường rừng và thực hiện các dịch vụ, kinh doanh trái phép trong rừng",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "khai thác trái phép môi trường rừng",
+    "dịch vụ trái phép",
+    "kinh doanh trái phép trong rừng",
+    "du lịch tham quan không phép",
+    "nghỉ dưỡng giải trí"
+  ],
+  "description": "Hành vi khai thác trái phép môi trường rừng và thực hiện các dịch vụ, kinh doanh trái phép trong rừng bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng",
+      "cases": [
+        "Hành vi tổ chức du lịch, tham quan trong rừng mà không được phép của chủ rừng."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng",
+      "cases": [
+        "a) Tổ chức các dịch vụ, kinh doanh trong rừng mà không được phép của chủ rừng;",
+        "b) Tổ chức nghỉ dưỡng, giải trí trong phân khu bảo vệ nghiêm ngặt của rừng đặc dụng."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng",
+      "cases": [
+        "Hành vi đầu tư hoạt động du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng đặc dụng, rừng phòng hộ thuộc một trong các trường hợp sau:",
+        "a) Không lập dự án kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí;",
+        "b) Lập dự án kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí nhưng không phù hợp với đề án du lịch, nghỉ dưỡng, giải trí được cơ quan có thẩm quyền phê duyệt."
+      ]
+    }
+  ],
+  "remedy": {
+    "clause": "4",
+    "content": [
+      "a) Buộc khôi phục lại tình trạng ban đầu đối với hành vi quy định tại khoản 2 Điều này;",
+      "b) Buộc lập dự án kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí theo quy định của pháp luật hoặc buộc lập dự án kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí phù hợp với đề án du lịch sinh thái, nghỉ dưỡng, giải trí được cơ quan có thẩm quyền phê duyệt đối với hành vi quy định tại khoản 3 Điều này."
+    ]
+  },
+  "additional_note": {
+    "clause": "5",
+    "content": "Người có hành vi vi phạm quy định tại Điều này mà gây thiệt hại đến rừng hoặc lâm sản, thì bị xử phạt theo Điều 13 hoặc Điều 20 của Nghị định này."
+  }
+}

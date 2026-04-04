@@ -1,0 +1,53 @@
+{
+  "id": "dieu_19",
+  "article": "Điều 19",
+  "title": "Phá hủy các công trình bảo vệ và phát triển rừng",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "phá hủy công trình rừng",
+    "biển báo bảo vệ rừng",
+    "đường lâm nghiệp",
+    "chòi canh lửa",
+    "mốc ranh giới rừng"
+  ],
+  "description": "Hành vi viết, vẽ, tháo dỡ hoặc đập phá các công trình, biển báo, phương tiện phục vụ công tác bảo vệ và phát triển rừng bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng",
+      "cases": [
+        "Đối với một trong các hành vi: Viết, vẽ, xóa các thông tin, hình ảnh trên các biển báo, biển cảnh báo, bảng tuyên truyền bảo vệ rừng."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng",
+      "cases": [
+        "Đối với hành vi tháo dỡ biển báo, biển cấm, biển chỉ dẫn bảo vệ rừng."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng",
+      "cases": [
+        "a) Đào phá đường lâm nghiệp, đường tuần tra bảo vệ rừng;",
+        "b) Phá đường ranh cản lửa, kênh, mương, cống, đập ngăn nước, bể, hồ chứa nước phòng cháy và chữa cháy rừng;",
+        "c) Phá hàng rào, cọc mốc ranh giới khu rừng, tiểu khu, khoảnh và lô rừng."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng",
+      "cases": [
+        "Đối với một trong các hành vi: Đập phá bảng tuyên truyền bảo vệ rừng, chòi canh lửa rừng, nhà làm việc, tài sản, phương tiện dùng trong việc tuần tra bảo vệ rừng; làm hư hỏng các công trình khác phục vụ công tác bảo vệ và phát triển rừng."
+      ]
+    }
+  ],
+  "remedy": {
+    "clause": "5",
+    "content": "Buộc khôi phục lại tình trạng ban đầu đối với hành vi quy định tại khoản 1, khoản 2, khoản 3 và khoản 4 Điều này."
+  }
+}

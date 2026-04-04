@@ -1,0 +1,28 @@
+{
+  "code": "3.000198",
+  "title": "Công nhận nguồn giống cây trồng lâm nghiệp",
+  "title": "Công nhận nguồn giống cây trồng lâm nghiệp",
+  "aiKeywords": ["nguồn giống", "cây trồng rừng", "giống lâm nghiệp"],
+  "steps": "Nộp hồ sơ -> Tiếp nhận, kiểm tra -> Thành lập Hội đồng thẩm định, kiểm tra hiện trường -> Quyết định công nhận.",
+  "location": [
+    "Trung tâm Phục vụ hành chính công tỉnh Đồng Tháp",
+    "TT phục vụ hành chính công cấp xã",
+    "Bưu chính",
+    "Trực tuyến"
+  ],
+  "method": "Nộp trực tiếp, qua dịch vụ bưu chính công ích, hoặc trực tuyến.",
+  "processingTime": "14 ngày làm việc kể từ ngày nhận hồ sơ hợp lệ.",
+  "target": "Tổ chức, cá nhân.",
+  "authority": "Cơ quan chuyên môn về lâm nghiệp thuộc Sở Nông nghiệp và Môi trường.",
+  "result": "Quyết định công nhận/hủy bỏ công nhận nguồn giống.",
+  "aiFees": "Lâm phần tuyển chọn: 600.000 đồng; Vườn giống: 2.400.000 đồng; Bình tuyển cây mẹ, cây đầu dòng, rừng giống: 2.130.000 đồng/lần.",
+  "forms_info": "Mẫu 04, 05 Phụ lục I ban hành kèm Thông tư số 84/2025/TT-BNNMT.",
+  "condition": "Không.",
+  "legal_basis": "Khoản 7 Điều 6 Thông tư số 84/2025/TT-BNNMT; Nghị quyết 12/2025/NQ-HĐND Đồng Tháp.",
+  "digital_docs": "Văn bản đề nghị (Mẫu 04); Báo cáo kỹ thuật (Mẫu 05).",
+  "digital_result": "Quyết định công nhận/hủy bỏ công nhận.",
+  "documents": [
+    { "name": "Văn bản đề nghị (Mẫu 04)", "file": "/forms/Mau-04.docx" },
+    { "name": "Báo cáo kỹ thuật (Mẫu 05)", "file": "/forms/Mau-05.docx" }
+  ]
+}

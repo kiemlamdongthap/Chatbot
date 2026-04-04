@@ -1,0 +1,65 @@
+{
+  "id": "dieu_14",
+  "article": "Điều 14",
+  "title": "Vi phạm quy định về kinh doanh giống cây lâm nghiệp chính",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "giống cây lâm nghiệp chính",
+    "sản xuất giống",
+    "kinh doanh giống",
+    "khảo nghiệm giống",
+    "hồ sơ giống",
+    "tiêu hủy lô giống"
+  ],
+  "description": "Hành vi vi phạm các quy định về báo cáo, thông báo, hồ sơ, khảo nghiệm, điều kiện sản xuất kinh doanh và chất lượng giống cây lâm nghiệp chính bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng",
+      "cases": [
+        "a) Không báo cáo kết quả sản xuất, kinh doanh giống cây trồng lâm nghiệp khi có yêu cầu của cơ quan quản lý nhà nước về lâm nghiệp tại địa phương;",
+        "b) Không gửi thông báo hoặc thông báo không đầy đủ thông tin theo quy định trước khi sản xuất, kinh doanh giống cây trồng lâm nghiệp."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng",
+      "cases": [
+        "a) Không sử dụng đúng tên giống cây trồng lâm nghiệp trong quyết định công nhận giống cây trồng lâm nghiệp đã được cơ quan có thẩm quyền cấp;",
+        "b) Không lập và lưu giữ hồ sơ giống cây trồng lâm nghiệp theo quy định hoặc lập và lưu giữ hồ sơ không đầy đủ, không đúng với thực tế;",
+        "c) Không thực hiện đúng phương pháp, nội dung khảo nghiệm giống cây trồng lâm nghiệp theo quy định."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng",
+      "cases": [
+        "a) Thực hiện khảo nghiệm giống cây trồng lâm nghiệp không đảm bảo điều kiện cơ sở khảo nghiệm giống cây trồng lâm nghiệp theo quy định;",
+        "b) Sản xuất giống cây trồng lâm nghiệp không đảm bảo điều kiện sản xuất giống cây trồng lâm nghiệp theo quy định;",
+        "c) Kinh doanh giống cây trồng lâm nghiệp không có địa điểm giao dịch hợp pháp."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Mức phạt tùy theo giá trị lô giống",
+      "cases": [
+        "Sản xuất giống cây trồng lâm nghiệp không đảm bảo chất lượng; kinh doanh giống cây trồng lâm nghiệp không đảm bảo chất lượng hoặc không có hồ sơ giống cây trồng lâm nghiệp theo quy định bị xử phạt như sau:",
+        "a) Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng đối với lô giống cây trồng lâm nghiệp trị giá dưới 10.000.000 đồng;",
+        "b) Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với lô giống cây trồng lâm nghiệp trị giá từ 10.000.000 đồng đến dưới 20.000.000 đồng;",
+        "c) Phạt tiền từ 10.000.000 đồng đến 15.000.000 đồng đối với lô giống cây trồng lâm nghiệp trị giá từ 20.000.000 đồng đến dưới 30.000.000 đồng;",
+        "d) Phạt tiền từ 15.000.000 đồng đến 20.000.000 đồng đối với lô giống cây trồng lâm nghiệp trị giá từ 30.000.000 đồng đến dưới 40.000.000 đồng;",
+        "đ) Phạt tiền từ 20.000.000 đồng đến 25.000.000 đồng đối với lô giống cây trồng lâm nghiệp trị giá từ 40.000.000 đồng đến dưới 60.000.000 đồng;",
+        "e) Phạt tiền từ 25.000.000 đồng đến 30.000.000 đồng đối với lô giống cây trồng lâm nghiệp trị giá từ 60.000.000 đồng đến dưới 80.000.000 đồng;",
+        "g) Phạt tiền từ 30.000.000 đồng đến 35.000.000 đồng đối với lô giống cây trồng lâm nghiệp trị giá từ 80.000.000 đồng đến dưới 100.000.000 đồng;",
+        "h) Phạt tiền từ 35.000.000 đồng đến 40.000.000 đồng đối với lô giống cây trồng lâm nghiệp trị giá từ 100.000.000 đồng trở lên."
+      ]
+    }
+  ],
+  "remedy": {
+    "clause": "5",
+    "content": "Buộc tiêu hủy lô giống cây trồng lâm nghiệp đối với các hành vi vi phạm quy định tại khoản 4 Điều này."
+  }
+}

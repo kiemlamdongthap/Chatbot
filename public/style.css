@@ -1,0 +1,616 @@
+/* 🔹 1. BIẾN VÀ RESET */
+:root {
+    /* Màu sắc mặc định */
+    --primary-color: #198754;
+    --secondary-color: #157347;
+    --current-color: #198754; /* Biến màu động cho các Domain */
+    --user-bg: #e7f3ff;
+    --bot-bg: #ffffff;
+    --bg-body: #e9ecef;
+    --text-main: #2c3e50;
+    --transition: all 0.3s ease;
+}
+
+/* 🎨 2. BẢNG MÀU DOMAIN CHUYÊN SÂU */
+#chatbox.domain-all      { --current-color: #198754; } /* Xanh lá - Tổng hợp */
+#chatbox.domain-thu_tuc  { --current-color: #0d6efd; } /* Xanh dương - Thủ tục */
+#chatbox.domain-xu_phat  { --current-color: #dc3545; } /* Đỏ - Xử phạt */
+#chatbox.domain-du_lieu  { --current-color: #0dcaf0; } /* Xanh lơ - Số liệu */
+#chatbox.domain-extra_1  { --current-color: #6610f2; } /* Tím - Bản đồ */
+#chatbox.domain-extra_2  { --current-color: #fd7e14; } /* Cam - Ghi âm */
+#chatbox.domain-extra_3  { --current-color: #6f42c1; } /* Tím đậm - Xuất file */
+#chatbox.domain-extra_4  { --current-color: #e83e8c; } /* Hồng - Đánh giá */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* 🔹 3. KHUNG CHAT CHÍNH */
+#chatbox {
+    width: 95%;
+    max-width: 1100px;
+    height: 92vh;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative; /* Quan trọng để định vị Pop-up */
+    border: 3px solid var(--current-color);
+    transition: var(--transition);
+}
+
+/* 🔹 4. HEADER */
+#header {
+    background: var(--current-color) !important;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: 4px solid rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.info-icon {
+    display: inline-block;
+    margin-left: 10px;
+    cursor: help;
+    background: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 0.9rem;
+    font-family: serif;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+.info-icon:hover::after {
+    content: "Software copyright: Nguyen Van Phuc \A Email: Phuc88.klvn@gmail.com \A Phone: 0358.758.358 \A Ver: 2026 1.0.0 ";
+    white-space: pre;
+    position: absolute;
+    background: #333;
+    color: #fff;
+    padding: 12px 18px;
+    font-size: 13px;
+    border-radius: 8px;
+    top: 65px;
+    right: 20px;
+    z-index: 100;
+    width: 250px;
+    line-height: 1.5;
+    text-transform: none;
+    font-weight: normal;
+}
+
+/* 🔹 5. MENU CHỌN LĨNH VỰC */
+#category-menu {
+    display: flex;
+    background: #f1f3f5;
+    padding: 10px;
+    gap: 8px;
+    border-bottom: 1px solid #ddd;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+}
+
+#category-menu::-webkit-scrollbar {
+    height: 4px;
+}
+
+.cat-btn {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.cat-btn.active {
+    background: var(--current-color) !important;
+    color: white !important;
+    border-color: var(--current-color) !important;
+}
+
+/* 🔹 6. KHU VỰC TIN NHẮN */
+#messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #f8f9fa;
+}
+
+.msg {
+    padding: 16px 22px;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 1.7;
+    width: fit-content;
+    max-width: 90%;
+    word-wrap: break-word;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.user {
+    background: var(--user-bg);
+    color: #0b5ed7;
+    align-self: flex-end;
+}
+
+.bot {
+    background: var(--bot-bg);
+    color: var(--text-main);
+    align-self: flex-start;
+    border: 1px solid #dee2e6;
+    border-left: 8px solid var(--current-color);
+    width: 100%;
+    display: block !important;
+    padding: 20px 25px !important;
+    transition: border-left 0.3s;
+}
+
+/* Tin nhắn thông báo hệ thống tĩnh */
+.msg-system {
+    align-self: center;
+    background: var(--current-color);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin: 10px 0;
+    opacity: 0.9;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 🔹 7. ĐỊNH DẠNG VĂN BẢN PHÁP LUẬT */
+.law-header {
+    font-weight: 700;
+    color: var(--current-color);
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 1.05rem;
+}
+
+.law-point {
+    padding-left: 20px;
+    margin-bottom: 4px;
+    position: relative;
+    color: #444;
+}
+
+.law-text {
+    margin-bottom: 8px;
+    line-height: 1.8;
+}
+
+/* 🔹 8. NÚT LỰA CHỌN (CHOICES) */
+.choices-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-start;
+    margin-top: -5px;
+}
+
+.choice-btn {
+    background: white;
+    border: 2px solid var(--current-color);
+    color: var(--current-color);
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.choice-btn:hover {
+    background: var(--current-color);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* 🔹 9. ĐIỀU KHIỂN (INPUT) */
+#controls {
+    padding: 20px 40px;
+    display: flex;
+    gap: 15px;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+input {
+    flex: 1;
+    padding: 15px 25px;
+    border: 2px solid #ddd;
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus { border-color: var(--current-color); }
+
+button#sendBtn {
+    padding: 0 35px;
+    background: var(--current-color);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    transition: var(--transition);
+}
+
+button#sendBtn:hover {
+    filter: brightness(0.9);
+}
+
+/* 🔹 10. POP-UP THÔNG BÁO ĐỘNG */
+.pop-notification {
+    position: absolute;
+    top: 85px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--current-color);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    z-index: 9999;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+               fadeOut 0.5s ease 3s forwards;
+}
+
+@keyframes popIn {
+    from { opacity: 0; transform: translate(-50%, -20px); }
+    to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+@keyframes fadeOut {
+    to { opacity: 0; visibility: hidden; }
+}
+
+/* 🔹 11. RESPONSIVE */
+
+@media (max-width: 992px) {
+    #chatbox { max-width: 850px; height: 96vh; }
+    #messages { padding: 20px 30px; }
+}
+
+@media (max-width: 600px) {
+    #chatbox { width: 100%; height: 100vh; border-radius: 0; margin: 0; border: none; }
+    #header { padding: 15px; font-size: 1.1rem; gap: 8px; }
+    #category-menu { padding: 8px; gap: 5px; }
+    .cat-btn { font-size: 12px; padding: 6px 10px; }
+    .info-icon { width: 20px; height: 20px; line-height: 20px; font-size: 0.8rem; }
+    .info-icon:hover::after { width: 220px; right: 10px; top: 55px; font-size: 12px; }
+    #messages { padding: 15px; gap: 12px; }
+    .msg { font-size: 15px; max-width: 95%; padding: 12px 15px; }
+    #controls { padding: 12px 15px; gap: 8px; }
+    input { padding: 12px 18px; font-size: 15px; }
+    button#sendBtn { padding: 0 20px; font-size: 15px; }
+    .pop-notification { top: 70px; width: 80%; text-align: center; font-size: 13px; }
+}
+/* Hiệu ứng đặc biệt cho Pop-up khi vừa vào trang */
+.domain-all .pop-notification {
+    box-shadow: 0 0 20px rgba(25, 135, 84, 0.4); /* Glow màu xanh lá */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Đảm bảo vị trí Pop-up không che khuất Header trên Mobile */
+@media (max-width: 600px) {
+    .pop-notification {
+        top: 75px;
+        width: 85%;
+        padding: 8px 15px;
+        font-size: 13px;
+    }
+}
+/* 🔹 THIẾT LẬP HEADER CHỨA ICON */
+#header {
+    background: var(--current-color) !important;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    /* QUAN TRỌNG: Làm điểm tựa cho icon góc phải */
+    position: relative; 
+    
+    display: flex;
+    justify-content: center; /* Tiêu đề vẫn nằm giữa */
+    align-items: center;
+    transition: var(--transition);
+}
+
+/* 🔹 ĐẨY ICON VỀ GÓC PHẢI */
+.info-icon {
+    /* Tuyệt đối so với #header */
+    position: absolute; 
+    right: 20px; /* Khoảng cách từ lề phải vào */
+    top: 50%;
+    transform: translateY(-50%); /* Căn giữa theo chiều dọc */
+
+    display: inline-block;
+    cursor: help;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    color: white;
+    
+    /* Hiệu ứng nhịp thở để thu hút người dùng [Cách 1 đã nói] */
+    animation: pulse-white 2s infinite;
+}
+
+/* Hiệu ứng nhịp thở */
+@keyframes pulse-white {
+    0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+}
+
+/* 🔹 ĐỊNH VỊ LẠI TOOLTIP KHI DI CHUỘT (Hiện từ phải sang trái) */
+.info-icon:hover::after {
+    content: "© Software copyright: Nguyen Van Phuc \A 📧 Email: Phuc88.klvn@gmail.com \A 📞 Phone: 0358.758.358 \A 🚀 Ver: 2026 1.0.0";
+    white-space: pre;
+    position: absolute;
+    top: 35px;
+    right: 0; /* Hiện căn lề theo icon */
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 10px;
+    width: 260px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 9999;
+}
+.info-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    /* 🎨 TẠO ĐIỂM NHẤN 3D */
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    color: var(--current-color); /* Chữ màu theo domain */
+    width: 32px; /* Tăng kích thước một chút */
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: 3px 3px 6px #bd6a00, /* Bóng tối (theo màu nền cam) */
+                -1px -1px 4px #ffffff; /* Ánh sáng viền */
+    
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-icon:hover {
+    transform: translateY(-50%) scale(1.1); /* Phóng to nhẹ khi rê chuột */
+    box-shadow: 0px 0px 15px white; /* Tỏa sáng trắng */
+    background: #fff;
+}
+
+/* 🟢 HIỆU ỨNG NHÁY (Gây chú ý cực mạnh) */
+.info-icon::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    animation: ripple 1.5s infinite;
+}
+
+@keyframes ripple {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(1.8); opacity: 0; }
+}
+/* 🔹 HIỆU ỨNG ĐANG SUY NGHĨ (TYPING INDICATOR) */
+.typing {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 15px;
+}
+
+.typing span {
+    width: 8px;
+    height: 8px;
+    background: var(--current-color);
+    border-radius: 50%;
+    display: inline-block;
+    animation: typing-bounce 1.4s infinite ease-in-out both;
+    opacity: 0.6;
+}
+
+/* Các dấu chấm nhảy lệch pha nhau */
+.typing span:nth-child(1) { animation-delay: -0.32s; }
+.typing span:nth-child(2) { animation-delay: -0.16s; }
+
+@keyframes typing-bounce {
+    0%, 80%, 100% { transform: scale(0); }
+    40% { transform: scale(1.0); }
+}
+
+/* Format tin nhắn chờ giống tin nhắn Bot */
+.msg.thinking {
+    background: #f0f2f5;
+    border-left: 4px solid var(--current-color);
+    border-radius: 12px;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+.choices-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.choice-btn {
+    background: white;
+    border: 1.5px solid var(--current-color);
+    color: var(--current-color);
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.choice-btn:hover {
+    background: var(--current-color);
+    color: white;
+}
+/* Định dạng cho link tải mẫu trong tin nhắn bot */
+.download-link {
+    color: #007bff; /* Màu xanh liên kết */
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.download-link:hover {
+    color: #0056b3;
+}
+
+/* Container chứa các nút bấm lựa chọn */
+.choices-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+    padding-left: 10px;
+}
+
+.choice-btn {
+    background: #fff;
+    border: 1px solid #28a745;
+    color: #28a745;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.choice-btn:hover {
+    background: #28a745;
+    color: #fff;
+}
+.loading-dots:after {
+    content: ' .';
+    animation: dots 1.5s steps(5, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: ' .'; }
+    40% { content: ' ..'; }
+    60% { content: ' ...'; }
+    80%, 100% { content: ''; }
+}
+
+.download-link {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* Làm cho link tải mẫu nổi bật và bấm được */
+.download-link {
+    color: #007bff !important; /* Màu xanh đậm */
+    text-decoration: underline !important; /* Gạch chân */
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px 0;
+}
+
+.download-link:hover {
+    color: #0056b3 !important;
+}
+
+/* Hiệu ứng ba chấm đang tải */
+.loading-dots:after {
+    content: ' .';
+    animation: dots 1s steps(5, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: ' .'; }
+    40% { content: ' ..'; }
+    60% { content: ' ...'; }
+    80%, 100% { content: ''; }
+}
+<style>
+    /* Làm cho link tải mẫu nổi bật và có thể click */
+    .download-link {
+        color: #007bff !important; /* Màu xanh đặc trưng của link */
+        text-decoration: underline !important;
+        font-weight: bold;
+        margin-left: 8px;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .download-link:hover {
+        color: #0056b3 !important;
+        text-shadow: 0 0 2px rgba(0,123,255,0.2);
+    }
+
+    /* Đảm bảo thẻ <a> không bị mất màu do các style khác */
+    .msg.bot a {
+        pointer-events: auto !important;
+    }
+</style>

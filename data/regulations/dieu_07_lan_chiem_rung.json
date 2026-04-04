@@ -1,0 +1,87 @@
+{
+  "id": "dieu_07",
+  "article": "Điều 7",
+  "title": "Lấn, chiếm rừng",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": ["lấn rừng", "chiếm rừng","lấn chiếm rừng", "dịch chuyển mốc giới", "ranh giới rừng"],
+  "description": "Hành vi dịch chuyển mốc giới, ranh giới rừng hoặc chiếm rừng của chủ rừng khác; rừng thuộc sở hữu toàn dân chưa giao, chưa cho thuê, bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng",
+      "cases": [
+        "a) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các loại rừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích dưới 5.000 m2;",
+        "b) Rừng sản xuất có diện tích dưới 3.000 m2;",
+        "c) Rừng phòng hộ có diện tích dưới 2.000 m2;",
+        "d) Rừng đặc dụng có diện tích dưới 1.000 m2."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 3.000.000 đồng đến 7.000.000 đồng",
+      "cases": [
+        "a) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các loại rừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 5.000 m2 đến dưới 10.000 m2;",
+        "b) Rừng sản xuất có diện tích từ 3.000 m2 đến dưới 5.000 m2;",
+        "c) Rừng phòng hộ có diện tích từ 2.000 m2 đến dưới 4.000 m2;",
+        "d) Rừng đặc dụng có diện tích từ 1.000 m2 đến dưới 3.000 m2."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Phạt tiền từ 7.000.000 đồng đến 15.000.000 đồng",
+      "cases": [
+        "a) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các loại rừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 10.000 m2 đến dưới 20.000 m2;",
+        "b) Rừng sản xuất có diện tích từ 5.000 m2 đến dưới 8.000 m2;",
+        "c) Rừng phòng hộ có diện tích từ 4.000 m2 đến dưới 6.000 m2;",
+        "d) Rừng đặc dụng có diện tích từ 3.000 m2 đến dưới 4.000 m2."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Phạt tiền từ 15.000.000 đồng đến 25.000.000 đồng",
+      "cases": [
+        "a) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các loại rừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 20.000 m2 đến dưới 30.000 m2;",
+        "b) Rừng sản xuất có diện tích từ 8.000 m2 đến dưới 10.000 m2;",
+        "c) Rừng phòng hộ có diện tích từ 6.000 m2 đến dưới 8.000 m2;",
+        "d) Rừng đặc dụng có diện tích từ 4.000 m2 đến dưới 5.000 m2."
+      ]
+    },
+    {
+      "clause": "5",
+      "fine_range": "Phạt tiền từ 25.000.000 đồng đến 32.000.000 đồng",
+      "cases": [
+        "a) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các loại rừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 30.000 m2 đến dưới 40.000 m2;",
+        "b) Rừng sản xuất có diện tích từ 10.000 m2 đến dưới 15.000 m2;",
+        "c) Rừng phòng hộ có diện tích từ 8.000 m2 đến dưới 12.000 m2;",
+        "d) Rừng đặc dụng có diện tích từ 5.000 m2 đến dưới 7.000 m2."
+      ]
+    },
+    {
+      "clause": "6",
+      "fine_range": "Phạt tiền từ 32.000.000 đồng đến 40.000.000 đồng",
+      "cases": [
+        "a) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các loại rừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 40.000 m2 đến dưới 50.000 m2;",
+        "b) Rừng sản xuất có diện tích từ 15.000 m2 đến dưới 20.000 m2;",
+        "c) Rừng phòng hộ có diện tích từ 12.000 m2 đến dưới 15.000 m2;",
+        "d) Rừng đặc dụng có diện tích từ 7.000 m2 đến dưới 10.000 m2."
+      ]
+    },
+    {
+      "clause": "7",
+      "fine_range": "Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng",
+      "cases": [
+        "a) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các loại rừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích 50.000 m2 trở lên;",
+        "b) Rừng sản xuất có diện tích 20.000 m2 trở lên;",
+        "c) Rừng phòng hộ có diện tích 15.000 m2 trở lên;",
+        "d) Rừng đặc dụng có diện tích 10.000 m2 trở lên."
+      ]
+    }
+  ],
+  "remedy": {
+    "clause": "8",
+    "content": "Biện pháp khắc phục hậu quả: Buộc khôi phục lại tình trạng ban đầu đối với hành vi quy định tại khoản 1, khoản 2, khoản 3, khoản 4, khoản 5, khoản 6 và khoản 7 Điều này."
+  }
+}

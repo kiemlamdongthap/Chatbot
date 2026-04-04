@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Trợ lý Kiểm lâm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👮</text></svg>">
+	<style>
+/* 🚀 THIẾT KẾ LẠI NÚT TẢI MẪU: Chuyên nghiệp, Rực rỡ và Tiện bấm */
+/* 🚀 THIẾT KẾ NÚT TẢI MẪU: Thoáng, Cân đối và Hiện đại */
+.download-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white !important;
+    /* Tăng Padding: 6px trên-dưới và 15px trái-phải để nút không bị dính chữ */
+    padding: 6px 15px; 
+    margin: 10px 0; /* Tạo khoảng cách dòng rõ ràng */
+    border-radius: 8px;
+    text-decoration: none !important;
+    font-weight: 600;
+    font-size: 0.85em;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+    pointer-events: auto !important;
+    line-height: 1.2;
+}
+
+/* 2. Tạo khoảng cách cho Icon để không dính vào chữ */
+.download-link::before {
+    content: "📥"; 
+    font-size: 1.1em;
+    margin-right: 10px; /* Tăng khoảng cách giữa Icon và chữ "Tải mẫu" */
+    display: inline-block;
+}
+
+/* 3. Hiệu ứng Hover mượt mà */
+.download-link:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    filter: brightness(1.1);
+}
+
+/* 2. Thêm icon 📥 vào trước chữ "Tải mẫu" tự động bằng CSS */
+.download-link::before {
+    content: "📥"; /* Icon tải về */
+    font-size: 1.2em; /* Phóng lớn icon một chút */
+    margin-right: 15px; /* Khoảng cách với chữ "Tải mẫu" */
+}
+
+/* 3. Hiệu ứng khi di chuột vào (Hover) hoặc chạm (Touch) */
+.download-link:hover {
+    background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%); /* Đổi màu gradient */
+    transform: translateY(-2px); /* Bay lên nhẹ */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Đổ bóng đậm hơn */
+}
+
+/* 4. Hiệu ứng khi bấm xuống (Active) */
+.download-link:active {
+    transform: translateY(1px); /* Lún xuống nhẹ */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 5. Đảm bảo tin nhắn bot không chặn click */
+.msg.bot {
+    overflow: visible !important;
+}
+</style>
+    </head>
+<body>
+
+<div id="chatbox" class="domain-all">
+    <div id="header">
+        👮 TRỢ LÝ ẢO - KIỂM LÂM ĐỒNG THÁP<span class="info-icon">🎖️</span>
+    </div>
+
+    <div id="category-menu">
+        <button class="cat-btn active" onclick="setDomain('all')">🏠 Tổng hợp</button>
+        <button class="cat-btn" onclick="setDomain('thu_tuc')">📄 Thủ tục</button>
+        <button class="cat-btn" onclick="setDomain('xu_phat')">⚖️ Xử phạt</button>
+        <button class="cat-btn" onclick="setDomain('du_lieu')">📊 Số liệu</button>
+        <button class="cat-btn" onclick="setDomain('extra_1')">📍 Bản đồ</button>
+        <button class="cat-btn" onclick="setDomain('extra_2')">🎤 Ghi âm</button>
+        <button class="cat-btn" onclick="setDomain('extra_3')">📥 Xuất file</button>
+        <button class="cat-btn" onclick="setDomain('extra_4')">⭐ Đánh giá</button>
+    </div>
+    
+    <div id="messages">
+        <div class="msg bot">🌲 Hệ thống Trợ lý Kiểm lâm đã sẵn sàng hỗ trợ Anh/Chị.</div>
+    </div>
+    
+    <div id="controls">
+        <input type="text" id="input" placeholder="Nhập nội dung cần hỗ trợ..." autocomplete="off">
+        <button id="sendBtn">Gửi</button>
+    </div>
+</div>
+
+<script>
+    const messages = document.getElementById("messages");
+    const input = document.getElementById("input");
+    const sendBtn = document.getElementById("sendBtn");
+    let currentDomain = 'all';
+
+    // 🌟 KHỞI TẠO: Pop-up chào mừng bay lên rồi ẩn (không chiếm chỗ khung chat)
+    window.onload = () => {
+        showPopNotification("Xin chào! Hãy chọn chế độ để bắt đầu.");
+    };
+
+    // 🔔 Chức năng Pop-up thông báo động (Tự ẩn sau 3.5s)
+    function showPopNotification(text) {
+        const oldPop = document.querySelector(".pop-notification");
+        if (oldPop) oldPop.remove();
+
+        const pop = document.createElement("div");
+        pop.className = "pop-notification";
+        pop.innerHTML = `🔔 ${text}`;
+        document.getElementById("chatbox").appendChild(pop);
+
+        setTimeout(() => { if (pop) pop.remove(); }, 3500); 
+    }
+
+    // 🎯 Thiết lập chế độ làm việc (Hàm quan trọng bạn yêu cầu)
+    function setDomain(domain) {
+        currentDomain = domain;
+        document.getElementById("chatbox").className = "domain-" + domain; 
+
+        // 1. Cập nhật trạng thái nút bấm (Active)
+        document.querySelectorAll('.cat-btn').forEach(btn => {
+            btn.classList.remove('active');
+            if (btn.getAttribute('onclick').includes(`'${domain}'`)) btn.classList.add('active');
+        });
+
+        // 2. Xóa sạch log cũ để không gian chat sạch sẽ
+        messages.innerHTML = ""; 
+
+        // 3. Danh sách câu chào tương ứng từng chế độ
+        const welcomeMsgs = {
+            'all': '🌲 Hệ thống Trợ lý Kiểm lâm đã sẵn sàng hỗ trợ Anh/Chị ở chế độ Tổng hợp.',
+            'thu_tuc': '📄 Chuyên gia Thủ tục hành chính đã sẵn sàng hỗ trợ Anh/Chị.',
+            'xu_phat': '⚖️ Chế độ tra cứu Xử phạt vi phạm đã sẵn sàng hỗ trợ Anh/Chị.',
+            'du_lieu': '📊 Hệ thống dữ liệu rừng đã sẵn sàng cung cấp số liệu cho Anh/Chị.',
+            'extra_1': '📍 Bản đồ lâm nghiệp số đã sẵn sàng hiển thị.',
+            'extra_2': '🎤 Trợ lý giọng nói đang lắng nghe Anh/Chị.',
+            'extra_3': '📥 Hệ thống xuất báo cáo đã sẵn sàng.',
+            'extra_4': '⭐ Anh/Chị vui lòng để lại đánh giá về dịch vụ.'
+        };
+        
+        // 4. Gọi Pop-up bay (hiện 3s rồi ẩn) để gây chú ý
+        const labels = { 'all':'TỔNG HỢP', 'thu_tuc':'THỦ TỤC', 'xu_phat':'XỬ PHẠT', 'du_lieu':'SỐ LIỆU', 'extra_1':'BẢN ĐỒ', 'extra_2':'GIỌNG NÓI', 'extra_3':'XUẤT FILE', 'extra_4':'ĐÁNH GIÁ' };
+        showPopNotification(`Đã chuyển sang: ${labels[domain]}`);
+
+        // 5. HIỂN THỊ TIN NHẮN BOT CHÀO MỪNG (Dạng tin nhắn chat như ảnh bạn yêu cầu)
+        addMessage("bot", welcomeMsgs[domain]); 
+
+        messages.scrollTop = 0;
+    }
+
+   // Thay thế toàn bộ hàm addMessage cũ bằng đoạn mã dưới đây:
+function addMessage(sender, text, choices = []) {
+    const div = document.createElement("div");
+    div.className = "msg " + sender;
+    messages.appendChild(div);
+
+    if (sender === "bot") {
+        // 1. Chuyển đổi Markdown link sang thẻ HTML <a>
+        // Sửa regex để bắt link chính xác hơn và không bị dính ký tự lạ
+        let formattedText = text
+            .replace(/\n/g, "<br>")
+            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" class="download-link">$1</a>');
+        
+        let i = 0;
+        let speed = 5; 
+
+        // 2. Hiệu ứng chờ "Đang truy xuất..."
+        div.innerHTML = `<span class="loading-dots">Đang truy xuất dữ liệu...</span>`;
+
+        setTimeout(() => {
+            div.innerHTML = ""; // Xóa trắng để bắt đầu hiệu ứng gõ
+
+            function typeWriter() {
+                if (i < formattedText.length) {
+                    // XỬ LÝ THẺ HTML: Nếu gặp dấu '<', ta phải lấy toàn bộ thẻ (ví dụ <a href...>)
+                    if (formattedText.charAt(i) === '<') {
+                        let endTag = formattedText.indexOf('>', i);
+                        if (endTag !== -1) {
+                            // Thêm nguyên cụm thẻ HTML (ví dụ: <a href="...">) vào innerHTML
+                            div.innerHTML += formattedText.substring(i, endTag + 1);
+                            i = endTag + 1;
+                        } else {
+                            div.innerHTML += formattedText.charAt(i);
+                            i++;
+                        }
+                    } else {
+                        // Nếu là văn bản bình thường thì gõ từng chữ
+                        div.innerHTML += formattedText.charAt(i);
+                        i++;
+                    }
+                    
+                    messages.scrollTop = messages.scrollHeight;
+                    setTimeout(typeWriter, speed);
+                } else {
+                    // Hiện các nút lựa chọn sau khi chạy xong chữ
+                    showChoices(choices);
+                }
+            }
+            typeWriter();
+        }, 400); // Chờ 400ms trước khi bắt đầu gõ
+    } else {
+        div.innerText = text;
+        // User message không cần typewriter
+        showChoices(choices);
+    }
+}
+function showChoices(choices) {
+    if (choices && choices.length > 0) {
+        const choiceContainer = document.createElement("div");
+        choiceContainer.className = "choices-container";
+        choices.forEach(txt => {
+            const btn = document.createElement("button");
+            btn.className = "choice-btn";
+            btn.innerText = txt;
+            btn.onclick = () => { input.value = txt; send(); };
+            choiceContainer.appendChild(btn);
+        });
+        messages.appendChild(choiceContainer);
+        messages.scrollTop = messages.scrollHeight;
+    }
+}
+
+   // 🚀 Gửi dữ liệu lên Server (Bản sửa lỗi hiển thị Choices)
+async function send() {
+    const text = input.value.trim();
+    if (!text) return;
+
+    addMessage("user", text); 
+    input.value = "";
+
+    // Tạo hiệu ứng đang suy nghĩ
+    const thinkingDiv = document.createElement("div");
+    thinkingDiv.className = "msg thinking";
+    thinkingDiv.innerHTML = `<div class="typing"><span></span><span></span><span></span></div>`;
+    messages.appendChild(thinkingDiv);
+    messages.scrollTop = messages.scrollHeight;
+
+    try {
+        const response = await fetch("/api/chatbot", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ msg: text, domain: currentDomain })
+        });
+        const data = await response.json();
+
+        // Xóa hiệu ứng đang suy nghĩ
+        thinkingDiv.remove();
+
+        // 🌟 QUAN TRỌNG: Truyền cả reply và choices vào hàm hiển thị
+        if (data.reply) {
+            addMessage("bot", data.reply, data.choices); 
+        }
+        
+    } catch (err) { 
+        if (thinkingDiv) thinkingDiv.remove();
+        console.error(err);
+        addMessage("bot", "⚠️ Lỗi kết nối máy chủ.");
+    }
+}
+
+    sendBtn.onclick = send;
+    input.onkeypress = (e) => { if(e.key === 'Enter') send(); };
+	
+</script>
+</body>
+</html>

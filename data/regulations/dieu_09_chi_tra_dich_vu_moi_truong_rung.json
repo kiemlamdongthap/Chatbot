@@ -1,0 +1,74 @@
+{
+  "id": "dieu_09",
+  "article": "Điều 9",
+  "title": "Vi phạm quy định về chi trả dịch vụ môi trường rừng",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "chi trả dịch vụ môi trường rừng",
+    "không ký hợp đồng",
+    "kê khai sai",
+    "chậm chi trả",
+    "Quỹ bảo vệ và phát triển rừng",
+    "tiền lãi phát sinh"
+  ],
+  "description": "Hành vi vi phạm về ký kết hợp đồng, kê khai và chi trả tiền dịch vụ môi trường rừng bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Mức phạt tùy theo đối tượng ký kết",
+      "cases": [
+        "Hành vi sử dụng dịch vụ môi trường rừng không ký hợp đồng chi trả tiền sử dụng dịch vụ môi trường rừng sau 03 tháng, kể từ khi sử dụng dịch vụ môi trường rừng, bị xử phạt như sau:",
+        "a) Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng nếu không ký hợp đồng đối với chủ rừng cung ứng dịch vụ môi trường rừng trong trường hợp chi trả trực tiếp;",
+        "b) Phạt tiền từ 10.000.000 đồng đến 20.000.000 đồng khi không ký hợp đồng với Quỹ bảo vệ và phát triển rừng tỉnh trong trường hợp chi trả gián tiếp;",
+        "c) Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng khi không ký hợp đồng với Quỹ bảo vệ và phát triển rừng Việt Nam trong trường hợp chi trả gián tiếp."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 10.000.000 đồng",
+      "cases": [
+        "Hành vi sử dụng dịch vụ môi trường rừng không kê khai, kê khai không đúng hoặc chậm kê khai tiền phải chi trả dịch vụ môi trường rừng trong trường hợp chi trả gián tiếp, bị xử phạt như sau:",
+        "a) Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng nếu số tiền phải chi trả dưới 50.000.000 đồng;",
+        "b) Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng nếu số tiền phải chi trả từ 50.000.000 đồng đến dưới 200.000.000 đồng;",
+        "c) Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng nếu số tiền phải chi trả từ 200.000.000 đồng đến dưới 300.000.000 đồng;",
+        "d) Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng nếu số tiền phải chi trả từ 300.000.000 đồng đến dưới 500.000.000 đồng;",
+        "đ) Phạt tiền từ 7.000.000 đồng đến 10.000.000 đồng nếu số tiền phải chi trả 500.000.000 đồng trở lên."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 50.000.000 đồng",
+      "cases": [
+        "Hành vi sử dụng dịch vụ môi trường rừng không chi trả hoặc chi trả không đầy đủ tiền sử dụng dịch vụ, bị xử phạt như sau:",
+        "a) Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng nếu không chi trả hoặc chi trả không đầy đủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền dưới 20.000.000 đồng;",
+        "b) Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng nếu không chi trả hoặc chi trả không đầy đủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền từ 20.000.000 đồng đến dưới 30.000.000 đồng;",
+        "c) Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng nếu không chi trả hoặc chi trả không đầy đủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền từ 30.000.000 đồng đến dưới 50.000.000 đồng;",
+        "d) Phạt tiền từ 5.000.000 đồng đến 15.000.000 đồng nếu không chi trả hoặc chi trả không đầy đủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền từ 50.000.000 đồng đến dưới 100.000.000 đồng;",
+        "đ) Phạt tiền từ 15.000.000 đồng đến 25.000.000 đồng nếu không chi trả hoặc chi trả không đầy đủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền từ 100.000.000 đồng đến dưới 200.000.000 đồng;",
+        "e) Phạt tiền từ 25.000.000 đồng đến 40.000.000 đồng nếu không chi trả hoặc chi trả không đầy đủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền từ 200.000.000 đồng đến dưới 500.000.000 đồng;",
+        "g) Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng nếu không chi trả hoặc chi trả không đầy đủ tiền sử dụng dịch vụ quá 03 tháng theo thời hạn ký kết trong hợp đồng với số tiền 500.000.000 đồng trở lên."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 10.000.000 đồng",
+      "cases": [
+        "Hành vi không thực hiện chi trả hoặc chi trả không đầy đủ, đúng hạn tiền thu từ dịch vụ môi trường rừng cho người nhận khoán bảo vệ rừng theo hợp đồng ký kết giữa chủ rừng và người nhận khoán bảo vệ rừng, bị xử phạt như sau:",
+        "a) Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng nếu số tiền phải chi trả dưới 5.000.000 đồng;",
+        "b) Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng nếu số tiền phải chi trả từ 5.000.000 đồng đến dưới 20.000.000 đồng;",
+        "c) Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng nếu số tiền phải chi trả từ 20.000.000 đồng đến dưới 50.000.000 đồng;",
+        "d) Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng nếu số tiền phải chi trả 50.000.000 đồng trở lên."
+      ]
+    }
+  ],
+  "remedy": {
+    "clause": "5",
+    "content": [
+      "a) Buộc chi trả đầy đủ tiền sử dụng dịch vụ môi trường rừng và tiền lãi phát sinh từ việc chậm chi trả (nếu có) tương ứng với số tiền và thời gian chậm chi trả trong thời hạn 01 tháng, kể từ ngày nhận được quyết định xử phạt, đối với hành vi quy định tại khoản 3 Điều này. Tiền lãi được tính trên cơ sở số tiền chậm chi trả, thời gian chậm chi trả theo lãi suất cơ bản do Ngân hàng Nhà nước Việt Nam công bố tại thời điểm gần nhất với thời điểm ra quyết định xử phạt vi phạm hành chính.",
+      "b) Buộc chi trả đầy đủ tiền dịch vụ môi trường rừng cho người nhận khoán bảo vệ rừng theo hợp đồng đã ký kết trong thời hạn 01 tháng, kể từ ngày nhận được quyết định xử phạt, đối với hành vi quy định tại khoản 4 Điều này."
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "dieu_24",
+  "article": "Điều 24",
+  "title": "Vi phạm quy định về quản lý hồ sơ lâm sản trong vận chuyển, mua bán, cất giữ, chế biến lâm sản",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "quản lý hồ sơ lâm sản",
+    "quên mang giấy tờ gỗ",
+    "không xuất trình được hồ sơ lâm sản",
+    "không ghi sổ theo dõi lâm sản",
+    "sai mẫu sổ nhập xuất",
+    "không đăng ký mã số cơ sở nuôi",
+    "vi phạm hệ thống bảo đảm gỗ",
+    "truy xuất nguồn gốc lâm sản",
+    "giấy tờ gỗ rừng trồng",
+    "hồ sơ động vật rừng hợp pháp"
+  ],
+  "description": "Hành vi vi phạm các quy định về lập, ghi chép, lưu giữ và xuất trình hồ sơ lâm sản hợp pháp trong các hoạt động vận chuyển, mua bán, cất giữ, chế biến, nuôi trồng lâm sản, bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng",
+      "cases": [
+        "a) Vận chuyển, mua bán, cất giữ, chế biến thực vật rừng ngoài gỗ; động vật rừng hoặc bộ phận, sản phẩm của chúng có nguồn gốc hợp pháp nhưng không chấp hành đầy đủ quy định về hồ sơ;",
+        "b) Vận chuyển, mua bán, cất giữ, chế biến gỗ rừng trồng, vườn nhà có nguồn gốc hợp pháp nhưng không chấp hành đầy đủ quy định về hồ sơ;",
+        "c) Người lái xe hoặc chủ lâm sản không xuất trình được hồ sơ lâm sản tại thời điểm kiểm tra phương tiện."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng",
+      "cases": [
+        "a) Chủ cơ sở chế biến, mua bán không lập sổ theo dõi, lập sai mẫu hoặc ghi chép không đầy đủ, không đúng thực tế sổ nhập xuất;",
+        "b) Chủ cơ sở nuôi, trồng loài nguy cấp, quý, hiếm (CITES) không lập sổ theo dõi, lập sai mẫu hoặc ghi chép không đúng thực tế;",
+        "c) Chủ cơ sở nuôi động vật rừng thông thường không lập sổ theo dõi hoặc không thông báo đúng hạn khi đưa động vật về cơ sở nuôi;",
+        "d) Không thực hiện hoặc thực hiện không đúng thời hạn báo cáo về Hệ thống bảo đảm gỗ hợp pháp Việt Nam (VNTLAS)."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Phạt tiền từ 2.000.000 đồng đến 5.000.000 đồng",
+      "cases": [
+        "a) Vi phạm quy định hồ sơ đối với lâm sản có nguồn gốc nhập khẩu hoặc nguồn gốc sau xử lý tịch thu hợp pháp;",
+        "b) Chủ cơ sở nuôi, trồng loài nguy cấp, quý, hiếm (CITES) có nguồn gốc hợp pháp nhưng không đăng ký mã số cơ sở nuôi, trồng."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng",
+      "cases": [
+        "a) Vi phạm quy định hồ sơ đối với lâm sản có nguồn gốc từ rừng tự nhiên hợp pháp;",
+        "b) Doanh nghiệp kê khai sai các tiêu chí phân loại doanh nghiệp trong Hệ thống bảo đảm gỗ hợp pháp Việt Nam."
+      ]
+    }
+  ],
+  "additional_penalties": {
+    "clause": "none",
+    "content": [
+      "Điều 24 tập trung vào vi phạm hành chính về thủ tục hồ sơ (lâm sản vẫn có nguồn gốc hợp pháp), nên không có quy định tịch thu tang vật, phương tiện như Điều 22."
+    ]
+  },
+  "remedy": {
+    "clause": "none",
+    "content": [
+      "Thực hiện theo các quy định chung về xử phạt hành chính nếu gây ra hậu quả cần khắc phục."
+    ]
+  }
+}

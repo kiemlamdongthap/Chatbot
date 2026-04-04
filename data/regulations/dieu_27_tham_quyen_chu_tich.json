@@ -1,0 +1,58 @@
+{
+  "id": "dieu_27",
+  "article": "Điều 27",
+  "title": "Thẩm quyền xử phạt vi phạm hành chính của Chủ tịch Ủy ban nhân dân các cấp",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "thẩm quyền chủ tịch",
+    "mức phạt của chủ tịch xã",
+    "chủ tịch huyện phạt bao nhiêu",
+    "chủ tịch tỉnh phạt bao nhiêu",
+    "tịch thu tang vật cấp xã",
+    "đình chỉ xưởng gỗ",
+    "kiểm lâm tham mưu xử phạt",
+    "hạn mức xử phạt hành chính lâm nghiệp"
+  ],
+  "description": "Quy định chi tiết về hạn mức phạt tiền, thẩm quyền tịch thu tang vật, phương tiện và các biện pháp khắc phục hậu quả của Chủ tịch UBND cấp xã, huyện và tỉnh trong lĩnh vực lâm nghiệp:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Chủ tịch Ủy ban nhân dân cấp xã",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 5.000.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 10.000.000 đồng;",
+        "d) Áp dụng các biện pháp khắc phục hậu quả quy định tại các điểm a, b, c, d khoản 3 và khoản 4 Điều 4."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Chủ tịch Ủy ban nhân dân cấp huyện",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 100.000.000 đồng;",
+        "c) Đình chỉ hoạt động khai thác rừng hoặc cơ sở chế biến lâm sản có thời hạn từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại khoản 3 và khoản 4 Điều 4."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000.000 đồng;",
+        "c) Đình chỉ hoạt động khai thác rừng hoặc cơ sở chế biến lâm sản có thời hạn từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại khoản 3 và khoản 4 Điều 4."
+      ]
+    }
+  ],
+  "consultation_duty": {
+    "clause": "4",
+    "content": "Cơ quan Kiểm lâm các cấp ở địa phương có trách nhiệm tham mưu cho Ủy ban nhân dân cùng cấp trong việc xử phạt vi phạm hành chính theo thẩm quyền quy định tại Điều này."
+  }
+}

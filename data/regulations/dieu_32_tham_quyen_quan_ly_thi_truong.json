@@ -1,0 +1,63 @@
+{
+  "id": "dieu_32",
+  "article": "Điều 32",
+  "title": "Thẩm quyền xử phạt của Quản lý thị trường",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "thẩm quyền quản lý thị trường",
+    "mức phạt của quản lý thị trường",
+    "đội trưởng quản lý thị trường",
+    "tổng cục trưởng quản lý thị trường",
+    "cục trưởng cục quản lý thị trường tỉnh",
+    "kiểm soát viên thị trường",
+    "tịch thu tang vật quản lý thị trường",
+    "đình chỉ cơ sở chế biến lâm sản",
+    "kiểm tra lâm sản lưu thông trên thị trường"
+  ],
+  "description": "Quy định chi tiết về hạn mức phạt tiền, thẩm quyền tịch thu tang vật và các biện pháp khắc phục hậu quả của các chức danh thuộc lực lượng Quản lý thị trường đối với các vi phạm lâm nghiệp trên thị trường:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Kiểm soát viên thị trường đang thi hành công vụ",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000 đồng."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Đội trưởng Đội Quản lý thị trường; Trưởng phòng Nghiệp vụ thuộc Cục Nghiệp vụ quản lý thị trường",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 25.000.000 đồng;",
+        "c) Tịch thu tang vật vi phạm hành chính có trị giá không vượt quá 50.000.000 đồng;",
+        "d) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, d, đ và k khoản 3 Điều 4."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Cục trưởng Cục Quản lý thị trường cấp tỉnh; Cục trưởng Cục Nghiệp vụ quản lý thị trường trực thuộc Tổng cục Quản lý thị trường",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 50.000.000 đồng;",
+        "c) Đình chỉ hoạt động cơ sở chế biến lâm sản có thời hạn từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật vi phạm hành chính;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại điểm a, c, d, đ và k khoản 3 Điều 4."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Tổng cục trưởng Tổng cục Quản lý thị trường",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000.000 đồng;",
+        "c) Đình chỉ hoạt động cơ sở chế biến lâm sản có thời hạn từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật vi phạm hành chính;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại điểm a, c, d, đ và k khoản 3 Điều 4."
+      ]
+    }
+  ]
+}

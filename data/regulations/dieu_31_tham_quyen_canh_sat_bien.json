@@ -1,0 +1,88 @@
+{
+  "id": "dieu_31",
+  "article": "Điều 31",
+  "title": "Thẩm quyền xử phạt của Cảnh sát biển",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "thẩm quyền cảnh sát biển",
+    "mức phạt cảnh sát biển",
+    "tư lệnh cảnh sát biển phạt bao nhiêu",
+    "hải đội trưởng cảnh sát biển",
+    "đoàn trinh sát cảnh sát biển",
+    "tịch thu tang vật trên biển",
+    "vận chuyển lâm sản trên biển",
+    "đoàn đặc nhiệm phòng chống tội phạm ma túy cảnh sát biển"
+  ],
+  "description": "Quy định chi tiết về hạn mức phạt tiền, thẩm quyền tịch thu tang vật, phương tiện và các biện pháp khắc phục hậu quả của các chức danh thuộc lực lượng Cảnh sát biển Việt Nam trong lĩnh vực lâm nghiệp:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Cảnh sát viên Cảnh sát biển đang thi hành công vụ",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 1.500.000 đồng."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Tổ trưởng Tổ nghiệp vụ Cảnh sát biển",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 5.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Đội trưởng Đội nghiệp vụ Cảnh sát biển; Trạm trưởng Trạm Cảnh sát biển",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 10.000.000 đồng;",
+        "c) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, c, d khoản 3 Điều 4."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Hải đội trưởng Hải đội Cảnh sát biển",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 25.000.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính có trị giá không vượt quá 50.000.000 đồng;",
+        "d) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, c và d khoản 3 Điều 4."
+      ]
+    },
+    {
+      "clause": "5",
+      "fine_range": "Hải đoàn trưởng Hải đoàn Cảnh sát biển; Đoàn trưởng Đoàn trinh sát; Đoàn trưởng Đoàn đặc nhiệm phòng chống tội phạm ma túy thuộc Bộ Tư lệnh Cảnh sát biển",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 50.000.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính có trị giá không vượt quá 100.000.000 đồng;",
+        "d) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, c và d khoản 3 Điều 4."
+      ]
+    },
+    {
+      "clause": "6",
+      "fine_range": "Tư lệnh Vùng Cảnh sát biển; Cục trưởng Cục Nghiệp vụ và Pháp luật thuộc Bộ Tư lệnh Cảnh sát biển",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 100.000.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính;",
+        "d) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, c và d khoản 3 Điều 4."
+      ]
+    },
+    {
+      "clause": "7",
+      "fine_range": "Tư lệnh Cảnh sát biển Việt Nam",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000.000 đồng;",
+        "c) Đình chỉ hoạt động cơ sở chế biến lâm sản có thời hạn từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính;",
+        "đ) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, c và d khoản 3 Điều 4."
+      ]
+    }
+  ]
+}

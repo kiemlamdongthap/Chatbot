@@ -1,0 +1,50 @@
+{
+  "id": "cap_ma_so_rung_trong",
+  "code": "1.014605",
+  "title": "Cấp, cấp lại mã số rừng sản xuất là rừng trồng",
+  "category": "Quản lý rừng",
+  "aiIntent": "đăng ký mã số rừng trồng",
+  "aiKeywords": [
+    "mã số rừng",
+    "đăng ký rừng trồng",
+    "cấp mã rừng",
+    "mã số rừng sản xuất"
+  ],
+  "aiTriggerWords": [
+    "mã rừng",
+    "đăng ký rừng",
+    "mã số rừng"
+  ],
+  "aiSearch": [
+    "đăng ký mã số rừng trồng",
+    "làm mã số rừng sản xuất",
+    "cấp mã rừng trồng ở đâu"
+  ],
+  "aiQuestions": [
+    "Đăng ký mã số rừng trồng như thế nào?",
+    "Làm mã số rừng ở đâu?",
+    "Đăng ký rừng trồng cần giấy tờ gì?"
+  ],
+  "aiFAQ": [
+    "Thời gian cấp mã số rừng là bao lâu?",
+    "Cơ quan nào cấp mã số rừng?"
+  ],
+  "aiAnswer": "Chủ rừng muốn đăng ký mã số rừng sản xuất là rừng trồng cần nộp hồ sơ tại Chi cục Kiểm lâm. Thời gian giải quyết khoảng 10 ngày làm việc.",
+  "aiSteps": [
+    "Nộp hồ sơ tại Chi cục Kiểm lâm",
+    "Cơ quan kiểm lâm kiểm tra hồ sơ",
+    "Cấp mã số rừng"
+  ],
+  "aiFees": "Không quy định",
+  "aiResult": "Cấp mã số rừng trồng",
+  "processingTime": "10 ngày",
+  "authority": "Chi cục Kiểm lâm",
+  "documents": [
+    "Đơn đề nghị cấp mã số rừng",
+    "Đơn đề nghị cấp lại mã số (nếu cấp lại)"
+  ],
+  "aiRelatedProcedures": [
+    "xac_nhan_bang_ke_lam_san",
+    "nop_tien_trong_rung_thay_the"
+  ]
+}

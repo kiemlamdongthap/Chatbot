@@ -1,0 +1,79 @@
+{
+  "id": "dieu_30",
+  "article": "Điều 30",
+  "title": "Thẩm quyền xử phạt của Bộ đội Biên phòng",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "thẩm quyền bộ đội biên phòng",
+    "đồn trưởng biên phòng phạt bao nhiêu",
+    "chỉ huy trưởng biên phòng tỉnh",
+    "hải đội trưởng biên phòng",
+    "đội đặc nhiệm phòng chống ma túy và tội phạm",
+    "tịch thu tang vật biên phòng",
+    "xử phạt vi phạm lâm nghiệp biên giới",
+    "hải đoàn trưởng biên phòng"
+  ],
+  "description": "Quy định chi tiết về hạn mức phạt tiền, thẩm quyền tịch thu tang vật, phương tiện và các biện pháp khắc phục hậu quả của các chức danh thuộc lực lượng Bộ đội Biên phòng trong lĩnh vực lâm nghiệp:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Chiến sĩ Bộ đội Biên phòng đang thi hành công vụ",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000 đồng."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Trạm trưởng, Đội trưởng của người được quy định tại khoản 1",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 2.500.000 đồng."
+      ]
+    },
+    {
+      "clause": "2a",
+      "fine_range": "Đội trưởng Đội đặc nhiệm phòng chống ma túy và tội phạm thuộc Đoàn đặc nhiệm phòng chống ma túy và tội phạm",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 10.000.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 20.000.000 đồng;",
+        "d) Áp dụng các biện pháp khắc phục hậu quả quy định tại điểm a, c và d khoản 3 và khoản 4 Điều 4."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Đồn trưởng Đồn biên phòng; Hải đội trưởng Hải đội biên phòng; Chỉ huy trưởng Ban chỉ huy Biên phòng Cửa khẩu cảng",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 25.000.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 50.000.000 đồng;",
+        "d) Áp dụng các biện pháp khắc phục hậu quả quy định tại các điểm a, c, d, e, l khoản 3 và khoản 4 Điều 4."
+      ]
+    },
+    {
+      "clause": "3a",
+      "fine_range": "Đoàn trưởng Đoàn đặc nhiệm phòng chống ma túy và tội phạm thuộc Cục Phòng chống ma túy và tội phạm thuộc Bộ Tư lệnh Bộ đội biên phòng",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 100.000.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 200.000.000 đồng;",
+        "d) Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, c, d, đ, e và l khoản 3 và khoản 4 Điều 4."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Chỉ huy trưởng Bộ đội biên phòng cấp tỉnh; Hải đoàn trưởng Hải đoàn biên phòng; Cục trưởng Cục Phòng chống ma túy và tội phạm thuộc Bộ Tư lệnh Bộ đội biên phòng",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000.000 đồng;",
+        "c) Đình chỉ hoạt động khai thác rừng hoặc cơ sở chế biến lâm sản từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại các điểm a, c, d, đ, e, l khoản 3 và khoản 4 Điều 4."
+      ]
+    }
+  ]
+}

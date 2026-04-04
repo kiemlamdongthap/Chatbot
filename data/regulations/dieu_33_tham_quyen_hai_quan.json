@@ -1,0 +1,70 @@
+{
+  "id": "dieu_33",
+  "article": "Điều 33",
+  "title": "Thẩm quyền xử phạt vi phạm hành chính của Hải quan",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "thẩm quyền hải quan",
+    "mức phạt của hải quan",
+    "chi cục trưởng chi cục hải quan",
+    "đội trưởng kiểm soát chống buôn lậu",
+    "tổng cục trưởng tổng cục hải quan",
+    "công chức hải quan",
+    "tịch thu tang vật hải quan",
+    "kiểm tra sau thông quan lâm sản",
+    "hải đội kiểm soát trên biển hải quan"
+  ],
+  "description": "Quy định chi tiết về hạn mức phạt tiền, thẩm quyền tịch thu tang vật, phương tiện và các biện pháp khắc phục hậu quả của các chức danh thuộc lực lượng Hải quan đối với các vi phạm lâm nghiệp trong hoạt động xuất nhập khẩu:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Công chức Hải quan đang thi hành công vụ",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000 đồng."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Đội trưởng, Tổ trưởng thuộc Chi cục Hải quan; Tổ trưởng thuộc Đội Kiểm soát thuộc Cục Hải quan tỉnh/thành phố; Đội trưởng thuộc Chi cục Kiểm tra sau thông quan",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 5.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Chi cục trưởng Chi cục Hải quan/Kiểm tra sau thông quan; Đội trưởng Đội kiểm soát thuộc Cục Hải quan tỉnh; Đội trưởng Đội Điều tra hình sự/Chống buôn lậu/Hàng giả/SHTT thuộc Cục Điều tra chống buôn lậu; Hải đội trưởng Hải đội kiểm soát trên biển",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 25.000.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính có trị giá không vượt quá 50.000.000 đồng;",
+        "d) Áp dụng các biện pháp khắc phục hậu quả tại điểm d và đ khoản 3 Điều 4."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Cục trưởng Cục Điều tra chống buôn lậu; Cục trưởng Cục Kiểm tra sau thông quan; Cục trưởng Cục Hải quan tỉnh, liên tỉnh, thành phố trực thuộc trung ương",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 50.000.000 đồng;",
+        "c) Đình chỉ hoạt động cơ sở chế biến lâm sản có thời hạn từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả tại điểm d và đ khoản 3 Điều 4."
+      ]
+    },
+    {
+      "clause": "5",
+      "fine_range": "Tổng cục trưởng Tổng cục Hải quan",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính;",
+        "d) Áp dụng các biện pháp khắc phục hậu quả tại điểm d và đ khoản 3 Điều 4."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "3.000496",
+  "name": "Cấp lại mã số cơ sở nuôi, trồng các loài động vật, thực vật CITES",
+  "keywords": [
+    "cấp lại mã số",
+    "mất mã số cites",
+    "cơ sở nuôi cites"
+  ],
+
+  "sections": {
+    "overview": {
+      "label": "Giới thiệu",
+      "type": "text",
+      "content": "Thủ tục cấp lại mã số cho cơ sở nuôi, trồng động vật, thực vật thuộc Phụ lục Công ước CITES khi mã số bị mất, hỏng hoặc cần cấp lại."
+    },
+
+    "steps": {
+      "label": "Trình tự thực hiện",
+      "type": "steps",
+      "content": [
+        {
+          "title": "Nộp hồ sơ",
+          "items": [
+            "Nộp trực tiếp tại Trung tâm Phục vụ HCC",
+            "Hoặc nộp qua bưu điện",
+            "Hoặc nộp trực tuyến trên Cổng DVC"
+          ]
+        },
+        {
+          "title": "Thẩm định",
+          "items": [
+            "Kiểm tra hồ sơ",
+            "Có thể kiểm tra thực tế cơ sở"
+          ]
+        },
+        {
+          "title": "Cấp kết quả",
+          "items": [
+            "Cấp lại mã số",
+            "Hoặc trả lời bằng văn bản nếu không đủ điều kiện"
+          ]
+        }
+      ]
+    },
+
+    "documents": {
+      "label": "Hồ sơ cần nộp",
+      "type": "list",
+      "content": [
+        "Đơn đề nghị cấp lại mã số cơ sở nuôi, trồng",
+        "Phương án nuôi hoặc trồng",
+        "Hồ sơ chứng minh nguồn gốc mẫu vật (nếu có)"
+      ]
+    },
+
+    "forms": {
+      "label": "Biểu mẫu",
+      "type": "forms",
+      "content": [
+        {
+          "name": "Đơn đề nghị cấp mã số",
+          "code": "Mau-27",
+          "file": "/forms/Mau-27.docx",
+          "description": "Đơn đề nghị cấp/cấp lại mã số cơ sở nuôi, trồng CITES"
+        },
+        {
+          "name": "Phương án nuôi hoặc trồng",
+          "code": "Mau-19-28",
+          "file": "/forms/Mau-19-28.docx",
+          "description": "Phương án nuôi động vật hoặc trồng thực vật CITES"
+        }
+      ]
+    },
+
+    "processingTime": {
+      "label": "Thời gian giải quyết",
+      "type": "text",
+      "content": "03 – 15 ngày làm việc tùy trường hợp; tối đa 23 ngày đối với Phụ lục I CITES."
+    },
+
+    "authority": {
+      "label": "Cơ quan tiếp nhận",
+      "type": "list",
+      "content": [
+        "Trung tâm Phục vụ HCC tỉnh Đồng Tháp – Quầy 14 hoặc Quầy 5",
+        "Chi cục Kiểm lâm tỉnh Đồng Tháp"
+      ]
+    },
+
+    "fee": {
+      "label": "Lệ phí",
+      "type": "text",
+      "content": "Không thu phí"
+    },
+
+    "result": {
+      "label": "Kết quả",
+      "type": "text",
+      "content": "Mã số cơ sở nuôi, trồng CITES"
+    }
+  }
+}

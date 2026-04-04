@@ -1,0 +1,39 @@
+{
+  "id": "dieu_10",
+  "article": "Điều 10",
+  "title": "Vi phạm quy định về quản lý rừng bền vững",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "quản lý rừng bền vững",
+    "phương án quản lý rừng",
+    "chứng chỉ quản lý rừng",
+    "tiêu chí quản lý rừng"
+  ],
+  "description": "Hành vi vi phạm về xây dựng, thực hiện phương án quản lý rừng bền vững hoặc đánh giá, cấp chứng chỉ quản lý rừng bền vững không đúng quy định bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng",
+      "cases": [
+        "Hành vi không xây dựng, trình cấp có thẩm quyền phê duyệt phương án quản lý rừng bền vững hoặc không thực hiện đúng phương án quản lý rừng bền vững đã được cấp có thẩm quyền phê duyệt."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng",
+      "cases": [
+        "Hành vi đánh giá, cấp chứng chỉ quản lý rừng bền vững không đúng quy định của pháp luật về tiêu chí quản lý rừng bền vững."
+      ]
+    }
+  ],
+  "remedy": {
+    "clause": "3",
+    "content": [
+      "a) Buộc xây dựng phương án quản lý rừng bền vững trình cấp có thẩm quyền phê duyệt đối với hành vi quy định tại khoản 1 Điều này;",
+      "b) Buộc thu hồi chứng chỉ quản lý rừng bền vững đã cấp đối với hành vi quy định tại khoản 2 Điều này."
+    ]
+  }
+}

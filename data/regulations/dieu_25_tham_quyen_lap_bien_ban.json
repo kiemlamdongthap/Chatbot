@@ -1,0 +1,40 @@
+{
+  "id": "dieu_25",
+  "article": "Điều 25",
+  "title": "Thẩm quyền lập biên bản vi phạm hành chính",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "thẩm quyền lập biên bản",
+    "ai có quyền bắt xe chở gỗ",
+    "người lập biên bản vi phạm lâm nghiệp",
+    "kiểm lâm lập biên bản",
+    "công an lập biên bản lâm sản",
+    "quân đội xử lý vi phạm rừng",
+    "công chức thi hành công vụ",
+    "biên bản vi phạm hành chính lâm nghiệp"
+  ],
+  "description": "Quy định về các nhóm đối tượng có quyền hạn thiết lập biên bản vi phạm hành chính đối với các hành vi vi phạm trong lĩnh vực lâm nghiệp, quản lý bảo vệ rừng và lâm sản:",
+  "authorities": [
+    {
+      "clause": "1",
+      "group": "Người có thẩm quyền xử phạt",
+      "details": "Bao gồm các chức danh có thẩm quyền xử phạt được quy định cụ thể từ Điều 26 đến Điều 33 của Nghị định này."
+    },
+    {
+      "clause": "2",
+      "group": "Lực lượng đang thi hành công vụ",
+      "details": "Công chức, viên chức và người thuộc lực lượng Quân đội nhân dân, Công an nhân dân thuộc các cơ quan quy định tại các Điều 26, 27, 28, 29, 30, 31, 32 và 33.",
+      "scope": [
+        "Đang thi hành công vụ, nhiệm vụ đảm bảo chấp hành pháp luật về quản lý, bảo vệ, phát triển, sử dụng rừng.",
+        "Chế biến và thương mại lâm sản.",
+        "Nằm trong phạm vi quản lý và chức năng, nhiệm vụ, quyền hạn được giao."
+      ]
+    }
+  ],
+  "additional_notes": [
+    "Khoản 2 của Điều này đã được sửa đổi bởi Khoản 16 Điều 1 Nghị định số 07/2022/NĐ-CP để mở rộng và làm rõ thẩm quyền của lực lượng vũ trang và công chức chuyên ngành."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "dieu_18",
+  "article": "Điều 18",
+  "title": "Vi phạm quy định về phòng trừ sinh vật hại rừng",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "phòng trừ sinh vật hại rừng",
+    "sinh vật gây hại rừng",
+    "lây lan dịch bệnh rừng",
+    "dịch bệnh lâm nghiệp"
+  ],
+  "description": "Hành vi vi phạm các quy định về phòng trừ sinh vật gây hại rừng hoặc không thực hiện các biện pháp ngăn chặn dịch bệnh lây lan trên diện tích rừng được giao, thuê bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng",
+      "cases": [
+        "Chủ rừng không thực hiện biện pháp phòng trừ sinh vật gây hại rừng theo quy định của pháp luật; hoặc khi phát hiện sinh vật gây hại rừng nguy hiểm mà không thực hiện các biện pháp phòng trừ để lây lan dịch bệnh trên diện tích dưới 01 ha rừng được giao, được thuê."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng",
+      "cases": [
+        "Chủ rừng không thực hiện biện pháp phòng trừ sinh vật gây hại rừng theo quy định của pháp luật; hoặc khi phát hiện sinh vật gây hại rừng nguy hiểm mà không thực hiện các biện pháp phòng trừ để lây lan dịch bệnh trên diện tích từ 01 ha đến dưới 05 ha rừng được giao, được thuê."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng",
+      "cases": [
+        "Chủ rừng khi phát hiện có sinh vật gây hại rừng trên diện tích rừng được giao, được thuê mà không báo cho cơ quan có thẩm quyền để được hướng dẫn và hỗ trợ các biện pháp phòng trừ khoanh vùng kịp thời để sinh vật gây hại rừng phát dịch trên diện tích từ 05 ha trở lên."
+      ]
+    }
+  ],
+  "remedy": {
+    "clause": "4",
+    "content": "Buộc thực hiện biện pháp khắc phục tình trạng ô nhiễm môi trường, lây lan dịch bệnh đối với hành vi quy định tại khoản 1, khoản 2 và khoản 3 Điều này."
+  }
+}

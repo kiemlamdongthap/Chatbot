@@ -1,0 +1,830 @@
+{
+  "a2nhu4NtIGzDom0gbMOgIGfDrF8=": {
+    "data": {
+      "intent": "định nghĩa",
+      "keywords": [
+        "kiểm lâm"
+      ],
+      "reply": "Kiểm lâm là lực lượng chuyên trách của Nhà nước Việt Nam, có chức năng quản lý, bảo vệ rừng, phòng cháy chữa cháy rừng, ngăn chặn các hành vi vi phạm pháp luật về rừng và phát triển rừng bền vững. Chúng tôi hoạt động theo quy định của pháp luật về lâm nghiệp, góp phần bảo vệ tài nguyên rừng quý giá của đất nước."
+    },
+    "createdAt": "2026-03-30T01:47:04.332Z"
+  },
+  "bMOibSBuZ2hp4buHcCBsw6AgZ8OsP18=": {
+    "data": {
+      "intent": "định nghĩa",
+      "keywords": [
+        "lâm nghiệp",
+        "là gì"
+      ],
+      "reply": "Lâm nghiệp là một ngành kinh tế - kỹ thuật tổng hợp, bao gồm các hoạt động liên quan đến việc trồng, chăm sóc, bảo vệ, khai thác, chế biến và sử dụng tài nguyên rừng một cách bền vững. Mục tiêu chính là phát triển rừng, bảo vệ môi trường sinh thái, phòng chống thiên tai, cung cấp gỗ và các lâm sản khác, đồng thời góp phần vào sự phát triển kinh tế - xã hội của đất nước."
+    },
+    "createdAt": "2026-03-30T01:47:29.360Z"
+  },
+  "YuG6oW4gbMOgIGFpXw==": {
+    "data": {
+      "intent": "self_introduction",
+      "keywords": [
+        "bạn",
+        "là",
+        "ai"
+      ],
+      "reply": "Chào bạn, tôi là Trợ lý Kiểm lâm Việt Nam. Tôi ở đây để hỗ trợ bạn với các thông tin, quy định và kiến thức liên quan đến lâm nghiệp, bảo vệ rừng, và các vấn đề môi trường tại Việt Nam."
+    },
+    "createdAt": "2026-03-30T01:47:36.480Z"
+  },
+  "eMOhYyBuaOG6rW4gYuG6o25nIGvDql8=": {
+    "data": {
+      "intent": "Xác nhận bảng kê",
+      "keywords": [
+        "xác nhận",
+        "bảng kê"
+      ],
+      "reply": "Chào bạn, tôi có thể hỗ trợ xác nhận bảng kê. Bạn vui lòng cho biết đây là bảng kê gì (ví dụ: bảng kê lâm sản, bảng kê tang vật,...) và cung cấp các thông tin liên quan để tôi có thể tra cứu và xác nhận chính xác nhất."
+    },
+    "createdAt": "2026-03-30T01:47:49.195Z"
+  },
+  "YuG6o25nIGvDqiBsw6JtIHPhuqNuXw==": {
+    "data": {
+      "intent": "Tìm hiểu thông tin về Bảng kê lâm sản",
+      "keywords": [
+        "bảng kê lâm sản",
+        "lâm sản"
+      ],
+      "reply": "Chào bạn, 'Bảng kê lâm sản' là một tài liệu pháp lý quan trọng dùng để ghi chép chi tiết về số lượng, chủng loại, nguồn gốc hợp pháp của các sản phẩm từ rừng. Nó là bắt buộc để đảm bảo tính hợp pháp của lâm sản khi vận chuyển, mua bán, góp phần chống khai thác và buôn bán lâm sản trái phép. Các quy định chi tiết về mẫu biểu và thủ tục lập bảng kê được quy định trong Nghị định số 156/2018/NĐ-CP và Thông tư số 27/2018/TT-BNNPTNT của Bộ Nông nghiệp và Phát triển nông thôn. Bạn cần thông tin cụ thể hơn về thủ tục hay mẫu biểu không?"
+    },
+    "createdAt": "2026-03-30T01:48:06.821Z"
+  },
+  "dMO0aSBtdeG7kW4gbMOgbSB0aOG7pyB04bulYyB4w6FjIG5o4bqtbiBi4bqjbmcga8OqIGzDom0gc+G6o25f": {
+    "data": {
+      "intent": "Yêu cầu hướng dẫn thủ tục xác nhận bảng kê lâm sản",
+      "keywords": [
+        "thủ tục",
+        "xác nhận",
+        "bảng kê lâm sản",
+        "lâm sản"
+      ],
+      "reply": "Chào bạn, tôi có thể hỗ trợ bạn về thủ tục xác nhận bảng kê lâm sản. Để tôi hướng dẫn chi tiết, bạn vui lòng cho biết bạn cần xác nhận bảng kê này cho mục đích gì (ví dụ: vận chuyển, chế biến, xuất khẩu) và tại địa phương nào ạ?"
+    },
+    "createdAt": "2026-03-30T01:48:47.441Z"
+  },
+  "duG6rW4gY2h1eeG7g25f": {
+    "data": {
+      "intent": "Quy định vận chuyển lâm sản/động vật hoang dã",
+      "keywords": [
+        "vận chuyển",
+        "lâm sản",
+        "động vật hoang dã",
+        "giấy phép",
+        "kiểm tra",
+        "quy định"
+      ],
+      "reply": "Bạn đang muốn tìm hiểu về quy định vận chuyển lâm sản hay động vật hoang dã? Việc vận chuyển các sản phẩm từ rừng và động vật hoang dã phải tuân thủ nghiêm ngặt các quy định của pháp luật, yêu cầu có đầy đủ giấy tờ hợp lệ. Bạn có thể cho biết cụ thể hơn về loại sản phẩm hoặc mục đích vận chuyển để tôi hỗ trợ chính xác hơn không?"
+    },
+    "createdAt": "2026-03-30T01:49:06.272Z"
+  },
+  "duG6rW4gY2h1eeG7g24gbMOibSBz4bqjbl8=": {
+    "data": {
+      "intent": "Thông tin về vận chuyển lâm sản",
+      "keywords": [
+        "vận chuyển",
+        "lâm sản"
+      ],
+      "reply": "Chào bạn, việc vận chuyển lâm sản là một hoạt động được pháp luật quy định chặt chẽ. Để vận chuyển lâm sản hợp pháp, bạn cần đảm bảo có đầy đủ hồ sơ chứng minh nguồn gốc lâm sản theo quy định của Luật Lâm nghiệp và các văn bản hướng dẫn. Điều này giúp ngăn chặn khai thác và buôn bán lâm sản trái phép. Nếu bạn cần thông tin chi tiết hơn về một trường hợp cụ thể, vui lòng cung cấp thêm thông tin."
+    },
+    "createdAt": "2026-03-30T01:49:28.204Z"
+  },
+  "xJHhu5luZyB24bqtdCBob2FuZyBkw6Nf": {
+    "data": {
+      "intent": "Tìm hiểu thông tin về động vật hoang dã",
+      "keywords": [
+        "động vật hoang dã",
+        "bảo tồn",
+        "đa dạng sinh học"
+      ],
+      "reply": "Chào bạn, động vật hoang dã là một phần không thể thiếu của hệ sinh thái rừng Việt Nam, đóng vai trò quan trọng trong việc duy trì cân bằng tự nhiên. Việt Nam là nơi sinh sống của nhiều loài động vật hoang dã quý hiếm và đa dạng. Bạn muốn tìm hiểu thêm về loài cụ thể nào, hay về công tác bảo tồn và các quy định pháp luật liên quan đến chúng không?"
+    },
+    "createdAt": "2026-03-30T01:54:04.855Z"
+  },
+  "eMOhYyBuaOG6rW5f": {
+    "data": {
+      "intent": "xác nhận",
+      "keywords": [
+        "xác nhận"
+      ],
+      "reply": "Chào bạn, bạn muốn xác nhận thông tin gì? Vui lòng cung cấp thêm chi tiết để tôi có thể hỗ trợ."
+    },
+    "createdAt": "2026-03-30T02:03:21.207Z"
+  },
+  "eMOhYyBuaOG6rW4gYuG6o25nIGvDqiBsw6JtIHPhuqNuXw==": {
+    "data": {
+      "intent": "Xác nhận thông tin/tài liệu",
+      "keywords": [
+        "xác nhận",
+        "bảng kê",
+        "lâm sản"
+      ],
+      "reply": "Để xác nhận bảng kê lâm sản, bạn vui lòng cung cấp số bảng kê, ngày lập, tên chủ lâm sản và các giấy tờ liên quan để chúng tôi có thể kiểm tra và xác minh."
+    },
+    "createdAt": "2026-03-30T02:03:35.575Z"
+  },
+  "eMOjIHRyw6BtIGNoaW1f": {
+    "data": {
+      "intent": "thông tin địa điểm",
+      "keywords": [
+        "xã Tràm Chim"
+      ],
+      "reply": "Xã Tràm Chim thuộc huyện Tam Nông, tỉnh Đồng Tháp, nổi tiếng với Vườn Quốc gia Tràm Chim, một khu Ramsar quan trọng về bảo tồn đất ngập nước và các loài chim quý hiếm. Bạn muốn tìm hiểu thêm thông tin gì về khu vực này ạ?"
+    },
+    "createdAt": "2026-03-30T04:01:58.505Z"
+  },
+  "eMOjIEFuIGjDsmFf": {
+    "data": {
+      "intent": "query_location_info",
+      "keywords": [
+        "xã An Hòa",
+        "An Hòa"
+      ],
+      "reply": "Xã An Hòa. Bạn muốn tìm hiểu thông tin gì về xã An Hòa liên quan đến công tác quản lý rừng, bảo vệ rừng, hay các vấn đề lâm nghiệp khác ạ?"
+    },
+    "createdAt": "2026-03-30T04:13:21.832Z"
+  },
+  "eMOjIFRyw6BtIENoaW1f": {
+    "data": {
+      "intent": "Thông tin địa danh",
+      "keywords": [
+        "xã Tràm Chim",
+        "Tràm Chim"
+      ],
+      "reply": "Xã Tràm Chim thuộc huyện Tam Nông, tỉnh Đồng Tháp. Đây là địa bàn của Vườn Quốc gia Tràm Chim, một khu Ramsar quan trọng của thế giới, nổi tiếng với hệ sinh thái đất ngập nước đa dạng và là nơi cư trú của nhiều loài chim quý hiếm, đặc biệt là sếu đầu đỏ."
+    },
+    "createdAt": "2026-03-30T06:57:59.901Z"
+  },
+  "ZGnhu4duIHTDrWNoIHjDoyBUcsOgbSBDaGltXw==": {
+    "data": {
+      "intent": "query_area",
+      "keywords": [
+        "diện tích",
+        "xã Tràm Chim"
+      ],
+      "reply": "Chào bạn, Tràm Chim hiện là một thị trấn (thị trấn Tràm Chim) thuộc huyện Tam Nông, tỉnh Đồng Tháp, không phải là một xã. Diện tích của thị trấn này là khoảng 20,46 km²."
+    },
+    "createdAt": "2026-03-30T06:58:15.695Z"
+  },
+  "eMOjIFTDom4gSOG7mSBDxqFf": {
+    "data": {
+      "intent": "Tìm kiếm thông tin địa danh",
+      "keywords": [
+        "xã Tân Hộ Cơ"
+      ],
+      "reply": "Xã Tân Hộ Cơ thuộc huyện Tân Hồng, tỉnh Đồng Tháp. Đây là một khu vực nằm trong vùng Đồng bằng sông Cửu Long. Bạn cần thông tin cụ thể nào về tình hình rừng, đất lâm nghiệp, hay các hoạt động bảo vệ tài nguyên rừng tại xã Tân Hộ Cơ không?"
+    },
+    "createdAt": "2026-03-30T07:45:56.261Z"
+  },
+  "xJHhuqV0IHLhu6tuZ18=": {
+    "data": {
+      "intent": "tìm hiểu về đất rừng",
+      "keywords": [
+        "đất rừng",
+        "khái niệm đất rừng"
+      ],
+      "reply": "Đất rừng là loại đất được quy hoạch, sử dụng cho mục đích lâm nghiệp, bao gồm đất có rừng hiện có và đất chưa có rừng nhưng được quy hoạch để trồng rừng hoặc phục hồi rừng. Việc quản lý và sử dụng đất rừng được quy định chi tiết trong Luật Lâm nghiệp Việt Nam."
+    },
+    "createdAt": "2026-03-30T07:46:16.521Z"
+  },
+  "eMOjIHBow7ogdGjhu41fQ+G6pXAsIGPhuqVwIGzhuqFpIG3DoyBz4buRIHLhu6tuZyBz4bqjbiB4deG6pXQgbMOgIHLhu6tuZyB0cuG7k25n": {
+    "data": {
+      "intent": "Hỏi thông tin về địa điểm",
+      "keywords": [
+        "xã phú thọ"
+      ],
+      "reply": "Để tôi có thể hỗ trợ tốt nhất về việc cấp, cấp lại mã số rừng sản xuất là rừng trồng tại xã Phú Thọ, bạn vui lòng cho biết cụ thể bạn muốn tìm hiểu thông tin gì? Ví dụ: thủ tục, hồ sơ cần thiết, cơ quan tiếp nhận hay các quy định liên quan?"
+    },
+    "createdAt": "2026-03-30T07:47:13.610Z"
+  },
+  "WMOjIFRyw6BtIENoaW1f": {
+    "data": {
+      "intent": "Tìm kiếm thông tin địa danh",
+      "keywords": [
+        "Tràm Chim",
+        "xã"
+      ],
+      "reply": "Xã Tràm Chim thuộc huyện Tam Nông, tỉnh Đồng Tháp, nổi tiếng với Vườn Quốc gia Tràm Chim. Đây là một khu Ramsar quan trọng, bảo tồn hệ sinh thái đất ngập nước và nhiều loài chim quý hiếm. Bạn muốn tìm hiểu thêm về khía cạnh nào của Tràm Chim?"
+    },
+    "createdAt": "2026-03-30T07:49:57.533Z"
+  },
+  "eMOjIFTDom4gS2nhu4F1Xw==": {
+    "data": {
+      "intent": "query_location_information",
+      "keywords": [
+        "xã Tân Kiều",
+        "Tân Kiều",
+        "xã"
+      ],
+      "reply": "Bạn muốn tìm hiểu thông tin gì về xã Tân Kiều? Hoặc bạn đang cần hỗ trợ về vấn đề gì liên quan đến lâm nghiệp tại khu vực này?"
+    },
+    "createdAt": "2026-03-30T07:57:32.642Z"
+  },
+  "ZGnhu4duIHTDrWNoIHLhu6tuZyB4w6MgdMOibiBwaMaw4bubYyAyLCB0w6JuIHBoxrDhu5tjIDNfW3siaWQiOiJ4YV90YW5fcGh1b2NfMiIsInR5cGUiOiJ4YV9sYW1fbmdoaWVwIiwidGl0bGUiOiJYw6MgVMOibiBQaMaw4bubYyAyIiwia2V5d29yZHMiOlsieMOjIHTDom4gcGjGsOG7m2MgMiIsInTDom4gcGjGsOG7m2MgMiIsInhhIHRhbiBwaHVvYyAyIiwidGFuIHBodW9jIDIiXSwic2VhcmNoVGV4dCI6InhhIHRhbiBwaHVvYyAyIGRpZW4gdGljaCBydW5nIHRhbiBwaHVvYyAyIGhhdCBraWVtIGxhbSIsImRhdGEiOnsic3R0IjoxOSwieGFfY3UiOiJjw6FjIHjDoyBUaOG6oW5oIFTDom4sIFRo4bqhbmggSMOyYSB2w6AgVMOibiBIw7JhIFTDonkiLCJ4YV9tb2kiOiJ4w6MgVMOibiBQaMaw4bubYyAyIiwiY2h1X3J1bmciOiJLQlQgxJDhu5NuZyBUaMOhcCBNxrDhu51pIiwiZGllbl90aWNoX3R1X25oaWVuIjpudWxsLCJkaWVuX3RpY2hfbGFtX25naGllcCI6MTQ2My42MSwiZGllbl90aWNoX3J1bmciOjg0Mi43NSwiaGF0X3F1YW5fbHkiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUkifX0seyJpZCI6InhhX3Rhbl9waHVvY18zIiwidHlwZSI6InhhX2xhbV9uZ2hpZXAiLCJ0aXRsZSI6IljDoyBUw6JuIFBoxrDhu5tjIDMiLCJrZXl3b3JkcyI6WyJ4w6MgdMOibiBwaMaw4bubYyAzIiwidMOibiBwaMaw4bubYyAzIiwieGEgdGFuIHBodW9jIDMiLCJ0YW4gcGh1b2MgMyJdLCJzZWFyY2hUZXh0IjoieGEgdGFuIHBodW9jIDMgZGllbiB0aWNoIHJ1bmcgdGFuIHBodW9jIDMgaGF0IGtpZW0gbGFtIiwiZGF0YSI6eyJzdHQiOjIwLCJ4YV9jdSI6InjDoyBQaMaw4bubYyBM4bqtcCwgVMOibiBM4bqtcCAxIHbDoCBUw6JuIEzhuq1wIDIiLCJ4YV9tb2kiOiJ4w6MgVMOibiBQaMaw4bubYyAzIiwiY2h1X3J1bmciOiJDw6EgbmjDom4sIGjhu5kgZ2lhIMSRw6xuaCIsImRpZW5fdGljaF90dV9uaGllbiI6bnVsbCwiZGllbl90aWNoX2xhbV9uZ2hpZXAiOjIxMS4zMywiZGllbl90aWNoX3J1bmciOjEwMy4zOSwiaGF0X3F1YW5fbHkiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUkifX1d": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Tổng diện tích rừng của xã Tân Phước 2 và xã Tân Phước 3 là 946.14 ha. Cụ thể, diện tích rừng của xã Tân Phước 2 là 842.75 ha và của xã Tân Phước 3 là 103.39 ha.",
+      "keywords": [
+        "xã Tân Phước 2",
+        "xã Tân Phước 3"
+      ]
+    },
+    "createdAt": "2026-03-30T08:17:51.444Z"
+  },
+  "dOG7lW5nIGRp4buHbiB0w61jaCBj4bunYSB04bqldCBj4bqjIGPDoWMgeMOjIHRyb25nIHThu4luaF8=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hiện tại, hệ thống chưa tìm thấy dữ liệu thống kê về tổng diện tích của tất cả các xã trong tỉnh.",
+      "keywords": []
+    },
+    "createdAt": "2026-03-30T08:18:16.601Z"
+  },
+  "eMOjIGFuIGjDsmEgY8OzIGRp4buHbiB0w61jaCBy4burbmcgYmFvIG5oacOqdV9beyJpZCI6InhhX2FuX2hvYSIsInR5cGUiOiJ4YV9sYW1fbmdoaWVwIiwidGl0bGUiOiJYw6MgQW4gSMOyYSIsImtleXdvcmRzIjpbInjDoyBhbiBow7JhIiwiYW4gaMOyYSIsInhhIGFuIGhvYSIsImFuIGhvYSJdLCJzZWFyY2hUZXh0IjoieGEgYW4gaG9hIGRpZW4gdGljaCBydW5nIGFuIGhvYSBoYXQga2llbSBsYW0iLCJkYXRhIjp7InN0dCI6MSwieGFfY3UiOiJ4w6MgUGjDuiBUaMOgbmggQiB2w6AgeMOjIEFuIEjDsmEiLCJ4YV9tb2kiOiJ4w6MgQW4gSMOyYSIsImNodV9ydW5nIjoiVlFHIFRyw6BtIENoaW0iLCJkaWVuX3RpY2hfdHVfbmhpZW4iOm51bGwsImRpZW5fdGljaF9sYW1fbmdoaWVwIjo4MzYuMTgsImRpZW5fdGljaF9ydW5nIjo4Ni4xMiwiaGF0X3F1YW5fbHkiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSSJ9fV0=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Xã An Hòa có diện tích rừng là 86.12 ha.",
+      "keywords": [
+        "xã an hòa",
+        "diện tích rừng"
+      ]
+    },
+    "createdAt": "2026-03-30T08:47:36.208Z"
+  },
+  "NCB4w6MgY+G7p2EgVlFHIFRyw6BtIENoaW0gY8OzIGRp4buHbiB0w61jaCBy4burbmcgYmFvIG5oacOqdV8=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống hiện chưa có số liệu thống kê về diện tích rừng cho 4 xã của Vườn Quốc gia Tràm Chim.",
+      "keywords": [
+        "Vườn Quốc gia Tràm Chim",
+        "diện tích rừng"
+      ]
+    },
+    "createdAt": "2026-03-30T08:48:13.540Z"
+  },
+  "dGjhu4MgaGnhu4duIHThuqV0IGPhuqMgY8OhYyB4w6MgY8OzIHLhu6tuZ19beyJ0aXRsZSI6IljDoyBBbiBIw7JhIiwiZGllbl90aWNoX3J1bmciOjg2LjEyLCJkaWVuX3RpY2hfbGFtX25naGllcCI6ODM2LjE4LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSSJ9LHsidGl0bGUiOiJYw6MgxJDhu5FjIEJpbmggS2nhu4F1IiwiZGllbl90aWNoX3J1bmciOjEyMi43OCwiZGllbl90aWNoX2xhbV9uZ2hpZXAiOjI3OS42LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUkifSx7InRpdGxlIjoiWMOjIEdpYSBUaHXhuq1uIiwiZGllbl90aWNoX3J1bmciOjI0MS43MywiZGllbl90aWNoX2xhbV9uZ2hpZXAiOjYzNi42NSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJSSJ9LHsidGl0bGUiOiJYw6MgR8OyIEPDtG5nIMSQw7RuZyIsImRpZW5fdGljaF9ydW5nIjo3NS4wMywiZGllbl90aWNoX2xhbV9uZ2hpZXAiOjU2Mi41MSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJSSJ9LHsidGl0bGUiOiJYw6MgSMawbmcgVGjhuqFuaCIsImRpZW5fdGljaF9ydW5nIjo0Ny43LCJkaWVuX3RpY2hfbGFtX25naGllcCI6OTMuNjQsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSSJ9LHsidGl0bGUiOiJYw6MgTeG7uSBIaeG7h3AiLCJkaWVuX3RpY2hfcnVuZyI6MTIxLjk5LCJkaWVuX3RpY2hfbGFtX25naGllcCI6MjczLjQ0LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUkifSx7InRpdGxlIjoiWMOjIE3hu7kgUXXDrSIsImRpZW5fdGljaF9ydW5nIjo0OTAuNzEsImRpZW5fdGljaF9sYW1fbmdoaWVwIjo2ODAuNjgsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSSJ9LHsidGl0bGUiOiJYw6MgUGhvbmcgTeG7uSIsImRpZW5fdGljaF9ydW5nIjoxMTU3LjA4LCJkaWVuX3RpY2hfbGFtX25naGllcCI6MTQ4OC4xOSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIEkifSx7InRpdGxlIjoiWMOjIFBow7ogQ8aw4budbmciLCJkaWVuX3RpY2hfcnVuZyI6OTkuNTksImRpZW5fdGljaF9sYW1fbmdoaWVwIjoxNzkuMjgsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJIn0seyJ0aXRsZSI6IljDoyBQaMO6IFRo4buNIiwiZGllbl90aWNoX3J1bmciOjU1MS42OSwiZGllbl90aWNoX2xhbV9uZ2hpZXAiOjIxNTQuNjIsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJIn0seyJ0aXRsZSI6IljDoyBQaMawxqFuZyBUaOG7i25oIiwiZGllbl90aWNoX3J1bmciOjAsImRpZW5fdGljaF9sYW1fbmdoaWVwIjowLCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUkifSx7InRpdGxlIjoiWMOjIFRhbSBOw7RuZyIsImRpZW5fdGljaF9ydW5nIjo4MTEuNjksImRpZW5fdGljaF9sYW1fbmdoaWVwIjoyNDA5Ljk3LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSSJ9LHsidGl0bGUiOiJYw6MgVMOibiDEkGnhu4FuIiwiZGllbl90aWNoX3J1bmciOjEyLjEsImRpZW5fdGljaF9sYW1fbmdoaWVwIjo1NzUuNjYsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSUkifSx7InRpdGxlIjoiWMOjIFTDom4gxJDDtG5nIiwiZGllbl90aWNoX3J1bmciOjYwLjk1LCJkaWVuX3RpY2hfbGFtX25naGllcCI6NjAuOTUsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSUkifSx7InRpdGxlIjoiWMOjIFTDom4gSOG7mSBDxqEiLCJkaWVuX3RpY2hfcnVuZyI6MzkuNTMsImRpZW5fdGljaF9sYW1fbmdoaWVwIjo0Ny4zOSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIEkifSx7InRpdGxlIjoiWMOjIFTDom4gSMOyYSIsImRpZW5fdGljaF9ydW5nIjoyNi4wMiwiZGllbl90aWNoX2xhbV9uZ2hpZXAiOjQ1Ljc2LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUlJIn0seyJ0aXRsZSI6IljDoyBUw6JuIFBow7ogxJDDtG5nIiwiZGllbl90aWNoX3J1bmciOjg1MS45NCwiZGllbl90aWNoX2xhbV9uZ2hpZXAiOjUwNjUuNjQsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSUkifSx7InRpdGxlIjoiWMOjIFTDom4gUGjGsOG7m2MgMSIsImRpZW5fdGljaF9ydW5nIjo4NC44OSwiZGllbl90aWNoX2xhbV9uZ2hpZXAiOjg2NC43OSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJIn0seyJ0aXRsZSI6IljDoyBUw6JuIFBoxrDhu5tjIDIiLCJkaWVuX3RpY2hfcnVuZyI6ODQyLjc1LCJkaWVuX3RpY2hfbGFtX25naGllcCI6MTQ2My42MSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJIn0seyJ0aXRsZSI6IljDoyBUw6JuIFBoxrDhu5tjIDMiLCJkaWVuX3RpY2hfcnVuZyI6MTAzLjM5LCJkaWVuX3RpY2hfbGFtX25naGllcCI6MjExLjMzLCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUkifSx7InRpdGxlIjoiWMOjIFTDom4gVGjhu5tpIiwiZGllbl90aWNoX3J1bmciOjI0LjM2LCJkaWVuX3RpY2hfbGFtX25naGllcCI6MjQuMzYsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSUkifV0=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Dưới đây là danh sách các xã có rừng và diện tích rừng tương ứng:\n- Xã An Hòa: 86.12 ha\n- Xã Đốc Binh Kiều: 122.78 ha\n- Xã Gia Thuận: 241.73 ha\n- Xã Gò Công Đông: 75.03 ha\n- Xã Hưng Thạnh: 47.7 ha\n- Xã Mỹ Hiệp: 121.99 ha\n- Xã Mỹ Quí: 490.71 ha\n- Xã Phong Mỹ: 1157.08 ha\n- Xã Phú Cường: 99.59 ha\n- Xã Phú Thọ: 551.69 ha\n- Xã Tam Nông: 811.69 ha\n- Xã Tân Điền: 12.1 ha\n- Xã Tân Đông: 60.95 ha\n- Xã Tân Hộ Cơ: 39.53 ha\n- Xã Tân Hòa: 26.02 ha\n- Xã Tân Phú Đông: 851.94 ha\n- Xã Tân Phước 1: 84.89 ha\n- Xã Tân Phước 2: 842.75 ha\n- Xã Tân Phước 3: 103.39 ha\n- Xã Tân Thới: 24.36 ha",
+      "keywords": [
+        "Xã An Hòa",
+        "Xã Đốc Binh Kiều",
+        "Xã Gia Thuận",
+        "Xã Gò Công Đông",
+        "Xã Hưng Thạnh",
+        "Xã Mỹ Hiệp",
+        "Xã Mỹ Quí",
+        "Xã Phong Mỹ",
+        "Xã Phú Cường",
+        "Xã Phú Thọ",
+        "Xã Tam Nông",
+        "Xã Tân Điền",
+        "Xã Tân Đông",
+        "Xã Tân Hộ Cơ",
+        "Xã Tân Hòa",
+        "Xã Tân Phú Đông",
+        "Xã Tân Phước 1",
+        "Xã Tân Phước 2",
+        "Xã Tân Phước 3",
+        "Xã Tân Thới"
+      ]
+    },
+    "createdAt": "2026-03-30T08:48:42.484Z"
+  },
+  "dOG7lW5nIGRp4buHbiB0w61jaCBjw7MgcuG7q25nIHNvIHbhu5tpIGRp4buHbiB0w61jaCDEkeG6pXQgbMOibSBuZ2hp4buHcF8=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống không có dữ liệu thống kê về tổng diện tích có rừng và diện tích đất lâm nghiệp cho khu vực này. Vui lòng kiểm tra lại hoặc cung cấp dữ liệu.",
+      "keywords": []
+    },
+    "createdAt": "2026-03-30T08:49:32.270Z"
+  },
+  "dOG7lW5nIGRp4buHbiB0w61jaCBjw7MgcuG7q25nIGPhu6dhIHThu4luaF8=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống hiện chưa có số liệu thống kê về tổng diện tích có rừng của tỉnh. Vui lòng kiểm tra lại dữ liệu hoặc liên hệ quản trị viên để được hỗ trợ.",
+      "keywords": [
+        "tổng diện tích",
+        "có rừng",
+        "tỉnh",
+        "số liệu thống kê"
+      ]
+    },
+    "createdAt": "2026-03-30T08:49:51.422Z"
+  },
+  "dOG7lW5nIGRp4buHbiB0w61jaCBy4burbmdf": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Rất tiếc, hiện tại không có dữ liệu thống kê về tổng diện tích rừng trong hệ thống cho khu vực này.",
+      "keywords": [
+        "tổng diện tích rừng"
+      ]
+    },
+    "createdAt": "2026-03-30T08:50:06.136Z"
+  },
+  "dOG7lW5nIGRp4buHbiB0w61jaCBy4burbmdfW3sidGVuIjoiWMOjIEFuIEjDsmEiLCJkdF9ydW5nIjo4Ni4xMiwiZHRfbGFtX25naGllcCI6ODM2LjE4LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSSJ9LHsidGVuIjoiWMOjIMSQ4buRYyBCaW5oIEtp4buBdSIsImR0X3J1bmciOjEyMi43OCwiZHRfbGFtX25naGllcCI6Mjc5LjYsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSSJ9LHsidGVuIjoiWMOjIEdpYSBUaHXhuq1uIiwiZHRfcnVuZyI6MjQxLjczLCJkdF9sYW1fbmdoaWVwIjo2MzYuNjUsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSUkifSx7InRlbiI6IljDoyBHw7IgQ8O0bmcgxJDDtG5nIiwiZHRfcnVuZyI6NzUuMDMsImR0X2xhbV9uZ2hpZXAiOjU2Mi41MSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJSSJ9LHsidGVuIjoiWMOjIEjGsG5nIFRo4bqhbmgiLCJkdF9ydW5nIjo0Ny43LCJkdF9sYW1fbmdoaWVwIjo5My42NCwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJIn0seyJ0ZW4iOiJYw6MgTeG7uSBIaeG7h3AiLCJkdF9ydW5nIjoxMjEuOTksImR0X2xhbV9uZ2hpZXAiOjI3My40NCwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJIn0seyJ0ZW4iOiJYw6MgTeG7uSBRdcOtIiwiZHRfcnVuZyI6NDkwLjcxLCJkdF9sYW1fbmdoaWVwIjo2ODAuNjgsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSSJ9LHsidGVuIjoiWMOjIFBob25nIE3hu7kiLCJkdF9ydW5nIjoxMTU3LjA4LCJkdF9sYW1fbmdoaWVwIjoxNDg4LjE5LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSSJ9LHsidGVuIjoiWMOjIFBow7ogQ8aw4budbmciLCJkdF9ydW5nIjo5OS41OSwiZHRfbGFtX25naGllcCI6MTc5LjI4LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSSJ9LHsidGVuIjoiWMOjIFBow7ogVGjhu40iLCJkdF9ydW5nIjo1NTEuNjksImR0X2xhbV9uZ2hpZXAiOjIxNTQuNjIsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJIn0seyJ0ZW4iOiJYw6MgUGjGsMahbmcgVGjhu4tuaCIsImR0X3J1bmciOjAsImR0X2xhbV9uZ2hpZXAiOjAsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSSJ9LHsidGVuIjoiWMOjIFRhbSBOw7RuZyIsImR0X3J1bmciOjgxMS42OSwiZHRfbGFtX25naGllcCI6MjQwOS45NywiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIEkifSx7InRlbiI6IljDoyBUw6JuIMSQaeG7gW4iLCJkdF9ydW5nIjoxMi4xLCJkdF9sYW1fbmdoaWVwIjo1NzUuNjYsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSUkifSx7InRlbiI6IljDoyBUw6JuIMSQw7RuZyIsImR0X3J1bmciOjYwLjk1LCJkdF9sYW1fbmdoaWVwIjo2MC45NSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJSSJ9LHsidGVuIjoiWMOjIFTDom4gSOG7mSBDxqEiLCJkdF9ydW5nIjozOS41MywiZHRfbGFtX25naGllcCI6NDcuMzksImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJIn0seyJ0ZW4iOiJYw6MgVMOibiBIw7JhIiwiZHRfcnVuZyI6MjYuMDIsImR0X2xhbV9uZ2hpZXAiOjQ1Ljc2LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUlJIn0seyJ0ZW4iOiJYw6MgVMOibiBQaMO6IMSQw7RuZyIsImR0X3J1bmciOjg1MS45NCwiZHRfbGFtX25naGllcCI6NTA2NS42NCwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJSSJ9LHsidGVuIjoiWMOjIFTDom4gUGjGsOG7m2MgMSIsImR0X3J1bmciOjg0Ljg5LCJkdF9sYW1fbmdoaWVwIjo4NjQuNzksImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSSJ9LHsidGVuIjoiWMOjIFTDom4gUGjGsOG7m2MgMiIsImR0X3J1bmciOjg0Mi43NSwiZHRfbGFtX25naGllcCI6MTQ2My42MSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJIn0seyJ0ZW4iOiJYw6MgVMOibiBQaMaw4bubYyAzIiwiZHRfcnVuZyI6MTAzLjM5LCJkdF9sYW1fbmdoaWVwIjoyMTEuMzMsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSSJ9LHsidGVuIjoiWMOjIFTDom4gVGjhu5tpIiwiZHRfcnVuZyI6MjQuMzYsImR0X2xhbV9uZ2hpZXAiOjI0LjM2LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUlJIn1d": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Tổng diện tích rừng của tất cả các xã được thống kê trong dữ liệu là 6039.84 ha.",
+      "keywords": [
+        "tổng diện tích rừng",
+        "tất cả các xã"
+      ]
+    },
+    "createdAt": "2026-03-30T08:58:33.211Z"
+  },
+  "dOG7lW5nIGRp4buHbiB0w61jaCDEkeG6pXQgbMOibSBuZ2hp4buHcF9beyJ0ZW4iOiJYw6MgQW4gSMOyYSIsImR0X3J1bmciOjg2LjEyLCJkdF9sYW1fbmdoaWVwIjo4MzYuMTgsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJIn0seyJ0ZW4iOiJYw6MgxJDhu5FjIEJpbmggS2nhu4F1IiwiZHRfcnVuZyI6MTIyLjc4LCJkdF9sYW1fbmdoaWVwIjoyNzkuNiwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJIn0seyJ0ZW4iOiJYw6MgR2lhIFRodeG6rW4iLCJkdF9ydW5nIjoyNDEuNzMsImR0X2xhbV9uZ2hpZXAiOjYzNi42NSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJSSJ9LHsidGVuIjoiWMOjIEfDsiBDw7RuZyDEkMO0bmciLCJkdF9ydW5nIjo3NS4wMywiZHRfbGFtX25naGllcCI6NTYyLjUxLCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUlJIn0seyJ0ZW4iOiJYw6MgSMawbmcgVGjhuqFuaCIsImR0X3J1bmciOjQ3LjcsImR0X2xhbV9uZ2hpZXAiOjkzLjY0LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUkifSx7InRlbiI6IljDoyBN4bu5IEhp4buHcCIsImR0X3J1bmciOjEyMS45OSwiZHRfbGFtX25naGllcCI6MjczLjQ0LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUkifSx7InRlbiI6IljDoyBN4bu5IFF1w60iLCJkdF9ydW5nIjo0OTAuNzEsImR0X2xhbV9uZ2hpZXAiOjY4MC42OCwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJIn0seyJ0ZW4iOiJYw6MgUGhvbmcgTeG7uSIsImR0X3J1bmciOjExNTcuMDgsImR0X2xhbV9uZ2hpZXAiOjE0ODguMTksImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJIn0seyJ0ZW4iOiJYw6MgUGjDuiBDxrDhu51uZyIsImR0X3J1bmciOjk5LjU5LCJkdF9sYW1fbmdoaWVwIjoxNzkuMjgsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJIn0seyJ0ZW4iOiJYw6MgUGjDuiBUaOG7jSIsImR0X3J1bmciOjU1MS42OSwiZHRfbGFtX25naGllcCI6MjE1NC42MiwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIEkifSx7InRlbiI6IljDoyBQaMawxqFuZyBUaOG7i25oIiwiZHRfcnVuZyI6MCwiZHRfbGFtX25naGllcCI6MCwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJIn0seyJ0ZW4iOiJYw6MgVGFtIE7DtG5nIiwiZHRfcnVuZyI6ODExLjY5LCJkdF9sYW1fbmdoaWVwIjoyNDA5Ljk3LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSSJ9LHsidGVuIjoiWMOjIFTDom4gxJBp4buBbiIsImR0X3J1bmciOjEyLjEsImR0X2xhbV9uZ2hpZXAiOjU3NS42NiwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJSSJ9LHsidGVuIjoiWMOjIFTDom4gxJDDtG5nIiwiZHRfcnVuZyI6NjAuOTUsImR0X2xhbV9uZ2hpZXAiOjYwLjk1LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUlJIn0seyJ0ZW4iOiJYw6MgVMOibiBI4buZIEPGoSIsImR0X3J1bmciOjM5LjUzLCJkdF9sYW1fbmdoaWVwIjo0Ny4zOSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIEkifSx7InRlbiI6IljDoyBUw6JuIEjDsmEiLCJkdF9ydW5nIjoyNi4wMiwiZHRfbGFtX25naGllcCI6NDUuNzYsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSUkifSx7InRlbiI6IljDoyBUw6JuIFBow7ogxJDDtG5nIiwiZHRfcnVuZyI6ODUxLjk0LCJkdF9sYW1fbmdoaWVwIjo1MDY1LjY0LCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUlJIn0seyJ0ZW4iOiJYw6MgVMOibiBQaMaw4bubYyAxIiwiZHRfcnVuZyI6ODQuODksImR0X2xhbV9uZ2hpZXAiOjg2NC43OSwiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJIn0seyJ0ZW4iOiJYw6MgVMOibiBQaMaw4bubYyAyIiwiZHRfcnVuZyI6ODQyLjc1LCJkdF9sYW1fbmdoaWVwIjoxNDYzLjYxLCJoYXQiOiJI4bqhdCBLaeG7g20gbMOibSBraHUgduG7sWMgSUkifSx7InRlbiI6IljDoyBUw6JuIFBoxrDhu5tjIDMiLCJkdF9ydW5nIjoxMDMuMzksImR0X2xhbV9uZ2hpZXAiOjIxMS4zMywiaGF0IjoiSOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIElJIn0seyJ0ZW4iOiJYw6MgVMOibiBUaOG7m2kiLCJkdF9ydW5nIjoyNC4zNiwiZHRfbGFtX25naGllcCI6MjQuMzYsImhhdCI6IkjhuqF0IEtp4buDbSBsw6JtIGtodSB24buxYyBJSUkifV0=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Tổng diện tích đất lâm nghiệp của các xã được thống kê là 18,975.34 ha.",
+      "keywords": [
+        "tổng diện tích đất lâm nghiệp",
+        "tất cả các xã"
+      ]
+    },
+    "createdAt": "2026-03-30T08:59:41.907Z"
+  },
+  "Y+G6pXAgbcOjIHPhu5EgZ8OieSBudcO0aV8=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để được cấp mã số gây nuôi, bạn vui lòng cung cấp thêm thông tin về loại động vật gây nuôi và mục đích gây nuôi để tôi có thể hướng dẫn chi tiết về các thủ tục và hồ sơ cần thiết theo quy định của pháp luật về lâm nghiệp.",
+      "keywords": [
+        "cấp mã số gây nuôi",
+        "thủ tục",
+        "hồ sơ"
+      ]
+    },
+    "createdAt": "2026-03-30T09:02:25.094Z"
+  },
+  "bcOjIHPhu5Ff": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Xin lỗi, hệ thống hiện không có dữ liệu thống kê cho khu vực này. Vui lòng kiểm tra lại hoặc cung cấp thông tin chi tiết hơn.",
+      "keywords": [
+        "không có dữ liệu",
+        "thống kê"
+      ]
+    },
+    "createdAt": "2026-03-30T09:06:15.857Z"
+  },
+  "Y+G6pXAgbcOjIHPhu5Ff": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để được cấp mã số, quý vị vui lòng cung cấp thêm thông tin chi tiết về loại mã số cần cấp (ví dụ: mã số gây nuôi động vật hoang dã, mã số khai thác lâm sản, v.v.) để chúng tôi có thể hướng dẫn thủ tục cụ thể.",
+      "keywords": [
+        "mã số"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' dựa trên từ khóa 'cấp mã số'. Trích xuất từ khóa 'mã số'."
+    },
+    "createdAt": "2026-03-30T09:35:02.135Z"
+  },
+  "eMOjIEFuIEjDsmEgY8OzIGRp4buHbiB0w61jaCByw7luZyBiYW8gbmhpw6p1P19beyJ0ZW4iOiJYw6MgQW4gSMOyYSIsImR0Ijo4Ni4xMn1d": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Tổng diện tích rừng của Xã An Hòa được ghi nhận là 86.12 ha.",
+      "keywords": [
+        "Xã An Hòa"
+      ],
+      "debug_info": "Đã quét dữ liệu, tìm thông tin cho 'Xã An Hòa' và lấy giá trị 'dt' tương ứng."
+    },
+    "createdAt": "2026-03-30T09:35:32.326Z"
+  },
+  "8J+SsCBM4buHIHBow61f": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để biết thông tin chi tiết về các loại lệ phí trong lĩnh vực lâm nghiệp, bạn vui lòng cung cấp thêm ngữ cảnh hoặc loại thủ tục cụ thể mà bạn quan tâm. Các lệ phí thường được quy định rõ ràng trong các văn bản pháp luật liên quan đến từng thủ tục hành chính.",
+      "keywords": [
+        "lệ phí"
+      ]
+    },
+    "createdAt": "2026-03-30T10:38:56.245Z"
+  },
+  "ZGnhu4duIHTDrWNoIHLhu6tuZyB4w6MgYW4gaMOyYSB2w6AgeMOjIFRhbSBuw7RuZ19beyJ0ZW4iOiJYw6MgQW4gSMOyYSIsImR0Ijo4Ni4xMn0seyJ0ZW4iOiJYw6MgVGFtIE7DtG5nIiwiZHQiOjgxMS42OX1d": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Kính chào, theo dữ liệu hệ thống, tổng diện tích rừng của Xã An Hòa và Xã Tam Nông là 897.81 ha.",
+      "keywords": [
+        "Xã An Hòa",
+        "Xã Tam Nông"
+      ],
+      "debug_info": "Đã tính tổng diện tích (trường 'dt') từ dữ liệu cung cấp cho Xã An Hòa (86.12) và Xã Tam Nông (811.69)."
+    },
+    "createdAt": "2026-03-31T01:50:57.429Z"
+  },
+  "8J+UjiBYw6Mga2jDoWNfW3sidGVuIjoiWMOjIFRhbSBOw7RuZyIsImR0Ijo4MTEuNjl9XQ==": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "xã khác"
+      ],
+      "debug_info": "Người dùng yêu cầu tra cứu thông tin cho 'xã khác', nhưng dữ liệu cung cấp chỉ chứa 'Xã Tam Nông'. Do đó, không có số liệu cho 'xã khác' trong ngữ cảnh hiện tại."
+    },
+    "createdAt": "2026-03-31T02:09:05.241Z"
+  },
+  "bOG6pW4gY2hpw6ptIHLhu6tuZ18=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Vấn đề lấn chiếm rừng là một hành vi vi phạm pháp luật nghiêm trọng. Lực lượng Kiểm lâm luôn kiên quyết xử lý các trường hợp này. Bạn cần tìm hiểu thông tin về quy trình xử lý, các quy định liên quan hay báo cáo trường hợp cụ thể?",
+      "keywords": [
+        "lấn chiêm rừng"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' vì 'lấn chiêm rừng' liên quan đến các quy định và quy trình xử lý vi phạm lâm nghiệp. Trích xuất từ khóa chính."
+    },
+    "createdAt": "2026-03-31T03:03:17.666Z"
+  },
+  "Y2hp4bq/bSDEkeG6pXQgcuG7q25nXw==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Hành vi chiếm đất rừng là vi phạm pháp luật về lâm nghiệp. Tùy theo mức độ và hậu quả, hành vi này có thể bị xử phạt hành chính hoặc truy cứu trách nhiệm hình sự theo quy định của pháp luật.",
+      "keywords": [
+        "chiếm đất rừng"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' và trích xuất từ khóa liên quan đến vi phạm pháp luật lâm nghiệp."
+    },
+    "createdAt": "2026-03-31T03:12:52.466Z"
+  },
+  "beG7pWMgxJHDrWNoIHPhu60gZOG7pW5nIHLhu6tuZ18=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để cung cấp thông tin chính xác về mục đích sử dụng rừng, xin vui lòng cho biết bạn đang quan tâm đến loại rừng nào (rừng đặc dụng, rừng phòng hộ, rừng sản xuất) hoặc ngữ cảnh cụ thể hơn. Các mục đích sử dụng rừng thường được quy định rõ trong Luật Lâm nghiệp và các văn bản hướng dẫn liên quan.",
+      "keywords": [
+        "mục đích sử dụng rừng"
+      ],
+      "debug_info": "Phân loại ý định 'hỏi_thủ_tục' và trích xuất từ khóa."
+    },
+    "createdAt": "2026-03-31T07:08:35.539Z"
+  },
+  "duG6rW4gY2h1eeG7g24gbMOibSBz4bqjbiB0csOhaSBwaMOpcF8=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Vấn đề vận chuyển lâm sản trái phép là hành vi vi phạm pháp luật nghiêm trọng. Để biết thêm thông tin chi tiết về các quy định, chế tài xử phạt và thủ tục liên quan, bạn vui lòng tham khảo các văn bản pháp luật hiện hành về quản lý rừng, lâm sản hoặc liên hệ trực tiếp với cơ quan Kiểm lâm địa phương để được hướng dẫn cụ thể.",
+      "keywords": [
+        "vận chuyển",
+        "lâm sản",
+        "trái phép"
+      ],
+      "debug_info": "Phân loại intent 'hỏi_thủ_tục' vì câu hỏi liên quan đến hành vi vi phạm và quy định pháp luật. Trích xuất các từ khóa hành chính liên quan đến nội dung câu hỏi."
+    },
+    "createdAt": "2026-03-31T07:36:02.213Z"
+  },
+  "duG6rW4gY2h1eeG7g24gdHLDoWkgcGjDqXBf": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để hỗ trợ quý vị về vấn đề vận chuyển trái phép, xin vui lòng cung cấp thêm thông tin chi tiết về loại hàng hóa, địa điểm hoặc bối cảnh cụ thể để chúng tôi có thể hướng dẫn về các quy định và thủ tục liên quan.",
+      "keywords": [
+        "vận chuyển",
+        "trái phép"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' và trích xuất từ khóa liên quan đến vận chuyển."
+    },
+    "createdAt": "2026-03-31T07:46:03.568Z"
+  },
+  "bMOibSBz4bqjbiB0csOhaSBwaMOpcF8=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Việc khai thác, vận chuyển, tàng trữ lâm sản trái phép là hành vi vi phạm pháp luật nghiêm trọng. Để biết thêm thông tin chi tiết về các quy định xử phạt hoặc thủ tục liên quan, xin vui lòng tham khảo các văn bản pháp luật hiện hành về quản lý rừng và lâm sản, hoặc liên hệ trực tiếp với cơ quan Kiểm lâm địa phương để được hướng dẫn cụ thể.",
+      "keywords": [
+        "lâm sản trái phép"
+      ],
+      "debug_info": "Phân loại ý định 'hỏi_thủ_tục' vì câu hỏi liên quan đến quy định, vi phạm pháp luật về lâm sản. Trích xuất từ khóa 'lâm sản trái phép'."
+    },
+    "createdAt": "2026-03-31T07:46:17.748Z"
+  },
+  "QUkgQ8OTIFRI4bqoTSBRVVnhu4BOIFjhu6wgUEjhuqBUXw==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để biết chính xác về thẩm quyền xử phạt, quý vị vui lòng tham khảo các quy định pháp luật hiện hành về xử phạt vi phạm hành chính trong lĩnh vực lâm nghiệp hoặc liên hệ cơ quan kiểm lâm địa phương để được hướng dẫn chi tiết.",
+      "keywords": [
+        "thẩm quyền",
+        "xử phạt"
+      ],
+      "debug_info": "Phân loại ý định 'hỏi_thủ_tục' vì câu hỏi liên quan đến quy định hành chính và thẩm quyền. Trích xuất từ khóa 'thẩm quyền', 'xử phạt'."
+    },
+    "createdAt": "2026-03-31T08:48:49.306Z"
+  },
+  "dGjhuqltIHF1eeG7gW4gY2jhu6cgdOG7i2NoXw==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Chào bạn, tôi có thể hỗ trợ bạn về các thủ tục hành chính liên quan đến lĩnh vực kiểm lâm. Vui lòng cho biết thêm chi tiết về 'thẩm quyền chủ tịch' mà bạn đang muốn tìm hiểu.",
+      "keywords": [
+        "thẩm quyền",
+        "chủ tịch"
+      ],
+      "debug_info": "Phân loại ý định 'hỏi_thủ_tục' vì câu hỏi liên quan đến quy trình, quyền hạn. Trích xuất từ khóa 'thẩm quyền' và 'chủ tịch'."
+    },
+    "createdAt": "2026-03-31T08:58:58.712Z"
+  },
+  "xJFp4buBdSA3Xw==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để tôi kiểm tra thông tin liên quan đến điều 7. Bạn có thể cung cấp thêm ngữ cảnh hoặc nội dung cụ thể của điều này không?",
+      "keywords": [
+        "điều 7"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' do từ khóa 'điều 7' liên quan đến quy định/thủ tục. Trích xuất 'điều 7' làm từ khóa."
+    },
+    "createdAt": "2026-03-31T09:46:36.037Z"
+  },
+  "a2nhu4NtIGzDom0gdmnDqm5f": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Vâng, tôi là chuyên gia dữ liệu của Lực lượng Kiểm lâm. Tôi có thể hỗ trợ gì cho bạn?",
+      "keywords": [
+        "kiểm lâm viên"
+      ],
+      "debug_info": "Phân loại là chào hỏi vì đây là câu giao tiếp thông thường, không phải tra cứu hay hỏi thủ tục."
+    },
+    "createdAt": "2026-03-31T09:51:58.201Z"
+  },
+  "dGjhuqltIHF1eeG7gW4gY8O0bmcgYW5f": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Chào bạn, với vai trò là chuyên gia dữ liệu của Lực lượng Kiểm lâm, tôi có thể hỗ trợ các thông tin liên quan đến quản lý rừng, đất lâm nghiệp, và các thủ tục hành chính trong lĩnh vực kiểm lâm như mã số gây nuôi, CITES, vận chuyển, khai thác lâm sản. Về thẩm quyền của công an, đây là lĩnh vực thuộc chức năng của ngành công an và không nằm trong phạm vi dữ liệu mà hệ thống kiểm lâm của chúng tôi quản lý trực tiếp. Bạn vui lòng liên hệ cơ quan công an có thẩm quyền để được hỗ trợ chính xác nhất.",
+      "keywords": [
+        "thẩm quyền",
+        "công an"
+      ],
+      "debug_info": "Phân loại ý định 'hỏi_thủ_tục' do câu hỏi liên quan đến quy định hành chính/pháp luật. Trích xuất từ khóa 'thẩm quyền', 'công an'."
+    },
+    "createdAt": "2026-03-31T10:03:24.780Z"
+  },
+  "eMOhYyDEkeG7i25oIHRo4bqpbSBxdXnhu4FuIHjhu60gcGjhuqF0Xw==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để xác định thẩm quyền xử phạt, bạn vui lòng cung cấp thêm thông tin chi tiết về hành vi vi phạm hoặc lĩnh vực cụ thể cần tra cứu. Chúng tôi sẽ hỗ trợ bạn tìm hiểu các quy định liên quan.",
+      "keywords": [
+        "thẩm quyền xử phạt"
+      ],
+      "debug_info": "Xác định intent 'hỏi_thủ_tục' và trích xuất từ khóa 'thẩm quyền xử phạt'. Không cần tính toán số liệu."
+    },
+    "createdAt": "2026-03-31T10:19:55.289Z"
+  },
+  "WMOhYyDEkeG7i25oIHRy4buLIGdpw6EgdGFuZyB24bqtdF8=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Việc xác định trị giá tang vật là một quy trình nghiệp vụ quan trọng trong công tác xử lý vi phạm. Quý vị vui lòng tham khảo các quy định pháp luật hiện hành hoặc liên hệ trực tiếp cơ quan chức năng để được hướng dẫn chi tiết.",
+      "keywords": [
+        "trị giá tang vật",
+        "tang vật"
+      ],
+      "debug_info": "Phân loại ý định là hỏi thủ tục hành chính liên quan đến xử lý vi phạm."
+    },
+    "createdAt": "2026-03-31T10:28:11.206Z"
+  },
+  "YWJjXw==": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào bạn, tôi có thể giúp gì cho bạn?",
+      "keywords": [],
+      "debug_info": "Phân loại câu hỏi chung chung."
+    },
+    "createdAt": "2026-03-31T10:34:53.217Z"
+  },
+  "WMOhYyDEkeG7i25oIHRo4bqpbSBxdXnhu4FuXw==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để xác định thẩm quyền cụ thể, quý vị vui lòng cung cấp thêm thông tin về vấn đề hoặc loại thủ tục mà quý vị đang quan tâm (ví dụ: thẩm quyền cấp phép khai thác, thẩm quyền xử lý vi phạm, v.v.).",
+      "keywords": [
+        "thẩm quyền"
+      ],
+      "debug_info": "Xác định intent là 'hỏi_thủ_tục' dựa trên từ khóa 'thẩm quyền'. Trích xuất từ khóa."
+    },
+    "createdAt": "2026-04-01T03:57:32.192Z"
+  },
+  "dHLhu5NuZyBy4burbmcgdGhheSB0aOG6v19DaOG6vyDEkeG7mTogZHVfbGlldQ==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để tìm hiểu về quy định và thủ tục liên quan đến việc trồng rừng thay thế, bạn vui lòng tham khảo các văn bản pháp luật hiện hành hoặc liên hệ trực tiếp với cơ quan kiểm lâm địa phương để được hướng dẫn chi tiết.",
+      "keywords": [
+        "trồng rừng thay thế"
+      ],
+      "debug_info": "Phân loại ý định dựa trên từ khóa 'trồng rừng thay thế' liên quan đến thủ tục lâm nghiệp."
+    },
+    "createdAt": "2026-04-01T06:54:28.373Z"
+  },
+  "8J+PoCBRdWF5IGzhuqFpIE1lbnVfQ2jhur8gxJHhu5k6IGR1X2xpZXU=": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào bạn. Bạn đã quay lại menu chính. Tôi có thể hỗ trợ gì thêm cho bạn?",
+      "keywords": [],
+      "debug_info": "Phân loại ý định là 'chào_hỏi' vì đây là câu giao tiếp thông thường, không liên quan đến tra cứu số liệu hay thủ tục hành chính."
+    },
+    "createdAt": "2026-04-01T06:54:42.307Z"
+  },
+  "WGluIGNow6BvX0No4bq/IMSR4buZOiBhbGw=": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Xin chào! Tôi là chuyên gia dữ liệu của Lực lượng Kiểm lâm. Tôi có thể giúp gì cho bạn?",
+      "keywords": [],
+      "debug_info": "Người dùng gửi lời chào hỏi thông thường."
+    },
+    "createdAt": "2026-04-01T07:25:13.153Z"
+  },
+  "VMO0aSDEkWFuZyDhu58gY2jhur8gxJHhu5kgc+G7kSBsaeG7h3VfQ2jhur8gxJHhu5k6IGR1X2xpZXU=": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào bạn. Tôi đã hiểu bạn đang ở chế độ số liệu. Bạn cần tôi hỗ trợ gì về dữ liệu lâm nghiệp?",
+      "keywords": [],
+      "debug_info": "Phân loại ý định là 'chào_hỏi' vì đây là câu giao tiếp thông thường, xác nhận chế độ làm việc."
+    },
+    "createdAt": "2026-04-01T07:25:59.107Z"
+  },
+  "YV9DaOG6vyDEkeG7mTogZHVfbGlldQ==": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào bạn. Tôi có thể giúp gì cho bạn?",
+      "keywords": [],
+      "debug_info": "Xác định ý định là chào hỏi do câu hỏi không liên quan đến tra cứu số liệu hay thủ tục hành chính."
+    },
+    "createdAt": "2026-04-01T09:31:53.488Z"
+  },
+  "Y+G6pXAgbcOjIHPhu5FfQ2jhur8gxJHhu5k6IHRodV90dWM=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để được cấp mã số, bạn vui lòng cung cấp thêm thông tin chi tiết về loại mã số bạn cần (ví dụ: mã số gây nuôi, mã số khai thác, v.v.) để chúng tôi có thể hướng dẫn cụ thể về hồ sơ và quy trình.",
+      "keywords": [
+        "cấp mã số"
+      ],
+      "debug_info": "Phân loại ý định người dùng là 'hỏi_thủ_tục' dựa trên từ khóa 'mã số' liên quan đến thủ tục hành chính."
+    },
+    "createdAt": "2026-04-02T06:55:03.037Z"
+  },
+  "amtramFzZnNmYXNmbGFrcztmX0No4bq/IMSR4buZOiBhbGw=": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Kính chào quý khách. Hệ thống chưa thể hiểu yêu cầu của quý khách. Xin vui lòng cung cấp thông tin rõ ràng hơn để chúng tôi có thể hỗ trợ.",
+      "keywords": [],
+      "debug_info": "Người dùng cung cấp chuỗi ký tự không rõ ràng, không thể phân loại vào các ý định cụ thể. Phân loại tạm thời là 'chào_hỏi' để thông báo không hiểu yêu cầu."
+    },
+    "createdAt": "2026-04-02T06:58:27.334Z"
+  },
+  "bGtoZGZna2VvYXNmZyDhu5kgcG8zandwbyBmc21uZmhmamhma2xmb2lmX0No4bq/IMSR4buZOiBhbGw=": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Xin lỗi, tôi không hiểu yêu cầu của bạn. Bạn có thể vui lòng diễn đạt lại không?",
+      "keywords": [],
+      "debug_info": "Người dùng nhập chuỗi ký tự không rõ nghĩa, không thể phân loại ý định theo các tiêu chí 'tra_cuu_thong_ke' hoặc 'hỏi_thủ_tục'. Được xếp vào 'chào_hỏi' như một phản hồi chung."
+    },
+    "createdAt": "2026-04-02T06:58:50.299Z"
+  },
+  "YWxsX0No4bq/IMSR4buZOiB0aHVfdHVjLiBLaMO0bmcgY8OzIGThu68gbGnhu4d1IHjDoy4=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Chào bạn, với vai trò là chuyên gia dữ liệu của Lực lượng Kiểm lâm, tôi có thể cung cấp thông tin về các thủ tục hành chính trong lĩnh vực lâm nghiệp. Các loại thủ tục phổ biến bao gồm: mã số gây nuôi, CITES, vận chuyển lâm sản, khai thác rừng và các hồ sơ liên quan. Bạn muốn tìm hiểu cụ thể về thủ tục nào?",
+      "keywords": [
+        "mã số gây nuôi",
+        "CITES",
+        "vận chuyển",
+        "khai thác",
+        "hồ sơ"
+      ],
+      "debug_info": "Xác định intent là 'hỏi_thủ_tục' dựa trên chế độ hệ thống ('thu_tuc'). Yêu cầu 'all' được hiểu là hỏi chung về các loại thủ tục, do đó liệt kê các từ khóa thủ tục phổ biến."
+    },
+    "createdAt": "2026-04-02T12:37:18.365Z"
+  },
+  "YXZfQ2jhur8gxJHhu5k6IHRodV90dWMuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào bạn! Tôi là chuyên gia dữ liệu của Lực lượng Kiểm lâm. Tôi có thể hỗ trợ gì cho bạn hôm nay?",
+      "keywords": [],
+      "debug_info": "Xác định ý định là chào hỏi dựa trên câu chào ngắn gọn của người dùng."
+    },
+    "createdAt": "2026-04-02T13:40:37.790Z"
+  },
+  "8J+PoCBNZW51IGNow61uaF9DaOG6vyDEkeG7mTogdGh1X3R1Yy4gS2jDtG5nIGPDsyBk4buvIGxp4buHdSB4w6Mu": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào mừng quý khách. Hiện tại, hệ thống đang ở chế độ hỗ trợ các thủ tục hành chính. Quý khách vui lòng cho biết quý khách cần tìm hiểu về thủ tục nào (ví dụ: mã số gây nuôi, CITES, vận chuyển, khai thác, hồ sơ)?",
+      "keywords": [
+        "menu chính"
+      ],
+      "debug_info": "Người dùng yêu cầu menu chính, được phân loại là chào hỏi. Hệ thống đang ở chế độ 'thu_tuc' nên câu trả lời được điều chỉnh để hướng dẫn người dùng về các thủ tục hành chính."
+    },
+    "createdAt": "2026-04-02T13:40:58.034Z"
+  },
+  "8J+ThCBUcmEgY+G7qXUgdGjhu6cgdOG7pWNfQ2jhur8gxJHhu5k6IHRodV90dWMuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Chào bạn, tôi có thể hỗ trợ bạn tra cứu thông tin về các thủ tục hành chính. Bạn vui lòng cho biết cụ thể bạn muốn tìm hiểu về thủ tục nào (ví dụ: mã số gây nuôi, CITES, vận chuyển lâm sản, khai thác rừng, v.v.)?",
+      "keywords": [
+        "tra cứu thủ tục",
+        "thủ tục hành chính"
+      ],
+      "debug_info": "Người dùng yêu cầu tra cứu thủ tục."
+    },
+    "createdAt": "2026-04-02T13:41:01.320Z"
+  },
+  "YV9Eb21haW46IHRodV90dWM=": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào bạn, tôi là chuyên gia dữ liệu của Lực lượng Kiểm lâm. Bạn cần tra cứu thông tin gì về thủ tục lâm nghiệp hay thống kê diện tích rừng không?",
+      "keywords": [],
+      "debug_info": "Người dùng nhập ký tự không rõ ràng, phân loại là chào hỏi để yêu cầu thêm thông tin và hướng dẫn sử dụng."
+    },
+    "createdAt": "2026-04-02T14:23:48.552Z"
+  },
+  "Y8O0bmcgbmjhuq1uIGPDonkgZ2nhu5FuZ19Eb21haW46IHRodV90dWM=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để được hướng dẫn chi tiết về thủ tục công nhận cây giống, xin quý khách vui lòng cung cấp thêm thông tin hoặc mã số thủ tục liên quan. Chúng tôi sẵn sàng hỗ trợ.",
+      "keywords": [
+        "công nhận cây giống"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' và trích xuất từ khóa hành chính 'công nhận cây giống'."
+    },
+    "createdAt": "2026-04-02T14:24:07.520Z"
+  },
+  "bmd14buTbiBnaeG7kW5nX0RvbWFpbjogdGh1X3R1Yw==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để tra cứu thông tin về thủ tục liên quan đến nguồn giống, xin vui lòng cung cấp thêm chi tiết về loại nguồn giống hoặc mục đích sử dụng để chúng tôi có thể hỗ trợ chính xác nhất.",
+      "keywords": [
+        "nguồn giống"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' dựa trên từ khóa 'nguồn giống' và trích xuất từ khóa."
+    },
+    "createdAt": "2026-04-02T14:24:52.189Z"
+  },
+  "Z2nhu5FuZyBsw6JtIG5naGnhu4dwX0RvbWFpbjogdGh1X3R1Yw==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Bạn vui lòng cho biết cụ thể hơn về thủ tục liên quan đến giống lâm nghiệp mà bạn muốn tìm hiểu? Ví dụ: thủ tục cấp phép, kiểm định, hay vận chuyển?",
+      "keywords": [
+        "giống lâm nghiệp"
+      ],
+      "debug_info": "Phân loại ý định dựa trên từ khóa 'giống lâm nghiệp' liên quan đến thủ tục hành chính."
+    },
+    "createdAt": "2026-04-02T14:25:26.739Z"
+  },
+  "Y8OieSBnaeG7kW5nIGzDom0gbmdoaeG7h3BfRG9tYWluOiB0aHVfdHVj": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Chào bạn, tôi có thể hỗ trợ bạn tìm hiểu các thủ tục liên quan đến cây giống lâm nghiệp. Bạn vui lòng cho biết cụ thể hơn về loại thủ tục bạn quan tâm (ví dụ: gây nuôi, vận chuyển, khai thác, hay hồ sơ cấp phép)?",
+      "keywords": [
+        "cây giống lâm nghiệp"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' vì yêu cầu liên quan đến đối tượng cần quản lý theo quy định. Trích xuất từ khóa 'cây giống lâm nghiệp'."
+    },
+    "createdAt": "2026-04-02T14:26:40.162Z"
+  },
+  "Y8OieSBnaeG7kW5nX0No4bq/IMSR4buZOiB0aHVfdHVjLiBLaMO0bmcgY8OzIGThu68gbGnhu4d1IHjDoy4=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Chào quý vị, để tôi hỗ trợ quý vị về các thủ tục liên quan đến cây giống. Quý vị vui lòng cho biết thêm chi tiết về loại thủ tục hoặc hoạt động cụ thể (ví dụ: gây nuôi, vận chuyển, khai thác, cấp phép) để tôi có thể cung cấp thông tin chính xác nhất.",
+      "keywords": [
+        "cây giống"
+      ],
+      "debug_info": "Phân loại ý định là hỏi thủ tục dựa trên từ khóa 'cây giống'. Trích xuất từ khóa liên quan."
+    },
+    "createdAt": "2026-04-02T14:27:20.627Z"
+  },
+  "duG6rW4gY2h1eeG7g25fQ2jhur8gxJHhu5k6IHRodV90dWMuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để hỗ trợ quý khách về thủ tục vận chuyển, xin vui lòng cung cấp thêm thông tin chi tiết về loại sản phẩm hoặc quy định cụ thể mà quý khách đang quan tâm.",
+      "keywords": [
+        "vận chuyển"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' dựa trên từ khóa 'vận chuyển' và trích xuất từ khóa."
+    },
+    "createdAt": "2026-04-02T14:28:39.785Z"
+  },
+  "Y+G6pXAgbcOjIHPhu5FfQ2jhur8gxJHhu5k6IHRodV90dWMuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để hỗ trợ quý khách về thủ tục cấp mã số, xin vui lòng cung cấp thêm thông tin chi tiết về loại mã số quý khách cần.",
+      "keywords": [
+        "mã số"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' dựa trên từ khóa 'mã số'. Trích xuất từ khóa thủ tục."
+    },
+    "createdAt": "2026-04-02T14:58:20.727Z"
+  },
+  "a2hhaSB0aMOhYyB0csOhaSBwaMOpcF9DaOG6vyDEkeG7mTogeHVfcGhhdC4gS2jDtG5nIGPDsyBk4buvIGxp4buHdSB4w6Mu": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để tìm hiểu về các quy định liên quan đến hành vi khai thác trái phép, hoặc báo cáo các trường hợp vi phạm, xin vui lòng cung cấp thêm thông tin chi tiết hoặc tham khảo các văn bản pháp luật hiện hành về lâm nghiệp.",
+      "keywords": [
+        "khai thác",
+        "trái phép"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' do từ khóa 'khai thác' và 'trái phép' liên quan đến quy định và hành vi vi phạm. Trích xuất các từ khóa liên quan."
+    },
+    "createdAt": "2026-04-03T04:36:22.273Z"
+  },
+  "dGjhu6cgdOG7pWNfQ2jhur8gxJHhu5k6IHRodV90dWMuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Chào quý khách, để chúng tôi có thể hỗ trợ tốt nhất, quý khách vui lòng cung cấp thêm thông tin chi tiết về loại thủ tục mà quý khách đang quan tâm (ví dụ: thủ tục gây nuôi, vận chuyển, khai thác, mã số CITES, hồ sơ liên quan, v.v.).",
+      "keywords": [
+        "thủ tục"
+      ],
+      "debug_info": "Phân loại ý định dựa trên từ khóa 'thủ tục' trong yêu cầu của người dùng. Không có dữ liệu tính toán diện tích vì không phải intent 'tra_cuu_thong_ke'."
+    },
+    "createdAt": "2026-04-03T06:08:59.596Z"
+  }
+}

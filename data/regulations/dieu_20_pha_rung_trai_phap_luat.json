@@ -1,0 +1,100 @@
+{
+  "id": "dieu_20",
+  "article": "Điều 20",
+  "title": "Phá rừng trái pháp luật",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "phá rừng",
+    "chặt đốt rừng",
+    "san ủi rừng",
+    "xả chất độc",
+    "ken cây",
+    "băm gốc",
+    "hủy hoại rừng"
+  ],
+  "description": "Hành vi chặt, đốt, phá cây rừng, đào, bới, san ủi, nổ mìn; đắp đập, ngăn dòng chảy tự nhiên, xả chất độc hoặc các hành vi khác gây thiệt hại đến rừng với bất kỳ mục đích gì (trừ hành vi quy định tại Điều 13) mà không được phép của cơ quan nhà nước có thẩm quyền, bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 3.000.000 đồng đến 7.000.000 đồng",
+      "cases": [
+        "a) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các loại rừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích dưới 3.000 m2;",
+        "b) Rừng sản xuất có diện tích dưới 500 m2;",
+        "c) Rừng phòng hộ có diện tích dưới 300 m2;",
+        "d) Rừng đặc dụng có diện tích dưới 100 m2;",
+        "đ) Thực vật rừng thông thường trị giá dưới 5.000.000 đồng; thực vật rừng thuộc Danh mục Nhóm IIA trị giá dưới 4.000.000 đồng; thực vật rừng thuộc Danh mục Nhóm IA trị giá dưới 3.000.000 đồng trong trường hợp rừng bị thiệt hại không tính được bằng diện tích."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 7.000.000 đồng đến 15.000.000 đồng",
+      "cases": [
+        "a) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các loại rừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 3.000 m2 đến dưới 6.000 m2;",
+        "b) Rừng sản xuất có diện tích từ 500 m2 đến dưới 1.000 m2;",
+        "c) Rừng phòng hộ có diện tích từ 300 m2 đến dưới 600 m2;",
+        "d) Rừng đặc dụng có diện tích từ 100 m2 đến dưới 200 m2;",
+        "đ) Thực vật rừng thông thường trị giá từ 5.000.000 đồng đến dưới 10.000.000 đồng; thực vật rừng thuộc Nhóm IIA trị giá từ 4.000.000 đồng đến dưới 7.000.000 đồng; thực vật rừng thuộc Nhóm IA trị giá từ 3.000.000 đồng đến dưới 5.000.000 đồng trong trường hợp rừng bị thiệt hại không tính được bằng diện tích."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Phạt tiền từ 15.000.000 đồng đến 25.000.000 đồng",
+      "cases": [
+        "a) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng thuộc các loại rừng sản xuất, rừng phòng hộ, rừng đặc dụng có diện tích từ 6.000 m2 đến dưới 9.000 m2;",
+        "b) Rừng sản xuất có diện tích từ 1.000 m2 đến dưới 1.500 m2;",
+        "c) Rừng phòng hộ có diện tích từ 600 m2 đến dưới 900 m2;",
+        "d) Rừng đặc dụng có diện tích từ 200 m2 đến dưới 300 m2;",
+        "đ) Thực vật rừng thông thường trị giá từ 10.000.000 đồng đến dưới 20.000.000 đồng; thực vật rừng thuộc Nhóm IIA trị giá từ 7.000.000 đồng đến dưới 10.000.000 đồng; thực vật rừng thuộc Nhóm IA trị giá từ 5.000.000 đồng đến dưới 7.000.000 đồng trong trường hợp rừng bị thiệt hại không tính được bằng diện tích."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Phạt tiền từ 25.000.000 đồng đến 50.000.000 đồng",
+      "cases": [
+        "a) Cây trồng chưa thành rừng hoặc rừng khoanh nuôi tái sinh chưa có trữ lượng từ 9.000 m2 đến dưới 12.000 m2;",
+        "b) Rừng sản xuất có diện tích từ 1.500 m2 đến dưới 2.000 m2;",
+        "c) Rừng phòng hộ có diện tích từ 900 m2 đến dưới 1.200 m2;",
+        "d) Rừng đặc dụng có diện tích từ 300 m2 đến dưới 400 m2;",
+        "đ) Thực vật rừng thông thường trị giá từ 20.000.000 đồng đến dưới 30.000.000 đồng; Nhóm IIA từ 10.000.000 đồng đến dưới 20.000.000 đồng; Nhóm IA từ 7.000.000 đồng đến dưới 10.000.000 đồng (không tính được diện tích)."
+      ]
+    },
+    {
+      "clause": "5-10",
+      "note": "Mức phạt tăng dần theo diện tích và giá trị lâm sản thiệt hại, tối đa lên đến 200.000.000 đồng tại khoản 10 đối với Rừng đặc dụng diện tích 1.000 m2 trở lên; Rừng phòng hộ 3.000 m2 trở lên; Rừng sản xuất 5.000 m2 trở lên."
+    },
+    {
+      "clause": "11",
+      "category": "Hành vi xâm hại thân cây (bóc vỏ, ken cây, đổ hóa chất...)",
+      "cases": [
+        "Mỗi cây gỗ đường kính ≥ 8 cm bị xâm hại: phạt 200.000 đồng (tối đa 200.000.000 đồng);",
+        "Mỗi cây gỗ đường kính < 8 cm bị xâm hại: phạt 100.000 đồng (tối đa 100.000.000 đồng)."
+      ]
+    }
+  ],
+  "additional_penalties": {
+    "clause": "13",
+    "content": "Tịch thu tang vật, công cụ, phương tiện vi phạm đối với hành vi quy định tại khoản 1, 2, 3, 4, 5, 6, 7, 8, 9 và 10 Điều này."
+  },
+  "remedy": {
+    "clause": "14",
+    "content": [
+      "a) Buộc khôi phục lại tình trạng ban đầu đối với hành vi đào, bới, san ủi, nổ mìn, đắp đập, ngăn dòng chảy tự nhiên gây thiệt hại đến rừng;",
+      "b) Buộc thực hiện biện pháp khắc phục tình trạng ô nhiễm môi trường, lây lan dịch bệnh đối với hành vi xả chất độc gây thiệt hại đến rừng;",
+      "c) Buộc nộp lại số lợi bất hợp pháp có được do thực hiện vi phạm hành chính;",
+      "d) Buộc trồng lại rừng hoặc thanh toán chi phí trồng lại rừng đến khi thành rừng theo suất đầu tư áp dụng tại địa phương."
+    ]
+  },
+  "special_provisions": [
+    {
+      "clause": "12",
+      "content": "Chủ rừng thiếu trách nhiệm để xảy ra phá rừng trái pháp luật bị xử phạt theo các mức phạt diện tích rừng sản xuất tương ứng tại Điều này."
+    },
+    {
+      "clause": "15",
+      "content": "Trường hợp không xác định được đối tượng vi phạm, UBND cấp xã hoặc chủ rừng phối hợp thực hiện khắc phục hậu quả theo quy định."
+    }
+  ]
+}

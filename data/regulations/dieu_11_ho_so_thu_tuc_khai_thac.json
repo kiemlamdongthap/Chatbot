@@ -1,0 +1,33 @@
+{
+  "id": "dieu_11",
+  "article": "Điều 11",
+  "title": "Vi phạm quy định về hồ sơ, thủ tục khai thác lâm sản có nguồn gốc hợp pháp",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "hồ sơ lâm sản",
+    "thủ tục khai thác",
+    "lâm sản hợp pháp",
+    "khai thác gỗ rừng trồng",
+    "khai thác rừng tự nhiên"
+  ],
+  "description": "Hành vi khai thác, tận dụng, tận thu lâm sản có nguồn gốc hợp pháp nhưng không chấp hành đầy đủ về hồ sơ lâm sản hoặc trình tự, thủ tục khai thác lâm sản theo quy định của pháp luật, bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng",
+      "cases": [
+        "Đối với hành vi khai thác, tận dụng, tận thu gỗ rừng trồng do nhà nước đại diện chủ sở hữu có nguồn gốc hợp pháp nhưng không chấp hành đầy đủ về hồ sơ lâm sản hoặc trình tự, thủ tục khai thác lâm sản theo quy định của pháp luật."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng",
+      "cases": [
+        "Đối với hành vi khai thác, tận dụng, tận thu lâm sản từ rừng tự nhiên có nguồn gốc hợp pháp nhưng không chấp hành đầy đủ các quy định về hồ sơ lâm sản hoặc trình tự, thủ tục về khai thác lâm sản theo quy định của pháp luật."
+      ]
+    }
+  ]
+}

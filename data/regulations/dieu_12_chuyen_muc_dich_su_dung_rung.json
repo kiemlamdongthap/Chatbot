@@ -1,0 +1,81 @@
+{
+  "id": "dieu_12",
+  "article": "Điều 12",
+  "title": "Vi phạm quy định về chuyển mục đích sử dụng rừng",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "chuyển mục đích sử dụng rừng",
+    "trình tự thủ tục",
+    "sai mục đích",
+    "diện tích rừng"
+  ],
+  "description": "Hành vi chuyển mục đích sử dụng rừng sang mục đích khác đã đảm bảo điều kiện nhưng chưa thực hiện đầy đủ trình tự, thủ tục theo quy định của pháp luật, bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng",
+      "cases": [
+        "a) Rừng sản xuất có diện tích dưới 800 m2;",
+        "b) Rừng phòng hộ có diện tích dưới 600 m2;",
+        "c) Rừng đặc dụng có diện tích dưới 400 m2."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng",
+      "cases": [
+        "a) Rừng sản xuất có diện tích từ 800 m2 đến dưới 1.400 m2;",
+        "b) Rừng phòng hộ có diện tích từ 600 m2 đến dưới 1.000 m2;",
+        "c) Rừng đặc dụng có diện tích từ 400 m2 đến dưới 800 m2."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng",
+      "cases": [
+        "a) Rừng sản xuất có diện tích từ 1.400 m2 đến dưới 3.000 m2;",
+        "b) Rừng phòng hộ có diện tích từ 1.000 m2 đến dưới 2.000 m2;",
+        "c) Rừng đặc dụng có diện tích từ 800 m2 đến dưới 1.500 m2."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Phạt tiền từ 25.000.000 đồng đến 40.000.000 đồng",
+      "cases": [
+        "a) Rừng sản xuất có diện tích từ 3.000 m2 đến dưới 5.000 m2;",
+        "b) Rừng phòng hộ có diện tích từ 2.000 m2 đến dưới 3.000 m2;",
+        "c) Rừng đặc dụng có diện tích từ 1.500 m2 đến dưới 2.500 m2."
+      ]
+    },
+    {
+      "clause": "5",
+      "fine_range": "Phạt tiền từ 40.000.000 đồng đến 60.000.000 đồng",
+      "cases": [
+        "a) Rừng sản xuất có diện tích từ 5.000 m2 đến dưới 7.000 m2;",
+        "b) Rừng phòng hộ có diện tích từ 3.000 m2 đến dưới 5.000 m2;",
+        "c) Rừng đặc dụng có diện tích từ 2.500 m2 đến dưới 3.500 m2."
+      ]
+    },
+    {
+      "clause": "6",
+      "fine_range": "Phạt tiền từ 60.000.000 đồng đến 80.000.000 đồng",
+      "cases": [
+        "a) Rừng sản xuất có diện tích từ 7.000 m2 đến dưới 10.000 m2;",
+        "b) Rừng phòng hộ có diện tích từ 5.000 m2 đến dưới 7.500 m2;",
+        "c) Rừng đặc dụng có diện tích từ 3.500 m2 đến dưới 5.000 m2."
+      ]
+    },
+    {
+      "clause": "7",
+      "fine_range": "Phạt tiền từ 80.000.000 đồng đến 100.000.000 đồng",
+      "cases": [
+        "a) Rừng sản xuất có diện tích 10.000 m2 trở lên;",
+        "b) Rừng phòng hộ có diện tích 7.500 m2 trở lên;",
+        "c) Rừng đặc dụng có diện tích 5.000 m2 trở lên."
+      ]
+    }
+  ]
+}

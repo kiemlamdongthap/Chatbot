@@ -1,0 +1,82 @@
+{
+  "id": "dieu_29",
+  "article": "Điều 29",
+  "title": "Thẩm quyền xử phạt của Công an nhân dân",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "thẩm quyền công an",
+	"mức phạt của công an xã",
+    "trưởng công an huyện phạt bao nhiêu",
+    "giám đốc công an tỉnh xử phạt",
+    "cục trưởng cảnh sát môi trường",
+    "cảnh sát giao thông phạt lâm sản",
+    "tịch thu tang vật công an",
+    "đình chỉ khai thác rừng",
+    "xử phạt vi phạm lâm nghiệp công an"
+  ],
+  "description": "Quy định chi tiết về hạn mức phạt tiền, thẩm quyền tịch thu tang vật, phương tiện và các biện pháp khắc phục hậu quả của các chức danh thuộc lực lượng Công an nhân dân trong lĩnh vực lâm nghiệp:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Chiến sĩ Công an nhân dân đang thi hành công vụ",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000 đồng."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội; Trưởng trạm, Đội trưởng của Chiến sĩ Công an quy định tại khoản 1",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 1.500.000 đồng."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Trưởng Công an cấp xã; Trưởng đồn Công an; Trưởng trạm Công an (cửa khẩu, khu chế xuất, cảng hàng không); Tiểu đoàn trưởng Cảnh sát cơ động; Thủy đội trưởng",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 2.500.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 5.000.000 đồng;",
+        "d) Áp dụng biện pháp khắc phục hậu quả tại điểm a, c và d khoản 3 Điều 4."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Trưởng Công an cấp huyện; Trưởng phòng nghiệp vụ thuộc các Cục (An ninh chính trị nội bộ, Cảnh sát QLHC, CSGT, PCCC, An ninh mạng, Xuất nhập cảnh); Trưởng phòng Công an cấp tỉnh; Trung đoàn trưởng Cảnh sát cơ động; Thủy đoàn trưởng",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 25.000.000 đồng;",
+        "c) Đình chỉ hoạt động khai thác rừng hoặc cơ sở chế biến lâm sản từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 50.000.000 đồng;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả tại khoản 3 (trừ điểm đ) và khoản 4 Điều 4."
+      ]
+    },
+    {
+      "clause": "5",
+      "fine_range": "Giám đốc Công an cấp tỉnh",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 100.000.000 đồng;",
+        "c) Đình chỉ hoạt động khai thác rừng hoặc cơ sở chế biến lâm sản từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả tại khoản 3 (trừ điểm b) và khoản 4 Điều 4."
+      ]
+    },
+    {
+      "clause": "6",
+      "fine_range": "Cục trưởng các Cục (An ninh chính trị nội bộ, An ninh kinh tế, Cảnh sát QLHC, CS Hình sự, CS Kinh tế, CS Ma túy, CSGT, PCCC, CS Môi trường, An ninh mạng, An ninh nội địa, Quản lý trại giam); Tư lệnh Cảnh sát cơ động",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000.000 đồng;",
+        "c) Đình chỉ hoạt động khai thác rừng hoặc cơ sở chế biến lâm sản từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả tại khoản 3 (trừ điểm b) và khoản 4 Điều 4."
+      ]
+    }
+  ]
+}

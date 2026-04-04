@@ -1,0 +1,35 @@
+lam-san-chatbot-demo/
+ ├── data/
+ │   ├── procedures/
+ │   │   └── cap_tinh_lo_1_v1_2025.json
+ │   ├── legal_bases.json
+ │   ├── documents.json
+ │   └── forbidden_locations.json
+     └── procedures.json
+ ├── docs/
+ ├── engine
+ │   ├── procedureSemanticSearch.js
+ ├── node_modles
+ ├── public/
+ │   ├── forms
+ │   ├── index.html
+ ├── routes/
+ │   └── chatbot.js
+ ├── scripts/
+ ├── services/
+ │   └── procedureService.js
+ │   └── intentService.js 
+ │   └──detectIntent.js
+ │   └──aiService.js
+ ├── utils/
+ │   ├── text.js
+ │   ├── cacheManager.js
+ ├── .evn
+ ├── index.js
+ └── package.json
+ └── package-lock.json
+ └── server.js
+
+ 
+ 
+

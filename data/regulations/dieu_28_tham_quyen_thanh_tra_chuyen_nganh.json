@@ -1,0 +1,66 @@
+{
+  "id": "dieu_28",
+  "article": "Điều 28",
+  "title": "Thẩm quyền xử phạt vi phạm hành chính của thanh tra chuyên ngành trong lĩnh vực Lâm nghiệp",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "thẩm quyền thanh tra lâm nghiệp",
+	"thẩm quyền thanh tra",
+    "thanh tra viên nông nghiệp",
+    "chánh thanh tra bộ nông nghiệp",
+    "tổng cục trưởng tổng cục lâm nghiệp",
+    "trưởng đoàn thanh tra chuyên ngành",
+    "mức phạt của thanh tra",
+    "tịch thu tang vật thanh tra",
+    "đình chỉ cơ sở chế biến lâm sản"
+  ],
+  "description": "Quy định chi tiết về hạn mức phạt tiền, thẩm quyền tịch thu tang vật, phương tiện và các biện pháp khắc phục hậu quả của các chức danh thuộc lực lượng Thanh tra chuyên ngành Lâm nghiệp:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Thanh tra viên nông nghiệp và phát triển nông thôn, người được giao nhiệm vụ thanh tra chuyên ngành lâm nghiệp",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính có trị giá không vượt quá 1.000.000 đồng;",
+        "d) Áp dụng các biện pháp khắc phục hậu quả tại điểm a, c và d khoản 3 Điều 4."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Trưởng đoàn thanh tra Tổng cục Lâm nghiệp, Chánh Thanh tra Sở NN&PTNT, Trưởng đoàn thanh tra chuyên ngành Sở NN&PTNT",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 50.000.000 đồng;",
+        "c) Đình chỉ hoạt động khai thác rừng hoặc cơ sở chế biến lâm sản từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 100.000.000 đồng;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả tại khoản 3 và khoản 4 Điều 4."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Trưởng đoàn thanh tra chuyên ngành Bộ Nông nghiệp và Phát triển nông thôn",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 250.000.000 đồng;",
+        "c) Đình chỉ hoạt động khai thác rừng hoặc cơ sở chế biến lâm sản từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 500.000.000 đồng;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả tại khoản 3 và khoản 4 Điều 4."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Chánh Thanh tra Bộ NN&PTNT, Tổng cục trưởng Tổng cục Lâm nghiệp",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000.000 đồng;",
+        "c) Đình chỉ hoạt động khai thác rừng hoặc cơ sở chế biến lâm sản từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả tại khoản 3 và khoản 4 Điều 4."
+      ]
+    }
+  ]
+}

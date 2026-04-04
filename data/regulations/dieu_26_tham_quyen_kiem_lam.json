@@ -1,0 +1,72 @@
+{
+  "id": "dieu_26",
+  "article": "Điều 26",
+  "title": "Thẩm quyền xử phạt vi phạm hành chính của Kiểm lâm",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "thẩm quyền kiểm lâm",
+    "mức phạt của kiểm lâm viên",
+    "trạm trưởng kiểm lâm phạt bao nhiêu",
+    "hạt trưởng kiểm lâm phạt bao nhiêu",
+    "chi cục trưởng kiểm lâm",
+    "cục trưởng cục kiểm lâm",
+    "tịch thu tang vật kiểm lâm",
+    "đình chỉ khai thác rừng",
+    "đội kiểm lâm cơ động"
+  ],
+  "description": "Quy định chi tiết về hạn mức phạt tiền, thẩm quyền tịch thu tang vật, phương tiện và các biện pháp khắc phục hậu quả của các chức danh thuộc lực lượng Kiểm lâm:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Kiểm lâm viên đang thi hành công vụ",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000 đồng."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Trạm trưởng Trạm Kiểm lâm",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 10.000.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 20.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Hạt trưởng Hạt Kiểm lâm (bao gồm: cấp huyện, rừng phòng hộ, rừng đặc dụng) và Đội trưởng Đội Kiểm lâm cơ động và PCCCR",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 25.000.000 đồng;",
+        "c) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 50.000.000 đồng;",
+        "d) Áp dụng các biện pháp khắc phục hậu quả quy định tại điểm a, c, d, đ, e, g, h, i, k, l, m, n, o khoản 3 và khoản 4 Điều 4."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Chi cục trưởng Chi cục Kiểm lâm; Chi cục trưởng Chi cục Kiểm lâm vùng; Đội trưởng Đội Kiểm lâm đặc nhiệm thuộc Cục Kiểm lâm",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 50.000.000 đồng;",
+        "c) Đình chỉ hoạt động khai thác rừng hoặc cơ sở chế biến lâm sản có thời hạn từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 100.000.000 đồng;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại khoản 3 và khoản 4 Điều 4."
+      ]
+    },
+    {
+      "clause": "5",
+      "fine_range": "Cục trưởng Cục Kiểm lâm",
+      "cases": [
+        "a) Phạt cảnh cáo;",
+        "b) Phạt tiền đến 500.000.000 đồng;",
+        "c) Đình chỉ hoạt động khai thác rừng hoặc cơ sở chế biến lâm sản có thời hạn từ 06 tháng đến 12 tháng;",
+        "d) Tịch thu tang vật, phương tiện vi phạm hành chính;",
+        "đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại khoản 3 và khoản 4 Điều 4."
+      ]
+    }
+  ]
+}

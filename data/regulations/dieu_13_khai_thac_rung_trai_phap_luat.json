@@ -1,0 +1,190 @@
+{
+  "id": "dieu_13",
+  "article": "Điều 13",
+  "title": "Khai thác rừng trái pháp luật",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "khai thác rừng trái phép",
+    "gỗ thông thường",
+    "gỗ quý hiếm",
+    "Nhóm IA",
+    "Nhóm IIA",
+    "thực vật rừng ngoài gỗ",
+    "tịch thu phương tiện"
+  ],
+  "description": "Hành vi khai thác lâm sản trong rừng không được phép của cơ quan có thẩm quyền, bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "category": "Khai thác trái pháp luật trong rừng sản xuất",
+      "details": [
+        {
+          "sub_category": "a) Đối với gỗ loài thông thường",
+          "fines": [
+            "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với hành vi khai thác trái pháp luật dưới 0,4 m3 gỗ rừng trồng hoặc dưới 0,2 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,4 m3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,2 m3 đến dưới 0,5 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi khai thác trái pháp luật từ 01 m3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 0,5 m3 đến dưới 01 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ 02 m3 đến dưới 05 m3 gỗ rừng trồng hoặc từ 01 m3 đến dưới 2,5 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 25.000.000 đồng đến 35.000.000 đồng đối với hành vi khai thác trái pháp luật từ 05 m3 đến dưới 07 m3 gỗ rừng trồng hoặc từ 2,5 m3 đến dưới 3,5 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 35.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ 07 m3 đến dưới 10 m3 gỗ rừng trồng hoặc từ 3,5 m3 đến dưới 05 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với hành vi khai thác trái pháp luật từ 10 m3 đến dưới 15 m3 gỗ rừng trồng hoặc từ 05 m3 đến dưới 07 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ 15 m3 đến dưới 20 m3 gỗ rừng trồng hoặc từ 07 m3 đến dưới 10 m3 gỗ rừng tự nhiên."
+          ]
+        },
+        {
+          "sub_category": "b) Đối với gỗ thuộc Danh mục Nhóm IIA",
+          "fines": [
+            "Phạt tiền từ 1.000.000 đồng đến 3.000.000 đồng đối với hành vi khai thác trái pháp luật dưới 0,3 m3 gỗ rừng trồng hoặc dưới 0,2 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 3.000.000 đồng đến 7.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,3 m3 đến dưới 0,5 m3 gỗ rừng trồng hoặc từ 0,2 m3 đến dưới 0,4 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 7.000.000 đồng đến 10.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,5 m3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,4 m3 đến dưới 0,6 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ 01 m3 đến dưới 1,5 m3 gỗ rừng trồng hoặc từ 0,6 m3 đến dưới 01 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 25.000.000 đồng đến 35.000.000 đồng đối với hành vi khai thác trái pháp luật từ 1,5 m3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 01 m3 đến dưới 1,5 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 35.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ 02 m3 đến dưới 03 m3 gỗ rừng trồng hoặc từ 1,5 m3 đến dưới 02 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ 03 m3 đến dưới 07 m3 gỗ rừng trồng hoặc từ 02 m3 đến dưới 03 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 100.000.000 đồng đến 150.000.000 đồng đối với hành vi khai thác trái pháp luật từ 07 m3 đến dưới 10 m3 gỗ rừng trồng hoặc từ 03 m3 đến dưới 05 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 150.000.000 đồng đến 200.000.000 đồng đối với hành vi khai thác trái pháp luật từ 10 m3 đến dưới 15 m3 gỗ rừng trồng hoặc từ 05 m3 đến dưới 07 m3 gỗ rừng tự nhiên."
+          ]
+        },
+        {
+          "sub_category": "c) Đối với gỗ thuộc Danh mục Nhóm IA",
+          "fines": [
+            "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật dưới 0,3 m3;",
+            "Phạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,3 m3 đến dưới 0,5 m3;",
+            "Phạt tiền từ 50.000.000 đồng đến 75.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,5 m3 đến dưới 0,7 m3;",
+            "Phạt tiền từ 75.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,7 m3 đến dưới 01 m3."
+          ]
+        }
+      ]
+    },
+    {
+      "clause": "2",
+      "category": "Khai thác trái pháp luật trong rừng phòng hộ",
+      "details": [
+        {
+          "sub_category": "a) Đối với gỗ loài thông thường",
+          "fines": [
+            "Phạt tiền từ 1.000.000 đồng đến 4.000.000 đồng đối với hành vi khai thác trái pháp luật dưới 0,5 m3 gỗ rừng trồng hoặc dưới 0,3 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 4.000.000 đồng đến 8.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,5 m3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,3 m3 đến dưới 0,5 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 8.000.000 đồng đến 15.000.000 đồng đối với hành vi khai thác trái pháp luật từ 01 m3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 0,5 m3 đến dưới 01 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 15.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ 02 m3 đến dưới 04 m3 gỗ rừng trồng hoặc từ 01 m3 đến dưới 02 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ 04 m3 đến dưới 06 m3 gỗ rừng trồng hoặc từ 02 m3 đến dưới 03 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với hành vi khai thác trái pháp luật từ 06 m3 đến dưới 10 m3 gỗ rừng trồng hoặc từ 03 m3 đến dưới 05 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ 10 m3 đến dưới 15 m3 gỗ rừng trồng hoặc từ 05 m3 đến dưới 07 m3 gỗ rừng tự nhiên."
+          ]
+        },
+        {
+          "sub_category": "b) Đối với gỗ thuộc Danh mục Nhóm IIA",
+          "fines": [
+            "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng đối với hành vi khai thác trái pháp luật dưới 0,3 m3 gỗ rừng trồng hoặc dưới 0,2 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,3 m3 đến dưới 0,6 m3 gỗ rừng trồng hoặc từ 0,2 m3 đến dưới 0,3 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 7.000.000 đồng đến 15.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,6 m3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,3 m3 đến dưới 0,5 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 15.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ 01 m3 đến dưới 1,5 m3 gỗ rừng trồng hoặc từ 0,5 m3 đến dưới 0,7 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ 1,5 m3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 0,7 m3 đến dưới 01 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với hành vi khai thác trái pháp luật từ 02 m3 đến dưới 03 m3 gỗ rừng trồng hoặc từ 01 m3 đến dưới 1,5 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ 03 m3 đến dưới 05 m3 gỗ rừng trồng hoặc từ 1,5 m3 đến dưới 2,5 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 100.000.000 đồng đến 150.000.000 đồng đối với hành vi khai thác trái pháp luật từ 05 m3 đến dưới 07 m3 gỗ rừng trồng hoặc từ 2,5 m3 đến dưới 04 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 150.000.000 đồng đến 200.000.000 đồng đối với hành vi khai thác trái pháp luật từ 07 m3 đến dưới 10 m3 gỗ rừng trồng hoặc từ 04 m3 đến dưới 05 m3 gỗ rừng tự nhiên."
+          ]
+        },
+        {
+          "sub_category": "c) Đối với gỗ thuộc Danh mục Nhóm IA",
+          "fines": [
+            "Phạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật dưới 0,1 m3;",
+            "Phạt tiền từ 50.000.000 đồng đến 85.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,1 m3 đến dưới 0,3 m3;",
+            "Phạt tiền từ 85.000.000 đồng đến 120.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,3 m3 đến dưới 0,5 m3."
+          ]
+        }
+      ]
+    },
+    {
+      "clause": "3",
+      "category": "Khai thác trái pháp luật rừng đặc dụng",
+      "details": [
+        {
+          "sub_category": "a) Đối với gỗ loài thông thường",
+          "fines": [
+            "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng đối với hành vi khai thác trái pháp luật dưới 0,5 m3 gỗ rừng trồng hoặc dưới 0,3 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,5 m3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,3 m3 đến dưới 0,5 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ 01 m3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 0,5 m3 đến dưới 01 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ 02 m3 đến dưới 05 m3 gỗ rừng trồng hoặc từ 01 m3 đến dưới 02 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 50.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ 05 m3 đến dưới 10 m3 gỗ rừng trồng hoặc từ 02 m3 đến dưới 03 m3 gỗ rừng tự nhiên."
+          ]
+        },
+        {
+          "sub_category": "b) Đối với gỗ thuộc Danh mục Nhóm IIA",
+          "fines": [
+            "Phạt tiền từ 2.000.000 đồng đến 6.000.000 đồng đối với hành vi khai thác trái pháp luật dưới 0,3 m3 gỗ rừng trồng;",
+            "Phạt tiền từ 6.000.000 đồng đến 10.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,3 m3 đến dưới 0,5 m3 gỗ rừng trồng hoặc dưới 0,2 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,5 m3 đến dưới 01 m3 gỗ rừng trồng hoặc từ 0,2 m3 đến dưới 0,4 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật từ 01 m3 đến dưới 02 m3 gỗ rừng trồng hoặc từ 0,4 m3 đến dưới 0,6 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 50.000.000 đồng đến 70.000.000 đồng đối với hành vi khai thác trái pháp luật từ 02 m3 đến dưới 03 m3 gỗ rừng trồng hoặc từ 0,6 m3 đến dưới 0,8 m3 gỗ rừng tự nhiên;",
+            "Phạt tiền từ 70.000.000 đồng đến 100.000.000 đồng đối với hành vi khai thác trái pháp luật từ 03 m3 đến dưới 05 m3 gỗ rừng trồng hoặc từ 0,8 m3 đến dưới 01 m3 gỗ rừng tự nhiên."
+          ]
+        },
+        {
+          "sub_category": "c) Đối với gỗ thuộc Danh mục Nhóm IA",
+          "fines": [
+            "Phạt tiền từ 25.000.000 đồng đến 50.000.000 đồng đối với hành vi khai thác trái pháp luật dưới 0,1 m3;",
+            "Phạt tiền từ 50.000.000 đồng đến 85.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,1 m3 đến dưới 0,3 m3;",
+            "Phạt tiền từ 85.000.000 đồng đến 120.000.000 đồng đối với hành vi khai thác trái pháp luật từ 0,3 m3 đến dưới 0,5 m3."
+          ]
+        }
+      ]
+    },
+    {
+      "clause": "4",
+      "category": "Khai thác trái pháp luật thực vật rừng ngoài gỗ",
+      "details": [
+        {
+          "sub_category": "a) Đối với thực vật rừng ngoài gỗ loài thông thường; than hầm, than hoa",
+          "fines": [
+            "Phạt tiền từ 500.000 đồng đến 1.000.000 đồng (dưới 1.000.000 đồng thiệt hại);",
+            "Phạt tiền từ 125.000.000 đồng đến 150.000.000 đồng (từ 85.000.000 đến dưới 100.000.000 đồng thiệt hại)."
+          ]
+        },
+        {
+          "sub_category": "b) Đối với thực vật Nhóm IIA",
+          "fines": [
+            "Phạt tiền từ 1.000.000 đồng đến 100.000.000 đồng (tùy giá trị thiệt hại từ dưới 1.000.000 đến dưới 50.000.000 đồng)."
+          ]
+        },
+        {
+          "sub_category": "c) Đối với thực vật Nhóm IA",
+          "fines": [
+            "Phạt tiền từ 1.000.000 đồng đến 100.000.000 đồng (tùy giá trị thiệt hại từ dưới 1.000.000 đến dưới 30.000.000 đồng)."
+          ]
+        }
+      ]
+    }
+  ],
+  "special_cases": [
+    {
+      "clause": "5",
+      "content": "Cây thân gỗ đường kính < 8 cm: đo diện tích xử lý theo Điều 20. Cây phân tán không tính được diện tích: đếm cây, 100.000 đồng/cây (tối đa 100.000.000 đồng)."
+    },
+    {
+      "clause": "6",
+      "content": "Gỗ tự nhiên rải rác trên nương rẫy, gỗ nằm, trục, vớt dưới sông hồ: phạt theo khoản 1."
+    },
+    {
+      "clause": "7",
+      "content": "Chủ rừng thiếu trách nhiệm để xảy ra khai thác trái pháp luật: xử phạt theo khoản 1 hoặc điểm a khoản 4."
+    }
+  ],
+  "additional_penalties": {
+    "clause": "8",
+    "content": [
+      "a) Tịch thu phương tiện giao thông thô sơ và công cụ vi phạm (sửa đổi theo Nghị định 07/2022);",
+      "b) Tịch thu công cụ, cưa xăng;",
+      "c) Tịch thu phương tiện cơ giới (áp dụng khi khối lượng gỗ hoặc trị giá lâm sản đạt ngưỡng quy định tại Điểm c Clause 8);",
+      "d) Đình chỉ hoạt động khai thác rừng từ 06 đến 12 tháng (nếu vi phạm phương án khai thác gây hậu quả lớn)."
+    ]
+  },
+  "remedy": {
+    "clause": "9",
+    "content": "Buộc nộp lại số lợi bất hợp pháp hoặc số tiền bằng trị giá tang vật, phương tiện đã bị tiêu thụ, tẩu tán, tiêu hủy."
+  }
+}

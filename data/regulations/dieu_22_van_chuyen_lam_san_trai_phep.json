@@ -1,0 +1,283 @@
+{
+  "id": "dieu_22",
+  "article": "Điều 22",
+  "title": "Vận chuyển lâm sản trái pháp luật",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "vận chuyển lâm sản trái pháp luật",
+	"vận chuyển trái pháp luật",
+	"vận chuyển trái phép",
+	"vận chuyển lâm sản trái pháp phép",
+    "hồ sơ lâm sản hợp pháp",
+    "vận chuyển động vật trái phép",
+	"vận chuyển gỗ trái phép"
+      ],
+  "description": "Hành vi vận chuyển lâm sản (từ thời điểm lâm sản đã xếp lên phương tiện vận chuyển) không có hồ sơ hợp pháp hoặc có hồ sơ hợp pháp nhưng lâm sản thực tế vận chuyển không phù hợp với hồ sơ đó, bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá dưới 7.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá dưới 3.000.000 đồng;",
+        "c) Gỗ thuộc loài thông thường dưới 01 m3;",
+        "d) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA dưới 0,5 m3;",
+        "đ) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA dưới 0,1 m3;",
+        "e) Thực vật rừng ngoài gỗ trị giá dưới 7.000.000 đồng;",
+        "g) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá dưới 7.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "1a",
+      "fine_range": "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 7.000.000 đồng đến dưới 15.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 3.000.000 đồng đến dưới 7.000.000 đồng;",
+        "c) Gỗ thuộc loài thông thường từ 01 m3 đến dưới 02 m3;",
+        "d) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA từ 0,5 m3 đến dưới 01 m3;",
+        "đ) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA từ 0,1 m3 đến dưới 0,2 m3;",
+        "e) Thực vật rừng ngoài gỗ trị giá từ 7.000.000 đồng đến dưới 15.000.000 đồng;",
+        "g) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 7.000.000 đồng đến dưới 15.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 15.000.000 đồng đến dưới 25.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 7.000.000 đồng đến dưới 15.000.000 đồng;",
+        "c) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá dưới 1.000.000 đồng;",
+        "d) Gỗ thuộc loài thông thường từ 02 m3 đến dưới 05 m3;",
+        "đ) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA từ 01 m3 đến dưới 2,5 m3;",
+        "e) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA từ 0,2 m3 đến dưới 0,4 m3;",
+        "g) Thực vật rừng ngoài gỗ trị giá từ 15.000.000 đồng đến dưới 25.000.000 đồng;",
+        "h) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 15.000.000 đồng đến dưới 25.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "3",
+      "fine_range": "Phạt tiền từ 25.000.000 đồng đến 50.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 25.000.000 đồng đến dưới 50.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 15.000.000 đồng đến dưới 25.000.000 đồng;",
+        "c) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 1.000.000 đồng đến dưới 3.000.000 đồng;",
+        "d) Gỗ thuộc loài thông thường từ 05 m3 đến dưới 08 m3;",
+        "đ) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA từ 2,5 m3 đến dưới 04 m3;",
+        "e) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA từ 0,4 m3 đến dưới 0,6 m3;",
+        "g) Thực vật rừng ngoài gỗ trị giá từ 25.000.000 đồng đến dưới 50.000.000 đồng;",
+        "h) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 25.000.000 đồng đến dưới 50.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "4",
+      "fine_range": "Phạt tiền từ 50.000.000 đồng đến 70.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 50.000.000 đồng đến dưới 70.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 25.000.000 đồng đến dưới 35.000.000 đồng;",
+        "c) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 3.000.000 đồng đến dưới 5.000.000 đồng;",
+        "d) Gỗ thuộc loài thông thường từ 08 m3 đến dưới 11 m3;",
+        "đ) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA từ 04 m3 đến dưới 5,5 m3;",
+        "e) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA từ 0,6 m3 đến dưới 0,9 m3;",
+        "g) Thực vật rừng ngoài gỗ trị giá từ 50.000.000 đồng đến dưới 70.000.000 đồng;",
+        "h) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 50.000.000 đồng đến dưới 70.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "5",
+      "fine_range": "Phạt tiền từ 70.000.000 đồng đến 90.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 70.000.000 đồng đến dưới 90.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 35.000.000 đồng đến dưới 45.000.000 đồng;",
+        "c) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 5.000.000 đồng đến dưới 10.000.000 đồng;",
+        "d) Gỗ thuộc loài thông thường từ 11 m3 đến dưới 14 m3;",
+        "đ) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA từ 5,5 m3 đến dưới 07 m3;",
+        "e) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA từ 0,9 m3 đến dưới 1,2 m3;",
+        "g) Thực vật rừng ngoài gỗ trị giá từ 70.000.000 đồng đến dưới 90.000.000 đồng;",
+        "h) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 70.000.000 đồng đến dưới 90.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "6",
+      "fine_range": "Phạt tiền từ 90.000.000 đồng đến 120.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 90.000.000 đồng đến dưới 120.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 45.000.000 đồng đến dưới 60.000.000 đồng;",
+        "c) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 10.000.000 đồng đến dưới 20.000.000 đồng;",
+        "d) Gỗ thuộc loài thông thường từ 14 m3 đến dưới 17 m3;",
+        "đ) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA từ 07 m3 đến dưới 8,5 m3;",
+        "e) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IA từ 1,2 m3 đến dưới 1,5 m3;",
+        "g) Thực vật rừng ngoài gỗ trị giá từ 90.000.000 đồng đến dưới 120.000.000 đồng;",
+        "h) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 90.000.000 đồng đến dưới 120.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "7",
+      "fine_range": "Phạt tiền từ 120.000.000 đồng đến 150.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 120.000.000 đồng đến dưới 150.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 60.000.000 đồng đến dưới 75.000.000 đồng;",
+        "c) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 20.000.000 đồng đến dưới 30.000.000 đồng;",
+        "d) Gỗ thuộc loài thông thường từ 17 m3 đến dưới 20 m3;",
+        "đ) Gỗ thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIA từ 8,5 m3 đến dưới 10 m3;",
+        "e) Thực vật rừng ngoài gỗ trị giá từ 120.000.000 đồng đến dưới 150.000.000 đồng;",
+        "g) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 120.000.000 đồng đến dưới 150.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "8",
+      "fine_range": "Phạt tiền từ 150.000.000 đồng đến 180.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 150.000.000 đồng đến dưới 180.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 75.000.000 đồng đến dưới 90.000.000 đồng;",
+        "c) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 30.000.000 đồng đến dưới 40.000.000 đồng;",
+        "d) Thực vật rừng ngoài gỗ trị giá từ 150.000.000 đồng đến dưới 180.000.000 đồng;",
+        "đ) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 150.000.000 đồng đến dưới 180.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "9",
+      "fine_range": "Phạt tiền từ 180.000.000 đồng đến 210.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 180.000.000 đồng đến dưới 210.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 90.000.000 đồng đến dưới 105.000.000 đồng;",
+        "c) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 40.000.000 đồng đến dưới 50.000.000 đồng;",
+        "d) Ngà voi có khối lượng dưới 0,3 kilôgam;",
+        "đ) Thực vật rừng ngoài gỗ trị giá từ 180.000.000 đồng đến dưới 210.000.000 đồng;",
+        "e) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 180.000.000 đồng đến dưới 210.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "10",
+      "fine_range": "Phạt tiền từ 210.000.000 đồng đến 240.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 210.000.000 đồng đến dưới 240.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 105.000.000 đồng đến dưới 120.000.000 đồng;",
+        "c) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 50.000.000 đồng đến dưới 60.000.000 đồng;",
+        "d) Ngà voi có khối lượng từ 0,3 kilôgam đến dưới 0,6 kilôgam;",
+        "đ) Thực vật rừng ngoài gỗ trị giá từ 210.000.000 đồng đến dưới 240.000.000 đồng;",
+        "e) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 210.000.000 đồng đến dưới 240.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "11",
+      "fine_range": "Phạt tiền từ 240.000.000 đồng đến 270.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 240.000.000 đồng đến dưới 270.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 120.000.000 đồng đến dưới 135.000.000 đồng;",
+        "c) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 60.000.000 đồng đến dưới 70.000.000 đồng;",
+        "d) Ngà voi có khối lượng từ 0,6 kilôgam đến dưới 0,9 kilôgam;",
+        "đ) Thực vật rừng ngoài gỗ trị giá từ 240.000.000 đồng đến dưới 270.000.000 đồng;",
+        "e) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 240.000.000 đồng đến dưới 270.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "12",
+      "fine_range": "Phạt tiền từ 270.000.000 đồng đến 300.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thông thường trị giá từ 270.000.000 đồng đến dưới 300.000.000 đồng;",
+        "b) Động vật rừng, bộ phận cơ thể hoặc sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 135.000.000 đồng đến dưới 150.000.000 đồng;",
+        "c) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 70.000.000 đồng đến dưới 80.000.000 đồng;",
+        "d) Ngà voi có khối lượng từ 0,9 kilôgam đến dưới 1,2 kilôgam;",
+        "đ) Động vật rừng hoặc bộ phận không thể tách rời sự sống của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB với số lượng dưới 03 cá thể lớp chim, bò sát hoặc động vật lớp khác;",
+        "e) Thực vật rừng ngoài gỗ trị giá từ 270.000.000 đồng đến dưới 300.000.000 đồng;",
+        "g) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 270.000.000 đồng đến dưới 300.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "13",
+      "fine_range": "Phạt tiền từ 300.000.000 đồng đến 330.000.000 đồng",
+      "cases": [
+        "a) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 80.000.000 đồng đến dưới 90.000.000 đồng;",
+        "b) Ngà voi có khối lượng từ 1,2 kilôgam đến dưới 1,5 kilôgam; sừng tê giác có khối lượng dưới 0,03 kilôgam;",
+        "c) Động vật rừng hoặc bộ phận không thể tách rời sự sống của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB với số lượng 01 cá thể lớp thú hoặc từ 03 đến 04 cá thể lớp chim, bò sát hoặc từ 03 đến 05 cá thể động vật lớp khác;",
+        "d) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 300.000.000 đồng đến dưới 330.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "14",
+      "fine_range": "Phạt tiền từ 330.000.000 đồng đến 360.000.000 đồng",
+      "cases": [
+        "a) Sản phẩm của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB trị giá từ 90.000.000 đồng đến dưới 100.000.000 đồng;",
+        "b) Ngà voi có khối lượng từ 1,5 kilôgam đến dưới 02 kilôgam; sừng tê giác có khối lượng từ 0,03 kilôgam đến dưới 0,05 kilôgam;",
+        "c) Động vật rừng hoặc bộ phận không thể tách rời sự sống của động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB với số lượng 02 cá thể lớp thú hoặc từ 05 đến 06 cá thể lớp chim, bò sát hoặc từ 06 đến 09 cá thể động vật lớp khác;",
+        "d) Sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 330.000.000 đồng đến dưới 360.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "15",
+      "fine_range": "Phạt tiền từ 360.000.000 đồng đến 390.000.000 đồng",
+      "cases": [
+        "Đối với hành vi vận chuyển trái pháp luật sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 360.000.000 đồng đến dưới 390.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "16",
+      "fine_range": "Phạt tiền từ 390.000.000 đồng đến 420.000.000 đồng",
+      "cases": [
+        "Đối với hành vi vận chuyển trái pháp luật sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 390.000.000 đồng đến dưới 420.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "17",
+      "fine_range": "Phạt tiền từ 420.000.000 đồng đến 450.000.000 đồng",
+      "cases": [
+        "Đối với hành vi vận chuyển trái pháp luật sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá 420.000.000 đồng đến dưới 450.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "18",
+      "fine_range": "Phạt tiền từ 450.000.000 đồng đến 475.000.000 đồng",
+      "cases": [
+        "Đối với hành vi vận chuyển trái pháp luật sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá 450.000.000 đồng đến dưới 475.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "19",
+      "fine_range": "Phạt tiền từ 475.000.000 đồng đến 500.000.000 đồng",
+      "cases": [
+        "Đối với hành vi vận chuyển trái pháp luật sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá 475.000.000 đồng trở lên."
+      ]
+    },
+  {
+      "clause": "22",
+      "cases": [
+        "Lâm sản có nguồn gốc hợp pháp nhưng hồ sơ không đúng quy định hoặc không xuất trình được tại thời điểm kiểm tra: Xử phạt theo Điều 24."
+      ]
+    },
+    {
+      "clause": "23",
+      "cases": [
+        "Chủ lâm sản đồng thời là chủ phương tiện vận chuyển trái phép: Bị xử phạt đồng thời cả hành vi vận chuyển (Điều 22) và hành vi mua bán (Điều 23)."
+      ]
+    },
+    {
+      "clause": "24",
+      "cases": [
+        "Vận chuyển than hầm, than hoa từ rừng tự nhiên/rừng trồng Nhà nước: Người điều khiển phương tiện bị phạt như vận chuyển lâm sản ngoài gỗ; chủ lâm sản bị phạt theo khoản 4 Điều 13."
+      ]
+    },
+    {
+      "clause": "25",
+      "cases": [
+        "Chủ phương tiện cố ý cho thuê, mượn xe để vận chuyển lâm sản trái pháp luật: Bị xử phạt như người trực tiếp vận chuyển."
+      ]
+    }
+  ],
+  "additional_penalties": {
+    "clause": "20",
+    "content": [
+      "a) Tịch thu tang vật vi phạm đối với hành vi quy định tại khoản 1 đến khoản 19 (trừ trường hợp gỗ thực tế vượt sai số cho phép nhưng có nguồn gốc hợp pháp);",
+      "b) Tịch thu phương tiện vi phạm đối với hành vi từ khoản 1 đến khoản 19 nếu thuộc trường hợp: Có tổ chức, tái phạm; Xe giả, xe không đăng ký; Vận chuyển gỗ, động vật, ngà voi, sừng tê giác vượt ngưỡng số lượng/giá trị quy định tại điểm b khoản 20."
+    ]
+  },
+  "remedy": {
+    "clause": "21",
+    "content": [
+      "a) Buộc thực hiện biện pháp khắc phục tình trạng ô nhiễm môi trường, lây lan dịch bệnh; buộc tiêu hủy hàng hóa, vật phẩm gây hại cho sức khỏe con người, vật nuôi, cây trồng và môi trường;",
+      "b) Buộc nộp lại số lợi bất hợp pháp hoặc buộc nộp lại số tiền bằng trị giá tang vật, phương tiện vi phạm hành chính đã bị tiêu thụ, tẩu tán, tiêu hủy."
+    ]
+  }
+}

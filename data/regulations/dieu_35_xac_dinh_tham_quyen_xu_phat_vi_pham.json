@@ -1,0 +1,24 @@
+{
+  "id": "dieu_35",
+  "article": "Điều 35",
+  "title": "Xác định thẩm quyền xử phạt vi phạm hành chính",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "xác định thẩm quyền xử phạt",
+    "xác định trị giá tang vật"
+  ],
+  "description": "Quy định về nguyên tắc xác định, phân định thẩm quyền và Xác định trị giá tang vật vi phạm hành chính:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Việc xác định, phân định thẩm quyền xử phạt và áp dụng biện pháp khắc phục hậu quả được thực hiện theo quy định tại Điều 52 Luật xử lý vi phạm hành chính."
+    },
+    {
+      "clause": "2",
+      "fine_range": "Xác định trị giá tang vật vi phạm (bao gồm cả loài nguy cấp, quý, hiếm) để làm căn cứ xác định khung tiền phạt và thẩm quyền xử phạt theo Điều 60 Luật xử lý vi phạm hành chính."
+    }
+  ]
+}

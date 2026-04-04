@@ -1,0 +1,464 @@
+[
+  {
+    "id": "xa_an_hoa",
+    "type": "xa_lam_nghiep",
+    "title": "Xã An Hòa",
+    "keywords": [
+      "xã an hòa",
+      "an hòa",
+      "xa an hoa",
+      "an hoa"
+    ],
+    "searchText": "xa an hoa dien tich rung an hoa hat kiem lam",
+    "data": {
+      "stt": 1,
+      "xa_cu": "xã Phú Thành B và xã An Hòa",
+      "xa_moi": "xã An Hòa",
+      "chu_rung": "VQG Tràm Chim",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 836.18,
+      "dien_tich_rung": 86.12,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+    }
+  },
+  {
+    "id": "xa_doc_binh_kieu",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Đốc Binh Kiều",
+    "keywords": [
+      "xã đốc binh kiều",
+      "đốc binh kiều",
+      "xa doc binh kieu",
+      "doc binh kieu"
+    ],
+    "searchText": "xa doc binh kieu dien tich rung doc binh kieu hat kiem lam",
+    "data": {
+      "stt": 2,
+      "xa_cu": "xã Tân Kiều và xã Đốc Binh Kiều",
+      "xa_moi": "xã Đốc Binh Kiều",
+      "chu_rung": "Gò Tháp",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 279.6,
+      "dien_tich_rung": 122.78,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+    }
+  },
+  {
+    "id": "xa_gia_thuan",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Gia Thuận",
+    "keywords": [
+      "xã gia thuận",
+      "gia thuận",
+      "xa gia thuan",
+      "gia thuan"
+    ],
+    "searchText": "xa gia thuan dien tich rung gia thuan hat kiem lam",
+    "data": {
+      "stt": 3,
+      "xa_cu": "thị trấn Vàm Láng, xã Kiểng Phước và xã Gia Thuận",
+      "xa_moi": "xã Gia Thuận",
+      "chu_rung": "RPHVB",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 636.65,
+      "dien_tich_rung": 241.73,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+    }
+  },
+  {
+    "id": "xa_go_cong_dong",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Gò Công Đông",
+    "keywords": [
+      "xã gò công đông",
+      "gò công đông",
+      "xa go cong dong",
+      "go cong dong"
+    ],
+    "searchText": "xa go cong dong dien tich rung go cong dong hat kiem lam",
+    "data": {
+      "stt": 4,
+      "xa_cu": "xã Tân Thành (huyện Gò Công Đông) và xã Tăng Hòa",
+      "xa_moi": "xã Gò Công Đông",
+      "chu_rung": "RPHVB",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 562.51,
+      "dien_tich_rung": 75.03,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+    }
+  },
+  {
+    "id": "xa_hung_thanh",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Hưng Thạnh",
+    "keywords": [
+      "xã hưng thạnh",
+      "hưng thạnh",
+      "xa hung thanh",
+      "hung thanh"
+    ],
+    "searchText": "xa hung thanh dien tich rung hung thanh hat kiem lam",
+    "data": {
+      "stt": 5,
+      "xa_cu": "các xã Hưng Thạnh (huyện Tân Phước), Phú Mỹ và Tân Hòa Thành",
+      "xa_moi": "xã Hưng Thạnh",
+      "chu_rung": "Cá nhân, hộ gia đình",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 93.64,
+      "dien_tich_rung": 47.7,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+    }
+  },
+  {
+    "id": "xa_my_hiep",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Mỹ Hiệp",
+    "keywords": [
+      "xã mỹ hiệp",
+      "mỹ hiệp",
+      "xa my hiep",
+      "my hiep"
+    ],
+    "searchText": "xa my hiep dien tich rung my hiep hat kiem lam",
+    "data": {
+      "stt": 6,
+      "xa_cu": "xã Mỹ Long và xã Bình Thạnh (huyện Cao Lãnh), xã Mỹ Hiệp",
+      "xa_moi": "xã Mỹ Hiệp",
+      "chu_rung": "Hậu cần, Xẻo Quít",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 273.44,
+      "dien_tich_rung": 121.99,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+    }
+  },
+  {
+    "id": "xa_my_qui",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Mỹ Quí",
+    "keywords": [
+      "xã mỹ quí",
+      "mỹ quí",
+      "xa my qui",
+      "my qui"
+    ],
+    "searchText": "xa my qui dien tich rung my qui hat kiem lam",
+    "data": {
+      "stt": 7,
+      "xa_cu": "xã Láng Biển, Mỹ Đông và Mỹ Quí",
+      "xa_moi": "xã Mỹ Quí",
+      "chu_rung": "Động Cát",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 680.68,
+      "dien_tich_rung": 490.71,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+    }
+  },
+  {
+    "id": "xa_phong_my",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Phong Mỹ",
+    "keywords": [
+      "xã phong mỹ",
+      "phong mỹ",
+      "xa phong my",
+      "phong my"
+    ],
+    "searchText": "xa phong my dien tich rung phong my hat kiem lam",
+    "data": {
+      "stt": 8,
+      "xa_cu": "xã Phong Mỹ và phần còn lại của xã Gáo Giồng",
+      "xa_moi": "xã Phong Mỹ",
+      "chu_rung": "Gáo Giồng",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 1488.19,
+      "dien_tich_rung": 1157.08,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+    }
+  },
+  {
+    "id": "xa_phu_cuong",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Phú Cường",
+    "keywords": [
+      "xã phú cường",
+      "phú cường",
+      "xa phu cuong",
+      "phu cuong"
+    ],
+    "searchText": "xa phu cuong dien tich rung phu cuong hat kiem lam",
+    "data": {
+      "stt": 9,
+      "xa_cu": "xã Phú Cường (huyện Tam Nông), xã Hòa Bình và một phần diện tích tự nhiên, quy mô dân số của xã Gáo Giồng",
+      "xa_moi": "xã Phú Cường",
+      "chu_rung": "Hồ rừng",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 179.28,
+      "dien_tich_rung": 99.59,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+    }
+  },
+  {
+    "id": "xa_phu_tho",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Phú Thọ",
+    "keywords": [
+      "xã phú thọ",
+      "phú thọ",
+      "xa phu tho",
+      "phu tho"
+    ],
+    "searchText": "xa phu tho dien tich rung phu tho hat kiem lam",
+    "data": {
+      "stt": 10,
+      "xa_cu": "xã Phú Thành A và xã Phú Thọ",
+      "xa_moi": "xã Phú Thọ",
+      "chu_rung": "VQG Tràm Chim",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 2154.62,
+      "dien_tich_rung": 551.69,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+    }
+  },
+  {
+    "id": "xa_phuong_thinh",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Phương Thịnh",
+    "keywords": [
+      "xã phương thịnh",
+      "phương thịnh",
+      "xa phuong thinh",
+      "phuong thinh"
+    ],
+    "searchText": "xa phuong thinh dien tich rung phuong thinh hat kiem lam",
+    "data": {
+      "stt": 11,
+      "xa_cu": "xã Hưng Thạnh (huyện Tháp Mười) và xã Phương Thịnh",
+      "xa_moi": "xã Phương Thịnh",
+      "chu_rung": "HGĐ, CN",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+    }
+  },
+  {
+    "id": "xa_tam_nong",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Tam Nông",
+    "keywords": [
+      "xã tam nông",
+      "tam nông",
+      "xa tam nong",
+      "tam nong"
+    ],
+    "searchText": "xa tam nong dien tich rung tam nong hat kiem lam",
+    "data": {
+      "stt": 12,
+      "xa_cu": "xã Phú Đức và xã Phú Hiệp",
+      "xa_moi": "xã Tam Nông",
+      "chu_rung": "VQG Tràm Chim",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 2409.97,
+      "dien_tich_rung": 811.69,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+    }
+  },
+  {
+    "id": "xa_tan_dien",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Tân Điền",
+    "keywords": [
+      "xã tân điền",
+      "tân điền",
+      "xa tan dien",
+      "tan dien"
+    ],
+    "searchText": "xa tan dien dien tich rung tan dien hat kiem lam",
+    "data": {
+      "stt": 13,
+      "xa_cu": "xã Bình Ân và xã Tân Điền",
+      "xa_moi": "xã Tân Điền",
+      "chu_rung": "Cá nhân, hộ gia đình",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 575.66,
+      "dien_tich_rung": 12.1,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+    }
+  },
+  {
+    "id": "xa_tan_dong",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Tân Đông",
+    "keywords": [
+      "xã tân đông",
+      "tân đông",
+      "xa tan dong",
+      "tan dong"
+    ],
+    "searchText": "xa tan dong dien tich rung tan dong hat kiem lam",
+    "data": {
+      "stt": 14,
+      "xa_cu": "xã Tân Phước (huyện Gò Công Đông), Tân Tây và Tân Đông",
+      "xa_moi": "xã Tân Đông",
+      "chu_rung": "Cá nhân, hộ gia đình",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 60.95,
+      "dien_tich_rung": 60.95,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+    }
+  },
+  {
+    "id": "xa_tan_ho_co",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Tân Hộ Cơ",
+    "keywords": [
+      "xã tân hộ cơ",
+      "tân hộ cơ",
+      "xa tan ho co",
+      "tan ho co"
+    ],
+    "searchText": "xa tan ho co dien tich rung tan ho co hat kiem lam",
+    "data": {
+      "stt": 15,
+      "xa_cu": "xã Tân Thành B và xã Tân Hộ Cơ",
+      "xa_moi": "xã Tân Hộ Cơ",
+      "chu_rung": "RPH Dinh Bà",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 47.39,
+      "dien_tich_rung": 39.53,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+    }
+  },
+  {
+    "id": "xa_tan_hoa",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Tân Hòa",
+    "keywords": [
+      "xã tân hòa",
+      "tân hòa",
+      "xa tan hoa",
+      "tan hoa"
+    ],
+    "searchText": "xa tan hoa dien tich rung tan hoa hat kiem lam",
+    "data": {
+      "stt": 16,
+      "xa_cu": "thị trấn Tân Hòa, xã Phước Trung và xã Bình Nghị",
+      "xa_moi": "xã Tân Hòa",
+      "chu_rung": "Cá nhân, hộ gia đình",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 45.76,
+      "dien_tich_rung": 26.02,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+    }
+  },
+  {
+    "id": "xa_tan_phu_dong",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Tân Phú Đông",
+    "keywords": [
+      "xã tân phú đông",
+      "tân phú đông",
+      "xa tan phu dong",
+      "tan phu dong"
+    ],
+    "searchText": "xa tan phu dong dien tich rung tan phu dong hat kiem lam",
+    "data": {
+      "stt": 17,
+      "xa_cu": "xã Phú Thạnh, Phú Đông và Phú Tân",
+      "xa_moi": "xã Tân Phú Đông",
+      "chu_rung": "RPHVB",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 5065.64,
+      "dien_tich_rung": 851.94,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+    }
+  },
+  {
+    "id": "xa_tan_phuoc_1",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Tân Phước 1",
+    "keywords": [
+      "xã tân phước 1",
+      "tân phước 1",
+      "xa tan phuoc 1",
+      "tan phuoc 1"
+    ],
+    "searchText": "xa tan phuoc 1 dien tich rung tan phuoc 1 hat kiem lam",
+    "data": {
+      "stt": 18,
+      "xa_cu": "thị trấn Mỹ Phước, xã Thạnh Mỹ và xã Tân Hòa Đông",
+      "xa_moi": "xã Tân Phước 1",
+      "chu_rung": "Cá nhân, hộ gia đình",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 864.79,
+      "dien_tich_rung": 84.89,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+    }
+  },
+  {
+    "id": "xa_tan_phuoc_2",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Tân Phước 2",
+    "keywords": [
+      "xã tân phước 2",
+      "tân phước 2",
+      "xa tan phuoc 2",
+      "tan phuoc 2"
+    ],
+    "searchText": "xa tan phuoc 2 dien tich rung tan phuoc 2 hat kiem lam",
+    "data": {
+      "stt": 19,
+      "xa_cu": "các xã Thạnh Tân, Thạnh Hòa và Tân Hòa Tây",
+      "xa_moi": "xã Tân Phước 2",
+      "chu_rung": "KBT Đồng Tháp Mười",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 1463.61,
+      "dien_tich_rung": 842.75,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+    }
+  },
+  {
+    "id": "xa_tan_phuoc_3",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Tân Phước 3",
+    "keywords": [
+      "xã tân phước 3",
+      "tân phước 3",
+      "xa tan phuoc 3",
+      "tan phuoc 3"
+    ],
+    "searchText": "xa tan phuoc 3 dien tich rung tan phuoc 3 hat kiem lam",
+    "data": {
+      "stt": 20,
+      "xa_cu": "xã Phước Lập, Tân Lập 1 và Tân Lập 2",
+      "xa_moi": "xã Tân Phước 3",
+      "chu_rung": "Cá nhân, hộ gia đình",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 211.33,
+      "dien_tich_rung": 103.39,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+    }
+  },
+  {
+    "id": "xa_tan_thoi",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Tân Thới",
+    "keywords": [
+      "xã tân thới",
+      "tân thới",
+      "xa tan thoi",
+      "tan thoi"
+    ],
+    "searchText": "xa tan thoi dien tich rung tan thoi hat kiem lam",
+    "data": {
+      "stt": 21,
+      "xa_cu": "xã Tân Phú và xã Tân Thạnh (huyện Tân Phú Đông), xã Tân Thới",
+      "xa_moi": "xã Tân Thới",
+      "chu_rung": "Cá nhân, hộ gia đình",
+      "dien_tich_tu_nhien": null,
+      "dien_tich_lam_nghiep": 24.36,
+      "dien_tich_rung": 24.36,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+    }
+  }
+]

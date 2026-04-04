@@ -1,0 +1,81 @@
+{
+  "id": "dieu_21",
+  "article": "Điều 21",
+  "title": "Vi phạm các quy định về bảo vệ động vật rừng",
+  "legal_basis": [
+    "Nghị định số 35/2019/NĐ-CP",
+    "Nghị định số 07/2022/NĐ-CP"
+  ],
+  "keywords": [
+    "bảo vệ động vật rừng",
+    "săn bắt động vật",
+    "giết động vật rừng",
+    "nuôi nhốt động vật rừng",
+    "động vật nguy cấp quý hiếm",
+    "Nhóm IB",
+    "Nhóm IIB"
+  ],
+  "description": "Hành vi săn, bắt, giết, nuôi, nhốt động vật rừng trái quy định của pháp luật, bị xử phạt như sau:",
+  "punishments": [
+    {
+      "clause": "1",
+      "fine_range": "Phạt tiền từ 1.000.000 đồng đến 5.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng thông thường trị giá dưới 5.000.000 đồng;",
+        "b) Động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá dưới 3.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "1a",
+      "fine_range": "Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng thông thường trị giá từ 5.000.000 đồng đến dưới 10.000.000 đồng;",
+        "b) Động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 3.000.000 đồng đến dưới 5.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "2",
+      "fine_range": "Phạt tiền từ 10.000.000 đồng đến 25.000.000 đồng",
+      "cases": [
+        "a) Động vật rừng thông thường trị giá từ 10.000.000 đồng đến dưới 20.000.000 đồng;",
+        "b) Động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IIB trị giá từ 5.000.000 đồng đến dưới 10.000.000 đồng."
+      ]
+    },
+    {
+      "clause": "3-11",
+      "note": "Mức phạt tăng dần theo giá trị tang vật (Động vật thông thường và Nhóm IIB). Phạt tiền tối đa đến 300.000.000 đồng (Khoản 11) đối với Động vật thông thường trị giá đến dưới 300.000.000 đồng hoặc Nhóm IIB trị giá đến dưới 150.000.000 đồng."
+    },
+    {
+      "clause": "12",
+      "fine_range": "Phạt tiền từ 300.000.000 đồng đến 330.000.000 đồng",
+      "cases": [
+        "Hành vi vi phạm có tang vật là động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB với số lượng dưới 03 cá thể lớp chim, bò sát hoặc động vật lớp khác."
+      ]
+    },
+    {
+      "clause": "13",
+      "fine_range": "Phạt tiền từ 330.000.000 đồng đến 360.000.000 đồng",
+      "cases": [
+        "Hành vi vi phạm có tang vật là động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB với số lượng 01 cá thể lớp thú hoặc từ 03 đến 04 cá thể lớp chim, bò sát hoặc từ 03 đến 05 cá thể động vật lớp khác."
+      ]
+    },
+    {
+      "clause": "14",
+      "fine_range": "Phạt tiền từ 360.000.000 đồng đến 400.000.000 đồng",
+      "cases": [
+        "Hành vi vi phạm có tang vật là động vật rừng thuộc Danh mục thực vật rừng, động vật rừng nguy cấp, quý, hiếm Nhóm IB với số lượng 02 cá thể lớp thú hoặc từ 05 đến 06 cá thể lớp chim, bò sát hoặc từ 06 đến 09 cá thể động vật lớp khác."
+      ]
+    }
+  ],
+  "additional_penalties": {
+    "clause": "15",
+    "content": [
+      "a) Tịch thu tang vật, dụng cụ, công cụ vi phạm hành chính đối với hành vi quy định tại khoản 1, khoản 1a, khoản 2, khoản 3, khoản 4, khoản 5, khoản 6, khoản 7, khoản 8, khoản 9, khoản 10, khoản 11, khoản 12, khoản 13 và khoản 14 Điều này;",
+      "b) Tịch thu phương tiện vi phạm hành chính đối với hành vi quy định tại khoản 3, khoản 4, khoản 5, khoản 6, khoản 7, khoản 8, khoản 9, khoản 10, khoản 11, khoản 12, khoản 13 và khoản 14 Điều này."
+    ]
+  },
+  "remedy": {
+    "clause": "16",
+    "content": "Buộc thực hiện biện pháp khắc phục tình trạng ô nhiễm môi trường, lây lan dịch bệnh; buộc tiêu hủy hàng hóa, vật phẩm gây hại cho sức khỏe con người, vật nuôi, cây trồng và môi trường đối với hành vi quy định tại khoản 1, khoản 1a, khoản 2, khoản 3, khoản 4, khoản 5, khoản 6, khoản 7, khoản 8, khoản 9, khoản 10, khoản 11, khoản 12, khoản 13 và khoản 14 Điều này."
+  }
+}
