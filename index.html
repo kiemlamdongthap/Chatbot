@@ -123,8 +123,8 @@ function addMessage(sender, text, choices = []) {
         // 🟢 Cập nhật Regex: Tự động thêm 'public/' vào các link file nội bộ (không bắt đầu bằng http)
         let formattedText = text
             .replace(/\n/g, "<br>")
-            .replace(/\[([^\]]+)\]\((?!http)([^)]+)\)/g, '<a href="public/$2" target="_blank" class="download-link">$1</a>')
-            .replace(/\[([^\]]+)\]\((http[^)]+)\)/g, '<a href="$2" target="_blank" class="download-link">$1</a>');
+            .replace(/\[([^\]]+)\]\((?!http)([^)]+)\)/g, '<a href="public/forms/$2" target="_blank" class="download-link">$1</a>')
+			.replace(/\[([^\]]+)\]\((http[^)]+)\)/g, '<a href="$2" target="_blank" class="download-link">$1</a>');
         
         let i = 0;
         let speed = 5; 
