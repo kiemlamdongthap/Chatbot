@@ -122,9 +122,14 @@ function addMessage(sender, text, choices = []) {
     if (sender === "bot") {
         // 🟢 Cập nhật Regex: Tự động thêm 'public/' vào các link file nội bộ (không bắt đầu bằng http)
         let formattedText = text
-            .replace(/\n/g, "<br>")
-            .replace(/\[([^\]]+)\]\((?!http)([^)]+)\)/g, '<a href="public/forms/$2" target="_blank" class="download-link">$1</a>')
-			.replace(/\[([^\]]+)\]\((http[^)]+)\)/g, '<a href="$2" target="_blank" class="download-link">$1</a>');
+    .replace(/\n/g, "<br>")
+    // Tự động nhận diện file và gắn link GitHub Pages thay vì localhost
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, label, fileName) => {
+        const fileUrl = fileName.startsWith('http') 
+            ? fileName 
+            : `https://kiemlamdongthap.github.io/Chatbot/public/forms/${fileName}`;
+        return `<a href="${fileUrl}" target="_blank" class="download-link">${label}</a>`;
+    });
         
         let i = 0;
         let speed = 5; 
