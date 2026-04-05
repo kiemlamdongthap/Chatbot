@@ -1,44 +1,19 @@
-(function() {
-    // 1. CHÈN CSS TRỰC TIẾP VÀO HEAD (Giải quyết triệt để lỗi 300x150)
-    const style = document.createElement('style');
-    style.innerHTML = `
-        #chatbot-frame {
-            position: fixed !important;
-            bottom: 90px !important;
-            right: 20px !important;
-            width: 0px !important;
-            height: 0px !important;
-            border: none !important;
-            display: none !important;
-            visibility: hidden !important;
-            z-index: 2147483646 !important;
-            opacity: 0 !important;
-            transition: all 0.3s ease !important;
-            pointer-events: none !important;
-        }
-        #chatbot-frame.is-open {
-            display: block !important;
-            visibility: visible !important;
-            opacity: 1 !important;
-            pointer-events: auto !important;
-        }
-    `;
-    document.head.appendChild(style);
-
+(function () {
     let isOpen = false;
+    let frame = null;
 
-    // 2. Tạo Nút bấm nổi
+    // 1. Nút chatbot
     const btn = document.createElement('div');
-    btn.id = 'chatbot-launcher';
     btn.innerHTML = '👮';
+
     Object.assign(btn.style, {
         position: 'fixed',
         bottom: '20px',
         right: '20px',
         width: '60px',
         height: '60px',
-        background: 'linear-gradient(135deg, #28a745 0%, #1e7e34 100%)',
-        color: 'white',
+        background: 'linear-gradient(135deg, #28a745, #1e7e34)',
+        color: '#fff',
         borderRadius: '50%',
         display: 'flex',
         alignItems: 'center',
@@ -46,59 +21,84 @@
         fontSize: '30px',
         cursor: 'pointer',
         boxShadow: '0 4px 15px rgba(0,0,0,0.3)',
-        zIndex: '2147483647',
-        transition: 'all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
-        userSelect: 'none',
-        webkitTapHighlightColor: 'transparent'
+        zIndex: '9999',
+        transition: 'all 0.3s ease',
+        userSelect: 'none'
     });
 
-    // 3. Tạo Iframe
-    const frame = document.createElement('iframe');
-    frame.id = 'chatbot-frame';
-    frame.src = 'https://kiemlamdongthap.github.io/Chatbot/';
-    
-    // Đưa vào DOM (Dùng prepend để nó nằm trên cùng của body)
-    document.body.prepend(frame);
     document.body.appendChild(btn);
 
-    // 4. Hàm tính toán kích thước thực tế
-    function updateSize() {
-        if (!isOpen) return;
-        const isMobile = window.innerWidth <= 480;
-        frame.style.setProperty('width', isMobile ? 'calc(100% - 40px)' : '400px', 'important');
-        frame.style.setProperty('height', isMobile ? '75vh' : '600px', 'important');
+    // 2. Tạo iframe (lazy load)
+    function createFrame() {
+        frame = document.createElement('iframe');
+        frame.src = 'https://kiemlamdongthap.github.io/Chatbot/';
+
+        Object.assign(frame.style, {
+            position: 'fixed',
+            bottom: '90px',
+            right: '20px',
+            width: '0px',
+            height: '0px',
+            border: 'none',
+            opacity: '0',
+            transform: 'scale(0.8)',
+            pointerEvents: 'none',
+            transition: 'all 0.3s ease',
+            zIndex: '9998'
+        });
+
+        document.body.appendChild(frame);
     }
 
-    // 5. Xử lý Toggle
+    // 3. Resize responsive
+    function updateSize() {
+        if (!frame) return;
+
+        const isMobile = window.innerWidth <= 480;
+
+        frame.style.width = isMobile ? 'calc(100% - 40px)' : '400px';
+        frame.style.height = isMobile ? '75vh' : '600px';
+    }
+
+    // 4. Toggle
     btn.onclick = (e) => {
-        if (e) e.stopPropagation();
+        e.stopPropagation();
         isOpen = !isOpen;
-        
+
         if (isOpen) {
-            frame.classList.add('is-open');
+            if (!frame) createFrame();
+
             updateSize();
+
+            frame.style.opacity = '1';
+            frame.style.transform = 'scale(1)';
+            frame.style.pointerEvents = 'auto';
+
             btn.innerHTML = '✖';
+            btn.style.transform = 'rotate(90deg) scale(0.9)';
             btn.style.fontSize = '24px';
-            btn.style.transform = 'scale(0.9) rotate(90deg)';
         } else {
-            frame.classList.remove('is-open');
-            // Reset lại kích thước về 0 sau khi hiệu ứng ẩn kết thúc
-            setTimeout(() => { 
-                if(!isOpen) {
-                    frame.style.setProperty('width', '0px', 'important');
-                    frame.style.setProperty('height', '0px', 'important');
+            frame.style.opacity = '0';
+            frame.style.transform = 'scale(0.8)';
+            frame.style.pointerEvents = 'none';
+
+            setTimeout(() => {
+                if (!isOpen) {
+                    frame.style.width = '0px';
+                    frame.style.height = '0px';
                 }
             }, 300);
+
             btn.innerHTML = '👮';
+            btn.style.transform = 'rotate(0) scale(1)';
             btn.style.fontSize = '30px';
-            btn.style.transform = 'scale(1) rotate(0)';
         }
     };
 
-    // Đóng khi click ra ngoài
+    // 5. Click ngoài để đóng
     document.addEventListener('click', (e) => {
-        if (isOpen && !frame.contains(e.target) && e.target !== btn) {
-            btn.onclick();
+        if (isOpen && frame && !frame.contains(e.target) && e.target !== btn) {
+            btn.click();
         }
     });
 
