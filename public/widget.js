@@ -1,16 +1,31 @@
 (function() {
+    // 1. CHÈN CSS CƯỠNG CHẾ (Giải quyết lỗi 300x150 của trình duyệt/Tailwind)
+    const style = document.createElement('style');
+    style.innerHTML = `
+        #chatbot-frame {
+            position: fixed !important;
+            bottom: 90px !important;
+            right: 20px !important;
+            width: 0px !important;
+            height: 0px !important;
+            border: none !important;
+            display: none !important;
+            visibility: hidden !important;
+            z-index: 2147483646 !important;
+            opacity: 0 !important;
+            transition: all 0.3s ease !important;
+        }
+        #chatbot-frame.is-open {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+    `;
+    document.head.appendChild(style);
+
     let isOpen = false;
 
-    // 1. Cấu hình hằng số để dễ quản lý
-    const CONFIG = {
-        iframeSrc: 'https://kiemlamdongthap.github.io/Chatbot/',
-        mobileWidth: 'calc(100% - 40px)',
-        desktopWidth: '400px',
-        desktopHeight: '600px',
-        zIndex: '2147483647'
-    };
-
-    // 1. Tạo Nút bấm nổi
+    // 2. Tạo Nút bấm nổi
     const btn = document.createElement('div');
     btn.innerHTML = '👮';
     Object.assign(btn.style, {
@@ -33,29 +48,16 @@
         userSelect: 'none'
     });
 
-    // 2. TẠO IFRAME VỚI THIẾT LẬP ẨN NGAY TỪ ĐẦU (CRITICAL)
+    // 3. Tạo Iframe
     const frame = document.createElement('iframe');
     frame.id = 'chatbot-frame';
     frame.src = 'https://kiemlamdongthap.github.io/Chatbot/';
     
-    // ÉP KIỂU INLINE TRỰC TIẾP TRƯỚC KHI APPEND VÀO BODY
-    // Điều này ngăn chặn trình duyệt render kích thước 300x150 mặc định
-    frame.style.setProperty('position', 'fixed', 'important');
-    frame.style.setProperty('bottom', '90px', 'important');
-    frame.style.setProperty('right', '20px', 'important');
-    frame.style.setProperty('width', '0px', 'important');
-    frame.style.setProperty('height', '0px', 'important');
-    frame.style.setProperty('display', 'none', 'important');
-    frame.style.setProperty('border', 'none', 'important');
-    frame.style.setProperty('z-index', '2147483646', 'important');
-    frame.style.setProperty('opacity', '0', 'important');
-    frame.style.setProperty('border-radius', '16px', 'important');
-
-    // Chèn vào đầu body để đảm bảo không bị dính layout tĩnh bên dưới
+    // Chèn vào đầu body
     document.body.prepend(frame);
     document.body.appendChild(btn);
 
-    // 3. Hàm tính toán kích thước khi mở
+    // 4. Hàm tính toán kích thước
     function updateFrameSize() {
         if (!isOpen) return;
         const isMobile = window.innerWidth <= 480;
@@ -63,30 +65,23 @@
         frame.style.setProperty('height', isMobile ? '75vh' : '600px', 'important');
     }
 
-    // 4. Sự kiện Click
+    // 5. Sự kiện Click
     btn.onclick = (e) => {
-        e.stopPropagation();
+        if (e) e.stopPropagation();
         isOpen = !isOpen;
         
         if (isOpen) {
-            frame.style.setProperty('display', 'block', 'important');
+            frame.classList.add('is-open');
             updateFrameSize();
-            
-            setTimeout(() => {
-                frame.style.setProperty('opacity', '1', 'important');
-                frame.style.setProperty('transform', 'translateY(0)', 'important');
-            }, 50);
             
             btn.innerHTML = '✖';
             btn.style.fontSize = '24px';
             btn.style.transform = 'scale(0.9) rotate(90deg)';
         } else {
-            frame.style.setProperty('opacity', '0', 'important');
-            frame.style.setProperty('transform', 'translateY(20px)', 'important');
-            
+            frame.classList.remove('is-open');
+            // Đợi animation chạy xong mới ẩn kích thước
             setTimeout(() => { 
                 if(!isOpen) {
-                    frame.style.setProperty('display', 'none', 'important');
                     frame.style.setProperty('width', '0px', 'important');
                     frame.style.setProperty('height', '0px', 'important');
                 }
@@ -101,7 +96,7 @@
     // Đóng khi bấm ra ngoài
     document.addEventListener('click', (e) => {
         if (isOpen && !frame.contains(e.target) && e.target !== btn) {
-            btn.click();
+            btn.onclick();
         }
     });
 
