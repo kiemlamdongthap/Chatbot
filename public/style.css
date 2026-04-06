@@ -18,13 +18,17 @@
     padding: 0;
 }
 
-/* ⚠️ FIX iframe bug */
+/* ✅ FIX QUAN TRỌNG CHO IFRAME */
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--bg-body);
 
-    /* ❌ bỏ 100vh để tránh bung iframe */
-    height: auto;
+    /* ❌ KHÔNG dùng flex + vh */
+    display: block !important;
     overflow: auto;
 }
 
@@ -44,16 +48,19 @@ body {
    3. CHATBOX
 ========================= */
 #chatbox {
-    width: 95%;
-    max-width: 1100px;
-    height: 92vh;
+    width: 100%;
+    height: 100%; /* 🔥 FIX iframe */
+    max-width: 100%;
+
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+
     display: flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
+
     border: 3px solid var(--current-color);
     transition: var(--transition);
 }
@@ -64,30 +71,35 @@ body {
 #header {
     background: var(--current-color);
     color: white;
-    padding: 20px;
-    font-size: 1.4rem;
+    padding: 16px;
+    font-size: 1.2rem;
     font-weight: 700;
     text-transform: uppercase;
-    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-/* ICON */
+/* ICON INFO */
 .info-icon {
     position: absolute;
-    right: 20px;
+    right: 15px;
     top: 50%;
     transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
+
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
+
     background: #fff;
     color: var(--current-color);
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     font-weight: bold;
     cursor: pointer;
     transition: 0.2s;
@@ -101,15 +113,18 @@ body {
 .info-icon:hover::after {
     content: "© Nguyen Van Phuc \A Email: Phuc88.klvn@gmail.com \A Phone: 0358.758.358";
     white-space: pre;
+
     position: absolute;
     top: 35px;
     right: 0;
+
     background: #333;
     color: #fff;
+
     padding: 10px;
     border-radius: 8px;
-    font-size: 13px;
-    width: 240px;
+    font-size: 12px;
+    width: 220px;
 }
 
 /* =========================
@@ -117,19 +132,21 @@ body {
 ========================= */
 #category-menu {
     display: flex;
-    gap: 8px;
-    padding: 10px;
+    gap: 6px;
+    padding: 8px;
     background: #f1f3f5;
     overflow-x: auto;
 }
 
 .cat-btn {
-    padding: 8px 12px;
-    border-radius: 8px;
+    padding: 6px 10px;
+    border-radius: 6px;
     background: white;
     border: 1px solid #ccc;
     cursor: pointer;
+    font-size: 13px;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .cat-btn.active {
@@ -143,17 +160,21 @@ body {
 #messages {
     flex: 1;
     overflow-y: auto;
-    padding: 20px;
+    padding: 15px;
+
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
+
     background: #f8f9fa;
 }
 
 .msg {
-    padding: 12px 18px;
-    border-radius: 12px;
+    padding: 10px 14px;
+    border-radius: 10px;
     max-width: 90%;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
 .user {
@@ -163,7 +184,7 @@ body {
 
 .bot {
     background: var(--bot-bg);
-    border-left: 6px solid var(--current-color);
+    border-left: 5px solid var(--current-color);
     width: 100%;
 }
 
@@ -172,23 +193,29 @@ body {
 ========================= */
 #controls {
     display: flex;
-    gap: 10px;
-    padding: 15px;
+    gap: 8px;
+    padding: 12px;
     border-top: 1px solid #eee;
+    background: #fff;
 }
 
 input {
     flex: 1;
-    padding: 12px 20px;
-    border-radius: 30px;
+    padding: 10px 15px;
+    border-radius: 25px;
     border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus {
+    border-color: var(--current-color);
 }
 
 button#sendBtn {
-    padding: 0 25px;
+    padding: 0 20px;
     background: var(--current-color);
     color: white;
-    border-radius: 30px;
+    border-radius: 25px;
     border: none;
     cursor: pointer;
 }
@@ -199,16 +226,17 @@ button#sendBtn {
 .choices-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 6px;
 }
 
 .choice-btn {
-    padding: 6px 15px;
+    padding: 5px 12px;
     border-radius: 20px;
     border: 1px solid var(--current-color);
     background: white;
     color: var(--current-color);
     cursor: pointer;
+    font-size: 13px;
 }
 
 .choice-btn:hover {
@@ -220,7 +248,7 @@ button#sendBtn {
    9. LOADING
 ========================= */
 .loading-dots::after {
-    content: '...';
+    content: '.';
     animation: dots 1s infinite;
 }
 
@@ -249,8 +277,6 @@ button#sendBtn {
 ========================= */
 @media (max-width: 600px) {
     #chatbox {
-        width: 100%;
-        height: 100vh;
         border-radius: 0;
     }
 }
