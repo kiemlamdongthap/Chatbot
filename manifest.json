@@ -1,0 +1,21 @@
+{
+  "short_name": "Trợ lý ảo Kiểm lâm Đồng Tháp",
+  "name": "Trợ lý ảo Kiểm lâm Đồng Tháp",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/Chatbot/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/Chatbot/",
+  "theme_color": "#2e7d32"
+}
