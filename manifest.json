@@ -1,14 +1,14 @@
 {
-  "short_name": "Trợ lý ảo Kiểm lâm Đồng Tháp",
-  "name": "Trợ lý ảo Kiểm lâm Đồng Tháp",
+  "short_name": "Kiểm lâm lâm Đồng Tháp",
+  "name": "Chatbot Kiểm lâm",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "public/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "icon-512.png",
+      "src": "public/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

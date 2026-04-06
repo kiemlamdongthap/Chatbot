@@ -2,8 +2,8 @@ const CACHE_NAME = 'kiemlam-chatbot-v1';
 const urlsToCache = [
   '/Chatbot/',
   '/Chatbot/index.html',
-  '/Chatbot/css/style.css',
-  '/Chatbot/js/chatbot.js'
+  '/Chatbot/public/style.css',
+  '/Chatbot/routes/chatbot.js'
 ];
 
 self.addEventListener('install', event => {
