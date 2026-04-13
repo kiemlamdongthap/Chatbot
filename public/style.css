@@ -1,282 +1,315 @@
 /* =========================
-   1. ROOT & RESET
+   1. BIẾN VÀ RESET
 ========================= */
 :root {
-    --primary-color: #198754;
-    --secondary-color: #157347;
-    --current-color: #198754;
-    --user-bg: #e7f3ff;
-    --bot-bg: #ffffff;
-    --bg-body: #e9ecef;
-    --text-main: #2c3e50;
-    --transition: all 0.3s ease;
+    --current-color: #198754; 
+    --bg-body: #f0f2f5;
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-/* ✅ FIX QUAN TRỌNG CHO IFRAME */
-html, body {
-    height: 100%;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh; width: 100vw;
+    display: flex; align-items: center; justify-content: center;
     background-color: var(--bg-body);
-
-    /* ❌ KHÔNG dùng flex + vh */
-    display: block !important;
-    overflow: auto;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    overflow: hidden;
 }
 
 /* =========================
-   2. DOMAIN COLORS
+   2. HỆ THỐNG MÀU THEMES (DYNAMIC)
 ========================= */
 #chatbox.domain-all      { --current-color: #198754; }
 #chatbox.domain-thu_tuc  { --current-color: #0d6efd; }
 #chatbox.domain-xu_phat  { --current-color: #dc3545; }
 #chatbox.domain-du_lieu  { --current-color: #0dcaf0; }
-#chatbox.domain-extra_1  { --current-color: #6610f2; }
+#chatbox.domain-extra_1  { --current-color: #6610f2; } 
 #chatbox.domain-extra_2  { --current-color: #fd7e14; }
-#chatbox.domain-extra_3  { --current-color: #6f42c1; }
+#chatbox.domain-extra_3  { --current-color: #6f42c1; } 
 #chatbox.domain-extra_4  { --current-color: #e83e8c; }
 
 /* =========================
-   3. CHATBOX
+   3. CẤU TRÚC CHÍNH (LAYOUT)
 ========================= */
 #chatbox {
-    width: 100%;
-    height: 100%; /* 🔥 FIX iframe */
-    max-width: 100%;
-
+    width: 95%; max-width: 1000px;
+    height: calc(100vh - 40px);
+    display: flex; flex-direction: column;
+    border: 2px solid var(--current-color); 
+    border-radius: 16px;
     background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    position: relative; overflow: hidden;
+    transition: border-color 0.4s ease;
+}
 
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    position: relative;
+#header {
+    background: var(--current-color);
+    color: white; padding: 18px;
+    font-weight: 700; text-align: center;
+    text-transform: uppercase; letter-spacing: 1px;
+    transition: background 0.4s ease;
+}
 
-    border: 3px solid var(--current-color);
+#category-menu {
+    display: flex; gap: 8px; padding: 12px;
+    background: #f8f9fa; border-bottom: 1px solid #eee;
+    overflow-x: auto; justify-content: center;
+}
+#category-menu::-webkit-scrollbar { display: none; }
+
+/* =========================
+   4. NÚT BẤM (BUTTONS) & HIỆU ỨNG
+========================= */
+.cat-btn, .choice-btn {
+    position: relative; overflow: hidden;
+    cursor: pointer; font-weight: 600;
     transition: var(--transition);
 }
 
-/* =========================
-   4. HEADER
-========================= */
-#header {
-    background: var(--current-color);
-    color: white;
-    padding: 16px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-/* ICON INFO */
-.info-icon {
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-
-    background: #fff;
-    color: var(--current-color);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.info-icon:hover {
-    transform: translateY(-50%) scale(1.1);
-}
-
-/* TOOLTIP */
-.info-icon:hover::after {
-    content: "© Nguyen Van Phuc \A Email: Phuc88.klvn@gmail.com \A Phone: 0358.758.358";
-    white-space: pre;
-
-    position: absolute;
-    top: 35px;
-    right: 0;
-
-    background: #333;
-    color: #fff;
-
-    padding: 10px;
-    border-radius: 8px;
-    font-size: 12px;
-    width: 220px;
-}
-
-/* =========================
-   5. MENU
-========================= */
-#category-menu {
-    display: flex;
-    gap: 6px;
-    padding: 8px;
-    background: #f1f3f5;
-    overflow-x: auto;
-}
-
 .cat-btn {
-    padding: 6px 10px;
-    border-radius: 6px;
-    background: white;
-    border: 1px solid #ccc;
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: 600;
-    white-space: nowrap;
+    padding: 8px 15px; border-radius: 20px;
+    background: white; border: 1px solid #ddd;
+    font-size: 13px; color: #555; white-space: nowrap;
 }
 
 .cat-btn.active {
-    background: var(--current-color);
-    color: white;
-}
-
-/* =========================
-   6. MESSAGES
-========================= */
-#messages {
-    flex: 1;
-    overflow-y: auto;
-    padding: 15px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-
-    background: #f8f9fa;
-}
-
-.msg {
-    padding: 10px 14px;
-    border-radius: 10px;
-    max-width: 90%;
-    font-size: 14px;
-    line-height: 1.6;
-}
-
-.user {
-    background: var(--user-bg);
-    align-self: flex-end;
-}
-
-.bot {
-    background: var(--bot-bg);
-    border-left: 5px solid var(--current-color);
-    width: 100%;
-}
-
-/* =========================
-   7. INPUT
-========================= */
-#controls {
-    display: flex;
-    gap: 8px;
-    padding: 12px;
-    border-top: 1px solid #eee;
-    background: #fff;
-}
-
-input {
-    flex: 1;
-    padding: 10px 15px;
-    border-radius: 25px;
-    border: 1px solid #ccc;
-    outline: none;
-}
-
-input:focus {
-    border-color: var(--current-color);
-}
-
-button#sendBtn {
-    padding: 0 20px;
-    background: var(--current-color);
-    color: white;
-    border-radius: 25px;
-    border: none;
-    cursor: pointer;
-}
-
-/* =========================
-   8. CHOICES
-========================= */
-.choices-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
+    background: var(--current-color); color: white !important;
+    border-color: rgba(255,255,255,0.3);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .choice-btn {
-    padding: 5px 12px;
-    border-radius: 20px;
-    border: 1px solid var(--current-color);
-    background: white;
-    color: var(--current-color);
-    cursor: pointer;
-    font-size: 13px;
+    background: white; border: 1.5px solid var(--current-color);
+    color: var(--current-color); padding: 7px 16px;
+    border-radius: 20px; font-size: 14px;
+    margin-bottom: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .choice-btn:hover {
+    background: var(--current-color); color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Hiệu ứng Scale khi Click */
+.cat-btn:active, .choice-btn:active, #sendBtn:active {
+    transform: scale(0.88) !important;
+    filter: brightness(0.9);
+}
+
+/* Hiệu ứng Ripple (Lan tỏa) */
+.cat-btn::after, .choice-btn::after {
+    content: ""; position: absolute;
+    top: 50%; left: 50%; width: 0; height: 0;
+    background: rgba(255, 255, 255, 0.4); border-radius: 50%;
+    transform: translate(-50%, -50%); opacity: 0;
+    transition: width 0.4s ease-out, height 0.4s ease-out, opacity 0.4s ease-out;
+}
+.cat-btn:active::after, .choice-btn:active::after {
+    width: 250px; height: 250px; opacity: 1; transition: 0s;
+}
+
+/* =========================
+   5. TIN NHẮN (MESSAGES)
+========================= */
+#messages { 
+    flex: 1; overflow-y: auto; padding: 20px; 
+    display: flex; flex-direction: column; gap: 12px; background: #fcfcfc;
+}
+
+.msg { padding: 12px 16px; max-width: 85%; border-radius: 15px; font-size: 15px; line-height: 1.5; }
+
+.user { background: var(--current-color); color: white; align-self: flex-end; border-bottom-right-radius: 2px; }
+
+.bot { 
+    background: #f1f3f4; color: #333; align-self: flex-start; 
+    border-left: 4px solid var(--current-color); border-bottom-left-radius: 2px; 
+}
+
+/* =========================
+   6. ĐIỀU KHIỂN (CONTROLS)
+========================= */
+#controls { display: flex; padding: 15px 20px; background: #fff; border-top: 1px solid #eee; gap: 12px; align-items: center; }
+
+#input { 
+    flex: 1; padding: 12px 20px; border: 2px solid #eee; 
+    border-radius: 25px; outline: none; transition: border-color 0.3s ease;
+}
+#input:focus { border-color: var(--current-color); }
+
+#sendBtn {
+    padding: 12px 25px; background: var(--current-color);
+    color: white; border: none; border-radius: 25px;
+    font-weight: 600; transition: var(--transition);
+}
+
+/* =========================
+   7. THÔNG BÁO & ANIMATIONS
+========================= */
+.pop-notification {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--current-color); color: white;
+    padding: 12px 28px; border-radius: 50px; z-index: 10000;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    font-weight: 600; pointer-events: none;
+    display: flex; align-items: center; gap: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    animation: springIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes springIn {
+    0% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+    100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@keyframes shake-item {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-4px) rotate(-1.5deg); }
+    40% { transform: translateX(4px) rotate(1.5deg); }
+    60% { transform: translateX(-4px) rotate(-1deg); }
+    80% { transform: translateX(4px) rotate(1deg); }
+}
+
+@keyframes bounce-item {
+    0%, 100% { transform: scale(1) translateY(0); }
+    40% { transform: scale(1.1) translateY(-12px); }
+    70% { transform: scale(0.95) translateY(0); }
+}
+
+.animate-shake { animation: shake-item 0.4s ease-in-out; }
+.animate-bounce { animation: bounce-item 0.4s ease-in-out; }
+
+/* =========================
+   8. MOBILE RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+    #chatbox { width: 100%; height: 100vh; border-radius: 0; border: none; }
+    #category-menu { justify-content: flex-start; }
+    .msg { max-width: 90%; }
+}
+/* =========================
+   FIX MODAL THÔNG TIN TÁC GIẢ
+========================= */
+.author-modal { /* Giả sử class bao ngoài modal của bạn là author-modal */
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: left;
+    max-width: 400px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px); /* Hiệu ứng mờ nền phía sau */
+}
+
+.author-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+}
+
+.author-info-item {
+    margin-bottom: 12px; /* Tạo khoảng cách giữa các dòng */
+    line-height: 1.4;
+}
+
+.author-info-item strong {
+    display: inline-block;
+    width: 70px; /* Cố định độ rộng nhãn để các giá trị thẳng hàng */
+    color: #555;
+}
+
+.author-name {
+    font-size: 1.5rem;
+    color: var(--current-color);
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--current-color);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.author-footer {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    font-size: 0.85rem;
+    color: #888;
+    text-align: center;
+}
+/* =========================
+   9. HIỆU ỨNG HUY HIỆU (MEDAL PULSE)
+========================= */
+
+/* Cấu trúc Header chuẩn để đẩy huy hiệu sang phải */
+#header {
+    display: flex;
+    justify-content: center; /* Căn giữa tiêu đề chính */
+    align-items: center;
+    position: relative; 
     background: var(--current-color);
-    color: white;
+    color: white; 
+    padding: 18px;
+    font-weight: 700; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.4s ease;
 }
 
-/* =========================
-   9. LOADING
-========================= */
-.loading-dots::after {
-    content: '.';
-    animation: dots 1s infinite;
-}
-
-@keyframes dots {
-    0% { content: '.'; }
-    50% { content: '..'; }
-    100% { content: '...'; }
-}
-
-/* =========================
-   10. LINKS
-========================= */
-.download-link {
-    color: #007bff;
-    font-weight: bold;
-    text-decoration: underline;
+/* Vòng tròn nhịp tim màu đỏ lan tỏa đúng như hình */
+.medal-pulse-ring {
+    position: absolute;
+    right: 20px; /* Vị trí góc phải */
+    width: 36px;
+    height: 36px;
+    background: #ffffff; /* Nền trắng cố định cho huy hiệu */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    z-index: 10;
+    /* Hiệu ứng nhịp tim lan tỏa 2 lớp */
+    animation: pulse-red-double 2s infinite;
+    border: none;
 }
 
-.download-link:hover {
-    color: #0056b3;
+/* Icon huy hiệu bên trong vòng tròn */
+.info-icon { 
+    font-size: 18px;
+    margin: 0 !important;
+    line-height: 1;
+    animation: none !important; /* Tắt nhịp đập cũ của icon */
 }
 
-/* =========================
-   11. RESPONSIVE
-========================= */
-@media (max-width: 600px) {
-    #chatbox {
-        border-radius: 0;
+/* Hiệu ứng nhịp tim đỏ lan tỏa (Pulse Wave) */
+@keyframes pulse-red-double {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 77, 77, 0.7), 
+                    0 0 0 0 rgba(255, 77, 77, 0.4);
     }
+    70% {
+        transform: scale(1.05);
+        /* Lan tỏa 2 vòng shadow mờ dần */
+        box-shadow: 0 0 0 12px rgba(255, 77, 77, 0), 
+                    0 0 0 20px rgba(255, 77, 77, 0);
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 77, 77, 0), 
+                    0 0 0 0 rgba(255, 77, 77, 0);
+    }
+}
+
+/* Tương tác khi di chuột */
+.medal-pulse-ring:hover {
+    background: #f8f9fa;
+    transform: scale(1.15);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }

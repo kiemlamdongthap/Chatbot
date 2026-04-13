@@ -2,82 +2,82 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Trợ lý Kiểm lâm</title>
     <link rel="stylesheet" href="style.css">
-</head>
-
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👮</text></svg>">
-	<style>
-/* 🚀 THIẾT KẾ LẠI NÚT TẢI MẪU: Chuyên nghiệp, Rực rỡ và Tiện bấm */
-/* 🚀 THIẾT KẾ NÚT TẢI MẪU: Thoáng, Cân đối và Hiện đại */
-.download-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-    color: white !important;
-    /* Tăng Padding: 6px trên-dưới và 15px trái-phải để nút không bị dính chữ */
-    padding: 6px 15px; 
-    margin: 10px 0; /* Tạo khoảng cách dòng rõ ràng */
-    border-radius: 8px;
-    text-decoration: none !important;
-    font-weight: 600;
-    font-size: 0.85em;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: all 0.2s ease;
-    cursor: pointer;
-    border: none;
-    pointer-events: auto !important;
-    line-height: 1.2;
-}
+    
+    <style>
+        /* 🚀 THIẾT KẾ NÚT TẢI MẪU: Chuyên nghiệp và Hiện đại */
+        .download-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+            color: white !important;
+            padding: 8px 18px; 
+            margin: 10px 0;
+            border-radius: 25px;
+            text-decoration: none !important;
+            font-weight: 600;
+            font-size: 0.9em;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            transition: all 0.2s ease;
+            border: none;
+            line-height: 1.2;
+        }
 
-/* 2. Tạo khoảng cách cho Icon để không dính vào chữ */
-.download-link::before {
-    content: "📥"; 
-    font-size: 1.1em;
-    margin-right: 10px; /* Tăng khoảng cách giữa Icon và chữ "Tải mẫu" */
-    display: inline-block;
-}
+        .download-link::before {
+            content: "📥"; 
+            margin-right: 8px;
+            font-size: 1.1em;
+        }
 
-/* 3. Hiệu ứng Hover mượt mà */
-.download-link:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-    filter: brightness(1.1);
-}
+        .download-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+            filter: brightness(1.1);
+        }
 
-/* 2. Thêm icon 📥 vào trước chữ "Tải mẫu" tự động bằng CSS */
-.download-link::before {
-    content: "📥"; /* Icon tải về */
-    font-size: 1.2em; /* Phóng lớn icon một chút */
-    margin-right: 15px; /* Khoảng cách với chữ "Tải mẫu" */
-}
+        /* 🔔 POP-UP THÔNG BÁO DỰNG SẴN */
+        .pop-notification {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 30px;
+            font-size: 14px;
+            z-index: 9999;
+            animation: fadeInOut 3.5s forwards;
+            white-space: nowrap;
+            pointer-events: none;
+        }
 
-/* 3. Hiệu ứng khi di chuột vào (Hover) hoặc chạm (Touch) */
-.download-link:hover {
-    background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%); /* Đổi màu gradient */
-    transform: translateY(-2px); /* Bay lên nhẹ */
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Đổ bóng đậm hơn */
-}
+        @keyframes fadeInOut {
+            0% { opacity: 0; transform: translate(-50%, 0); }
+            15% { opacity: 1; transform: translate(-50%, -50%); }
+            85% { opacity: 1; transform: translate(-50%, -50%); }
+            100% { opacity: 0; transform: translate(-50%, -80%); }
+        }
 
-/* 4. Hiệu ứng khi bấm xuống (Active) */
-.download-link:active {
-    transform: translateY(1px); /* Lún xuống nhẹ */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-/* 5. Đảm bảo tin nhắn bot không chặn click */
-.msg.bot {
-    overflow: visible !important;
-}
-</style>
-    </head>
+        /* 📱 FIX TRÀN VIỀN MOBILE */
+        @media (max-width: 600px) {
+            #controls {
+                padding-bottom: env(safe-area-inset-bottom, 15px);
+            }
+            .msg { max-width: 92%; }
+        }
+    </style>
+</head>
 <body>
 
 <div id="chatbox" class="domain-all">
     <div id="header">
-        👮 TRỢ LÝ ẢO - KIỂM LÂM ĐỒNG THÁP<span class="info-icon">🎖️</span>
+        👮 TRỢ LÝ ẢO - KIỂM LÂM ĐỒNG THÁP
+        <span class="info-icon" title="Thông tin tác giả">🎖️</span>
     </div>
 
     <div id="category-menu">
@@ -107,12 +107,10 @@
     const sendBtn = document.getElementById("sendBtn");
     let currentDomain = 'all';
 
-    // 🌟 KHỞI TẠO: Pop-up chào mừng bay lên rồi ẩn (không chiếm chỗ khung chat)
     window.onload = () => {
         showPopNotification("Xin chào! Hãy chọn chế độ để bắt đầu.");
     };
 
-    // 🔔 Chức năng Pop-up thông báo động (Tự ẩn sau 3.5s)
     function showPopNotification(text) {
         const oldPop = document.querySelector(".pop-notification");
         if (oldPop) oldPop.remove();
@@ -121,159 +119,131 @@
         pop.className = "pop-notification";
         pop.innerHTML = `🔔 ${text}`;
         document.getElementById("chatbox").appendChild(pop);
-
         setTimeout(() => { if (pop) pop.remove(); }, 3500); 
     }
 
-    // 🎯 Thiết lập chế độ làm việc (Hàm quan trọng bạn yêu cầu)
     function setDomain(domain) {
         currentDomain = domain;
         document.getElementById("chatbox").className = "domain-" + domain; 
 
-        // 1. Cập nhật trạng thái nút bấm (Active)
         document.querySelectorAll('.cat-btn').forEach(btn => {
             btn.classList.remove('active');
-            if (btn.getAttribute('onclick').includes(`'${domain}'`)) btn.classList.add('active');
+            if (btn.innerText.toLowerCase().includes(getDomainLabel(domain).toLowerCase())) {
+                btn.classList.add('active');
+            }
         });
 
-        // 2. Xóa sạch log cũ để không gian chat sạch sẽ
         messages.innerHTML = ""; 
-
-        // 3. Danh sách câu chào tương ứng từng chế độ
         const welcomeMsgs = {
-            'all': '🌲 Hệ thống Trợ lý Kiểm lâm đã sẵn sàng hỗ trợ Anh/Chị ở chế độ Tổng hợp.',
+            'all': '🌲 Hệ thống Trợ lý Kiểm lâm đã sẵn sàng hỗ trợ ở chế độ Tổng hợp.',
             'thu_tuc': '📄 Chuyên gia Thủ tục hành chính đã sẵn sàng hỗ trợ Anh/Chị.',
             'xu_phat': '⚖️ Chế độ tra cứu Xử phạt vi phạm đã sẵn sàng hỗ trợ Anh/Chị.',
-            'du_lieu': '📊 Hệ thống dữ liệu rừng đã sẵn sàng cung cấp số liệu cho Anh/Chị.',
+            'du_lieu': '📊 Hệ thống dữ liệu rừng đã sẵn sàng cung cấp số liệu.',
             'extra_1': '📍 Bản đồ lâm nghiệp số đã sẵn sàng hiển thị.',
             'extra_2': '🎤 Trợ lý giọng nói đang lắng nghe Anh/Chị.',
             'extra_3': '📥 Hệ thống xuất báo cáo đã sẵn sàng.',
             'extra_4': '⭐ Anh/Chị vui lòng để lại đánh giá về dịch vụ.'
         };
         
-        // 4. Gọi Pop-up bay (hiện 3s rồi ẩn) để gây chú ý
-        const labels = { 'all':'TỔNG HỢP', 'thu_tuc':'THỦ TỤC', 'xu_phat':'XỬ PHẠT', 'du_lieu':'SỐ LIỆU', 'extra_1':'BẢN ĐỒ', 'extra_2':'GIỌNG NÓI', 'extra_3':'XUẤT FILE', 'extra_4':'ĐÁNH GIÁ' };
-        showPopNotification(`Đã chuyển sang: ${labels[domain]}`);
-
-        // 5. HIỂN THỊ TIN NHẮN BOT CHÀO MỪNG (Dạng tin nhắn chat như ảnh bạn yêu cầu)
+        showPopNotification(`Đã chuyển sang: ${getDomainLabel(domain)}`);
         addMessage("bot", welcomeMsgs[domain]); 
-
         messages.scrollTop = 0;
     }
 
-   // Thay thế toàn bộ hàm addMessage cũ bằng đoạn mã dưới đây:
-function addMessage(sender, text, choices = []) {
-    const div = document.createElement("div");
-    div.className = "msg " + sender;
-    messages.appendChild(div);
+    function getDomainLabel(domain) {
+        const labels = { 'all':'TỔNG HỢP', 'thu_tuc':'THỦ TỤC', 'xu_phat':'XỬ PHẠT', 'du_lieu':'SỐ LIỆU', 'extra_1':'BẢN ĐỒ', 'extra_2':'GIỌNG NÓI', 'extra_3':'XUẤT FILE', 'extra_4':'ĐÁNH GIÁ' };
+        return labels[domain];
+    }
 
-    if (sender === "bot") {
-        // 1. Chuyển đổi Markdown link sang thẻ HTML <a>
-        // Sửa regex để bắt link chính xác hơn và không bị dính ký tự lạ
-        let formattedText = text
-            .replace(/\n/g, "<br>")
-            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" class="download-link">$1</a>');
-        
-        let i = 0;
-        let speed = 5; 
+    function addMessage(sender, text, choices = []) {
+        const div = document.createElement("div");
+        div.className = "msg " + sender;
+        messages.appendChild(div);
 
-        // 2. Hiệu ứng chờ "Đang truy xuất..."
-        div.innerHTML = `<span class="loading-dots">Đang truy xuất dữ liệu...</span>`;
+        if (sender === "bot") {
+            let formattedText = text
+                .replace(/\n/g, "<br>")
+                .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" class="download-link">$1</a>');
+            
+            let i = 0;
+            let speed = 10; 
+            div.innerHTML = `<span class="loading-dots">Đang truy xuất dữ liệu...</span>`;
 
-        setTimeout(() => {
-            div.innerHTML = ""; // Xóa trắng để bắt đầu hiệu ứng gõ
-
-            function typeWriter() {
-                if (i < formattedText.length) {
-                    // XỬ LÝ THẺ HTML: Nếu gặp dấu '<', ta phải lấy toàn bộ thẻ (ví dụ <a href...>)
-                    if (formattedText.charAt(i) === '<') {
-                        let endTag = formattedText.indexOf('>', i);
-                        if (endTag !== -1) {
-                            // Thêm nguyên cụm thẻ HTML (ví dụ: <a href="...">) vào innerHTML
+            setTimeout(() => {
+                div.innerHTML = ""; 
+                function typeWriter() {
+                    if (i < formattedText.length) {
+                        if (formattedText.charAt(i) === '<') {
+                            let endTag = formattedText.indexOf('>', i);
                             div.innerHTML += formattedText.substring(i, endTag + 1);
                             i = endTag + 1;
                         } else {
                             div.innerHTML += formattedText.charAt(i);
                             i++;
                         }
+                        messages.scrollTop = messages.scrollHeight;
+                        setTimeout(typeWriter, speed);
                     } else {
-                        // Nếu là văn bản bình thường thì gõ từng chữ
-                        div.innerHTML += formattedText.charAt(i);
-                        i++;
+                        showChoices(choices);
                     }
-                    
-                    messages.scrollTop = messages.scrollHeight;
-                    setTimeout(typeWriter, speed);
-                } else {
-                    // Hiện các nút lựa chọn sau khi chạy xong chữ
-                    showChoices(choices);
                 }
-            }
-            typeWriter();
-        }, 400); // Chờ 400ms trước khi bắt đầu gõ
-    } else {
-        div.innerText = text;
-        // User message không cần typewriter
-        showChoices(choices);
-    }
-}
-function showChoices(choices) {
-    if (choices && choices.length > 0) {
-        const choiceContainer = document.createElement("div");
-        choiceContainer.className = "choices-container";
-        choices.forEach(txt => {
-            const btn = document.createElement("button");
-            btn.className = "choice-btn";
-            btn.innerText = txt;
-            btn.onclick = () => { input.value = txt; send(); };
-            choiceContainer.appendChild(btn);
-        });
-        messages.appendChild(choiceContainer);
-        messages.scrollTop = messages.scrollHeight;
-    }
-}
-
-   // 🚀 Gửi dữ liệu lên Server (Bản sửa lỗi hiển thị Choices)
-async function send() {
-    const text = input.value.trim();
-    if (!text) return;
-
-    addMessage("user", text); 
-    input.value = "";
-
-    // Tạo hiệu ứng đang suy nghĩ
-    const thinkingDiv = document.createElement("div");
-    thinkingDiv.className = "msg thinking";
-    thinkingDiv.innerHTML = `<div class="typing"><span></span><span></span><span></span></div>`;
-    messages.appendChild(thinkingDiv);
-    messages.scrollTop = messages.scrollHeight;
-
-    try {
-        const response = await fetch("https://chatbot-jqsw.onrender.com/api/chatbot", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ msg: text, domain: currentDomain })
-        });
-        const data = await response.json();
-
-        // Xóa hiệu ứng đang suy nghĩ
-        thinkingDiv.remove();
-
-        // 🌟 QUAN TRỌNG: Truyền cả reply và choices vào hàm hiển thị
-        if (data.reply) {
-            addMessage("bot", data.reply, data.choices); 
+                typeWriter();
+            }, 600);
+        } else {
+            div.innerText = text;
+            showChoices(choices);
         }
-        
-    } catch (err) { 
-        if (thinkingDiv) thinkingDiv.remove();
-        console.error(err);
-        addMessage("bot", "⚠️ Lỗi kết nối máy chủ.");
     }
-}
+
+    function showChoices(choices) {
+        if (choices && choices.length > 0) {
+            const choiceContainer = document.createElement("div");
+            choiceContainer.className = "choices-container";
+            choices.forEach(txt => {
+                const btn = document.createElement("button");
+                btn.className = "choice-btn";
+                btn.innerText = txt;
+                btn.onclick = () => { input.value = txt; send(); };
+                choiceContainer.appendChild(btn);
+            });
+            messages.appendChild(choiceContainer);
+            messages.scrollTop = messages.scrollHeight;
+        }
+    }
+
+    async function send() {
+        const text = input.value.trim();
+        if (!text) return;
+
+        addMessage("user", text); 
+        input.value = "";
+
+        const thinkingDiv = document.createElement("div");
+        thinkingDiv.className = "msg bot thinking";
+        thinkingDiv.innerHTML = "Chờ một chút...";
+        messages.appendChild(thinkingDiv);
+        messages.scrollTop = messages.scrollHeight;
+
+        try {
+            const response = await fetch("https://chatbot-jqsw.onrender.com/api/chatbot", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ msg: text, domain: currentDomain })
+            });
+            const data = await response.json();
+            thinkingDiv.remove();
+
+            if (data.reply) {
+                addMessage("bot", data.reply, data.choices); 
+            }
+        } catch (err) { 
+            if (thinkingDiv) thinkingDiv.remove();
+            addMessage("bot", "⚠️ Lỗi kết nối máy chủ.");
+        }
+    }
 
     sendBtn.onclick = send;
     input.onkeypress = (e) => { if(e.key === 'Enter') send(); };
-	
 </script>
 </body>
 </html>

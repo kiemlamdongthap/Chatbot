@@ -826,5 +826,27 @@
       "debug_info": "Phân loại ý định dựa trên từ khóa 'thủ tục' trong yêu cầu của người dùng. Không có dữ liệu tính toán diện tích vì không phải intent 'tra_cuu_thong_ke'."
     },
     "createdAt": "2026-04-03T06:08:59.596Z"
+  },
+  "VuG6rE4gQ0hVWeG7gk5fQ2jhur8gxJHhu5k6IHRodV90dWMuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để hỗ trợ quý vị về thủ tục vận chuyển, xin vui lòng cung cấp thêm thông tin chi tiết về loại hàng hóa hoặc đối tượng cần vận chuyển. Chúng tôi sẽ hướng dẫn cụ thể về các quy định liên quan.",
+      "keywords": [
+        "vận chuyển"
+      ],
+      "debug_info": "Phân loại ý định 'hỏi_thủ_tục' dựa trên từ khóa 'vận chuyển' và trích xuất từ khóa."
+    },
+    "createdAt": "2026-04-13T03:47:45.232Z"
+  },
+  "Y+G6pFAgTcODX0No4bq/IMSR4buZOiB0aHVfdHVjLiBLaMO0bmcgY8OzIGThu68gbGnhu4d1IHjDoy4=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để được cấp mã, bạn vui lòng cung cấp thêm thông tin chi tiết về loại mã số bạn muốn cấp (ví dụ: mã số gây nuôi, mã số khai thác, mã số vận chuyển, v.v.) để tôi có thể hướng dẫn về thủ tục và hồ sơ cần thiết một cách chính xác nhất.",
+      "keywords": [
+        "cấp mã"
+      ],
+      "debug_info": "Phân loại ý định 'hỏi_thủ_tục' dựa trên từ khóa 'cấp mã' và trích xuất từ khóa."
+    },
+    "createdAt": "2026-04-13T03:47:54.530Z"
   }
 }

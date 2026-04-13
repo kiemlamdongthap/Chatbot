@@ -1,89 +1,87 @@
 import express from "express";
 import cors from "cors";
 import session from "express-session";
+import path from "path";
+import { fileURLToPath } from "url";
+import open from "open"; // 1. Import thư viện open
 import chatbotRouter from "./routes/chatbot.js";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 
 /* =========================
-    🌐 CORS (FIX CHO PRODUCTION)
+    🌐 CORS (HỖ TRỢ TEST LOCAL)
 ========================= */
 app.use(cors({
-  // Cho phép cả localhost (để bạn test máy nhà) và GitHub Pages của bạn
   origin: [
     "http://127.0.0.1:5500", 
+    "http://localhost:5500",
+    "http://127.0.0.1:10000",
+    "http://localhost:10000",
     "https://kiemlamdongthap.github.io",
     "https://quanlylamsan.github.io"
   ],
   credentials: true
 }));
 
-/* =========================
-   📦 BODY PARSER
-========================= */
 app.use(express.json());
 
 /* =========================
-   🔐 SESSION (ỔN ĐỊNH HƠN)
+    🔐 SESSION
 ========================= */
 app.use(session({
   secret: "kiem-lam-secret-key",
-  resave: false, // 🔥 FIX: tránh ghi lại liên tục
-  saveUninitialized: false, // 🔥 FIX: không tạo session rác
+  resave: false,
+  saveUninitialized: false,
   cookie: {
-    secure: false, // localhost
+    secure: false, 
     httpOnly: true,
     sameSite: "lax"
   }
 }));
 
 /* =========================
-   📁 STATIC FILES
+    📁 STATIC FILES & ROUTING
 ========================= */
-app.use("/forms", express.static("public/forms"));
-app.use(express.static("public"));
+app.use(express.static(__dirname)); 
+app.use("/forms", express.static(path.join(__dirname, "public/forms")));
+app.use("/public", express.static(path.join(__dirname, "public")));
 
-/* =========================
-   🧪 HEALTH CHECK
-========================= */
-app.get("/ping", (req, res) => {
-  res.send("pong");
+// Route gốc trả về index.html
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
-/* =========================
-   🤖 CHATBOT API
-========================= */
+app.get("/ping", (req, res) => res.send("pong"));
 app.use("/api/chatbot", chatbotRouter);
 
 /* =========================
-   🚫 404 HANDLER
+    🚀 START SERVER
 ========================= */
-app.use((req, res) => {
-  res.status(404).json({
-    error: "API không tồn tại"
-  });
-});
-
-/* =========================
-   💥 ERROR HANDLER
-========================= */
-app.use((err, req, res, next) => {
-  console.error("❌ Server Error:", err.message);
-  res.status(500).json({
-    error: "Lỗi server"
-  });
-});
-
-/* =========================
-    🚀 START SERVER (FIX CHO RENDER)
-========================= */
-// Ưu tiên lấy cổng từ Render (process.env.PORT), nếu không có mới dùng 3000
 const PORT = process.env.PORT || 10000;
 
-// Render yêu cầu lắng nghe trên '0.0.0.0' thay vì 'localhost'
-app.listen(PORT, '0.0.0.0', () => {
+// 2. Thêm 'async' vào callback của listen
+app.listen(PORT, '0.0.0.0', async () => {
   console.log(`----------------------------------------------`);
-  console.log(`🤖 Chatbot Kiểm Lâm Đồng Tháp đang hoạt động!`);
-  console.log(`📡 Cổng kết nối: ${PORT}`);
+  console.log(`🤖 Chatbot Kiểm Lâm Đồng Tháp - Backend`);
+  console.log(`📡 Chế độ: ${process.env.NODE_ENV || 'Development'}`);
+  console.log(`🔗 Truy cập ngay: http://localhost:${PORT}`);
   console.log(`----------------------------------------------`);
+
+  // 3. Tự động mở trình duyệt khi không phải môi trường production
+  if (process.env.NODE_ENV !== 'production') {
+    try {
+      await open(`http://localhost:${PORT}`);
+      console.log(`🌐 Đã tự động mở trình duyệt...`);
+    } catch (error) {
+      console.error("⚠️ Không thể tự động mở trình duyệt:", error);
+    }
+  }
+});
+
+app.use((err, req, res, next) => {
+  console.error("❌ Lỗi hệ thống:", err.stack);
+  res.status(500).json({ error: "Máy chủ đang bận, vui lòng thử lại sau." });
 });

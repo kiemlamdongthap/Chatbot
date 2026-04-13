@@ -2,8 +2,8 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Trợ lý Kiểm lâm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Trợ lý Kiểm lâm Đồng Tháp</title>
     
     <link rel="stylesheet" href="public/style.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👮</text></svg>">
@@ -13,50 +13,81 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/Chatbot/sw.js')
-            .then(reg => console.log('PWA: Service Worker đã sẵn sàng!'))
-            .catch(err => console.log('PWA: Lỗi registration:', err));
-        });
-      }
-    </script>
-
     <style>
-        /* CSS bổ sung để giao diện giống App hơn */
+        /* CSS bổ sung để UI sinh động hơn */
         body {
-            overscroll-behavior-y: contain; /* Ngăn chặn kéo refresh trên trình duyệt mobile */
-            position: fixed;
-            width: 100%;
-            height: 100%;
+            margin: 0; padding: 0; width: 100vw; height: 100vh;
+            display: flex; align-items: center; justify-content: center;
+            background-color: #f0f2f5;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            overflow: hidden; overscroll-behavior-y: contain;
+        }
+
+        /* Hiệu ứng focus cho khung nhập liệu */
+        #controls {
+            padding: 12px;
+            background: white;
+            border-top: 1px solid #eee;
+            display: flex; gap: 10px;
         }
         
-        #chatbox {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        #messages {
+        #input {
             flex: 1;
-            overflow-y: auto;
-            -webkit-overflow-scrolling: touch; /* Cuộn mượt trên iOS */
+            padding: 12px 18px;
+            border: 2px solid #f0f0f0;
+            border-radius: 25px;
+            outline: none;
+            transition: all 0.3s ease;
         }
 
-        .download-link {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-            color: white !important;
-            padding: 8px 18px; 
-            margin: 10px 0;
-            border-radius: 20px; /* Bo tròn kiểu hiện đại */
-            text-decoration: none !important;
-            font-weight: 600;
-            font-size: 0.9em;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        #input:focus {
+            border-color: var(--current-color, #2e7d32);
+            box-shadow: 0 0 8px rgba(46, 125, 50, 0.1);
+        }
+
+        /* Tối ưu Modal Tác giả */
+        .modal-overlay {
+            display: none; position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7); z-index: 1000;
+            justify-content: center; align-items: center;
+            backdrop-filter: blur(4px);
+        }
+
+        .modal-content {
+            background: white; padding: 25px; border-radius: 20px;
+            width: 90%; max-width: 380px; position: relative;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            animation: modalShow 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        @keyframes modalShow {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        .close-modal {
+            position: absolute; top: 15px; right: 20px;
+            font-size: 28px; cursor: pointer; color: #aaa;
+        }
+
+        .modal-header {
+            font-size: 20px; font-weight: 800; margin-bottom: 20px;
+            color: #2e7d32; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px;
+        }
+
+        .modal-body p { margin: 12px 0; color: #444; }
+        
+        /* Hiệu ứng nhịp tim cho icon huy chương */
+        .info-icon { 
+            cursor: pointer; margin-left: 8px; display: inline-block;
+            animation: heartbeat 1.5s ease-in-out infinite;
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            14% { transform: scale(1.2); }
+            28% { transform: scale(1); }
         }
     </style>
 </head>
@@ -64,18 +95,21 @@
 
 <div id="chatbox" class="domain-all">
     <div id="header">
-        👮 TRỢ LÝ ẢO - KIỂM LÂM ĐỒNG THÁP<span class="info-icon">🎖️</span>
+    <span class="header-title">👮 TRỢ LÝ ẢO - KIỂM LÂM ĐỒNG THÁP</span>
+    <div class="medal-pulse-ring" id="infoBtn">
+        <span class="info-icon">🎖️</span>
     </div>
+</div>
 
     <div id="category-menu">
-        <button class="cat-btn active" onclick="setDomain('all')">🏠 Tổng hợp</button>
-        <button class="cat-btn" onclick="setDomain('thu_tuc')">📄 Thủ tục</button>
-        <button class="cat-btn" onclick="setDomain('xu_phat')">⚖️ Xử phạt</button>
-        <button class="cat-btn" onclick="setDomain('du_lieu')">📊 Số liệu</button>
-        <button class="cat-btn" onclick="setDomain('extra_1')">📍 Bản đồ</button>
-        <button class="cat-btn" onclick="setDomain('extra_2')">🎤 Ghi âm</button>
-        <button class="cat-btn" onclick="setDomain('extra_3')">📥 Xuất file</button>
-        <button class="cat-btn" onclick="setDomain('extra_4')">⭐ Đánh giá</button>
+        <button class="cat-btn active" data-domain="all">🏠 Tổng hợp</button>
+        <button class="cat-btn" data-domain="thu_tuc">📄 Thủ tục</button>
+        <button class="cat-btn" data-domain="xu_phat">⚖️ Xử phạt</button>
+        <button class="cat-btn" data-domain="du_lieu">📊 Số liệu</button>
+        <button class="cat-btn" data-domain="extra_1">📍 Chủ rừng</button>
+        <button class="cat-btn" data-domain="extra_2">🎤 Ghi âm</button>
+        <button class="cat-btn" data-domain="extra_3">📥 Xuất file</button>
+        <button class="cat-btn" data-domain="extra_4">⭐ Đánh giá</button>
     </div>
     
     <div id="messages">
@@ -88,155 +122,188 @@
     </div>
 </div>
 
-<script>
-    const messages = document.getElementById("messages");
-    const input = document.getElementById("input");
-    const sendBtn = document.getElementById("sendBtn");
-    let currentDomain = 'all';
+<div id="authorModal" class="modal-overlay">
+    <div class="modal-content">
+        <span class="close-modal" id="closeModal">&times;</span>
+        <div class="modal-header">🏅 Thông tin tác giả</div>
+        <div class="modal-body">
+            <p><strong>Nguyễn Văn Phúc</strong></p>
+            <p><strong>Hotline:</strong> <a href="tel:0358758358" style="text-decoration:none; color:inherit;">0358.758.358</a></p>
+            <p><strong>Email:</strong> Phuc88.klvn@gmail.com</p>
+            <p><strong>Đơn vị:</strong> Chi cục Kiểm lâm tỉnh Đồng Tháp</p>
+            <p style="font-size: 11px; color: #888; text-align: center; margin-top: 20px; border-top: 1px solid #eee; padding-top: 15px;">
+                © 2026 Trợ lý ảo Kiểm lâm Đồng Tháp • <b>Version 1.0.0</b>
+            </p>
+        </div>
+    </div>
+</div>
 
-    window.onload = () => {
-        showPopNotification("Xin chào! Hãy chọn chế độ để bắt đầu.");
+<script>
+    const messagesEl = document.getElementById("messages");
+    const inputEl = document.getElementById("input");
+    const sendBtnEl = document.getElementById("sendBtn");
+    const chatboxEl = document.getElementById("chatbox");
+    let currentDomain = 'all';
+    let isBotTyping = false;
+
+    // --- QUẢN LÝ MODAL ---
+    const toggleModal = () => {
+        const modal = document.getElementById("authorModal");
+        modal.style.display = (modal.style.display === "flex") ? "none" : "flex";
+    };
+    document.getElementById("infoBtn").onclick = toggleModal;
+    document.getElementById("closeModal").onclick = toggleModal;
+    
+    // Đóng modal khi click ra ngoài vùng trắng
+    window.onclick = (e) => {
+        const modal = document.getElementById("authorModal");
+        if (e.target === modal) toggleModal();
     };
 
-    function showPopNotification(text) {
-        const oldPop = document.querySelector(".pop-notification");
-        if (oldPop) oldPop.remove();
-        const pop = document.createElement("div");
-        pop.className = "pop-notification";
-        pop.innerHTML = `🔔 ${text}`;
-        document.getElementById("chatbox").appendChild(pop);
-        setTimeout(() => { if (pop) pop.remove(); }, 3500); 
+    // --- HIỆU ỨNG & CHUYỂN CHẾ ĐỘ ---
+    function applyClickAnimation(element, animationClass = 'animate-shake') {
+        element.classList.add(animationClass);
+        setTimeout(() => element.classList.remove(animationClass), 400);
     }
 
-    function setDomain(domain) {
-        currentDomain = domain;
-        document.getElementById("chatbox").className = "domain-" + domain; 
-        document.querySelectorAll('.cat-btn').forEach(btn => {
-            btn.classList.remove('active');
-            if (btn.getAttribute('onclick').includes(`'${domain}'`)) btn.classList.add('active');
-        });
-        messages.innerHTML = ""; 
-        const welcomeMsgs = {
-            'all': '🌲 Hệ thống Trợ lý Kiểm lâm đã sẵn sàng hỗ trợ Anh/Chị ở chế độ Tổng hợp.',
-            'thu_tuc': '📄 Chuyên gia Thủ tục hành chính đã sẵn sàng hỗ trợ Anh/Chị.',
-            'xu_phat': '⚖️ Chế độ tra cứu Xử phạt vi phạm đã sẵn sàng hỗ trợ Anh/Chị.',
-            'du_lieu': '📊 Hệ thống dữ liệu rừng đã sẵn sàng cung cấp số liệu cho Anh/Chị.',
-            'extra_1': '📍 Bản đồ lâm nghiệp số đã sẵn sàng hiển thị.',
-            'extra_2': '🎤 Trợ lý giọng nói đang lắng nghe Anh/Chị.',
-            'extra_3': '📥 Hệ thống xuất báo cáo đã sẵn sàng.',
-            'extra_4': '⭐ Anh/Chị vui lòng để lại đánh giá về dịch vụ.'
+    document.querySelectorAll('.cat-btn').forEach(btn => {
+        btn.onclick = () => {
+            const domain = btn.dataset.domain;
+            if (currentDomain === domain) return;
+            applyClickAnimation(btn);
+            currentDomain = domain;
+            chatboxEl.className = "domain-" + domain;
+            document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            messagesEl.innerHTML = "";
+            
+            const labels = { 'all':'TỔNG HỢP', 'thu_tuc':'THỦ TỤC', 'xu_phat':'XỬ PHẠT', 'du_lieu':'SỐ LIỆU', 'extra_1':'BẢN ĐỒ', 'extra_2':'GIỌNG NÓI', 'extra_3':'XUẤT FILE', 'extra_4':'ĐÁNH GIÁ' };
+            showPopNotification(`Đã chuyển sang: ${labels[domain]}`);
+            
+            const welcomeMsgs = {
+                'all': '🌲 Chế độ Tổng hợp đã sẵn sàng.',
+                'thu_tuc': '📄 Chuyên gia Thủ tục hành chính sẵn sàng.',
+                'xu_phat': '⚖️ Tra cứu Xử phạt đã sẵn sàng.',
+                'du_lieu': '📊 Hệ thống dữ liệu rừng sẵn sàng.',
+                'extra_1': '📍 Thông tin về các Đơn vị quản lý rừng Đồng Tháp.',
+                'extra_2': '🎤 Trợ lý giọng nói đang lắng nghe.',
+                'extra_3': '📥 Xuất báo cáo đã sẵn sàng.',
+                'extra_4': '⭐ Vui lòng để lại đánh giá.'
+            };
+            addMessage("bot", welcomeMsgs[domain]);
         };
-        const labels = { 'all':'TỔNG HỢP', 'thu_tuc':'THỦ TỤC', 'xu_phat':'XỬ PHẠT', 'du_lieu':'SỐ LIỆU', 'extra_1':'BẢN ĐỒ', 'extra_2':'GIỌNG NÓI', 'extra_3':'XUẤT FILE', 'extra_4':'ĐÁNH GIÁ' };
-        showPopNotification(`Đã chuyển sang: ${labels[domain]}`);
-        addMessage("bot", welcomeMsgs[domain]); 
-        messages.scrollTop = 0;
-    }
-
-function addMessage(sender, text, choices = []) {
-    const div = document.createElement("div");
-    div.className = "msg " + sender;
-    messages.appendChild(div);
-
-    if (sender === "bot") {
-        // 🟢 Cập nhật Regex: Tự động thêm 'public/' vào các link file nội bộ (không bắt đầu bằng http)
-        let formattedText = text
-    .replace(/\n/g, "<br>")
-    // Tự động nhận diện file và gắn link GitHub Pages thay vì localhost
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, label, fileName) => {
-        const fileUrl = fileName.startsWith('http') 
-            ? fileName 
-            : `https://kiemlamdongthap.github.io/Chatbot/public/forms/${fileName}`;
-        return `<a href="${fileUrl}" target="_blank" class="download-link">${label}</a>`;
     });
+
+    // --- XỬ LÝ TIN NHẮN ---
+    function addMessage(sender, text, choices = []) {
+        const div = document.createElement("div");
+        div.className = "msg " + sender;
         
-        let i = 0;
-        let speed = 5; 
+        if (sender === "bot") {
+            isBotTyping = true;
+            let formattedText = text.replace(/\n/g, "<br>")
+                .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, label, fileName) => {
+                    const fileUrl = fileName.startsWith('http') ? fileName : `https://kiemlamdongthap.github.io/Chatbot/public/forms/${fileName}`;
+                    return `<a href="${fileUrl}" target="_blank" class="download-link">${label}</a>`;
+                });
+            
+            div.innerHTML = `<span class="loading-dots">Đang xử lý...</span>`;
+            messagesEl.appendChild(div);
 
-        div.innerHTML = `<span class="loading-dots">Đang truy xuất dữ liệu...</span>`;
-
-        setTimeout(() => {
-            div.innerHTML = ""; 
-            function typeWriter() {
-                if (i < formattedText.length) {
-                    if (formattedText.charAt(i) === '<') {
-                        let endTag = formattedText.indexOf('>', i);
-                        if (endTag !== -1) {
+            setTimeout(() => {
+                div.innerHTML = "";
+                let i = 0;
+                const typewriter = setInterval(() => {
+                    if (i < formattedText.length) {
+                        if (formattedText[i] === '<') {
+                            let endTag = formattedText.indexOf('>', i);
                             div.innerHTML += formattedText.substring(i, endTag + 1);
                             i = endTag + 1;
                         } else {
-                            div.innerHTML += formattedText.charAt(i);
+                            div.innerHTML += formattedText[i];
                             i++;
                         }
+                        messagesEl.scrollTop = messagesEl.scrollHeight;
                     } else {
-                        div.innerHTML += formattedText.charAt(i);
-                        i++;
+                        clearInterval(typewriter);
+                        isBotTyping = false;
+                        showChoices(choices);
                     }
-                    messages.scrollTop = messages.scrollHeight;
-                    setTimeout(typeWriter, speed);
-                } else {
-                    showChoices(choices);
-                }
-            }
-            typeWriter();
-        }, 400); 
-    } else {
-        div.innerText = text;
-        showChoices(choices);
+                }, 10);
+            }, 500);
+        } else {
+            div.innerText = text;
+            messagesEl.appendChild(div);
+            messagesEl.scrollTop = messagesEl.scrollHeight;
+        }
     }
-}
 
-function showChoices(choices) {
-    if (choices && choices.length > 0) {
-        const choiceContainer = document.createElement("div");
-        choiceContainer.className = "choices-container";
+    function showChoices(choices) {
+        if (!choices || choices.length === 0) return;
+        const container = document.createElement("div");
+        container.className = "choices-container";
         choices.forEach(txt => {
             const btn = document.createElement("button");
             btn.className = "choice-btn";
             btn.innerText = txt;
-            btn.onclick = () => { input.value = txt; send(); };
-            choiceContainer.appendChild(btn);
+            btn.onclick = () => { 
+                if(!isBotTyping) { 
+                    applyClickAnimation(btn, 'animate-bounce');
+                    inputEl.value = txt; 
+                    send(); 
+                } 
+            };
+            container.appendChild(btn);
         });
-        messages.appendChild(choiceContainer);
-        messages.scrollTop = messages.scrollHeight;
+        messagesEl.appendChild(container);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
     }
-}
 
-async function send() {
-    const text = input.value.trim();
-    if (!text) return;
+    async function send() {
+        const text = inputEl.value.trim();
+        if (!text || isBotTyping) return;
 
-    addMessage("user", text); 
-    input.value = "";
-
-    const thinkingDiv = document.createElement("div");
-    thinkingDiv.className = "msg thinking";
-    thinkingDiv.innerHTML = `<div class="typing"><span></span><span></span><span></span></div>`;
-    messages.appendChild(thinkingDiv);
-    messages.scrollTop = messages.scrollHeight;
-
-    try {
-        // 🟢 Link Render của bạn
-        const response = await fetch("https://chatbot-jqsw.onrender.com/api/chatbot", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ msg: text, domain: currentDomain })
-        });
-        const data = await response.json();
-        thinkingDiv.remove();
-
-        if (data.reply) {
-            addMessage("bot", data.reply, data.choices); 
-        }
+        addMessage("user", text);
+        inputEl.value = "";
         
-    } catch (err) { 
-        if (thinkingDiv) thinkingDiv.remove();
-        console.error(err);
-        addMessage("bot", "⚠️ Lỗi kết nối máy chủ.");
-    }
-}
+        const thinking = document.createElement("div");
+        thinking.className = "msg thinking";
+        thinking.innerHTML = `<div class="typing"><span></span><span></span><span></span></div>`;
+        messagesEl.appendChild(thinking);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
 
-    sendBtn.onclick = send;
-    input.onkeypress = (e) => { if(e.key === 'Enter') send(); };
+        const API_URL = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
+            ? "http://localhost:10000/api/chatbot" 
+            : "https://chatbot-jqsw.onrender.com/api/chatbot";
+
+        try {
+            const response = await fetch(API_URL, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ msg: text, domain: currentDomain })
+            });
+            const data = await response.json();
+            thinking.remove();
+            if (data.reply) addMessage("bot", data.reply, data.choices);
+        } catch (err) {
+            thinking.remove();
+            addMessage("bot", "⚠️ Lỗi kết nối máy chủ. Vui lòng thử lại sau.");
+        }
+    }
+
+    function showPopNotification(text) {
+        document.querySelectorAll(".pop-notification").forEach(n => n.remove());
+        const pop = document.createElement("div");
+        pop.className = "pop-notification";
+        pop.innerHTML = `🔔 ${text}`;
+        chatboxEl.appendChild(pop);
+        setTimeout(() => pop?.remove(), 3000); 
+    }
+
+    sendBtnEl.onclick = send;
+    inputEl.onkeypress = (e) => { if(e.key === 'Enter') send(); };
+    window.onload = () => showPopNotification("Hệ thống đã sẵn sàng!");
 </script>
+
 </body>
 </html>
