@@ -46,10 +46,25 @@ body {
 
 #header {
     background: var(--current-color);
-    color: white; padding: 18px;
-    font-weight: 700; text-align: center;
-    text-transform: uppercase; letter-spacing: 1px;
-    transition: background 0.4s ease;
+    color: white;
+    padding: 10px 15px;
+    display: flex;             /* Kích hoạt chế độ dàn hàng ngang */
+    align-items: center;       /* Căn giữa theo chiều dọc */
+    justify-content: space-between; /* Đẩy chữ sang trái/giữa và huy hiệu sang phải */
+    position: relative;
+    border-radius: 0;
+    min-height: 50px;          /* Đảm bảo chiều cao đủ cho huy hiệu */
+}
+
+/* Tinh chỉnh tiêu đề để không bị huy hiệu đè */
+#header h1, #header span {
+    flex: 1;                   /* Cho phép tiêu đề chiếm không gian còn lại */
+    text-align: center;        /* Giữ tiêu đề ở giữa */
+    margin: 0 40px;            /* Tạo khoảng cách an toàn ở hai bên */
+    font-size: 1rem;
+    white-space: nowrap;       /* Không cho chữ xuống dòng gây vỡ giao diện */
+    overflow: hidden;
+    text-overflow: ellipsis;   /* Hiện dấu ... nếu tên quá dài trên mobile */
 }
 
 #category-menu {
@@ -185,10 +200,15 @@ body {
 /* =========================
    8. MOBILE RESPONSIVE
 ========================= */
-@media (max-width: 768px) {
-    #chatbox { width: 100%; height: 100vh; border-radius: 0; border: none; }
-    #category-menu { justify-content: flex-start; }
-    .msg { max-width: 90%; }
+@media (max-width: 600px) {
+    #header {
+        padding: 8px 10px;
+    }
+    
+    #header span {
+        margin: 0 10px;            /* Thu hẹp khoảng cách lề trên điện thoại */
+        font-size: 0.9rem;         /* Thu nhỏ chữ để vừa khung */
+    }
 }
 /* =========================
    FIX MODAL THÔNG TIN TÁC GIẢ
@@ -312,4 +332,38 @@ body {
     background: #f8f9fa;
     transform: scale(1.15);
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+/* Định dạng nút bản đồ: Tự dãn, không bị thắt eo */
+.map-btn-final {
+	pointer-events: auto !important; /* Cho phép click */
+    cursor: pointer !important;     /* Hiện hình bàn tay khi di chuột */
+    display: inline-flex !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a73e8 !important; /* Xanh Google */
+    color: white !important;
+    padding: 6px 16px !important;
+    border-radius: 20px !important;
+    text-decoration: none !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important; /* Ép chữ nằm trên 1 hàng */
+    gap: 6px;
+    margin: 5px 0 5px 8px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    vertical-align: middle;
+    transition: all 0.2s ease;
+}
+
+.map-btn-final:hover {
+    background-color: #1557b0 !important;
+    transform: scale(1.05);
+}
+
+/* Định dạng link tải hồ sơ cho đồng bộ */
+.download-link {
+    color: #2e7d32 !important;
+    font-weight: bold;
+    text-decoration: underline;
 }

@@ -1,21 +1,24 @@
 {
-  "short_name": "Kiểm lâm lâm Đồng Tháp",
-  "name": "Chatbot Kiểm lâm",
+  "short_name": "KiểmLâm ĐT",
+  "name": "Trợ lý ảo Kiểm lâm Đồng Tháp",
   "icons": [
     {
       "src": "public/icon-192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "public/icon-512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": "/Chatbot/",
+  "start_url": "/Chatbot/index.html",
   "background_color": "#ffffff",
-  "display": "standalone",
-  "scope": "/Chatbot/",
-  "theme_color": "#2e7d32"
+  "theme_color": "#2e7d32",
+  "display": "fullscreen", 
+  "orientation": "portrait-primary",
+  "scope": "/Chatbot/"
 }

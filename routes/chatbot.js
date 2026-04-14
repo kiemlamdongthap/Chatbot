@@ -1,14 +1,14 @@
 import express from "express";
 import { semanticSearchProcedure } from "../engine/procedureSemanticSearch.js";
-import { searchXa, searchMultipleXa } from "../engine/xaSearch.js"; 
 import { getSmartAIResponse } from "../services/aiService.js";
 import { loadRegulations } from "../utils/loadRegulations.js";
+import { searchXa, searchMultipleXa, getForestStatistics } from "../engine/xaSearch.js";
 
 const regulations = loadRegulations();
 const router = express.Router();
 
 /* ============================================================
-   🧠 1. BỘ ĐỊNH DẠNG DỮ LIỆU (FORMATTERS)
+    🧠 1. BỘ ĐỊNH DẠNG DỮ LIỆU (FORMATTERS)
 ============================================================ */
 const safe = (v, fallback = "—") => 
     v === undefined || v === null || v === "" ? fallback : v;
@@ -19,99 +19,75 @@ const normalize = (text = "") => {
         .replace(/đ/g, "d");
 };
 
-/**
- * 📄 Hàm bổ trợ định dạng danh sách hồ sơ (Dùng chung cho cả Procedure và Menu Action)
- */
-// Tìm đến hàm formatDocs trong chatbot.js và cập nhật:
 const formatDocs = (documents) => {
     if (!documents || !Array.isArray(documents) || documents.length === 0) {
         return "— Không có yêu cầu hồ sơ cụ thể.";
     }
-
-    const BASE_URL = "http://localhost:3000"; 
-
+    const BASE_URL = "http://localhost:10000"; 
     return documents.map((d) => {
         const name = typeof d === "string" ? d : (d?.name || "Tài liệu");
         const fileUrl = d?.file || d?.url;
-
-        if (!fileUrl) return `• ${name}`;
-
-        // Đảm bảo đường dẫn chuẩn
-        const fullUrl = fileUrl.startsWith("http") 
-            ? fileUrl 
-            : `${BASE_URL}${fileUrl.startsWith('/') ? '' : '/'}${fileUrl}`;
-
-        // Trả về định dạng Markdown cho frontend xử lý
-        return `• ${name}[Tải mẫu](${fullUrl})`; 
+        if (!fileUrl) return "• " + name;
+        const fullUrl = fileUrl.startsWith("http") ? fileUrl : BASE_URL + (fileUrl.startsWith('/') ? '' : '/') + fileUrl;
+        return `• ${name} [Tải mẫu](${fullUrl})`; 
     }).join("\n");
 };
 
-/**
- * 🚀 FORMATTER HIỂN THỊ ĐỦ 14 NỘI DUNG TTHC
- */
 const formatProcedure = (p = {}) => {
     const title = safe(p.title).toUpperCase();
-    const code = safe(p.code);
-    const steps = safe(p.steps);
-    const location = Array.isArray(p.location) ? p.location.join("; ") : safe(p.location);
-    const method = safe(p.method);
-    const time = safe(p.processingTime);
-    const target = safe(p.target);
-    const authority = safe(p.authority);
-    const result = safe(p.result);
-    const fees = safe(p.aiFees);
-    const forms = safe(p.forms_info);
-    const condition = safe(p.condition, "Không");
-    const legal = safe(p.legal_basis);
-    const digitalDocs = safe(p.digital_docs);
-    const digitalResult = safe(p.digital_result);
-
-    // Sử dụng hàm formatDocs để đồng nhất hiển thị hồ sơ có link tải
     const docsContent = p.documents ? ("\n" + formatDocs(p.documents)) : "—";
-
     return `
-Tên TTHC: ${title} (Mã TTHC: ${code})
+Tên TTHC: ${title} (Mã TTHC: ${safe(p.code)})
 
-🔄 Trình tự thực hiện: ${steps}
-
-📍 Địa điểm thực hiện: ${location}
-
-⚡ Cách thức thực hiện: ${method}
-
-📄 Thành phần, số lượng hồ sơ: ${docsContent}
-
-⏱ Thời hạn giải quyết: ${time}
-
-👤 Đối tượng thực hiện thủ tục hành chính: ${target}
-
-🏛 Cơ quan giải quyết thủ tục hành chính: ${authority}
-
-✅ Kết quả thực hiện thủ tục hành chính: ${result}
-
-💰 Lệ phí, phí (nếu có): ${fees}
-
-📑 Tên mẫu đơn, mẫu tờ khai: ${forms}
-
-⚖️ Yêu cầu, điều kiện thực hiện thủ tục hành chính (nếu có): ${condition}
-
-📜 Căn cứ pháp lý của thủ tục hành chính: ${legal}
-
-💻 Thành phần hồ sơ cần phải số hoá: ${digitalDocs}
-
-📤 Kết quả giải quyết TTHC cần phải số hoá: ${digitalResult}
+🔄 Trình tự thực hiện: ${safe(p.steps)}
+📍 Địa điểm thực hiện: ${Array.isArray(p.location) ? p.location.join("; ") : safe(p.location)}
+⚡ Cách thức thực hiện: ${safe(p.method)}
+📄 Thành phần hồ sơ: ${docsContent}
+⏱ Thời hạn giải quyết: ${safe(p.processingTime)}
+👤 Đối tượng thực hiện: ${safe(p.target)}
+🏛 Cơ quan giải quyết: ${safe(p.authority)}
+✅ Kết quả: ${safe(p.result)}
+💰 Lệ phí: ${safe(p.aiFees)}
+⚖️ Điều kiện thực hiện: ${safe(p.condition, "Không")}
+📜 Căn cứ pháp lý: ${safe(p.legal_basis)}
 `.trim();
 };
 
-
 const formatXa = (p = {}) => {
     const d = p.data || {};
-    return `📍 DỮ LIỆU XÃ: ${safe(p.title).toUpperCase()}\n
-Xã cũ: ${safe(d.xa_cu)} | Xã mới: ${safe(d.xa_moi)}
-Chủ rừng: ${safe(d.chu_rung)}
-Diện tích tự nhiên: ${safe(d.dien_tich_tu_nhien)} ha
-Diện tích lâm nghiệp: ${safe(d.dien_tich_lam_nghiep)} ha
-Diện tích rừng: ${safe(d.dien_tich_rung)} ha
-Quản lý: ${safe(d.hat_quan_ly)}`;
+    const cuLyRaw = safe(d.Cu_ly_di_chuyen || d["Cu ly di chuyen"]);
+    let cuLyFormatted = "—";
+
+    if (cuLyRaw !== "—") {
+        cuLyFormatted = cuLyRaw
+            .split(/<p>|<\/p>|\n/)
+            .map(line => line.trim())
+            .filter(line => line.length > 0)
+            .map(line => `    • ${line}`)
+            .join("\n");
+    }
+
+    const rawCoords = safe(d.Toa_do || d.To_do); 
+    let googleMapsLink = "—";
+    if (rawCoords !== "—") {
+        const cleanCoords = rawCoords.replace(/\s/g, "");
+        // Đã sửa lại URL chuẩn để hiện bản đồ
+        googleMapsLink = `[Xem bản đồ](https://www.google.com/maps/search/?api=1&query=${cleanCoords})`;
+    }
+
+    return `
+⚖️ THÔNG TIN VỀ: ${safe(p.title).toUpperCase()}
+---
+🔹 Xã sáp nhập: ${safe(d.xa_cu)}
+🔹 Trụ sở: ${googleMapsLink}
+🔹 Diện tích tự nhiên: ${safe(d.dien_tich_tu_nhien)} ha
+🔹 Diện tích đất lâm nghiệp: ${safe(d.dien_tich_lam_nghiep)} ha
+🔹 Diện tích có rừng: ${safe(d.dien_tich_rung)} ha
+🔹 Chủ rừng: ${safe(d.chu_rung)}
+🔹 Hạt quản lý: ${safe(d.hat_quan_ly)}
+🔹 Cự ly di chuyển đến xã:
+${cuLyFormatted}
+`.trim();
 };
 
 const formatViolation = (v) => {
@@ -123,34 +99,7 @@ Biện pháp khắc phục: ${safe(v.remedy?.content)}`;
 };
 
 /* ============================================================
-   ⚖️ 2. CÔNG CỤ PHÂN TÍCH Ý ĐỊNH (INTENT ENGINES)
-============================================================ */
-const detectQuickIntent = (msg) => {
-    const m = msg.toLowerCase();
-    if (/tổng|cộng|bao nhiêu|diện tích/.test(m)) return "calc";
-    if (/xã|ấp|thôn/.test(m)) return "xa";
-    return "unknown";
-};
-
-const findViolation = (msg) => {
-    const m = normalize(msg);
-    if (/xa|ap|thon/.test(m)) return null;
-    let best = null, maxScore = 0;
-    for (const v of regulations) {
-        let score = 0;
-        const keywords = [...(v.keywords || []), ...(v.aliases || [])];
-        for (const k of keywords) {
-            const kNorm = normalize(k);
-            if (m.includes(kNorm)) score += 3;
-            else if (kNorm.includes(m)) score += 1;
-        }
-        if (score > maxScore) { maxScore = score; best = v; }
-    }
-    return maxScore >= 3 ? best : null;
-};
-
-/* ============================================================
-   🚀 3. MAIN ROUTER
+    🚀 2. MAIN ROUTER
 ============================================================ */
 router.post("/", async (req, res) => {
     try {
@@ -164,66 +113,50 @@ router.post("/", async (req, res) => {
 
         // --- LAYER 1: MENU ACTIONS ---
         const menuActions = {
-            "📄 Hồ sơ": () => {
-                const docs = state.procedure?.documents;
-                return `📄 THÀNH PHẦN HỒ SƠ CHI TIẾT:\n\n${formatDocs(docs)}`;
-            },
-            "🏛 Nộp ở đâu": () => {
-                const place = state.procedure?.location || state.procedure?.authority;
-                if (!place) return "🏛 Nộp tại cơ quan Kiểm lâm sở tại hoặc cổng Dịch vụ công.";
-                const list = Array.isArray(place) ? place : [place];
-                return `🏛 NƠI NỘP HỒ SƠ:\n\n${list.map(i => `• ${i}`).join("\n")}`;
-            },
-            "💰 Lệ phí": () => `💰 LỆ PHÍ, PHÍ:\n\n${safe(state.procedure?.aiFees, "Theo quy định hiện hành")}`,
+            "📄 Hồ sơ": () => `📄 THÀNH PHẦN HỒ SƠ:\n\n${formatDocs(state.procedure?.documents)}`,
+            "💰 Lệ phí": () => `💰 LỆ PHÍ:\n\n${safe(state.procedure?.aiFees)}`,
             "🔎 Thủ tục khác": () => { state.procedure = null; return "Mời Anh/Chị nhập tên thủ tục mới."; }
         };
+        if (menuActions[msg]) return res.json({ reply: menuActions[msg](), choices: ["🏠 Menu chính", "🔎 Thủ tục khác"] });
 
-        if (menuActions[msg]) {
-            return res.json({ 
-                reply: menuActions[msg](), 
-                choices: ["📄 Hồ sơ", "🏛 Nộp ở đâu", "💰 Lệ phí", "🔎 Thủ tục khác"] 
-            });
-        }
-
-        // --- LAYER 2: HARD SEARCH ---
-        if (domain === 'all' || domain === 'xu_phat') {
-            const violation = findViolation(msg);
-            if (violation) {
-                state.procedure = null;
-                return res.json({ reply: formatViolation(violation), choices: ["🔎 Hành vi khác", "📄 Thủ tục liên quan"] });
-            }
-        }
-
+        // --- LAYER 2: HARD SEARCH (Dữ liệu xã & Thống kê) ---
         if (domain === 'all' || domain === 'du_lieu') {
+            const stats = getForestStatistics(msg);
+            if (stats) {
+                let reply = "";
+                const choices = ["📊 Tính tổng", "🔎 Xã khác", "🏠 Menu chính"];
+                switch (stats.type) {
+                    case "list": reply = `📍 **${stats.title}**:\n• ${stats.data.join("\n• ")}`; break;
+                    case "total": reply = `📊 **${stats.label}**: **${stats.value}**`; break;
+                    case "comparison": reply = `🏆 **${stats.name}** có ${stats.field} ${stats.status} (${stats.value})`; break;
+                    case "management": reply = `🏛 **${stats.hat}** quản lý ${stats.count} xã:\n• ${stats.list.join("\n• ")}`; break;
+                }
+                if (reply) return res.json({ reply, choices });
+            }
+
             let foundXaList = searchMultipleXa(msg);
-            if (!foundXaList.length && state.lastXaList.length && /đó|trên|vừa/.test(msg)) {
+            if (!foundXaList.length && state.lastXaList.length && /đó|trên|vừa/.test(msg.toLowerCase())) {
                 foundXaList = state.lastXaList;
             }
 
-            if (foundXaList.length === 1 && detectQuickIntent(msg) !== "calc") {
+            if (foundXaList.length === 1) {
                 state.lastXaList = foundXaList;
                 return res.json({ reply: formatXa(foundXaList[0]), choices: ["📊 Tính tổng", "🔎 Xã khác"] });
             }
 
-            if (detectQuickIntent(msg) === "calc" && (foundXaList.length > 0 || state.lastXaList.length > 0)) {
-                const list = foundXaList.length ? foundXaList : state.lastXaList;
-                const total = list.reduce((sum, x) => sum + (parseFloat(x.data?.dien_tich_rung) || 0), 0);
-                return res.json({ reply: `📊 Tổng diện tích rừng: ${total.toLocaleString()} ha`, choices: ["🔎 Xã khác"] });
+            if (foundXaList.length > 1) {
+                state.lastXaList = foundXaList;
+                const names = foundXaList.map(x => x.title).join(", ");
+                return res.json({ 
+                    reply: `🔍 Tìm thấy ${foundXaList.length} xã liên quan: ${names}. Anh/Chị muốn xem xã nào hay tính tổng?`,
+                    choices: ["📊 Tính tổng", "🔎 Tra cứu lại"]
+                });
             }
         }
 
-        const quickProc = semanticSearchProcedure(msg);
-        if (quickProc && quickProc.title) {
-            state.procedure = quickProc;
-            return res.json({ 
-                reply: formatProcedure(quickProc), 
-                choices: ["📄 Hồ sơ", "🏛 Nộp ở đâu", "💰 Lệ phí", "🔎 Thủ tục khác"] 
-            });
-        }
-
         // --- LAYER 3: AI SMART FALLBACK ---
-        const contextData = (state.lastXaList.length) 
-            ? `Đang xem: ${JSON.stringify(state.lastXaList.map(x => ({ten: x.title, dt: x.data?.dien_tich_rung})))}`
+        const contextData = state.lastXaList.length 
+            ? `Đang xem: ${JSON.stringify(state.lastXaList.map(x => ({ten: x.title, dt: x.data?.dien_tich_rung})))}` 
             : "Không có dữ liệu xã.";
 
         const ai = await getSmartAIResponse(msg, `Chế độ: ${domain}. ${contextData}`);
@@ -243,7 +176,9 @@ router.post("/", async (req, res) => {
 
     } catch (err) {
         console.error("❌ ERROR:", err);
-        return res.json({ reply: "⚠️ Hệ thống đang bận. Vui lòng thử lại sau." });
+        if (!res.headersSent) {
+            return res.json({ reply: "⚠️ Hệ thống đang bận. Vui lòng thử lại sau." });
+        }
     }
 });
 

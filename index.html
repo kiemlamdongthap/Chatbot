@@ -2,6 +2,9 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="KiểmLâm ĐT">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Trợ lý Kiểm lâm Đồng Tháp</title>
     
@@ -103,8 +106,8 @@
 
     <div id="category-menu">
         <button class="cat-btn active" data-domain="all">🏠 Tổng hợp</button>
-        <button class="cat-btn" data-domain="thu_tuc">📄 Thủ tục</button>
-        <button class="cat-btn" data-domain="xu_phat">⚖️ Xử phạt</button>
+        <button class="cat-btn" data-domain="thu_tuc">📄 Thủ tục hành chính</button>
+        <button class="cat-btn" data-domain="xu_phat">⚖️ Vi phạm hành chính</button>
         <button class="cat-btn" data-domain="du_lieu">📊 Số liệu</button>
         <button class="cat-btn" data-domain="extra_1">📍 Chủ rừng</button>
         <button class="cat-btn" data-domain="extra_2">🎤 Ghi âm</button>
@@ -196,47 +199,59 @@
 
     // --- XỬ LÝ TIN NHẮN ---
     function addMessage(sender, text, choices = []) {
-        const div = document.createElement("div");
-        div.className = "msg " + sender;
+    const div = document.createElement("div");
+    div.className = "msg " + sender;
+    
+    if (sender === "bot") {
+        isBotTyping = true;
         
-        if (sender === "bot") {
-            isBotTyping = true;
-            let formattedText = text.replace(/\n/g, "<br>")
-                .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, label, fileName) => {
-                    const fileUrl = fileName.startsWith('http') ? fileName : `https://kiemlamdongthap.github.io/Chatbot/public/forms/${fileName}`;
-                    return `<a href="${fileUrl}" target="_blank" class="download-link">${label}</a>`;
-                });
-            
-            div.innerHTML = `<span class="loading-dots">Đang xử lý...</span>`;
-            messagesEl.appendChild(div);
-
-            setTimeout(() => {
-                div.innerHTML = "";
-                let i = 0;
-                const typewriter = setInterval(() => {
-                    if (i < formattedText.length) {
-                        if (formattedText[i] === '<') {
-                            let endTag = formattedText.indexOf('>', i);
-                            div.innerHTML += formattedText.substring(i, endTag + 1);
-                            i = endTag + 1;
-                        } else {
-                            div.innerHTML += formattedText[i];
-                            i++;
-                        }
-                        messagesEl.scrollTop = messagesEl.scrollHeight;
-                    } else {
-                        clearInterval(typewriter);
-                        isBotTyping = false;
-                        showChoices(choices);
-                    }
-                }, 10);
-            }, 500);
-        } else {
-            div.innerText = text;
-            messagesEl.appendChild(div);
-            messagesEl.scrollTop = messagesEl.scrollHeight;
-        }
+        // 1. Xử lý xuống dòng trước
+        let formattedText = text.replace(/\n/g, "<br>");
+        
+        // 2. CHÍNH XÁC: Xử lý Markdown Link [Nhãn](URL)
+        formattedText = formattedText.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, label, url) => {
+		if (url.toLowerCase().includes('google') || url.toLowerCase().includes('maps')) {
+        // Nút Bản đồ
+        return `<a href="${url}" target="_blank" class="map-btn-final" style="cursor:pointer; position:relative; z-index:999;">📍 ${label}</a>`;
+    } else {
+        // Link tải file
+        const fileUrl = url.startsWith('http') ? url : `https://kiemlamdongthap.github.io/Chatbot/public/forms/${url}`;
+        return `<a href="${fileUrl}" target="_blank" class="download-link">${label}</a>`;
     }
+});
+        
+        div.innerHTML = `<span class="loading-dots">Đang xử lý...</span>`;
+        messagesEl.appendChild(div);
+
+        setTimeout(() => {
+            div.innerHTML = "";
+            let i = 0;
+            const typewriter = setInterval(() => {
+                if (i < formattedText.length) {
+                    // Nếu gặp thẻ HTML thì cho hiện ngay không dùng hiệu ứng đánh máy để tránh lỗi hiển thị nút
+                    if (formattedText[i] === '<') {
+                        let endTag = formattedText.indexOf('>', i);
+                        div.innerHTML += formattedText.substring(i, endTag + 1);
+                        i = endTag + 1;
+                    } else {
+                        div.innerHTML += formattedText[i];
+                        i++;
+                    }
+                    messagesEl.scrollTop = messagesEl.scrollHeight;
+                } else {
+                    clearInterval(typewriter);
+                    isBotTyping = false;
+                    showChoices(choices);
+                }
+            }, 5); 
+        }, 300);
+    
+        } else {
+        div.innerText = text;
+        messagesEl.appendChild(div);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+}
 
     function showChoices(choices) {
         if (!choices || choices.length === 0) return;

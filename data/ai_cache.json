@@ -848,5 +848,167 @@
       "debug_info": "Phân loại ý định 'hỏi_thủ_tục' dựa trên từ khóa 'cấp mã' và trích xuất từ khóa."
     },
     "createdAt": "2026-04-13T03:47:54.530Z"
+  },
+  "QU4gSMOSQV9DaOG6vyDEkeG7mTogZHVfbGlldS4gS2jDtG5nIGPDsyBk4buvIGxp4buHdSB4w6Mu": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Xin lỗi, hệ thống chưa ghi nhận số liệu rừng cho khu vực An Hòa.",
+      "keywords": [
+        "An Hòa"
+      ],
+      "debug_info": "Người dùng truy vấn dữ liệu rừng cho khu vực 'An Hòa'. Hệ thống không tìm thấy dữ liệu cụ thể cho khu vực này theo thông tin cung cấp."
+    },
+    "createdAt": "2026-04-14T01:45:10.950Z"
+  },
+  "YW4gaMOyYV9DaOG6vyDEkeG7mTogZHVfbGlldS4gS2jDtG5nIGPDsyBk4buvIGxp4buHdSB4w6Mu": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào bạn! Chúc bạn một ngày an hòa. Tôi có thể hỗ trợ gì cho bạn hôm nay?",
+      "keywords": [],
+      "debug_info": "Người dùng gửi lời chào, không liên quan đến tra cứu dữ liệu hay thủ tục hành chính."
+    },
+    "createdAt": "2026-04-14T01:45:23.573Z"
+  },
+  "eMOjIGFuIGjDsmFfQ2jhur8gxJHhu5k6IGR1X2xpZXUuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Xin lỗi, hệ thống chưa ghi nhận số liệu rừng cho khu vực xã An Hòa. Vui lòng kiểm tra lại dữ liệu hoặc cung cấp thông tin chi tiết hơn.",
+      "keywords": [
+        "xã An Hòa"
+      ],
+      "debug_info": "Dữ liệu đầu vào không chứa thông tin về xã An Hòa hoặc dữ liệu tổng thể để tính toán diện tích rừng."
+    },
+    "createdAt": "2026-04-14T01:45:39.229Z"
+  },
+  "dHJhbSBjaGltX0No4bq/IMSR4buZOiBkdV9saWV1LiDEkGFuZyB4ZW06IFt7InRlbiI6IljDoyBBbiBIw7JhIiwiZHQiOjg2LjEyfV0=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "tram chim"
+      ],
+      "debug_info": "Người dùng yêu cầu thông tin về 'tram chim'. Dữ liệu hệ thống cung cấp hiện tại chỉ chứa thông tin cho 'Xã An Hòa'. Không tìm thấy số liệu liên quan đến 'tram chim' trong dữ liệu được cung cấp."
+    },
+    "createdAt": "2026-04-14T06:38:11.216Z"
+  },
+  "cGhvbmcgbeG7uV9DaOG6vyDEkeG7mTogZHVfbGlldS4gS2jDtG5nIGPDsyBk4buvIGxp4buHdSB4w6Mu": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Chào bạn, theo dữ liệu hiện có, hệ thống chưa ghi nhận số liệu rừng cho khu vực Phong Mỹ.",
+      "keywords": [
+        "Phong Mỹ"
+      ],
+      "debug_info": "Không tìm thấy dữ liệu rừng cho khu vực Phong Mỹ trong hệ thống dữ liệu xã được cung cấp."
+    },
+    "createdAt": "2026-04-14T08:17:30.650Z"
+  },
+  "WMOjIFRyw6BtIENoaW1fQ2jhur8gxJHhu5k6IGR1X2xpZXUuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Xin lỗi, hệ thống hiện chưa ghi nhận số liệu rừng cho khu vực Xã Tràm Chim.",
+      "keywords": [
+        "Xã Tràm Chim"
+      ],
+      "debug_info": "Dựa trên thông tin cung cấp 'Không có dữ liệu xã', hệ thống không tìm thấy số liệu cho khu vực 'Xã Tràm Chim'."
+    },
+    "createdAt": "2026-04-14T08:18:30.778Z"
+  },
+  "MjMgeMOjIGPDsyBy4burbmdfQ2jhur8gxJHhu5k6IGR1X2xpZXUuIMSQYW5nIHhlbTogW3sidGVuIjoiWMOjIFBob25nIE3hu7kiLCJkdCI6MTE1Ny4wOH1d": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "xã",
+        "rừng"
+      ],
+      "debug_info": "Không tìm thấy các trường 'dien_tich_rung', 'dt_rung', hoặc 'dien_tich_lam_nghiep' trong dữ liệu cung cấp để tính tổng diện tích rừng."
+    },
+    "createdAt": "2026-04-14T09:31:04.764Z"
+  },
+  "bGnhu4d0IGvDql9DaOG6vyDEkeG7mTogZHVfbGlldS4gS2jDtG5nIGPDsyBk4buvIGxp4buHdSB4w6Mu": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Để tôi có thể hỗ trợ tốt nhất, bạn vui lòng cho biết bạn muốn liệt kê thông tin gì (ví dụ: diện tích rừng, các thủ tục hành chính, v.v.)?",
+      "keywords": [],
+      "debug_info": "Người dùng đưa ra yêu cầu chung chung, không rõ ràng về loại thông tin cần liệt kê."
+    },
+    "createdAt": "2026-04-14T09:45:31.448Z"
+  },
+  "Y8OhYyB4w6MgY8OzIHLhu6tuZ19DaOG6vyDEkeG7mTogZHVfbGlldS4gS2jDtG5nIGPDsyBk4buvIGxp4buHdSB4w6Mu": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hiện tại, hệ thống chưa ghi nhận số liệu rừng chi tiết theo từng xã. Vui lòng cung cấp thêm thông tin hoặc yêu cầu khác.",
+      "keywords": [
+        "xã",
+        "rừng"
+      ],
+      "debug_info": "Dữ liệu hệ thống cung cấp chỉ ra không có dữ liệu xã để thống kê."
+    },
+    "createdAt": "2026-04-14T10:20:37.946Z"
+  },
+  "Y8OhYyB4w6MgY8OzIMSR4bqldCBsw6JtIG5naGnhu4dwX0No4bq/IMSR4buZOiBkdV9saWV1LiBLaMO0bmcgY8OzIGThu68gbGnhu4d1IHjDoy4=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu đất lâm nghiệp cho các xã.",
+      "keywords": [
+        "các xã",
+        "đất lâm nghiệp"
+      ],
+      "debug_info": "Dữ liệu hệ thống cung cấp không có thông tin chi tiết về các xã để tính toán."
+    },
+    "createdAt": "2026-04-14T10:23:17.277Z"
+  },
+  "xJHhuqV0IGzDom0gbmdoaeG7h3BfQ2jhur8gxJHhu5k6IGR1X2xpZXUuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "đất lâm nghiệp"
+      ],
+      "debug_info": "Không có dữ liệu hệ thống được cung cấp để tính toán diện tích. Trả lời theo quy tắc 'context TRỐNG'."
+    },
+    "createdAt": "2026-04-14T10:23:34.248Z"
+  },
+  "bGFtIG5naGllcF9DaOG6vyDEkeG7mTogZHVfbGlldS4gS2jDtG5nIGPDsyBk4buvIGxp4buHdSB4w6Mu": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "lâm nghiệp"
+      ],
+      "debug_info": "Dữ liệu hệ thống cung cấp không chứa thông tin chi tiết về diện tích rừng hoặc đất lâm nghiệp để thực hiện tính toán."
+    },
+    "createdAt": "2026-04-14T10:24:16.546Z"
+  },
+  "SOG6oXQgS2nhu4NtIGzDom0ga2h1IHbhu7FjIDFfQ2jhur8gxJHhu5k6IGR1X2xpZXUuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hiện tại, hệ thống chưa ghi nhận số liệu rừng cho khu vực Hạt Kiểm lâm khu vực 1.",
+      "keywords": [
+        "Hạt Kiểm lâm khu vực 1"
+      ],
+      "debug_info": "Dữ liệu đầu vào 'du_lieu' trống, không thể thực hiện tính toán diện tích rừng hoặc đất lâm nghiệp."
+    },
+    "createdAt": "2026-04-14T10:28:36.444Z"
+  },
+  "ZGnhu4duIHTDrWNoIMSR4bqldCBsw6JtIG5naGnhu4dwX0No4bq/IMSR4buZOiBkdV9saWV1LiBLaMO0bmcgY8OzIGThu68gbGnhu4d1IHjDoy4=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "diện tích đất lâm nghiệp"
+      ],
+      "debug_info": "Không có dữ liệu JSON được cung cấp để tính toán tổng diện tích."
+    },
+    "createdAt": "2026-04-14T10:29:52.689Z"
+  },
+  "dMOibiBo4buZcCBjxqFfQ2jhur8gxJHhu5k6IGR1X2xpZXUuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [],
+      "debug_info": "Không có dữ liệu JSON được cung cấp để thực hiện tính toán. Áp dụng logic 'context TRỐNG' cho tra cứu thống kê."
+    },
+    "createdAt": "2026-04-14T10:49:34.033Z"
   }
 }

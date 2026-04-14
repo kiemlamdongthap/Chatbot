@@ -15,10 +15,14 @@
       "xa_cu": "xã Phú Thành B và xã An Hòa",
       "xa_moi": "xã An Hòa",
       "chu_rung": "VQG Tràm Chim",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 7.789,
       "dien_tich_lam_nghiep": 836.18,
       "dien_tich_rung": 86.12,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+	  "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn A",
+	  "So dien thoai": "0939.000.111",
+	  "Toa_do": "10.74088, 105.36507"
     }
   },
   {
@@ -37,10 +41,14 @@
       "xa_cu": "xã Tân Kiều và xã Đốc Binh Kiều",
       "xa_moi": "xã Đốc Binh Kiều",
       "chu_rung": "Gò Tháp",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 7.782,
       "dien_tich_lam_nghiep": 279.6,
       "dien_tich_rung": 122.78,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn B",
+	  "So dien thoai": "0939.000.222",
+	  "Toa_do": "10.51783, 105.90423"
     }
   },
   {
@@ -58,11 +66,15 @@
       "stt": 3,
       "xa_cu": "thị trấn Vàm Láng, xã Kiểng Phước và xã Gia Thuận",
       "xa_moi": "xã Gia Thuận",
-      "chu_rung": "RPHVB",
-      "dien_tich_tu_nhien": null,
+      "chu_rung": "Rừng phòng hộ ven biển",
+      "dien_tich_tu_nhien": 6.741,
       "dien_tich_lam_nghiep": 636.65,
       "dien_tich_rung": 241.73,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+	  "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn C",
+	  "So dien thoai": "0939.000.333",
+	  "Toa_do": "10.41188, 106.76808"
     }
   },
   {
@@ -80,11 +92,15 @@
       "stt": 4,
       "xa_cu": "xã Tân Thành (huyện Gò Công Đông) và xã Tăng Hòa",
       "xa_moi": "xã Gò Công Đông",
-      "chu_rung": "RPHVB",
-      "dien_tich_tu_nhien": null,
+      "chu_rung": "Rừng phòng hộ ven biển",
+      "dien_tich_tu_nhien": 10.641,
       "dien_tich_lam_nghiep": 562.51,
       "dien_tich_rung": 75.03,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+	  "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn C",
+	  "So dien thoai": "0939.000.333",
+	  "Toa_do": "10.29281, 106.77682"
     }
   },
   {
@@ -103,10 +119,14 @@
       "xa_cu": "các xã Hưng Thạnh (huyện Tân Phước), Phú Mỹ và Tân Hòa Thành",
       "xa_moi": "xã Hưng Thạnh",
       "chu_rung": "Cá nhân, hộ gia đình",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 6.515,
       "dien_tich_lam_nghiep": 93.64,
       "dien_tich_rung": 47.7,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn B",
+	  "So dien thoai": "0939.000.222",
+	  "Toa_do": "10.54144, 106.33095"
     }
   },
   {
@@ -124,11 +144,15 @@
       "stt": 6,
       "xa_cu": "xã Mỹ Long và xã Bình Thạnh (huyện Cao Lãnh), xã Mỹ Hiệp",
       "xa_moi": "xã Mỹ Hiệp",
-      "chu_rung": "Hậu cần, Xẻo Quít",
-      "dien_tich_tu_nhien": null,
+      "chu_rung": "Rừng tràm Hậu cần Công an tỉnh, BQL Khu di tích Xẻo Quít",
+      "dien_tich_tu_nhien": 7.942,
       "dien_tich_lam_nghiep": 273.44,
       "dien_tich_rung": 121.99,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn B",
+	  "So dien thoai": "0939.000.222",
+	  "Toa_do": "10.34149, 105.79223"
     }
   },
   {
@@ -146,11 +170,15 @@
       "stt": 7,
       "xa_cu": "xã Láng Biển, Mỹ Đông và Mỹ Quí",
       "xa_moi": "xã Mỹ Quí",
-      "chu_rung": "Động Cát",
-      "dien_tich_tu_nhien": null,
+      "chu_rung": "TT Nghiên cứu ứng dụng và Dịch vụ KHCN",
+      "dien_tich_tu_nhien": 11.988,
       "dien_tich_lam_nghiep": 680.68,
       "dien_tich_rung": 490.71,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn B",
+	  "So dien thoai": "0939.000.222",
+	  "Toa_do": "10.52502, 105.76471"
     }
   },
   {
@@ -168,11 +196,15 @@
       "stt": 8,
       "xa_cu": "xã Phong Mỹ và phần còn lại của xã Gáo Giồng",
       "xa_moi": "xã Phong Mỹ",
-      "chu_rung": "Gáo Giồng",
-      "dien_tich_tu_nhien": null,
+      "chu_rung": "BQL rừng tràm Gáo Giồng",
+      "dien_tich_tu_nhien": 7.858,
       "dien_tich_lam_nghiep": 1488.19,
       "dien_tich_rung": 1157.08,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+	  "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn A",
+	  "So dien thoai": "0939.000.111",
+	  "Toa_do": "10.53285, 105.58049"
     }
   },
   {
@@ -190,11 +222,15 @@
       "stt": 9,
       "xa_cu": "xã Phú Cường (huyện Tam Nông), xã Hòa Bình và một phần diện tích tự nhiên, quy mô dân số của xã Gáo Giồng",
       "xa_moi": "xã Phú Cường",
-      "chu_rung": "Hồ rừng",
-      "dien_tich_tu_nhien": null,
+      "chu_rung": "Dự án Hồ rừng",
+      "dien_tich_tu_nhien": 8.991,
       "dien_tich_lam_nghiep": 179.28,
       "dien_tich_rung": 99.59,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+	   "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn A",
+	  "So dien thoai": "0939.000.111",
+	  "Toa_do": "10.67079, 105.60687"
     }
   },
   {
@@ -213,10 +249,14 @@
       "xa_cu": "xã Phú Thành A và xã Phú Thọ",
       "xa_moi": "xã Phú Thọ",
       "chu_rung": "VQG Tràm Chim",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 8.490,
       "dien_tich_lam_nghiep": 2154.62,
       "dien_tich_rung": 551.69,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+	  "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn A",
+	  "So dien thoai": "0939.000.111",
+	  "Toa_do": "10.69083, 105.43436"
     }
   },
   {
@@ -235,10 +275,14 @@
       "xa_cu": "xã Hưng Thạnh (huyện Tháp Mười) và xã Phương Thịnh",
       "xa_moi": "xã Phương Thịnh",
       "chu_rung": "HGĐ, CN",
-      "dien_tich_tu_nhien": null,
-      "dien_tich_lam_nghiep": 0,
+      "dien_tich_tu_nhien": 10.465,
+      "dien_tich_lam_nghiep":  115.55 ,
       "dien_tich_rung": 0,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+	   "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn B",
+	  "So dien thoai": "0939.000.222",
+	  "Toa_do": "10.69083, 105.43436"
     }
   },
   {
@@ -257,10 +301,14 @@
       "xa_cu": "xã Phú Đức và xã Phú Hiệp",
       "xa_moi": "xã Tam Nông",
       "chu_rung": "VQG Tràm Chim",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 10.267,
       "dien_tich_lam_nghiep": 2409.97,
       "dien_tich_rung": 811.69,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+	   "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn A",
+	  "So dien thoai": "0939.000.111",
+	  "Toa_do": "10.76931, 105.50543"
     }
   },
   {
@@ -279,10 +327,14 @@
       "xa_cu": "xã Bình Ân và xã Tân Điền",
       "xa_moi": "xã Tân Điền",
       "chu_rung": "Cá nhân, hộ gia đình",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 3.901,
       "dien_tich_lam_nghiep": 575.66,
       "dien_tich_rung": 12.1,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+	   "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn C",
+	  "So dien thoai": "0939.000.333",
+	  "Toa_do": "10.35564, 106.75759"
     }
   },
   {
@@ -301,10 +353,14 @@
       "xa_cu": "xã Tân Phước (huyện Gò Công Đông), Tân Tây và Tân Đông",
       "xa_moi": "xã Tân Đông",
       "chu_rung": "Cá nhân, hộ gia đình",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 5.035,
       "dien_tich_lam_nghiep": 60.95,
       "dien_tich_rung": 60.95,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+	  "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn C",
+	  "So dien thoai": "0939.000.333",
+	  "Toa_do": "10.40174, 106.71627"
     }
   },
   {
@@ -322,11 +378,15 @@
       "stt": 15,
       "xa_cu": "xã Tân Thành B và xã Tân Hộ Cơ",
       "xa_moi": "xã Tân Hộ Cơ",
-      "chu_rung": "RPH Dinh Bà",
-      "dien_tich_tu_nhien": null,
+      "chu_rung": "Rừng phòng biên giới Dinh Bà",
+      "dien_tich_tu_nhien": 7.754,
       "dien_tich_lam_nghiep": 47.39,
       "dien_tich_rung": 39.53,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+	  "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn A",
+	  "So dien thoai": "0939.000.111",
+	  "Toa_do": "10.93953, 105.44553"
     }
   },
   {
@@ -345,10 +405,14 @@
       "xa_cu": "thị trấn Tân Hòa, xã Phước Trung và xã Bình Nghị",
       "xa_moi": "xã Tân Hòa",
       "chu_rung": "Cá nhân, hộ gia đình",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 3.796,
       "dien_tich_lam_nghiep": 45.76,
       "dien_tich_rung": 26.02,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+	   "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn C",
+	  "So dien thoai": "0939.000.333",
+	  "Toa_do": "10.31623, 106.71479"
     }
   },
   {
@@ -366,11 +430,15 @@
       "stt": 17,
       "xa_cu": "xã Phú Thạnh, Phú Đông và Phú Tân",
       "xa_moi": "xã Tân Phú Đông",
-      "chu_rung": "RPHVB",
-      "dien_tich_tu_nhien": null,
+      "chu_rung": "Rừng phòng hộ ven biển",
+      "dien_tich_tu_nhien": 17.500,
       "dien_tich_lam_nghiep": 5065.64,
       "dien_tich_rung": 851.94,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+	   "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn C",
+	  "So dien thoai": "0939.000.333",
+	  "Toa_do": "10.28563, 106.68036"
     }
   },
   {
@@ -389,10 +457,14 @@
       "xa_cu": "thị trấn Mỹ Phước, xã Thạnh Mỹ và xã Tân Hòa Đông",
       "xa_moi": "xã Tân Phước 1",
       "chu_rung": "Cá nhân, hộ gia đình",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 9.539,
       "dien_tich_lam_nghiep": 864.79,
       "dien_tich_rung": 84.89,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn B",
+	  "So dien thoai": "0939.000.222",
+	  "Toa_do": "10.47700, 106.19244"
     }
   },
   {
@@ -411,10 +483,14 @@
       "xa_cu": "các xã Thạnh Tân, Thạnh Hòa và Tân Hòa Tây",
       "xa_moi": "xã Tân Phước 2",
       "chu_rung": "KBT Đồng Tháp Mười",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 8.940,
       "dien_tich_lam_nghiep": 1463.61,
       "dien_tich_rung": 842.75,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+	   "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn B",
+	  "So dien thoai": "0939.000.222",
+	  "Toa_do": "10.55079, 106.14907"
     }
   },
   {
@@ -433,10 +509,14 @@
       "xa_cu": "xã Phước Lập, Tân Lập 1 và Tân Lập 2",
       "xa_moi": "xã Tân Phước 3",
       "chu_rung": "Cá nhân, hộ gia đình",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 8.019,
       "dien_tich_lam_nghiep": 211.33,
       "dien_tich_rung": 103.39,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực II"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn B",
+	  "So dien thoai": "0939.000.222",
+	  "Toa_do": "10.47680, 106.29656"
     }
   },
   {
@@ -455,10 +535,66 @@
       "xa_cu": "xã Tân Phú và xã Tân Thạnh (huyện Tân Phú Đông), xã Tân Thới",
       "xa_moi": "xã Tân Thới",
       "chu_rung": "Cá nhân, hộ gia đình",
-      "dien_tich_tu_nhien": null,
+      "dien_tich_tu_nhien": 6.583,
       "dien_tich_lam_nghiep": 24.36,
       "dien_tich_rung": 24.36,
-      "hat_quan_ly": "Hạt Kiểm lâm khu vực III"
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+	  "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn C",
+	  "So dien thoai": "0939.000.333",
+	  "Toa_do": "10.27846, 106.60192"
+    }
+  },
+  {
+    "id": "xa_tram_chim",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Tràm Chim",
+    "keywords": [
+      "xã tràm chim",
+      "tràm chim",
+      "xa tram chim",
+      "tram chim"
+    ],
+    "searchText": "xa tram chim dien tich rung tram chim hat kiem lam",
+    "data": {
+      "stt": 22,
+      "xa_cu": "thị trấn Tràm Chim và xã Tân Công Sính",
+      "xa_moi": "xã Tràm Chim",
+      "chu_rung": "VQG Tràm Chim",
+      "dien_tich_tu_nhien": 9.023,
+      "dien_tich_lam_nghiep":  1932.1,
+      "dien_tich_rung": 1119.18,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+	  "Cu_ly_di_chuyen": "Hạt KLKV I 36 km <p> Chi cục Kiểm lâm 132 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn A",
+	  "So dien thoai": "0939.000.111",
+	  "Toa_do": "10.67003, 105.56459"
+    }
+  },
+  {
+    "id": "xa_truong_xuan",
+    "type": "xa_lam_nghiep",
+    "title": "Xã Trường Xuân",
+    "keywords": [
+      "xã trường xuân",
+      "trường xuân",
+      "xa trường xuân",
+      "trương xuan"
+    ],
+    "searchText": "xa truong xuan dien tich rung trương xuan hat kiem lam",
+    "data": {
+      "stt": 23,
+      "xa_cu": "xã Thạnh Lợi và xã Trường Xuân",
+      "xa_moi": "xã Trường Xuân",
+      "chu_rung": "RPH Môi sinh Bắc Tháp Mười; Rừng hộ gia đình, cá nhân",
+      "dien_tich_tu_nhien": 11.376,
+      "dien_tich_lam_nghiep": 1286.07,
+      "dien_tich_rung": 773.35,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
+	  "Kiem lam vien": "Nguyễn Văn B",
+	  "So dien thoai": "0939.000.222",
+	  "Toa_do": "10.65061, 105.78886"
     }
   }
 ]
