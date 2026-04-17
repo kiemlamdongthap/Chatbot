@@ -21,6 +21,7 @@ app.use(cors({
     "http://127.0.0.1:10000",
     "http://localhost:10000",
     "https://kiemlamdongthap.github.io",
+	"https://kiemlamdongthap.github.io/Chatbot",
 	"https://chatbot-jqsw.onrender.com",
     "https://quanlylamsan.github.io"
   ],
