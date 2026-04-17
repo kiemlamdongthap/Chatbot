@@ -1,6 +1,6 @@
-/* =========================
-   1. BIẾN VÀ RESET
-========================= */
+/* ============================================================
+   1. BIẾN, RESET & THIẾT LẬP CHUNG
+   ============================================================ */
 :root {
     --current-color: #198754; 
     --bg-body: #f0f2f5;
@@ -17,9 +17,9 @@ body {
     overflow: hidden;
 }
 
-/* =========================
-   2. HỆ THỐNG MÀU THEMES (DYNAMIC)
-========================= */
+/* ============================================================
+   2. HỆ THỐNG MÀU THEMES (DYNAMIC THEO DOMAIN)
+   ============================================================ */
 #chatbox.domain-all      { --current-color: #198754; }
 #chatbox.domain-thu_tuc  { --current-color: #0d6efd; }
 #chatbox.domain-xu_phat  { --current-color: #dc3545; }
@@ -29,11 +29,11 @@ body {
 #chatbox.domain-extra_3  { --current-color: #6f42c1; } 
 #chatbox.domain-extra_4  { --current-color: #e83e8c; }
 
-/* =========================
+/* ============================================================
    3. CẤU TRÚC CHÍNH (LAYOUT)
-========================= */
+   ============================================================ */
 #chatbox {
-    width: 95%; max-width: 1000px;
+    width: 95%; max-width: 1030px; 
     height: calc(100vh - 40px);
     display: flex; flex-direction: column;
     border: 2px solid var(--current-color); 
@@ -44,109 +44,43 @@ body {
     transition: border-color 0.4s ease;
 }
 
+/* Header & Tiêu đề */
 #header {
     background: var(--current-color);
     color: white;
-    padding: 10px 15px;
-    display: flex;             /* Kích hoạt chế độ dàn hàng ngang */
-    align-items: center;       /* Căn giữa theo chiều dọc */
-    justify-content: space-between; /* Đẩy chữ sang trái/giữa và huy hiệu sang phải */
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Căn giữa tiêu đề chính */
     position: relative;
-    border-radius: 0;
-    min-height: 50px;          /* Đảm bảo chiều cao đủ cho huy hiệu */
+    min-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.4s ease;
 }
 
-/* Tinh chỉnh tiêu đề để không bị huy hiệu đè */
 #header h1, #header span {
-    flex: 1;                   /* Cho phép tiêu đề chiếm không gian còn lại */
-    text-align: center;        /* Giữ tiêu đề ở giữa */
-    margin: 0 40px;            /* Tạo khoảng cách an toàn ở hai bên */
+    flex: 1;
+    text-align: center;
+    margin: 0 40px;
     font-size: 1rem;
-    white-space: nowrap;       /* Không cho chữ xuống dòng gây vỡ giao diện */
+    white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;   /* Hiện dấu ... nếu tên quá dài trên mobile */
+    text-overflow: ellipsis;
 }
 
-#category-menu {
-    display: flex; gap: 8px; padding: 12px;
-    background: #f8f9fa; border-bottom: 1px solid #eee;
-    overflow-x: auto; justify-content: center;
-}
-#category-menu::-webkit-scrollbar { display: none; }
-
-/* =========================
-   4. NÚT BẤM (BUTTONS) & HIỆU ỨNG
-========================= */
-.cat-btn, .choice-btn {
-    position: relative; overflow: hidden;
-    cursor: pointer; font-weight: 600;
-    transition: var(--transition);
-}
-
-.cat-btn {
-    padding: 8px 15px; border-radius: 20px;
-    background: white; border: 1px solid #ddd;
-    font-size: 13px; color: #555; white-space: nowrap;
-}
-
-.cat-btn.active {
-    background: var(--current-color); color: white !important;
-    border-color: rgba(255,255,255,0.3);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.choice-btn {
-    background: white; border: 1.5px solid var(--current-color);
-    color: var(--current-color); padding: 7px 16px;
-    border-radius: 20px; font-size: 14px;
-    margin-bottom: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-.choice-btn:hover {
-    background: var(--current-color); color: white !important;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-/* Hiệu ứng Scale khi Click */
-.cat-btn:active, .choice-btn:active, #sendBtn:active {
-    transform: scale(0.88) !important;
-    filter: brightness(0.9);
-}
-
-/* Hiệu ứng Ripple (Lan tỏa) */
-.cat-btn::after, .choice-btn::after {
-    content: ""; position: absolute;
-    top: 50%; left: 50%; width: 0; height: 0;
-    background: rgba(255, 255, 255, 0.4); border-radius: 50%;
-    transform: translate(-50%, -50%); opacity: 0;
-    transition: width 0.4s ease-out, height 0.4s ease-out, opacity 0.4s ease-out;
-}
-.cat-btn:active::after, .choice-btn:active::after {
-    width: 250px; height: 250px; opacity: 1; transition: 0s;
-}
-
-/* =========================
-   5. TIN NHẮN (MESSAGES)
-========================= */
+/* Khu vực tin nhắn */
 #messages { 
     flex: 1; overflow-y: auto; padding: 20px; 
     display: flex; flex-direction: column; gap: 12px; background: #fcfcfc;
 }
 
-.msg { padding: 12px 16px; max-width: 85%; border-radius: 15px; font-size: 15px; line-height: 1.5; }
-
-.user { background: var(--current-color); color: white; align-self: flex-end; border-bottom-right-radius: 2px; }
-
-.bot { 
-    background: #f1f3f4; color: #333; align-self: flex-start; 
-    border-left: 4px solid var(--current-color); border-bottom-left-radius: 2px; 
+/* Ô nhập liệu & Nút gửi */
+#controls { 
+    display: flex; padding: 15px 20px; background: #fff; 
+    border-top: 1px solid #eee; gap: 12px; align-items: center; flex-shrink: 0; 
 }
-
-/* =========================
-   6. ĐIỀU KHIỂN (CONTROLS)
-========================= */
-#controls { display: flex; padding: 15px 20px; background: #fff; border-top: 1px solid #eee; gap: 12px; align-items: center; }
 
 #input { 
     flex: 1; padding: 12px 20px; border: 2px solid #eee; 
@@ -160,9 +94,136 @@ body {
     font-weight: 600; transition: var(--transition);
 }
 
-/* =========================
-   7. THÔNG BÁO & ANIMATIONS
-========================= */
+/* ============================================================
+   4. MENU DANH MỤC (HÀNG NGANG - VUỐT TRƯỢT)
+   ============================================================ */
+#category-menu {
+    display: flex !important;
+    flex-wrap: nowrap !important; /* Không xuống dòng để tạo dải trượt */
+    overflow-x: auto !important;  /* Kích hoạt cuộn ngang */
+    gap: 8px;
+    padding: 12px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #eee;
+    scrollbar-width: none;        /* Ẩn thanh cuộn Firefox */
+    cursor: grab;
+}
+
+#category-menu::-webkit-scrollbar { display: none; } /* Ẩn thanh cuộn Chrome */
+
+.cat-btn {
+    flex: 0 0 auto;
+    padding: 8px 15px; border-radius: 20px;
+    background: white; border: 1px solid #ddd;
+    font-size: 13px; color: #555; white-space: nowrap;
+    cursor: pointer; font-weight: 600;
+    transition: var(--transition);
+}
+
+.cat-btn.active {
+    background: var(--current-color); color: white !important;
+    border-color: rgba(255,255,255,0.3);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* ============================================================
+   5. NÚT LỰA CHỌN TRONG TIN NHẮN (CHOICES - TỰ ĐỘNG XUỐNG DÒNG)
+   ============================================================ */
+.choices-wrapper {
+    display: flex !important;
+    flex-wrap: wrap !important;    /* QUAN TRỌNG: Cho phép xuống dòng khi hết chỗ */
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px 15px;
+    width: 100%;
+    overflow: visible !important;  /* Hiển thị toàn bộ nút, không cuộn ngang */
+}
+
+.choice-btn {
+    flex: 0 1 auto !important;     /* Co giãn linh hoạt theo nội dung */
+    background: white; border: 1.5px solid var(--current-color);
+    color: var(--current-color); padding: 7px 16px;
+    border-radius: 20px; font-size: 14px;
+    margin-bottom: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    white-space: normal !important; /* Cho phép chữ xuống dòng bên trong nút */
+    text-align: center;
+    word-wrap: break-word;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    cursor: pointer; font-weight: 600;
+    transition: var(--transition);
+}
+
+.choice-btn:hover {
+    background: var(--current-color); color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* ============================================================
+   6. ĐỊNH DẠNG TIN NHẮN BOT & USER
+   ============================================================ */
+.msg { padding: 12px 16px; max-width: 85%; border-radius: 15px; font-size: 15px; line-height: 1.5; }
+
+.user { background: var(--current-color); color: white; align-self: flex-end; border-bottom-right-radius: 2px; }
+
+.bot { 
+    background: #f1f3f4; color: #333; align-self: flex-start; 
+    border-left: 4px solid var(--current-color); border-bottom-left-radius: 2px; 
+    line-height: 1.6;
+}
+
+.msg.bot b, .msg.bot strong { color: #1b5e20; }
+
+/* Nút bản đồ & Link tải */
+.map-btn-final {
+    display: inline-flex !important;
+    align-items: center; justify-content: center;
+    background-color: #1a73e8 !important; color: white !important;
+    padding: 6px 16px !important; border-radius: 20px !important;
+    text-decoration: none !important; font-size: 13px !important;
+    font-weight: 600 !important; white-space: nowrap !important;
+    gap: 6px; margin: 5px 0 5px 8px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+.download-link { color: #2e7d32 !important; font-weight: bold; text-decoration: underline; }
+
+/* ============================================================
+   7. HIỆU ỨNG (ANIMATIONS & INTERACTION)
+   ============================================================ */
+/* Hiệu ứng Scale & Ripple khi Click */
+.cat-btn:active, .choice-btn:active, #sendBtn:active { transform: scale(0.88) !important; filter: brightness(0.9); }
+
+.cat-btn::after, .choice-btn::after {
+    content: ""; position: absolute; top: 50%; left: 50%; width: 0; height: 0;
+    background: rgba(255, 255, 255, 0.4); border-radius: 50%;
+    transform: translate(-50%, -50%); opacity: 0;
+    transition: width 0.4s ease-out, height 0.4s ease-out, opacity 0.4s ease-out;
+}
+.cat-btn:active::after, .choice-btn:active::after { width: 250px; height: 250px; opacity: 1; transition: 0s; }
+
+/* Huy hiệu (Medal Pulse) */
+.medal-pulse-ring {
+    position: absolute; right: 20px; width: 36px; height: 36px;
+    background: #ffffff; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; z-index: 10;
+    animation: pulse-red-double 2s infinite;
+}
+
+@keyframes pulse-red-double {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 77, 77, 0.7); }
+    70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(255, 77, 77, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 77, 77, 0); }
+}
+
+/* ============================================================
+   8. MODAL & THÔNG BÁO (POPUP)
+   ============================================================ */
 .pop-notification {
     position: absolute; top: 50%; left: 50%;
     transform: translate(-50%, -50%);
@@ -196,74 +257,25 @@ body {
 
 .animate-shake { animation: shake-item 0.4s ease-in-out; }
 .animate-bounce { animation: bounce-item 0.4s ease-in-out; }
-
-/* =========================
-   8. MOBILE RESPONSIVE
-========================= */
+/* ============================================================
+   9. ĐIỀU CHỈNH RESPONSIVE (MOBILE)
+   ============================================================ */
 @media (max-width: 600px) {
-    #header {
-        padding: 8px 10px;
-    }
-    
-    #header span {
-        margin: 0 10px;            /* Thu hẹp khoảng cách lề trên điện thoại */
-        font-size: 0.9rem;         /* Thu nhỏ chữ để vừa khung */
-    }
+    #header h1, #header span { margin: 0 10px; font-size: 0.9rem; }
+    #category-menu { padding: 5px; gap: 5px; }
+    .cat-btn { font-size: 12px; padding: 8px 12px; }
+    .msg { max-width: 90%; }
 }
-/* =========================
-   FIX MODAL THÔNG TIN TÁC GIẢ
-========================= */
-.author-modal { /* Giả sử class bao ngoài modal của bạn là author-modal */
-    background: rgba(255, 255, 255, 0.95);
-    padding: 30px;
-    border-radius: 20px;
-    text-align: left;
-    max-width: 400px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-    border: 1px solid rgba(0,0,0,0.1);
-    backdrop-filter: blur(10px); /* Hiệu ứng mờ nền phía sau */
-}
-
-.author-title {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: #333;
-}
-
-.author-info-item {
-    margin-bottom: 12px; /* Tạo khoảng cách giữa các dòng */
+.ai-disclaimer {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #ccc;
+    font-size: 12px;
+    color: #dc3545; /* Màu đỏ cảnh báo hoặc xám #777 */
     line-height: 1.4;
+    font-style: italic;
 }
-
-.author-info-item strong {
-    display: inline-block;
-    width: 70px; /* Cố định độ rộng nhãn để các giá trị thẳng hàng */
-    color: #555;
-}
-
-.author-name {
-    font-size: 1.5rem;
-    color: var(--current-color);
-    margin-bottom: 15px;
-    border-bottom: 2px solid var(--current-color);
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-.author-footer {
-    margin-top: 20px;
-    padding-top: 15px;
-    border-top: 1px solid #eee;
-    font-size: 0.85rem;
-    color: #888;
-    text-align: center;
-}
-/* =========================
-   9. HIỆU ỨNG HUY HIỆU (MEDAL PULSE)
+9. HIỆU ỨNG HUY HIỆU (MEDAL PULSE)
 ========================= */
 
 /* Cấu trúc Header chuẩn để đẩy huy hiệu sang phải */
@@ -326,44 +338,11 @@ body {
                     0 0 0 0 rgba(255, 77, 77, 0);
     }
 }
-
-/* Tương tác khi di chuột */
-.medal-pulse-ring:hover {
-    background: #f8f9fa;
-    transform: scale(1.15);
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+/* Ẩn nút Tổng hợp */
+.cat-btn[data-domain="all"] {
+    display: none !important;
 }
-/* Định dạng nút bản đồ: Tự dãn, không bị thắt eo */
-.map-btn-final {
-	pointer-events: auto !important; /* Cho phép click */
-    cursor: pointer !important;     /* Hiện hình bàn tay khi di chuột */
-    display: inline-flex !important;
-    display: inline-flex !important;
-    align-items: center;
-    justify-content: center;
-    background-color: #1a73e8 !important; /* Xanh Google */
-    color: white !important;
-    padding: 6px 16px !important;
-    border-radius: 20px !important;
-    text-decoration: none !important;
-    font-size: 13px !important;
-    font-weight: 600 !important;
-    white-space: nowrap !important; /* Ép chữ nằm trên 1 hàng */
-    gap: 6px;
-    margin: 5px 0 5px 8px !important;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    vertical-align: middle;
-    transition: all 0.2s ease;
-}
-
-.map-btn-final:hover {
-    background-color: #1557b0 !important;
-    transform: scale(1.05);
-}
-
-/* Định dạng link tải hồ sơ cho đồng bộ */
-.download-link {
-    color: #2e7d32 !important;
-    font-weight: bold;
-    text-decoration: underline;
+/* Ẩn nút Xuất file */
+.cat-btn[data-domain="extra_3"] {
+    display: none !important;
 }

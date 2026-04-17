@@ -1,0 +1,31 @@
+[
+  {
+    "id": "CR_001",
+    "title": "Vườn quốc gia Tràm Chim",
+    "type": "Rừng đặc dụng",
+    "keywords": ["Tram Chim", "VQG Tram Chim", "seu dau do", "Ramsar", "Tam Nong"],
+    "nguoi_dai_dien": "Trần Văn A",
+    "chuc_vu": "Giám đốc",
+	"so_dien_thoai": "0939.111.111",
+    "data": {
+      "xa_cu": "Phú Đức, Phú Hiệp, Phú Thành B, Phú Thọ và TT Tràm Chim",
+	  "xa_moi": "Tam Nông, Phú Thọ, Tràm Chim và An Hòa",
+      "Toa_do": "10.7000, 105.5000",
+      "dien_tich_lam_nghiep": 7313.0,
+      "dien_tich_co_rung": 2.0,
+	  "dien_tich_rung": 2.0,
+      "dat_khac": 8.0,
+      "chu_rung": "Ban quản lý Vườn quốc gia Tràm Chim",
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I"
+    },
+    "history": [
+      "1985: Thành lập Công ty Nông Lâm Ngư trường Tràm Chim với mục đích trồng tràm và khai thác thủy sản.",
+      "1986: Tái phát hiện loài Sếu đầu đỏ (Grus antigone sharpii) tại khu vực.",
+      "1991: Trở thành Khu Bảo tồn Thiên nhiên Tràm Chim cấp tỉnh nhằm bảo vệ sếu đầu đỏ.",
+      "1994: Trở thành Khu Bảo tồn Thiên nhiên Tràm Chim cấp quốc gia theo Quyết định số 47/TTg với diện tích 7.500 ha.",
+      "1998: Thủ tướng Chính phủ ký Quyết định số 253/1998/QĐ-TTg thành lập Vườn quốc gia Tràm Chim (diện tích điều chỉnh còn 7.313 ha).",
+      "22/05/2012: Được công nhận là khu Ramsar thứ 2.000 của thế giới và là khu Ramsar thứ 4 của Việt Nam."
+    ]
+  }
+ 
+]

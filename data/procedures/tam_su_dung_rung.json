@@ -1,0 +1,28 @@
+{
+  "id": "tam_su_dung_rung",
+  "code": "1.012413",
+  "title": "Phê duyệt hoặc điều chỉnh Phương án tạm sử dụng rừng",
+  "aiKeywords": ["tạm sử dụng rừng", "phương án tạm sử dụng"],
+  "steps": "Nộp HS => Thẩm định => Lấy ý kiến (nếu cần) => Phê duyệt.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "12 ngày (thường) / 20 ngày (có lấy ý kiến).",
+  "target": "Chủ đầu tư dự án.",
+  "authority": "Chủ tịch UBND Tỉnh.",
+  "result": "Quyết định phê duyệt/điều chỉnh (PL III).",
+  "aiFees": "Không.",
+  "forms_info": "Phụ lục I, II (NĐ 227/2025/NĐ-CP).",
+  "condition": "Dự án được chấp thuận, không thể bố trí đất khác...",
+  "legal_basis": "Nghị định 227/2025/NĐ-CP.",
+  "digital_docs": "Toàn bộ hồ sơ nộp vào và Báo cáo thẩm định.",
+  "digital_result": "Quyết định phê duyệt/điều chỉnh (PL III).",
+  "documents": [
+    { "name": "Bản chính Văn bản đề nghị (PL I)", "file": "/forms/Mau-De-nghi.docx" },
+    { "name": "Bản chính Phương án (PL II)", "file": "/forms/Phuong-an.docx" },
+    { "name": "Bản sao QĐ chủ trương, Báo cáo thuyết minh, bản đồ", "file": "/forms/Kem-theo.pdf" }
+  ]
+}

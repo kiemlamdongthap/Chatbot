@@ -1,0 +1,27 @@
+{
+  "id": "phe_duyet_khai_thac_dv_rung",
+  "code": "1.000047",
+  "title": "Phê duyệt phương án khai thác động vật rừng thông thường từ tự nhiên",
+  "aiKeywords": ["khai thác động vật rừng", "phương án khai thác"],
+  "steps": "Nộp hồ sơ => Tiếp nhận => Thẩm định và trả kết quả.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp (Quầy 14 hoặc Quầy 5 Bưu điện tỉnh)",
+    "(2) Dịch vụ bưu chính công ích",
+    "(3) Dịch vụ công trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "06 ngày làm việc.",
+  "target": "Tổ chức, cá nhân, hộ gia đình, cộng đồng dân cư.",
+  "authority": "Cơ quan Kiểm lâm sở tại.",
+  "result": "Phê duyệt phương án khai thác.",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 09, 12 Phụ lục II (TT 26/2025/TT-BNNMT).",
+  "condition": "Không.",
+  "legal_basis": "TT 26/2025/TT-BNNMT; QĐ 2391/QĐ-BNNMT.",
+  "digital_docs": "Đề nghị (Mẫu 09); Phương án (Mẫu 12).",
+  "digital_result": "Phương án được phê duyệt.",
+  "documents": [
+    { "name": "Bản chính Đề nghị (Mẫu số 09)", "file": "/forms/Mau-09.docx" },
+    { "name": "Bản chính Phương án (Mẫu số 12)", "file": "/forms/Mau-12.docx" }
+  ]
+}

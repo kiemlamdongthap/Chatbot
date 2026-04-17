@@ -1,0 +1,27 @@
+{
+  "id": "phe_duyet_ho_tro_quy_rung",
+  "code": "1.000071",
+  "title": "Phê duyệt Chương trình, dự án và hoạt động phi dự án được hỗ trợ tài chính của Quỹ BV&PTR",
+  "aiKeywords": ["quỹ bảo vệ rừng", "hỗ trợ tài chính rừng"],
+  "steps": "Nộp HS (trước 31/12) => Thẩm định (trước 25/02) => Phê duyệt => Trả KQ.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "40 ngày làm việc.",
+  "target": "Tổ chức, hộ gia đình, cá nhân, cộng đồng.",
+  "authority": "Chủ tịch UBND Tỉnh.",
+  "result": "Quyết định phê duyệt chương trình, dự án.",
+  "aiFees": "Không.",
+  "forms_info": "Không.",
+  "condition": "Không.",
+  "legal_basis": "Nghị định 156/2018/NĐ-CP.",
+  "digital_docs": "Văn bản đề nghị, văn kiện dự án.",
+  "digital_result": "Quyết định phê duyệt.",
+  "documents": [
+    { "name": "Bản chính Văn bản đề nghị hỗ trợ", "file": "/forms/De-nghi-ho-tro.docx" },
+    { "name": "Văn kiện chương trình/dự án", "file": "/forms/Van-kien-du-an.pdf" }
+  ]
+}

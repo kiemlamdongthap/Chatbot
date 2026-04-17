@@ -1,0 +1,28 @@
+{
+  "id": "nop_tien_trong_rung_thay_the",
+  "code": "1.007916",
+  "title": "Nộp tiền trồng rừng thay thế",
+  "aiKeywords": ["trồng rừng thay thế", "nộp tiền", "chuyển mục đích sử dụng rừng"],
+  "steps": "Nộp hồ sơ => Tiếp nhận => Sở đề xuất UBND tỉnh chấp thuận => Hoàn thành nộp tiền.",
+  "location": [
+    "(1) Trung tâm Phục vụ hành chính công tỉnh Đồng Tháp",
+    "(2) Trung tâm phục vụ hành chính công các xã, phường",
+    "(3) Dịch vụ bưu chính công ích",
+    "(4) Dịch vụ công trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính công ích, trực tuyến.",
+  "processingTime": "18 ngày làm việc (nộp tại địa phương); 27 ngày làm việc (bố trí địa phương khác).",
+  "target": "Chủ đầu tư dự án.",
+  "authority": "Chủ tịch Ủy ban nhân dân cấp tỉnh (Sở NN&MT tiếp nhận).",
+  "result": "Văn bản chấp thuận nộp tiền trồng rừng thay thế.",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 02 Phụ lục IV ban hành kèm Thông tư số 84/2025/TT-BNNMT.",
+  "condition": "Không.",
+  "legal_basis": "Điều 11 Thông tư số 84/2025/TT-BNNMT.",
+  "digital_docs": "Văn bản đề nghị (Mẫu 02) và bản sao văn bản chấp thuận chủ trương.",
+  "digital_result": "Văn bản chấp thuận nộp tiền trồng rừng thay thế.",
+  "documents": [
+    { "name": "Bản chính Văn bản đề nghị (Mẫu số 02)", "file": "/forms/Mau-02-IV.docx" },
+    { "name": "Bản sao văn bản chấp thuận chủ trương/cho phép", "file": "/forms/Van-ban-chap-thuan.pdf" }
+  ]
+}

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "PCCCR_01",
+    "chu_rung": "Vườn quốc gia Tràm Chim",
+    "keywords": ["tram chim", "vqg Tram Chim", "vqg", "vuon quoc gia"],
+    "contacts": [
+      { "name": "Ông Lâm", "pos": "Giám đốc Vườn", "phone": "0919537537", "main": true },
+      { "name": "Ông Đức", "pos": "Phó Công an xã Tràm Chim", "phone": "0949332663" },
+      { "name": "Ông Thành", "pos": "Phó Công an xã Tam Nông", "phone": "0945831615" },
+      { "name": "Ông Vũ", "pos": "Phó Công an xã An Hòa", "phone": "0907594448" },
+      { "name": "Ông Hiệp", "pos": "Trưởng công an xã Phú Thọ", "phone": "0918141365" },
+      { "name": "Ông Giang", "pos": "Đội CC&CNCH khu vực Hồng Ngự", "phone": "0944408114" }
+    ]
+  },
+  {
+    "id": "PCCCR_02",
+    "chu_rung": "Khu di tích Gò Tháp - BQL Di tích tỉnh Đồng Tháp",
+    "keywords": ["go thap", "thap muoi", "di tich go thap"],
+    "contacts": [
+      { "name": "Chị Thảo", "pos": "Giám đốc", "phone": "0388555625", "main": true },
+      { "name": "Ông Văn", "pos": "Trưởng Công an xã Đốc Binh Kiều", "phone": "0986393281" },
+      { "name": "Ông Chinh", "pos": "Đội CC&CNCH khu vực Tháp Mười", "phone": "0979 431 929" }
+    ]
+  },
+  {
+    "id": "PCCCR_03",
+    "chu_rung": "Khu di tích Xẻo Quít - BQL Di tích tỉnh Đồng Tháp",
+    "keywords": ["xeo quit", "cao lanh", "di tich xeo quit", "my hiep"],
+    "contacts": [
+      { "name": "Chị Thảo", "pos": "Giám đốc", "phone": "0388555625", "main": true },
+      { "name": "Ông Nhân", "pos": "Trưởng Công an xã Mỹ Hiệp", "phone": "0832822494" },
+      { "name": "Ông Nam", "pos": "Đội CC&CNCH khu vực Cao Lãnh", "phone": "0939 330 611" }
+    ]
+  },
+  {
+    "id": "PCCCR_04",
+    "chu_rung": "Đoàn Kinh tế Quốc phòng 959 (Rừng phòng hộ Biên giới Dinh Bà)",
+    "keywords": ["959", "doan 959", "dinh ba", "tan ho co", "bien gioi", "phong ho"],
+    "contacts": [
+      { "name": "Ông Nguyên", "pos": "Đội trưởng Đội sx Số 1", "phone": "0949 992 235", "main": true },
+      { "name": "Ông Dũng", "pos": "Trưởng Công an xã Tân Hộ Cơ", "phone": "0913 830 228" },
+      { "name": "Ông Giang", "pos": "Đội CC&CNCH khu vực Hồng Ngự", "phone": "0944 408 114" }
+    ]
+  },
+  {
+    "id": "PCCCR_05",
+    "chu_rung": "BQL Rừng phòng hộ và Khu bảo tồn sinh thái ĐTM",
+    "keywords": ["dong thap muoi", "dtm", "bao ton sinh thai", "tan phuoc"],
+    "contacts": [
+      { "name": "Ông Tâm", "pos": "Phó Giám đốc", "phone": "0916 877 559", "main": true },
+      { "name": "Ông Tuấn Anh", "pos": "Trưởng Công an xã Tân Phước 2", "phone": "0973 781 815" },
+      { "name": "Ông Cường", "pos": "Phòng PC07 - Công an tỉnh", "phone": "0888 880 114" }
+    ]
+  },
+  {
+    "id": "PCCCR_06",
+    "chu_rung": "Trại giam Phước Hoà - Cục C10 - Bộ Công an",
+    "keywords": ["trai giam", "phuoc hoa", "c10", "cong an"],
+    "contacts": [
+      { "name": "Ông Hưng", "pos": "Phó trưởng phòng Kế hoạch", "phone": "0975 336 755", "main": true },
+      { "name": "Ông Tuấn Anh", "pos": "Trưởng Công an xã Tân Phước 2", "phone": "0973 781 815" },
+      { "name": "Ông Cường", "pos": "Phòng PC07 - Công an tỉnh", "phone": "0888 880 114" }
+    ]
+  },
+  {
+    "id": "PCCCR_07",
+    "chu_rung": "Công ty TNHH Hùng Cá (Dự án Hồ Rừng)",
+    "keywords": ["hung ca", "ho rung", "phu cuong"],
+    "contacts": [
+      { "name": "Ông Truyền", "pos": "Phó giám đốc phụ trách", "phone": "0366 888 789", "main": true },
+      { "name": "Ông Vinh", "pos": "Trưởng Công an xã Phú Cường", "phone": "0919 027 006" },
+      { "name": "Ông Chinh", "pos": "Đội CC&CNCH khu vực Tháp Mười", "phone": "0979 431 929" }
+    ]
+  },
+  {
+    "id": "PCCCR_08",
+    "chu_rung": "Ban Quản lý rừng tràm Gáo Giồng",
+    "keywords": ["gao giong", "cao lanh", "phong my"],
+    "contacts": [
+      { "name": "Ông Hiền", "pos": "Trưởng ban", "phone": "0913 846 612", "main": true },
+      { "name": "Ông Giang", "pos": "Trưởng Công an xã Phong Mỹ", "phone": "0917 170 126" },
+      { "name": "Ông Nam", "pos": "Đội CC&CNCH khu vực Cao Lãnh", "phone": "0939 330 611" }
+    ]
+  },
+  {
+    "id": "PCCCR_09",
+    "chu_rung": "Trung tâm NCUD và DVKHCN (Trại Động Cát)",
+    "keywords": ["trai dong cat", "dong cat", "my qui", "trung tam nghien cuu"],
+    "contacts": [
+      { "name": "Ông Nhãn", "pos": "Phó Giám đốc", "phone": "0972847722", "main": true },
+      { "name": "Ông Đấu", "pos": "Trưởng Công an xã Mỹ Qúi", "phone": "0976268256" },
+      { "name": "Ông Chinh", "pos": "Đội CC&CNCH khu vực Tháp Mười", "phone": "0979 431 929" }
+    ]
+  },
+  {
+    "id": "PCCCR_10",
+    "chu_rung": "Phòng Hậu Cần, Công an tỉnh",
+    "keywords": ["hau can", "cong an tinh", "my hiep"],
+    "contacts": [
+      { "name": "Ông Vũ", "pos": "Phó Trưởng phòng", "phone": "0777728881", "main": true },
+      { "name": "Ông Nhân", "pos": "Trưởng Công an xã Mỹ Hiệp", "phone": "0832822494" },
+      { "name": "Ông Nam", "pos": "Đội CC&CNCH khu vực Cao Lãnh", "phone": "0939 330 611" }
+    ]
+  },
+  {
+    "id": "PCCCR_11",
+    "chu_rung": "Nghĩa trang Liệt sỹ Tam Nông",
+    "keywords": ["nghia trang", "tam nong", "phu tho"],
+    "contacts": [
+      { "name": "Ông Hiệp", "pos": "Phó trưởng ban", "phone": "0396547279", "main": true },
+      { "name": "Ông Hiệp", "pos": "Trưởng công an xã Phú Thọ", "phone": "0918 141 365" },
+      { "name": "Ông Giang", "pos": "Đội CC&CNCH khu vực Hồng Ngự", "phone": "0944 408 114" }
+    ]
+  },
+  {
+    "id": "PCCCR_12",
+    "chu_rung": "Rừng Phòng hộ Môi sinh Bắc Tháp Mười, xã Trường Xuân",
+    "keywords": ["bac thap muoi", "truong xuan", "moi sinh"],
+    "contacts": [
+      { "name": "Ông Thảo", "pos": "Trưởng ban", "phone": "0918716181", "main": true },
+      { "name": "Ông Bắc", "pos": "Trưởng Công an xã Trường Xuân", "phone": "0907297578" },
+      { "name": "Ông Chinh", "pos": "Đội CC&CNCH khu vực Tháp Mười", "phone": "0979 431 929" }
+    ]
+  }
+]

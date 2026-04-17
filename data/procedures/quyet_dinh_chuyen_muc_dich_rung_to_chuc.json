@@ -1,0 +1,27 @@
+{
+  "id": "quyet_dinh_chuyen_muc_dich_rung_to_chuc",
+  "code": "1.012689",
+  "title": "Quyết định chuyển mục đích sử dụng rừng sang mục đích khác đối với tổ chức",
+  "aiKeywords": ["chuyển mục đích rừng", "tổ chức chuyển mục đích"],
+  "steps": "Nộp hồ sơ => Sở NN&MT lập Tờ trình => UBND cấp tỉnh ban hành Quyết định.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "20 ngày.",
+  "target": "Tổ chức.",
+  "authority": "UBND Tỉnh (Sở NN&MT tiếp nhận).",
+  "result": "Quyết định chuyển mục đích sử dụng rừng (Mẫu 24).",
+  "aiFees": "Không quy định.",
+  "forms_info": "Mẫu 20, Mẫu 22 (NĐ 91/2024/NĐ-CP).",
+  "condition": "Không.",
+  "legal_basis": "Nghị định 91/2024/NĐ-CP.",
+  "digital_docs": "Toàn bộ hồ sơ nộp vào và Tờ trình của Sở.",
+  "digital_result": "Quyết định (Mẫu 24).",
+  "documents": [
+    { "name": "Bản chính Đề nghị (Mẫu số 20)", "file": "/forms/Mau-20.docx" },
+    { "name": "QĐ chủ trương, PA trồng rừng thay thế, Báo cáo thuyết minh, bản đồ", "file": "/forms/Ho-so-kem-theo.pdf" }
+  ]
+}

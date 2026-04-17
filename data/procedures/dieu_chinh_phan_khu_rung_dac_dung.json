@@ -1,0 +1,27 @@
+{
+  "id": "dieu_chinh_phan_khu_rung_dac_dung",
+  "code": "1.012687",
+  "title": "Phê duyệt điều chỉnh phân khu chức năng của khu rừng đặc dụng",
+  "aiKeywords": ["phân khu chức năng", "rừng đặc dụng"],
+  "steps": "Nộp HS => Lấy ý kiến thẩm định => Hoàn thành thẩm định => Trình Chủ tịch UBND tỉnh.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "55 ngày.",
+  "target": "Chủ rừng.",
+  "authority": "Chủ tịch UBND Tỉnh.",
+  "result": "Quyết định điều chỉnh phân khu chức năng.",
+  "aiFees": "Không.",
+  "forms_info": "Không quy định mẫu cụ thể.",
+  "condition": "Phải đáp ứng tiêu chí các phân khu.",
+  "legal_basis": "Nghị định 91/2024/NĐ-CP.",
+  "digital_docs": "Tờ trình, Phương án, Bản đồ.",
+  "digital_result": "Quyết định điều chỉnh.",
+  "documents": [
+    { "name": "Bản chính Tờ trình", "file": "/forms/To-trinh.docx" },
+    { "name": "Bản chính Phương án điều chỉnh và Bản đồ hiện trạng", "file": "/forms/PA-Dieu-chinh.pdf" }
+  ]
+}

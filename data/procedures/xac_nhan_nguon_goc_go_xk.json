@@ -1,0 +1,28 @@
+{
+  "id": "xac_nhan_nguon_goc_go_xk",
+  "code": "3.000159",
+  "title": "Xác nhận nguồn gốc gỗ trước khi xuất khẩu",
+  "aiKeywords": ["nguồn gốc gỗ", "xuất khẩu gỗ"],
+  "steps": "Nộp HS => Trả lời tính đầy đủ => Thẩm định, kiểm tra thực tế => Xác nhận.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "04 ngày (thông thường); 06 ngày (có nghi vấn).",
+  "target": "Chủ lô hàng gỗ XK (không phải DN Nhóm I).",
+  "authority": "Cơ quan Kiểm lâm sở tại.",
+  "result": "Xác nhận trên Bảng kê (Mẫu 05/06).",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 04, 05, 06 (NĐ 120/2024/NĐ-CP).",
+  "condition": "Không.",
+  "legal_basis": "NĐ 102/2020/NĐ-CP; NĐ 120/2024/NĐ-CP.",
+  "digital_docs": "Đề nghị, Bảng kê, HS gỗ nguồn gốc.",
+  "digital_result": "Bảng kê được xác nhận.",
+  "documents": [
+    { "name": "Bản chính Đề nghị (Mẫu số 04)", "file": "/forms/Mau-04.docx" },
+    { "name": "Bản chính Bảng kê XK (Mẫu số 05/06)", "file": "/forms/Mau-05-06.pdf" },
+    { "name": "Bản sao HS gỗ NK/khai thác trong nước", "file": "/forms/Ho-so-nguon-goc.pdf" }
+  ]
+}

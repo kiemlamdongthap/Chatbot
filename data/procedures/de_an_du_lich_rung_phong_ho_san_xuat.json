@@ -1,0 +1,27 @@
+{
+  "id": "de_an_du_lich_rung_phong_ho_san_xuat",
+  "code": "1.000081",
+  "title": "Phê duyệt/điều chỉnh đề án du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng phòng hộ/sản xuất",
+  "aiKeywords": ["du lịch sinh thái", "rừng phòng hộ", "rừng sản xuất"],
+  "steps": "Nộp HS => Tiếp nhận => Lấy ý kiến thẩm định => Phê duyệt.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "45 ngày.",
+  "target": "Chủ rừng.",
+  "authority": "Chủ tịch UBND Tỉnh.",
+  "result": "Quyết định phê duyệt/điều chỉnh đề án.",
+  "aiFees": "Không.",
+  "forms_info": "Không.",
+  "condition": "Không.",
+  "legal_basis": "Nghị định 91/2024/NĐ-CP.",
+  "digital_docs": "Tờ trình, Đề án.",
+  "digital_result": "Quyết định phê duyệt/điều chỉnh.",
+  "documents": [
+    { "name": "Bản chính Tờ trình", "file": "/forms/To-trinh.docx" },
+    { "name": "Bản chính Đề án DLST (kèm bản đồ, bản vẽ)", "file": "/forms/De-an.pdf" }
+  ]
+}

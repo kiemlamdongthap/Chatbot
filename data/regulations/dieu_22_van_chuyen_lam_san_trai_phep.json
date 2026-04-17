@@ -213,71 +213,187 @@
         "Đối với hành vi vận chuyển trái pháp luật sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 360.000.000 đồng đến dưới 390.000.000 đồng."
       ]
     },
-    {
+    
+	{
       "clause": "16",
       "fine_range": "Phạt tiền từ 390.000.000 đồng đến 420.000.000 đồng",
       "cases": [
         "Đối với hành vi vận chuyển trái pháp luật sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá từ 390.000.000 đồng đến dưới 420.000.000 đồng."
       ]
     },
-    {
+    
+	{
       "clause": "17",
       "fine_range": "Phạt tiền từ 420.000.000 đồng đến 450.000.000 đồng",
       "cases": [
         "Đối với hành vi vận chuyển trái pháp luật sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá 420.000.000 đồng đến dưới 450.000.000 đồng."
       ]
     },
-    {
+    
+	{
       "clause": "18",
       "fine_range": "Phạt tiền từ 450.000.000 đồng đến 475.000.000 đồng",
       "cases": [
         "Đối với hành vi vận chuyển trái pháp luật sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá 450.000.000 đồng đến dưới 475.000.000 đồng."
       ]
     },
-    {
+    
+	{
       "clause": "19",
       "fine_range": "Phạt tiền từ 475.000.000 đồng đến 500.000.000 đồng",
       "cases": [
         "Đối với hành vi vận chuyển trái pháp luật sản phẩm chế biến từ gỗ không có hồ sơ lâm sản hợp pháp trị giá 475.000.000 đồng trở lên."
       ]
     },
-  {
-      "clause": "22",
-      "cases": [
-        "Lâm sản có nguồn gốc hợp pháp nhưng hồ sơ không đúng quy định hoặc không xuất trình được tại thời điểm kiểm tra: Xử phạt theo Điều 24."
-      ]
-    },
-    {
-      "clause": "23",
-      "cases": [
-        "Chủ lâm sản đồng thời là chủ phương tiện vận chuyển trái phép: Bị xử phạt đồng thời cả hành vi vận chuyển (Điều 22) và hành vi mua bán (Điều 23)."
-      ]
-    },
-    {
-      "clause": "24",
-      "cases": [
-        "Vận chuyển than hầm, than hoa từ rừng tự nhiên/rừng trồng Nhà nước: Người điều khiển phương tiện bị phạt như vận chuyển lâm sản ngoài gỗ; chủ lâm sản bị phạt theo khoản 4 Điều 13."
-      ]
-    },
-    {
-      "clause": "25",
-      "cases": [
-        "Chủ phương tiện cố ý cho thuê, mượn xe để vận chuyển lâm sản trái pháp luật: Bị xử phạt như người trực tiếp vận chuyển."
-      ]
-    }
-  ],
-  "additional_penalties": {
+	
+	{
     "clause": "20",
-    "content": [
+	"fine_range": "Hình thức xử phạt bổ sung",
+    "cases": [
       "a) Tịch thu tang vật vi phạm đối với hành vi quy định tại khoản 1 đến khoản 19 (trừ trường hợp gỗ thực tế vượt sai số cho phép nhưng có nguồn gốc hợp pháp);",
       "b) Tịch thu phương tiện vi phạm đối với hành vi từ khoản 1 đến khoản 19 nếu thuộc trường hợp: Có tổ chức, tái phạm; Xe giả, xe không đăng ký; Vận chuyển gỗ, động vật, ngà voi, sừng tê giác vượt ngưỡng số lượng/giá trị quy định tại điểm b khoản 20."
     ]
   },
+  
+  {
+      "clause": "22",
+	  "fine_range": "Lâm sản có nguồn gốc hợp pháp nhưng hồ sơ không đúng quy định hoặc không xuất trình được tại thời điểm kiểm tra: Xử phạt theo Điều 24.", 
+      "cases": [
+        "Trường hợp vận chuyển lâm sản đã được xác định có nguồn gốc hợp pháp nhưng hồ sơ lâm sản không thực hiện đúng quy định của pháp luật hoặc người điều khiển phương tiện vận chuyển, chủ lâm sản không xuất trình được hồ sơ lâm sản cho người có thẩm quyền tại thời điểm kiểm tra phương tiện vận chuyển lâm sản thì bị xử phạt theo quy định tại Điều 24 của Nghị định này."
+      ]
+    },
+    
+	{
+      "clause": "23",
+	  "fine_range":"Chủ lâm sản đồng thời là chủ phương tiện vận chuyển trái phép: Bị xử phạt đồng thời cả hành vi vận chuyển (Điều 22) và hành vi mua bán (Điều 23).",
+      "cases": [
+        "Chủ lâm sản bị xử phạt về hành vi mua bán lâm sản theo quy định tại Điều 23 của Nghị định này. Trường hợp chủ lâm sản đồng thời là chủ sở hữu hoặc người quản lý, người sử dụng hợp pháp phương tiện có hành vi vận chuyển lâm sản trái pháp luật thì bị xử phạt hai hành vi: vận chuyển lâm sản trái pháp luật quy định tại Điều này và mua bán lâm sản trái pháp luật quy định tại Điều 23 của Nghị định này."
+      ]
+    },
+    
+	{
+      "clause": "24",
+	  "fine_range": "Vận chuyển than hầm, than hoa từ rừng tự nhiên/rừng trồng Nhà nước: Người điều khiển phương tiện bị phạt như vận chuyển lâm sản ngoài gỗ; chủ lâm sản bị phạt theo khoản 4 Điều 13.", 
+      "cases": [
+        "Trường hợp phát hiện vận chuyển từ trong rừng ra các loại than hầm, than hoa được xác định có nguồn gốc từ rừng tự nhiên và rừng trồng do Nhà nước đại diện chủ sở hữu thì người điều khiển phương tiện bị xử phạt về hành vi vận chuyển trái pháp luật thực vật rừng ngoài gỗ quy định tại Điều này, chủ lâm sản bị xử phạt theo quy định tại khoản 4 Điều 13 của Nghị định này."
+      ]
+    },
+    
+	{
+      "clause": "25",
+	   "fine_range": "Chủ phương tiện cố ý cho thuê, mượn xe để vận chuyển lâm sản trái pháp luật: Bị xử phạt như người trực tiếp vận chuyển.",
+      "cases": [
+        "Chủ sở hữu phương tiện, người quản lý, người sử dụng hợp pháp nếu cố ý cho người điều khiển phương tiện sử dụng phương tiện vận chuyển lâm sản trái pháp luật thì bị xử phạt như quy định đối với người có hành vi vận chuyển lâm sản trái pháp luật quy định tại Điều này."
+      ]
+    }
+ ],
   "remedy": {
     "clause": "21",
     "content": [
       "a) Buộc thực hiện biện pháp khắc phục tình trạng ô nhiễm môi trường, lây lan dịch bệnh; buộc tiêu hủy hàng hóa, vật phẩm gây hại cho sức khỏe con người, vật nuôi, cây trồng và môi trường;",
       "b) Buộc nộp lại số lợi bất hợp pháp hoặc buộc nộp lại số tiền bằng trị giá tang vật, phương tiện vi phạm hành chính đã bị tiêu thụ, tẩu tán, tiêu hủy."
     ]
+},
+
+"calculation_unit": "Giá trị (VNĐ), Khối lượng (m3), Số lượng (Cá thể) hoặc Trọng lượng (kg)",
+  "interactive_steps": [
+    {
+      "step": 1,
+      "question": "Vui lòng chọn loại lâm sản vận chuyển trái phép:",
+      "options": [
+        { "text": "Gỗ (Thông thường/IA/IIA)", "value": "check_d22_go" },
+        { "text": "Động vật rừng (Thông thường/IIB)", "value": "check_d22_dv_thongthuong_IIB" },
+        { "text": "Động vật rừng (Nhóm IB - Sản phẩm/Cá thể)", "value": "check_d22_dv_IB" },
+        { "text": "Ngà voi/Sừng tê giác", "value": "check_d22_nga_sung" },
+        { "text": "Thực vật rừng ngoài gỗ/Sản phẩm gỗ", "value": "check_d22_thucvat_spgo" }
+      ]
+    }
+  ],
+  "calculation_map": {
+    "check_d22_go": {
+      "question": "Chọn loại và khối lượng gỗ vi phạm:",
+      "choices": [
+        { "text": "Gỗ thông thường dưới 1m3 / IIA dưới 0.5m3 / IA dưới 0.1m3", "result": "Khoản 1" },
+        { "text": "Gỗ thông thường 1 - <2m3 / IIA 0.5 - <1m3 / IA 0.1 - <0.2m3", "result": "Khoản 1a" },
+        { "text": "Gỗ thông thường 2 - <5m3 / IIA 1 - <2.5m3 / IA 0.2 - <0.4m3", "result": "Khoản 2" },
+        { "text": "Gỗ thông thường 5 - <8m3 / IIA 2.5 - <4m3 / IA 0.4 - <0.6m3", "result": "Khoản 3" },
+        { "text": "Gỗ thông thường 8 - <11m3 / IIA 4 - <5.5m3 / IA 0.6 - <0.9m3", "result": "Khoản 4" },
+        { "text": "Gỗ thông thường 11 - <14m3 / IIA 5.5 - <7m3 / IA 0.9 - <1.2m3", "result": "Khoản 5" },
+        { "text": "Gỗ thông thường 14 - <17m3 / IIA 7 - <8.5m3 / IA 1.2 - <1.5m3", "result": "Khoản 6" },
+        { "text": "Gỗ thông thường 17 - <20m3 / IIA 8.5 - <10m3", "result": "Khoản 7" }
+      ]
+    },
+    "check_d22_dv_thongthuong_IIB": {
+      "question": "Chọn giá trị tang vật (Động vật thông thường hoặc Nhóm IIB):",
+      "choices": [
+        { "text": "Thông thường < 7tr / Nhóm IIB < 3tr", "result": "Khoản 1" },
+        { "text": "Thông thường 7 - <15tr / Nhóm IIB 3 - <7tr", "result": "Khoản 1a" },
+        { "text": "Thông thường 15 - <25tr / Nhóm IIB 7 - <15tr", "result": "Khoản 2" },
+        { "text": "Thông thường 25 - <50tr / Nhóm IIB 15 - <25tr", "result": "Khoản 3" },
+        { "text": "Thông thường 50 - <70tr / Nhóm IIB 25 - <35tr", "result": "Khoản 4" },
+        { "text": "Thông thường 70 - <90tr / Nhóm IIB 35 - <45tr", "result": "Khoản 5" },
+        { "text": "Thông thường 90 - <120tr / Nhóm IIB 45 - <60tr", "result": "Khoản 6" },
+        { "text": "Thông thường 120 - <150tr / Nhóm IIB 60 - <75tr", "result": "Khoản 7" },
+        { "text": "Thông thường 150 - <180tr / Nhóm IIB 75 - <90tr", "result": "Khoản 8" },
+        { "text": "Thông thường 180 - <210tr / Nhóm IIB 90 - <105tr", "result": "Khoản 9" },
+        { "text": "Thông thường 210 - <240tr / Nhóm IIB 105 - <120tr", "result": "Khoản 10" },
+        { "text": "Thông thường 240 - <270tr / Nhóm IIB 120 - <135tr", "result": "Khoản 11" },
+        { "text": "Thông thường 270 - <300tr / Nhóm IIB 135 - <150tr", "result": "Khoản 12" }
+      ]
+    },
+    "check_d22_dv_IB": {
+      "question": "Chọn giá trị sản phẩm hoặc số lượng cá thể Nhóm IB:",
+      "choices": [
+        { "text": "Sản phẩm trị giá dưới 1.000.000 đồng", "result": "Khoản 2" },
+        { "text": "Sản phẩm 1.000.000 - dưới 3.000.000 đồng", "result": "Khoản 3" },
+        { "text": "Sản phẩm 3.000.000 - dưới 5.000.000 đồng", "result": "Khoản 4" },
+        { "text": "Sản phẩm 5.000.000 - dưới 10.000.000 đồng", "result": "Khoản 5" },
+        { "text": "Sản phẩm 10.000.000 - dưới 20.000.000 đồng", "result": "Khoản 6" },
+        { "text": "Sản phẩm 20.000.000 - dưới 30.000.000 đồng", "result": "Khoản 7" },
+        { "text": "Sản phẩm 30.000.000 - dưới 40.000.000 đồng", "result": "Khoản 8" },
+        { "text": "Sản phẩm 40.000.000 - dưới 50.000.000 đồng", "result": "Khoản 9" },
+        { "text": "Sản phẩm 50.000.000 - dưới 60.000.000 đồng", "result": "Khoản 10" },
+        { "text": "Sản phẩm 60.000.000 - dưới 70.000.000 đồng", "result": "Khoản 11" },
+        { "text": "Dưới 03 cá thể chim/bò sát/khác hoặc sản phẩm 70 - <80tr", "result": "Khoản 12" },
+        { "text": "01 thú / 3-4 chim, bò sát / 3-5 lớp khác hoặc sản phẩm 80 - <90tr", "result": "Khoản 13" },
+        { "text": "02 thú / 5-6 chim, bò sát / 6-9 lớp khác hoặc sản phẩm 90 - <100tr", "result": "Khoản 14" }
+      ]
+    },
+    "check_d22_nga_sung": {
+      "question": "Chọn khối lượng ngà voi / sừng tê giác:",
+      "choices": [
+        { "text": "Ngà voi dưới 0.3 kg", "result": "Khoản 9" },
+        { "text": "Ngà voi 0.3 - <0.6 kg", "result": "Khoản 10" },
+        { "text": "Ngà voi 0.6 - <0.9 kg", "result": "Khoản 11" },
+        { "text": "Ngà voi 0.9 - <1.2 kg", "result": "Khoản 12" },
+        { "text": "Ngà voi 1.2 - <1.5 kg / Sừng tê giác < 0.03 kg", "result": "Khoản 13" },
+        { "text": "Ngà voi 1.5 - <2 kg / Sừng tê giác 0.03 - <0.05 kg", "result": "Khoản 14" }
+      ]
+    },
+    "check_d22_thucvat_spgo": {
+      "question": "Chọn giá trị thực vật ngoài gỗ hoặc sản phẩm chế biến từ gỗ:",
+      "choices": [
+        { "text": "Dưới 7.000.000 đồng", "result": "Khoản 1" },
+        { "text": "7.000.000 - dưới 15.000.000 đồng", "result": "Khoản 1a" },
+        { "text": "15.000.000 - dưới 25.000.000 đồng", "result": "Khoản 2" },
+        { "text": "25.000.000 - dưới 50.000.000 đồng", "result": "Khoản 3" },
+        { "text": "50.000.000 - dưới 70.000.000 đồng", "result": "Khoản 4" },
+        { "text": "70.000.000 - dưới 90.000.000 đồng", "result": "Khoản 5" },
+        { "text": "90.000.000 - dưới 120.000.000 đồng", "result": "Khoản 6" },
+        { "text": "120.000.000 - dưới 150.000.000 đồng", "result": "Khoản 7" },
+        { "text": "150.000.000 - dưới 180.000.000 đồng", "result": "Khoản 8" },
+        { "text": "180.000.000 - dưới 210.000.000 đồng", "result": "Khoản 9" },
+        { "text": "210.000.000 - dưới 240.000.000 đồng", "result": "Khoản 10" },
+        { "text": "240.000.000 - dưới 270.000.000 đồng", "result": "Khoản 11" },
+        { "text": "270.000.000 - dưới 300.000.000 đồng", "result": "Khoản 12" },
+        { "text": "300.000.000 - dưới 330.000.000 đồng (chỉ SP gỗ)", "result": "Khoản 13" },
+        { "text": "330.000.000 - dưới 360.000.000 đồng (chỉ SP gỗ)", "result": "Khoản 14" },
+        { "text": "360.000.000 - dưới 390.000.000 đồng (chỉ SP gỗ)", "result": "Khoản 15" },
+        { "text": "390.000.000 - dưới 420.000.000 đồng (chỉ SP gỗ)", "result": "Khoản 16" },
+        { "text": "420.000.000 - dưới 450.000.000 đồng (chỉ SP gỗ)", "result": "Khoản 17" },
+        { "text": "450.000.000 - dưới 475.000.000 đồng (chỉ SP gỗ)", "result": "Khoản 18" },
+        { "text": "Từ 475.000.000 đồng trở lên (chỉ SP gỗ)", "result": "Khoản 19" }
+      ]
+    }
   }
 }

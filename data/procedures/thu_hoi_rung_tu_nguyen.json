@@ -1,0 +1,26 @@
+{
+  "id": "thu_hoi_rung_tu_nguyen",
+  "code": "1.012691",
+  "title": "Quyết định thu hồi rừng đối với tổ chức tự nguyện trả lại rừng",
+  "aiKeywords": ["thu hồi rừng", "trả lại rừng"],
+  "steps": "Nộp hồ sơ => Sở NN&MT trình => UBND cấp tỉnh quyết định.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "20 ngày.",
+  "target": "Chủ rừng là tổ chức.",
+  "authority": "UBND Tỉnh.",
+  "result": "Quyết định thu hồi rừng (Mẫu 27).",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 27 (NĐ 91/2024/NĐ-CP).",
+  "condition": "Không.",
+  "legal_basis": "Nghị định 91/2024/NĐ-CP.",
+  "digital_docs": "Văn bản trả rừng, Tờ trình của Sở.",
+  "digital_result": "Quyết định thu hồi (Mẫu 27).",
+  "documents": [
+    { "name": "Bản chính Văn bản trả lại rừng", "file": "/forms/Van-ban-tra-rung.docx" }
+  ]
+}

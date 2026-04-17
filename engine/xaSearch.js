@@ -33,19 +33,111 @@ function normalize(text = "") {
 
 /* =========================
    2. TÌM KIẾM CHI TIẾT (📍 Card Info)
-   Nâng cấp: Ưu tiên khớp tuyệt đối trước, nếu không có mới tìm kiếm mờ
-========================= */
+   Nâng cấp: Trả về phân loại Exact hoặc Suggestions
+	========================= */
+	// ===== Utils =====
+const clean = (str) =>
+    normalize(str)
+        .replace(/^(xa|phuong|thi tran)\s+/i, '')
+        .trim();
+
+// ===== Main Search =====
 export function searchXa(query) {
     if (!query) return null;
-    const q = normalize(query);
 
-    // Bước 1: Thử tìm khớp chính xác tiêu đề trước
-    const exactMatch = dataset.find(item => normalize(item.title) === q || normalize(item.title).includes(q));
-    if (exactMatch) return exactMatch;
+    const q = clean(query);
 
-    // Bước 2: Nếu không khớp chính xác, dùng Fuzzy Search
-    const fuzzyResults = fuse.search(query);
-    return fuzzyResults.length > 0 ? fuzzyResults[0].item : null;
+    if (q.length <= 2) return { type: 'too_short' };
+
+    const results = dataset.map(item => {
+        const keywords = item.keywords.map(k => clean(k));
+        const titleNorm = clean(item.title);
+
+        let score = 0;
+        let matchType = null;
+
+        // 🥇 Exact (keywords)
+        if (keywords.some(k => k === q)) {
+            score = 1000;
+            matchType = 'exact';
+        }
+
+        // 🥈 Prefix (keywords)
+        else if (keywords.some(k => k.startsWith(q))) {
+            score = 800;
+            matchType = 'prefix';
+        }
+
+        // 🥉 Phrase (keywords)
+        else if (keywords.some(k => k.includes(q))) {
+            score = 600;
+            matchType = 'phrase';
+        }
+
+        // 🪶 Fuzzy nhẹ (đủ TẤT CẢ từ)
+        else {
+            const words = q.split(/\s+/);
+
+            const matched = keywords.some(k =>
+                words.every(w => k.includes(w))
+            );
+
+            if (matched) {
+                score = 100;
+                matchType = 'fuzzy';
+            }
+        }
+
+        return {
+            ...item,
+            score,
+            matchType,
+            titleNorm
+        };
+    });
+
+    // 🎯 Lọc
+    let matches = results.filter(r => r.score >= 100);
+
+    if (matches.length === 0) return null;
+
+    // ===== ƯU TIÊN =====
+
+    // 🧠 Exact duy nhất
+    const exacts = matches.filter(m => m.matchType === 'exact');
+    if (exacts.length === 1) {
+        return { type: 'exact', data: exacts[0] };
+    }
+
+    // 🧠 Prefix
+    const prefixMatches = matches.filter(m => m.matchType === 'prefix');
+    if (prefixMatches.length > 0) {
+        matches = prefixMatches;
+    }
+
+    // 🧠 Phrase
+    else {
+        const phraseMatches = matches.filter(m => m.matchType === 'phrase');
+        if (phraseMatches.length > 0) {
+            matches = phraseMatches;
+        }
+    }
+
+    // 🧠 Sort
+    matches.sort((a, b) => b.score - a.score);
+
+    // 🎯 Output
+    if (matches.length === 1) {
+        return {
+            type: 'exact',
+            data: matches[0]
+        };
+    }
+
+    return {
+        type: 'suggestions',
+        data: matches.slice(0, 10)
+    };
 }
 
 /* =========================
@@ -53,44 +145,38 @@ export function searchXa(query) {
    Nâng cấp: Phân tích sâu thực thể (Entities) trong câu hỏi
 ========================= */
 export function searchMultipleXa(query) {
-    if (!query) return [];
-    const q = normalize(query);
+  if (!query) return [];
+  const q = normalize(query);
+  
+  // A. Nhận diện các câu hỏi mang tính tổng quát
+  const isGlobal = /tat ca|toan bo|trong tinh|tong cong|he thong|toan tinh|tong dien tich/.test(q);
+  
+  if (isGlobal) {
+    return dataset.map(item => ({
+      ten: item.title,
+      dt_rung: item.data.dien_tich_rung || 0,
+      dt_lam_nghiep: item.data.dien_tich_lam_nghiep || 0,
+      hat: item.data.hat_quan_ly
+    }));
+  }
 
-    // A. Nhận diện các câu hỏi tổng hợp bằng Regex nâng cao
-    const globalPatterns = {
-        isGlobal: /tat ca|toan bo|trong tinh|tong cong|he thong|toan tinh|danh sach/.test(q),
-        isForestry: /dien tich rung|lam nghiep|do che phu|tru luong/.test(q),
-        isAdministrative: /hat|chi cuc|kiem lam vien|sdt|dien thoai/.test(q)
-    };
+  // B. KIỂM TRA KHỚP TUYỆT ĐỐI TRƯỚC (Để phá vòng lặp khi bấm nút)
+  // Nếu người dùng gửi chính xác "Xã Tân Hòa", ta chỉ trả về đúng 1 kết quả đó.
+  const exactMatch = dataset.find(item => normalize(item.title) === q);
+  if (exactMatch) return [exactMatch];
 
-    if (globalPatterns.isGlobal) {
-        return dataset.map(item => ({
-            ten: item.title,
-            // Trả về dữ liệu tùy biến theo nhu cầu câu hỏi (giảm tải dung lượng)
-            ...(globalPatterns.isForestry && { 
-                dt_rung: item.data.dien_tich_rung || 0,
-                dt_lam_nghiep: item.data.dien_tich_lam_nghiep || 0 
-            }),
-            ...(globalPatterns.isAdministrative && { 
-                hat: item.data.hat_quan_ly,
-                sdt: item.data["So dien thoai"]
-            }),
-            type: item.type
-        }));
-    }
+  // C. Nếu không khớp tuyệt đối, mới dùng thuật toán lọc danh sách
+  const results = dataset.filter(item => {
+    const titleOnly = normalize(item.title).replace(/^(xa|phuong|thi tran)\s+/i, "");
+    
+    // Kiểm tra xem tiêu đề xã có nằm trong câu hỏi không
+    const matchName = q.includes(titleOnly);
+    const matchKeywords = item.keywords.some(kw => q.includes(normalize(kw)));
+    
+    return matchName || matchKeywords;
+  });
 
-    // B. Thuật toán "Sliding Window" để tìm nhiều xã trong 1 câu
-    // Ví dụ: "Diện tích rừng xã An Hòa và Đốc Binh Kiều" -> Trả ra 2 Object xã
-    const foundResults = [];
-    dataset.forEach(item => {
-        const titleOnly = normalize(item.title).replace(/^(xa|phuong|thi tran)\s+/i, "");
-        // Nếu câu hỏi chứa tên xã hoặc bất kỳ từ khóa nào của xã đó
-        if (q.includes(titleOnly) || item.keywords.some(kw => q.includes(normalize(kw)))) {
-            foundResults.push(item);
-        }
-    });
-
-    return foundResults;
+  return results;
 }
 
 /* =========================

@@ -2,30 +2,30 @@
   "id": "dang_ky_ma_so_co_so_nuoi_trong_cites",
   "code": "1.004819",
   "title": "Đăng ký mã số cơ sở nuôi, cơ sở trồng loài động vật, thực vật thuộc Phụ lục CITES",
-  "category": "Nông nghiệp và Môi trường",
-  "description": "Thủ tục thực hiện nhằm cấp mã số cho các cơ sở nuôi, cơ sở trồng loài động vật, thực vật thuộc Phụ lục CITES.",
-  "aiAnswer": "Tổ chức, cá nhân nộp 01 bộ hồ sơ trực tiếp, trực tuyến hoặc qua dịch vụ bưu chính đến Cơ quan Kiểm lâm cấp tỉnh hoặc Cơ quan quản lý nhà nước về thủy sản cấp tỉnh để được cấp mã số.",
-  "documents": [
-    {
-      "name": "Bản chính Đề nghị cấp mã số cơ sở nuôi, cơ sở trồng (Mẫu số 30 Phụ lục II ban hành kèm theo Thông tư số 85/2025/TT-BNNMT)"
-    },
-    {
-      "name": "Bản chính Phương án nuôi (Mẫu số 22 Phụ lục II ban hành kèm theo Thông tư số 85/2025/TT-BNNMT)"
-    },
-    {
-      "name": "Bản chính Phương án trồng (Mẫu số 31 Phụ lục II ban hành kèm theo Thông tư số 85/2025/TT-BNNMT)"
-    }
-  ],
-  "processingTime": "Từ 03 đến 16 ngày làm việc tùy thuộc vào tính chất hồ sơ như cần kiểm tra thực tế hoặc tham vấn (không bao gồm thời gian thẩm định của Ban thư ký CITES đối với hồ sơ xuất khẩu thương mại)",
-  "authority": "Cơ quan Kiểm lâm cấp tỉnh hoặc Cơ quan quản lý nhà nước về thủy sản cấp tỉnh (đối với loài thủy sản Phụ lục I CITES xuất khẩu vì mục đích thương mại)",
-  "aiFees": "Không có lệ phí",
+  "aiKeywords": ["đăng ký mã số", "cấp mã số", "nuôi động vật rừng", "cites", "đăng ký gây nuôi"],
+  "steps": "Nộp hồ sơ => Tiếp nhận, kiểm tra => Kiểm tra thực tế, tham vấn Cơ quan khoa học CITES nếu cần => Mã số cơ sở nuôi, cơ sở trồng.",
   "location": [
     "(1) Trung tâm Phục vụ hành chính công tỉnh Đồng Tháp:",
     "- Quầy 14 - số 377, Hùng Vương, Phường Đạo Thạnh, tỉnh Đồng Tháp",
     "- Quầy 13 - số 10, đường Lê Thị Riêng, phường Cao Lãnh, tỉnh Đồng Tháp",
     "(2) Trung tâm phục vụ hành chính công các xã, phường",
-    "(3) Thủ tục hành chính được thực hiện không phụ thuộc vào địa giới hành chính",
-    "(4) Thủ tục hành chính thực hiện tiếp nhận và trả kết quả qua dịch vụ bưu chính công ích",
-    "(5) Thủ tục hành chính thực hiện qua dịch vụ công trực tuyến (dichvucong.gov.vn)"
-  ]
+    "(3) Thủ tục hành chính thực hiện tiếp nhận và trả kết quả qua dịch vụ bưu chính công ích",
+    "(4) Thủ tục hành chính thực hiện qua dịch vụ công trực tuyến (dichvucong.gov.vn)"
+  ],
+  "method": "Nộp trực tiếp, qua dịch vụ bưu chính công ích, hoặc trực tuyến.",
+  "processingTime": "Từ 03 đến 16 ngày tùy thuộc vào tính chất hồ sơ như cần kiểm tra thực tế hoặc tham vấn (không bao gồm thời gian thẩm định của Ban thư ký Cites đối với hồ sơ xuất khẩu thương mại.)",
+  "target": "Tổ chức, cá nhân.",
+  "authority": "Cơ quan Kiểm lâm cấp tỉnh hoặc Cơ quan quản lý nhà nước về thủy sản cấp tỉnh (đối với loài thủy sản Phụ lục I Cites xuất khẩu vì mục đích thương mại.)",
+  "result": "Mã số cơ sở nuôi, cơ sở trồng (Mẫu 32).",
+  "aiFees": "Không có lệ phí",
+  "forms_info": "Mẫu 30, 22, 31 Phụ lục II ban hành kèm Thông tư 85/2025/TT-BNNMT.",
+  "condition": "Phải đề nghị sửa đổi trong 30 ngày nếu có thay đổi thông tin.",
+  "legal_basis": "Luật Lâm nghiệp 2017, Nghị định số 35/2025/NĐ-CP, Thông tư số 85/2025/TT-BNNMT.",
+  "digital_docs": "Mẫu số 30, Mẫu số 22 và 31.",
+  "digital_result": "Mã số cơ sở nuôi, trồng (Mẫu 32)",
+  "documents": [
+	{ "name": "Bản chính Đề nghị cấp mã số cơ sở nuôi, cơ sở trồng (Mẫu số 30)", "file": "/forms/Mau-30.docx" },
+    { "name": "Bản chính Phương án nuôi (Mẫu số 22)", "file": "/forms/Mau-22.docx"},
+	{ "name": "Bản chính Phương án trồng (Mẫu số 31)", "file": "/forms/Mau-31.docx"}
+]
 }

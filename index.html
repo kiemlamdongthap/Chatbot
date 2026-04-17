@@ -91,6 +91,7 @@
             0% { transform: scale(1); }
             14% { transform: scale(1.2); }
             28% { transform: scale(1); }
+		
         }
     </style>
 </head>
@@ -108,9 +109,9 @@
         <button class="cat-btn active" data-domain="all">🏠 Tổng hợp</button>
         <button class="cat-btn" data-domain="thu_tuc">📄 Thủ tục hành chính</button>
         <button class="cat-btn" data-domain="xu_phat">⚖️ Vi phạm hành chính</button>
-        <button class="cat-btn" data-domain="du_lieu">📊 Số liệu</button>
-        <button class="cat-btn" data-domain="extra_1">📍 Chủ rừng</button>
-        <button class="cat-btn" data-domain="extra_2">🎤 Ghi âm</button>
+        <button class="cat-btn" data-domain="du_lieu">📊 Thông tin địa phương</button>
+        <button class="cat-btn" data-domain="chu_rung">📍 Đơn vị chủ rừng</button>
+        <button class="cat-btn" data-domain="hotline">🔥 Hotline báo cháy</button>
         <button class="cat-btn" data-domain="extra_3">📥 Xuất file</button>
         <button class="cat-btn" data-domain="extra_4">⭐ Đánh giá</button>
     </div>
@@ -149,137 +150,219 @@
     let currentDomain = 'all';
     let isBotTyping = false;
 
-    // --- QUẢN LÝ MODAL ---
+    // --- 1. CHỨC NĂNG KÉO TRƯỢT (Dùng chung cho Menu và Bot Choices) ---
+    function initDragToScroll(el) {
+        if (!el) return;
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+        let isDragging = false;
+
+        el.addEventListener('mousedown', (e) => {
+            isDown = true;
+            isDragging = false;
+            el.classList.add('active');
+            startX = e.pageX - el.offsetLeft;
+            scrollLeft = el.scrollLeft;
+        });
+
+        el.addEventListener('mouseleave', () => { isDown = false; el.classList.remove('active'); });
+        el.addEventListener('mouseup', () => { isDown = false; el.classList.remove('active'); });
+
+        el.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            const x = e.pageX - el.offsetLeft;
+            const walk = (x - startX) * 2; 
+            if (Math.abs(x - startX) > 5) {
+                isDragging = true;
+                e.preventDefault();
+                el.scrollLeft = scrollLeft - walk;
+            }
+        });
+
+        el.addEventListener('click', (e) => {
+            if (isDragging) {
+                e.preventDefault();
+                e.stopImmediatePropagation();
+            }
+        }, true);
+    }
+
+    // --- 2. QUẢN LÝ MODAL TÁC GIẢ ---
     const toggleModal = () => {
         const modal = document.getElementById("authorModal");
         modal.style.display = (modal.style.display === "flex") ? "none" : "flex";
     };
     document.getElementById("infoBtn").onclick = toggleModal;
     document.getElementById("closeModal").onclick = toggleModal;
-    
-    // Đóng modal khi click ra ngoài vùng trắng
     window.onclick = (e) => {
         const modal = document.getElementById("authorModal");
         if (e.target === modal) toggleModal();
     };
 
     // --- HIỆU ỨNG & CHUYỂN CHẾ ĐỘ ---
-    function applyClickAnimation(element, animationClass = 'animate-shake') {
-        element.classList.add(animationClass);
-        setTimeout(() => element.classList.remove(animationClass), 400);
-    }
-
-    document.querySelectorAll('.cat-btn').forEach(btn => {
-        btn.onclick = () => {
-            const domain = btn.dataset.domain;
-            if (currentDomain === domain) return;
-            applyClickAnimation(btn);
-            currentDomain = domain;
-            chatboxEl.className = "domain-" + domain;
-            document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            messagesEl.innerHTML = "";
-            
-            const labels = { 'all':'TỔNG HỢP', 'thu_tuc':'THỦ TỤC', 'xu_phat':'XỬ PHẠT', 'du_lieu':'SỐ LIỆU', 'extra_1':'BẢN ĐỒ', 'extra_2':'GIỌNG NÓI', 'extra_3':'XUẤT FILE', 'extra_4':'ĐÁNH GIÁ' };
-            showPopNotification(`Đã chuyển sang: ${labels[domain]}`);
-            
-            const welcomeMsgs = {
-                'all': '🌲 Chế độ Tổng hợp đã sẵn sàng.',
-                'thu_tuc': '📄 Chuyên gia Thủ tục hành chính sẵn sàng.',
-                'xu_phat': '⚖️ Tra cứu Xử phạt đã sẵn sàng.',
-                'du_lieu': '📊 Hệ thống dữ liệu rừng sẵn sàng.',
-                'extra_1': '📍 Thông tin về các Đơn vị quản lý rừng Đồng Tháp.',
-                'extra_2': '🎤 Trợ lý giọng nói đang lắng nghe.',
-                'extra_3': '📥 Xuất báo cáo đã sẵn sàng.',
-                'extra_4': '⭐ Vui lòng để lại đánh giá.'
-            };
-            addMessage("bot", welcomeMsgs[domain]);
-        };
-    });
-
-    // --- XỬ LÝ TIN NHẮN ---
-    function addMessage(sender, text, choices = []) {
-    const div = document.createElement("div");
-    div.className = "msg " + sender;
-    
-    if (sender === "bot") {
-        isBotTyping = true;
-        
-        // 1. Xử lý xuống dòng trước
-        let formattedText = text.replace(/\n/g, "<br>");
-        
-        // 2. CHÍNH XÁC: Xử lý Markdown Link [Nhãn](URL)
-        formattedText = formattedText.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, label, url) => {
-		if (url.toLowerCase().includes('google') || url.toLowerCase().includes('maps')) {
-        // Nút Bản đồ
-        return `<a href="${url}" target="_blank" class="map-btn-final" style="cursor:pointer; position:relative; z-index:999;">📍 ${label}</a>`;
-    } else {
-        // Link tải file
-        const fileUrl = url.startsWith('http') ? url : `https://kiemlamdongthap.github.io/Chatbot/public/forms/${url}`;
-        return `<a href="${fileUrl}" target="_blank" class="download-link">${label}</a>`;
-    }
-});
-        
-        div.innerHTML = `<span class="loading-dots">Đang xử lý...</span>`;
-        messagesEl.appendChild(div);
-
-        setTimeout(() => {
-            div.innerHTML = "";
-            let i = 0;
-            const typewriter = setInterval(() => {
-                if (i < formattedText.length) {
-                    // Nếu gặp thẻ HTML thì cho hiện ngay không dùng hiệu ứng đánh máy để tránh lỗi hiển thị nút
-                    if (formattedText[i] === '<') {
-                        let endTag = formattedText.indexOf('>', i);
-                        div.innerHTML += formattedText.substring(i, endTag + 1);
-                        i = endTag + 1;
-                    } else {
-                        div.innerHTML += formattedText[i];
-                        i++;
-                    }
-                    messagesEl.scrollTop = messagesEl.scrollHeight;
-                } else {
-                    clearInterval(typewriter);
-                    isBotTyping = false;
-                    showChoices(choices);
-                }
-            }, 5); 
-        }, 300);
-    
-        } else {
-        div.innerText = text;
-        messagesEl.appendChild(div);
-        messagesEl.scrollTop = messagesEl.scrollHeight;
-    }
+function applyClickAnimation(element, animationClass = 'animate-shake') {
+    element.classList.add(animationClass);
+    setTimeout(() => element.classList.remove(animationClass), 400);
 }
 
-    function showChoices(choices) {
-        if (!choices || choices.length === 0) return;
-        const container = document.createElement("div");
-        container.className = "choices-container";
-        choices.forEach(txt => {
-            const btn = document.createElement("button");
-            btn.className = "choice-btn";
-            btn.innerText = txt;
-            btn.onclick = () => { 
-                if(!isBotTyping) { 
-                    applyClickAnimation(btn, 'animate-bounce');
-                    inputEl.value = txt; 
-                    send(); 
-                } 
-            };
-            container.appendChild(btn);
-        });
-        messagesEl.appendChild(container);
-        messagesEl.scrollTop = messagesEl.scrollHeight;
+document.querySelectorAll('.cat-btn').forEach(btn => {
+    btn.onclick = () => {
+        const domain = btn.dataset.domain;
+        if (currentDomain === domain) return;
+
+        applyClickAnimation(btn);
+        currentDomain = domain;
+        
+        // Cập nhật giao diện chatbox theo domain
+        chatboxEl.className = "domain-" + domain;
+        
+        // Quản lý class active cho nút
+        document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        // Xóa tin nhắn cũ để làm sạch màn hình khi chuyển mục
+        messagesEl.innerHTML = "";
+        
+        const labels = { 
+            'all':'TỔNG HỢP', 
+            'thu_tuc':'Hỗ trợ Thủ tục hành chính 📄', 
+            'xu_phat':'Hỗ trợ Xử phạt vi phạm hành chính ⚖️', 
+            'du_lieu':'Tra cứu Số liệu địa phương 📊', 
+            'chu_rung':'Tra cứu Thông tin  đơn vị chủ rừng 📍', 
+            'hotline':'Tra cứu Hotline báo cháy rừng 🔥', 
+            'extra_3':'XUẤT FILE', 
+            'extra_4':'Đánh giá, nhận xét của người dùng ✅' 
+        };
+
+        // CHỈ HIỆN THÔNG BÁO NẾU DOMAIN KHÔNG PHẢI LÀ 'ALL'
+        // Việc này giúp tránh hiện thông báo "Tổng hợp" khi bạn đã ẩn nút này đi
+        if (domain !== 'all' && labels[domain]) {
+            showPopNotification(`Đã chuyển sang: ${labels[domain]}`);
+        }
+        
+        const welcomeMsgs = {
+            'all': '🌲 Chế độ Tổng hợp đã sẵn sàng.',
+            'thu_tuc': '📄 Tôi có thể hỗ trợ, cung cấp cho Anh/Chị các thông tin cần thiết về Thủ tục hành chính lĩnh vực Lâm nghiệp và Kiểm lâm!',
+            'xu_phat': '⚖️ Tôi có thể hỗ trợ, xác định, tra cứu thông tin việc Xử phạt vi phạm hành chính trong lĩnh vực Lâm nghiệp!',
+            'du_lieu': '📊 Tôi có thể hỗ trợ, cung cấp cho Anh/Chị các thông tin về Lâm nghiệp tại các xã, phường!',
+            'chu_rung': '📍 Tôi có thể hỗ trợ, cung cấp cho Anh/Chị các thông tin của các Đơn vị quản lý rừng!.',
+            'hotline': '🚨 Khi cháy rừng, không biết báo ai. Tôi cung cấp thông tin để Anh/Chị báo cháy khẩn cấp.',
+            'extra_3': '📥 Xuất báo cáo đã sẵn sàng.',
+            'extra_4': '⭐ Trợ lý Kiểm lâm Đồng Tháp đang trong giai đoạn chạy thử nghiệm. Rất mong nhận được góp ý, đánh giá của Anh/Chị! Thông tin thêm hãy chọn 🏅 góc phải nhé!'
+        };
+
+        if (welcomeMsgs[domain]) {
+            addMessage("bot", welcomeMsgs[domain]);
+        }
+    };
+});
+
+// --- LOGIC KHỞI TẠO (QUAN TRỌNG) ---
+// Sau khi ẩn nút Tổng hợp, hãy giả lập click vào nút Thủ tục để hiện thông báo ngay từ đầu
+document.addEventListener('DOMContentLoaded', () => {
+    const defaultBtn = document.querySelector('.cat-btn[data-domain="thu_tuc"]');
+    if (defaultBtn) {
+        defaultBtn.click(); // Tự động kích hoạt thông báo "Đã chuyển sang: Hỗ trợ Thủ tục hành chính"
+    }
+});
+
+    // --- 4. XỬ LÝ TIN NHẮN VÀ HIỆU ỨNG ĐÁNH MÁY ---
+    function addMessage(sender, text, choices = []) {
+        const div = document.createElement("div");
+        div.className = "msg " + sender;
+        
+        if (sender === "bot") {
+            isBotTyping = true;
+            let formattedText = text.replace(/\n/g, "<br>");
+            formattedText = formattedText.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, label, url) => {
+                const isMap = url.toLowerCase().includes('google') || url.toLowerCase().includes('maps');
+                const finalUrl = url.startsWith('http') ? url : `https://kiemlamdongthap.github.io/Chatbot/public/forms/${url}`;
+                return `<a href="${finalUrl}" target="_blank" class="${isMap ? 'map-btn-final' : 'download-link'}">${isMap ? '📍 ' : ''}${label}</a>`;
+            });
+            
+            div.innerHTML = `<span class="loading-dots">Đang xử lý...</span>`;
+            messagesEl.appendChild(div);
+
+            setTimeout(() => {
+                if (formattedText.includes('<details')) {
+                    div.innerHTML = formattedText;
+                    isBotTyping = false;
+                    showChoices(choices);
+                } else {
+                    div.innerHTML = "";
+                    let i = 0;
+                    const typewriter = setInterval(() => {
+                        if (i < formattedText.length) {
+                            if (formattedText[i] === '<') {
+                                let endTag = formattedText.indexOf('>', i);
+                                div.innerHTML += formattedText.substring(i, endTag + 1);
+                                i = endTag + 1;
+                            } else {
+                                div.innerHTML += formattedText[i];
+                                i++;
+                            }
+                            messagesEl.scrollTop = messagesEl.scrollHeight;
+                        } else {
+                            clearInterval(typewriter);
+                            isBotTyping = false;
+                            showChoices(choices);
+                        }
+                    }, 5); 
+                }
+            }, 300);
+        } else {
+            div.innerText = text;
+            messagesEl.appendChild(div);
+            messagesEl.scrollTop = messagesEl.scrollHeight;
+        }
     }
 
+    // --- 5. HIỂN THỊ CÁC NÚT BẤM LỰA CHỌN (Gắn tính năng trượt) ---
+    function showChoices(choices) {
+    if (!choices || choices.length === 0) return;
+    const container = document.createElement("div");
+    // SỬA TÊN CLASS TẠI ĐÂY ĐỂ ĂN THEO CSS THANH TRƯỢT NGANG
+    container.className = "choices-wrapper"; 
+    
+    choices.forEach(choice => {
+        const btn = document.createElement("button");
+        btn.className = "choice-btn";
+        const isObject = typeof choice === 'object' && choice !== null;
+        const displayLabel = isObject ? choice.text : choice;
+        const hiddenValue = isObject ? choice.value : choice;
+
+        btn.innerText = displayLabel; 
+        btn.onclick = () => { 
+            if(!isBotTyping) { 
+                applyClickAnimation(btn, 'animate-bounce');
+                inputEl.dataset.lastLabel = displayLabel; 
+                inputEl.value = hiddenValue; 
+                send(); 
+            } 
+        };
+        container.appendChild(btn);
+    });
+    messagesEl.appendChild(container);
+    
+    // Đảm bảo cuộn xuống cuối sau khi thêm nút
+    setTimeout(() => {
+        messagesEl.scrollTo({ top: messagesEl.scrollHeight, behavior: 'smooth' });
+    }, 100);
+
+    // Kích hoạt kéo trượt cho chính container vừa tạo
+    initDragToScroll(container);
+}
+
+    // --- 6. GỬI TIN NHẮN LÊN SERVER ---
     async function send() {
         const text = inputEl.value.trim();
         if (!text || isBotTyping) return;
-
-        addMessage("user", text);
+        const friendlyText = inputEl.dataset.lastLabel || text;
+        
+        addMessage("user", friendlyText);
         inputEl.value = "";
+        delete inputEl.dataset.lastLabel;
         
         const thinking = document.createElement("div");
         thinking.className = "msg thinking";
@@ -287,7 +370,7 @@
         messagesEl.appendChild(thinking);
         messagesEl.scrollTop = messagesEl.scrollHeight;
 
-        const API_URL = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
+        const API_URL = (window.location.hostname.includes("localhost") || window.location.hostname.includes("127.0.0.1"))
             ? "http://localhost:10000/api/chatbot" 
             : "https://chatbot-jqsw.onrender.com/api/chatbot";
 
@@ -317,7 +400,56 @@
 
     sendBtnEl.onclick = send;
     inputEl.onkeypress = (e) => { if(e.key === 'Enter') send(); };
-    window.onload = () => showPopNotification("Hệ thống đã sẵn sàng!");
+
+    // KHỞI TẠO KHI TẢI TRANG
+    window.onload = () => {
+        showPopNotification("Hệ thống đã sẵn sàng!");
+        // Kích hoạt trượt cho menu danh mục chính
+        initDragToScroll(document.getElementById('category-menu'));
+    };
+	// Hàm dùng chung cho mọi container cần trượt ngang
+	function initDragToScroll(slider) {
+    if (!slider) return;
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+    let isDragging = false;
+
+    slider.addEventListener('mousedown', (e) => {
+        isDown = true;
+        isDragging = false; 
+        slider.classList.add('active');
+        startX = e.pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
+    });
+
+    slider.addEventListener('mouseleave', () => { isDown = false; });
+    slider.addEventListener('mouseup', () => { isDown = false; });
+
+    slider.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        const x = e.pageX - slider.offsetLeft;
+        const walk = (x - startX) * 2; 
+        if (Math.abs(x - startX) > 5) {
+            isDragging = true;
+            e.preventDefault();
+            slider.scrollLeft = scrollLeft - walk;
+        }
+    });
+
+    slider.addEventListener('click', (e) => {
+        if (isDragging) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+        }
+    }, true);
+}
+
+// Khởi tạo cho Menu chính khi vừa tải trang
+window.onload = () => {
+    showPopNotification("Hệ thống đã sẵn sàng!");
+    initDragToScroll(document.getElementById('category-menu'));
+};
 </script>
 
 </body>

@@ -1,0 +1,26 @@
+{
+  "id": "cap_lai_giay_phep_xnk_giong",
+  "code": "3.000180",
+  "title": "Cấp lại Giấy phép XNK giống cây trồng lâm nghiệp (bị mất/hỏng)",
+  "aiKeywords": ["cấp lại giấy phép giống", "mất giấy phép XNK"],
+  "steps": "Nộp HS => Tiếp nhận => Thẩm định => Cấp phép.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "03 ngày làm việc.",
+  "target": "Tổ chức, cá nhân.",
+  "authority": "Chủ tịch UBND cấp tỉnh (Sở NN&MT tiếp nhận).",
+  "result": "Giấy phép XNK giống (Mẫu 13).",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 12 (TT 16/2025/TT-BNNMT).",
+  "condition": "Không.",
+  "legal_basis": "TT 16/2025/TT-BNNMT; NĐ 136/2025/NĐ-CP.",
+  "digital_docs": "Văn bản đề nghị (Mẫu 12).",
+  "digital_result": "Giấy phép XNK (Mẫu 13).",
+  "documents": [
+    { "name": "Bản chính Văn bản đề nghị (Mẫu số 12)", "file": "/forms/Mau-12.docx" }
+  ]
+}

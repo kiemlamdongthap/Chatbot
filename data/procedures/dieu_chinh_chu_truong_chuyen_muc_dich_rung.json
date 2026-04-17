@@ -1,0 +1,27 @@
+{
+  "id": "dieu_chinh_chu_truong_chuyen_muc_dich_rung",
+  "code": "1.012692",
+  "title": "Quyết định điều chỉnh chủ trương chuyển mục đích sử dụng rừng sang mục đích khác",
+  "aiKeywords": ["điều chỉnh chủ trương", "chuyển mục đích rừng"],
+  "steps": "Nộp HS => Thẩm định => Báo cáo UBND tỉnh => Trình HĐND tỉnh => Quyết định.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "35 ngày (48 ngày nếu thuộc Bộ/ngành).",
+  "target": "Tổ chức, cá nhân.",
+  "authority": "Hội đồng nhân dân cấp tỉnh.",
+  "result": "Quyết định điều chỉnh chủ trương.",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 17, 18, 19 (NĐ 91/2024/NĐ-CP).",
+  "condition": "Không.",
+  "legal_basis": "Nghị định 91/2024/NĐ-CP.",
+  "digital_docs": "Toàn bộ hồ sơ của tổ chức/cá nhân và Tờ trình/Báo cáo của Cơ quan NN.",
+  "digital_result": "Quyết định điều chỉnh.",
+  "documents": [
+    { "name": "Bản chính Đề nghị (Mẫu số 17/18)", "file": "/forms/Mau-17-18.docx" },
+    { "name": "Bản sao QĐ chủ trương ĐT, Tài liệu ĐTM, Báo cáo, Bản đồ, Cam kết", "file": "/forms/Ho-so-kem-theo.pdf" }
+  ]
+}

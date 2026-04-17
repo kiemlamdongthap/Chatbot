@@ -1,50 +1,31 @@
 {
-  "id": "cap_ma_so_rung_trong",
+  "id": "cap_cap_lai_ma_so_rung_trong",
   "code": "1.014605",
   "title": "Cấp, cấp lại mã số rừng sản xuất là rừng trồng",
-  "category": "Quản lý rừng",
-  "aiIntent": "đăng ký mã số rừng trồng",
-  "aiKeywords": [
-    "mã số rừng",
-    "đăng ký rừng trồng",
-    "cấp mã rừng",
-    "mã số rừng sản xuất"
+  "aiKeywords": ["mã số rừng", "rừng sản xuất", "rừng trồng", "cấp mã số", "ủy quyền"],
+  "steps": "Nộp hồ sơ => Tiếp nhận hồ sơ => Kiểm tra thông tin, xác minh (nếu cần) và thực hiện cấp, cấp lại mã số.",
+  "location": [
+    "(1) Trung tâm Phục vụ hành chính công tỉnh Đồng Tháp:",
+    "- Quầy 14 - số 377, Hùng Vương, Phường Đạo Thạnh, tỉnh Đồng Tháp",
+    "- Quầy 13 - số 10, đường Lê Thị Riêng, phường Cao Lãnh, tỉnh Đồng Tháp",
+    "(2) Trung tâm phục vụ hành chính công các xã, phường",
+    "(3) Thủ tục hành chính thực hiện tiếp nhận và trả kết quả qua dịch vụ bưu chính công ích",
+    "(4) Thủ tục hành chính thực hiện qua dịch vụ công trực tuyến"
   ],
-  "aiTriggerWords": [
-    "mã rừng",
-    "đăng ký rừng",
-    "mã số rừng"
-  ],
-  "aiSearch": [
-    "đăng ký mã số rừng trồng",
-    "làm mã số rừng sản xuất",
-    "cấp mã rừng trồng ở đâu"
-  ],
-  "aiQuestions": [
-    "Đăng ký mã số rừng trồng như thế nào?",
-    "Làm mã số rừng ở đâu?",
-    "Đăng ký rừng trồng cần giấy tờ gì?"
-  ],
-  "aiFAQ": [
-    "Thời gian cấp mã số rừng là bao lâu?",
-    "Cơ quan nào cấp mã số rừng?"
-  ],
-  "aiAnswer": "Chủ rừng muốn đăng ký mã số rừng sản xuất là rừng trồng cần nộp hồ sơ tại Chi cục Kiểm lâm. Thời gian giải quyết khoảng 10 ngày làm việc.",
-  "aiSteps": [
-    "Nộp hồ sơ tại Chi cục Kiểm lâm",
-    "Cơ quan kiểm lâm kiểm tra hồ sơ",
-    "Cấp mã số rừng"
-  ],
-  "aiFees": "Không quy định",
-  "aiResult": "Cấp mã số rừng trồng",
-  "processingTime": "10 ngày",
-  "authority": "Chi cục Kiểm lâm",
+  "method": "Nộp trực tiếp, qua dịch vụ bưu chính công ích, hoặc trực tuyến.",
+  "processingTime": "10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.",
+  "target": "Chủ rừng.",
+  "authority": "Chi cục Kiểm lâm.",
+  "result": "Mã số rừng sản xuất là rừng trồng (Mẫu 01).",
+  "aiFees": "Không có lệ phí",
+  "forms_info": "Mẫu 02, 03, 05 Phụ lục V ban hành kèm Thông tư số 84/2025/TT-BNNMT.",
+  "condition": "Không.",
+  "legal_basis": "Điều 14 Thông tư số 84/2025/TT-BNNMT.",
+  "digital_docs": "Đơn đề nghị (Mẫu 02, 03 hoặc 05) và Giấy ủy quyền (Mẫu 04).",
+  "digital_result": "Mã số rừng sản xuất là rừng trồng (Mẫu 01).",
   "documents": [
-    "Đơn đề nghị cấp mã số rừng",
-    "Đơn đề nghị cấp lại mã số (nếu cấp lại)"
-  ],
-  "aiRelatedProcedures": [
-    "xac_nhan_bang_ke_lam_san",
-    "nop_tien_trong_rung_thay_the"
+    { "name": "Bản chính Đề nghị cấp mã số (Mẫu số 02 hoặc 03)", "file": "/forms/Mau-02.docx" },
+    { "name": "Bản chính Đề nghị cấp lại mã số (Mẫu số 05)", "file": "/forms/Mau-05.docx" },
+    { "name": "Bản chính Giấy ủy quyền (Mẫu số 04 - nếu có)", "file": "/forms/Mau-04.docx" }
   ]
 }

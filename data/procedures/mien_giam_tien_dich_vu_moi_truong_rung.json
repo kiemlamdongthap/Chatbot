@@ -1,0 +1,27 @@
+{
+  "id": "mien_giam_dvmtr",
+  "code": "1.000058",
+  "title": "Miễn, giảm tiền dịch vụ môi trường rừng",
+  "aiKeywords": ["miễn giảm tiền rừng", "dịch vụ môi trường rừng"],
+  "steps": "Nộp HS => Kiểm tra hiện trường => Trình UBND tỉnh => Quyết định.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "15 ngày làm việc.",
+  "target": "Tổ chức, cá nhân.",
+  "authority": "Chủ tịch UBND Tỉnh.",
+  "result": "Quyết định miễn, giảm.",
+  "aiFees": "Không.",
+  "forms_info": "Không.",
+  "condition": "Bị thiên tai, hỏa hoạn... mất khả năng chi trả.",
+  "legal_basis": "Nghị định 156/2018/NĐ-CP.",
+  "digital_docs": "Toàn bộ hồ sơ đề nghị và giấy tờ liên quan.",
+  "digital_result": "Quyết định miễn, giảm.",
+  "documents": [
+    { "name": "Bản chính Văn bản đề nghị", "file": "/forms/De-nghi-mien-giam.docx" },
+    { "name": "Giấy tờ chứng minh (tổn thất/giải thể/chứng tử...)", "file": "/forms/Chung-minh.pdf" }
+  ]
+}

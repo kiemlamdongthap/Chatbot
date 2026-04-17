@@ -1,0 +1,28 @@
+{
+  "id": "phan_loai_doanh_nghiep_go",
+  "code": "3.000160",
+  "title": "Phân loại doanh nghiệp trồng, khai thác và cung cấp gỗ rừng trồng, chế biến, nhập khẩu, xuất khẩu gỗ",
+  "aiKeywords": ["phân loại doanh nghiệp gỗ", "doanh nghiệp Nhóm I"],
+  "steps": "Nộp hồ sơ => Hệ thống tiếp nhận => Thẩm định, phân loại tự động/xác minh => Xếp loại.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Hệ thống thông tin phân loại doanh nghiệp trực tuyến",
+    "(3) Dịch vụ bưu chính"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "05 ngày làm việc (không xác minh); 13 ngày làm việc (phải xác minh).",
+  "target": "Doanh nghiệp.",
+  "authority": "Chi cục Kiểm lâm.",
+  "result": "Phân loại Nhóm I hoặc thông báo không phân loại Nhóm I.",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 17, 01, 02 (TT 26/2025); Mẫu 08 (NĐ 102/2020).",
+  "condition": "Không.",
+  "legal_basis": "NĐ 102/2020/NĐ-CP; NĐ 120/2024/NĐ-CP; TT 26/2025/TT-BNNMT.",
+  "digital_docs": "Mẫu 17, 08, 01, 02.",
+  "digital_result": "Thông báo tiếp nhận (Mẫu 18); TB xác minh (Mẫu 19); Biên bản (Mẫu 20); TB kết quả phân loại (Mẫu 21).",
+  "documents": [
+    { "name": "Bản chính Đề nghị (Mẫu số 17)", "file": "/forms/Mau-17.docx" },
+    { "name": "Bản kê khai (Mẫu số 08)", "file": "/forms/Mau-08.docx" },
+    { "name": "Tài liệu chứng minh (Mẫu 01) và Bảng tổng hợp (Mẫu 02)", "file": "/forms/Mau-01-02.docx" }
+  ]
+}

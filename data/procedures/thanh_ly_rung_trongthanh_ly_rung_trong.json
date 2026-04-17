@@ -1,0 +1,28 @@
+{
+  "id": "thanh_ly_rung_trong",
+  "code": "1.012921",
+  "title": "Thanh lý rừng trồng",
+  "aiKeywords": ["thanh lý rừng", "rừng trồng"],
+  "steps": "Nộp HS => Thẩm định, họp Hội đồng => Trình CQ có thẩm quyền quyết định.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "30 ngày.",
+  "target": "Tổ chức.",
+  "authority": "CQ quản lý chuyên ngành LN địa phương.",
+  "result": "Quyết định thanh lý rừng trồng (Mẫu 08).",
+  "aiFees": "Không.",
+  "forms_info": "Không (Chỉ có mẫu phụ lục đính kèm NĐ 140/2024).",
+  "condition": "Không.",
+  "legal_basis": "Nghị định 140/2024/NĐ-CP.",
+  "digital_docs": "Toàn bộ hồ sơ đề nghị của chủ rừng và hồ sơ thẩm định của CQNN.",
+  "digital_result": "Quyết định thanh lý (Mẫu 08).",
+  "documents": [
+    { "name": "Bản chính Văn bản đề nghị (Mẫu số 03)", "file": "/forms/Mau-03.docx" },
+    { "name": "Bản chính PA thanh lý (Mẫu số 04) và Biên bản kiểm tra (Mẫu 02)", "file": "/forms/Mau-02-04.pdf" },
+    { "name": "Hồ sơ thiết kế, QĐ dự án, Báo cáo tài chính", "file": "/forms/Ho-so-thanh-ly.pdf" }
+  ]
+}

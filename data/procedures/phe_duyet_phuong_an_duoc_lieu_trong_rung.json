@@ -1,0 +1,27 @@
+{
+  "id": "duoc_lieu_trong_rung",
+  "code": "3.000501",
+  "title": "Thẩm định, phê duyệt/điều chỉnh PA nuôi, trồng phát triển, thu hoạch cây dược liệu",
+  "aiKeywords": ["cây dược liệu", "trồng dược liệu trong rừng"],
+  "steps": "Nộp HS => Thẩm định lấy ý kiến => Phê duyệt.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "26 ngày làm việc.",
+  "target": "Chủ rừng là tổ chức.",
+  "authority": "Giám đốc Sở NN&MT.",
+  "result": "Quyết định phê duyệt/điều chỉnh (Mẫu 03).",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 01, 02 (NĐ 183/2025/NĐ-CP).",
+  "condition": "Không.",
+  "legal_basis": "NĐ 183/2025/NĐ-CP; QĐ 2653/QĐ-BNNMT.",
+  "digital_docs": "Tờ trình, Phương án, Bản đồ.",
+  "digital_result": "Quyết định phê duyệt (Mẫu 03).",
+  "documents": [
+    { "name": "Bản chính Tờ trình (Mẫu số 01)", "file": "/forms/Mau-01.docx" },
+    { "name": "Bản chính Phương án (Mẫu số 02) và Các bản đồ", "file": "/forms/Mau-02-Bando.pdf" }
+  ]
+}

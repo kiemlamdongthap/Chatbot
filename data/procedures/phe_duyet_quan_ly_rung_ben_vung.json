@@ -1,0 +1,28 @@
+{
+  "id": "quan_ly_rung_ben_vung",
+  "code": "1.000055",
+  "title": "Phê duyệt hoặc điều chỉnh phương án quản lý rừng bền vững của tổ chức",
+  "aiKeywords": ["quản lý rừng bền vững", "phương án quản lý rừng"],
+  "steps": "Nộp HS => Kiểm tra => Lấy ý kiến => Tổng hợp, trình Quyết định.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "20 ngày làm việc.",
+  "target": "Chủ rừng là tổ chức (theo phân cấp).",
+  "authority": "Chủ tịch UBND cấp tỉnh.",
+  "result": "Quyết định phê duyệt/điều chỉnh (Mẫu 07/08).",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 01, 04, 05 (TT 16/2025/TT-BNNMT).",
+  "condition": "Không.",
+  "legal_basis": "Thông tư 16/2025/TT-BNNMT.",
+  "digital_docs": "Tờ trình, Phương án, Bản đồ.",
+  "digital_result": "Quyết định phê duyệt/điều chỉnh.",
+  "documents": [
+    { "name": "Bản chính Tờ trình (Mẫu số 04/05)", "file": "/forms/Mau-04-05.docx" },
+    { "name": "Bản chính Phương án (Mẫu số 01)", "file": "/forms/Mau-01.pdf" },
+    { "name": "Bản sao Bản đồ hiện trạng/sử dụng đất/QL rừng", "file": "/forms/Ban-do.pdf" }
+  ]
+}

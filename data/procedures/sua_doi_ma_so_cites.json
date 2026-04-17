@@ -1,0 +1,28 @@
+{
+  "id": "sua_doi_ma_so_cites",
+  "code": "3.000496",
+  "title": "Cấp sửa đổi, bổ sung thông tin mã số cơ sở nuôi, cơ sở trồng loài động vật, thực vật thuộc Phụ lục CITES",
+  "aiKeywords": ["sửa đổi mã số CITES", "bổ sung mã số CITES"],
+  "steps": "Nộp hồ sơ => Kiểm tra hợp lệ => Xử lý (giống quy trình cấp mới).",
+  "location": [
+    "(1) Trung tâm Phục vụ hành chính công tỉnh Đồng Tháp",
+    "(2) Trung tâm cấp xã",
+    "(3) Bưu chính công ích",
+    "(4) Dịch vụ công trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "03 ngày; 15 ngày (nếu kiểm tra); 16 ngày (Phụ lục I XK thương mại).",
+  "target": "Tổ chức, cá nhân.",
+  "authority": "CQ Kiểm lâm cấp tỉnh hoặc CQ Thủy sản cấp tỉnh.",
+  "result": "Mã số cơ sở (Mẫu 32).",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 30, 22, 31 (TT 85/2025/TT-BNNMT).",
+  "condition": "Thay đổi thông tin trong 30 ngày phải đề nghị cấp sửa đổi.",
+  "legal_basis": "Luật Lâm nghiệp, NĐ 35/2025/NĐ-CP, TT 85/2025/TT-BNNMT.",
+  "digital_docs": "Mẫu 30, Mẫu 22/31.",
+  "digital_result": "Mã số cơ sở (Mẫu 32).",
+  "documents": [
+    { "name": "Bản chính Đề nghị (Mẫu số 30)", "file": "/forms/Mau-30.docx" },
+    { "name": "Bản chính Phương án (Mẫu số 22/31)", "file": "/forms/Mau-22-31.docx" }
+  ]
+}

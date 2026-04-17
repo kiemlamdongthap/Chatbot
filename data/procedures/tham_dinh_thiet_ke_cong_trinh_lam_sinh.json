@@ -1,0 +1,28 @@
+{
+  "id": "tham_dinh_thiet_ke_lam_sinh",
+  "code": "1.007918",
+  "title": "Thẩm định thiết kế, dự toán CT lâm sinh sử dụng vốn ĐTC",
+  "aiKeywords": ["thẩm định thiết kế", "dự toán lâm sinh"],
+  "steps": "Nộp hồ sơ => Tiếp nhận => Thẩm định.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "15 ngày.",
+  "target": "Chủ đầu tư.",
+  "authority": "Sở Nông nghiệp và Môi trường.",
+  "result": "Báo cáo kết quả thẩm định (Mẫu 15).",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 13, 14 (NĐ 58/2024/NĐ-CP).",
+  "condition": "Không.",
+  "legal_basis": "Nghị định 58/2024/NĐ-CP.",
+  "digital_docs": "Tờ trình, Thuyết minh, Bản đồ, QĐ dự án.",
+  "digital_result": "Báo cáo kết quả thẩm định (Mẫu 15).",
+  "documents": [
+    { "name": "Bản chính Tờ trình (Mẫu số 13)", "file": "/forms/Mau-13.docx" },
+    { "name": "Bản chính Thuyết minh thiết kế/bản đồ (Mẫu số 14)", "file": "/forms/Mau-14.pdf" },
+    { "name": "Bản sao QĐ dự án", "file": "/forms/QD-du-an.pdf" }
+  ]
+}

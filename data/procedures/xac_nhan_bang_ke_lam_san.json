@@ -2,27 +2,8 @@
   "id": "xac_nhan_bang_ke_lam_san",
   "code": "1.000045",
   "title": "Xác nhận bảng kê lâm sản",
-  "category": "Quản lý lâm sản",
-  "description": "Thủ tục xác nhận nguồn gốc lâm sản khi vận chuyển hoặc mua bán.",
-  "aiAnswer": "Chủ lâm sản nộp hồ sơ trực tiếp hoặc trực tuyến cho Cơ quan Kiểm lâm sở tại để xác nhận nguồn gốc vận chuyển, mua bán.",
-  "documents": [
-    { 
-      "name": "Bản chính Đơn đề nghị (Mẫu số 03)", 
-      "file": "/forms/Mau-so-03.docx" 
-    },
-    { 
-      "name": "Bản chính Bảng kê lâm sản (Mẫu số 01)", 
-      "file": "/forms/Mau-so-01.docx" 
-    },
-    { "name": "Sổ theo dõi nhập xuất lâm sản (Mẫu số 04)" },
-    { "name": "Sổ theo dõi nuôi trồng đối với động vật hoang dã/CITES (Mẫu số 10)" },
-    { "name": "Phương án khai thác (bản sao) - Miễn nếu có mã QR" },
-    { "name": "Hồ sơ lâm sản nhập khẩu (bản sao) - Miễn nếu có mã QR" },
-    { "name": "Bảng kê mua bán liền kề (bản sao) - Miễn nếu có mã QR" }
-  ],
-  "processingTime": "Từ 02 đến 04 ngày làm việc",
-  "authority": "Cơ quan Kiểm lâm sở tại",
-  "aiFees": "Không có lệ phí",
+  "aiKeywords": ["xác nhận", "bảng kê", "bảng kê lâm sản"],
+  "steps": "Nộp hồ sơ => Tiếp nhận, kiểm tra => Thẩm định, xác minh nguồn gốc (nếu cần) => Xác nhận Bảng kê/lâm sản tồn.",
   "location": [
 	"(1) Trung tâm Phục vụ hành chính công tỉnh Đồng Tháp:",
     "- Quầy 14 - số 377, Hùng Vương, Phường Đạo Thạnh, tỉnh Đồng Tháp",
@@ -31,5 +12,26 @@
 	"(3) Thủ tục hành chính được thực hiện không phụ thuộc vào địa giới hành chính",
 	"(4)Thủ tục hành chính thực hiện tiếp nhận và trả kết quả qua dịch vụ bưu chính công ích",
 	"(5) Thủ tục hành chính thực hiện qua dịch vụ công trực tuyến (dichvucong.gov.vn)"
+  ],
+  "method": "Nộp trực tiếp, qua dịch vụ bưu chính công ích, hoặc trực tuyến.",
+  "processingTime": "Từ 02 đến 04 ngày làm việc",
+  "target": "Chủ lâm sản hoặc tổ chức/cá nhân được ủy quyền.",
+  "authority": "Cơ quan Kiểm lâm sở tại",
+  "result": "Bảng kê lâm sản được xác nhận; lâm sản tồn được xác nhận vào Sổ theo dõi.",
+  "aiFees": "Không có lệ phí",
+  "forms_info": "Mẫu 03, Mẫu 01, Mẫu 04 (Thông tư số 26/2025/TT-BNNMT); Mẫu 10, 29 (Thông tư số 85/2025/TT-BNNMT).",
+  "condition": "Không.",
+  "legal_basis": "Điều 5 Thông tư số 26/2025/TT-BNNMT sửa đổi bởi TT 84/2025/TT-BNNMT.",
+  "digital_docs": "Toàn bộ đơn, bảng kê, hồ sơ chứng minh nguồn gốc và sổ theo dõi.",
+  "digital_result": "Bảng kê được xác nhận; Sổ theo dõi được xác nhận.",
+  "documents": [
+    { "name": "Bản chính Đơn đề nghị (Mẫu số 03)", "file": "/forms/Mau-03.docx" },
+    { "name": "Bản chính Bảng kê lâm sản (Mẫu số 01)", "file": "/forms/Mau-01.docx"},
+	{ "name": "Sổ theo dõi nhập xuất lâm sản (Mẫu số 04)", "file": "/forms/Mau-so-04.docx"},
+	{ "name": "Sổ theo dõi nuôi trồng đối với động vật hoang dã/CITES (Mẫu số 10)", "file": "/forms/Mau-10.docx" },
+	{ "name": "Phương án khai thác (bản sao) - Miễn nếu có mã QR" },
+    { "name": "Hồ sơ lâm sản nhập khẩu (bản sao) - Miễn nếu có mã QR" },
+    { "name": "Bảng kê mua bán liền kề (bản sao) - Miễn nếu có mã QR" }
   ]
+  
 }

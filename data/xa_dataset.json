@@ -19,9 +19,9 @@
       "dien_tich_lam_nghiep": 836.18,
       "dien_tich_rung": 86.12,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
-	  "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn A",
-	  "So dien thoai": "0939.000.111",
+	  "Cu_ly_di_chuyen": "Hạt KLKV I 47 km <p> Chi cục Kiểm lâm 143 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn A",
+	  "So_dien_thoai": "0939.000.111",
 	  "Toa_do": "10.74088, 105.36507"
     }
   },
@@ -45,9 +45,9 @@
       "dien_tich_lam_nghiep": 279.6,
       "dien_tich_rung": 122.78,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
-	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn B",
-	  "So dien thoai": "0939.000.222",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 37 km <p> Chi cục Kiểm lâm 52 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn B",
+	  "So_dien_thoai": "0939.000.222",
 	  "Toa_do": "10.51783, 105.90423"
     }
   },
@@ -71,9 +71,9 @@
       "dien_tich_lam_nghiep": 636.65,
       "dien_tich_rung": 241.73,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
-	  "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn C",
-	  "So dien thoai": "0939.000.333",
+	  "Cu_ly_di_chuyen": "Hạt KLKV III 20 km <p> Chi cục Kiểm lâm 56 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn C",
+	  "So_dien_thoai": "0939.000.333",
 	  "Toa_do": "10.41188, 106.76808"
     }
   },
@@ -97,9 +97,9 @@
       "dien_tich_lam_nghiep": 562.51,
       "dien_tich_rung": 75.03,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
-	  "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn C",
-	  "So dien thoai": "0939.000.333",
+	  "Cu_ly_di_chuyen": "Hạt KLKV III 17 km <p> Chi cục Kiểm lâm 57 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn C",
+	  "So_dien_thoai": "0939.000.333",
 	  "Toa_do": "10.29281, 106.77682"
     }
   },
@@ -123,9 +123,9 @@
       "dien_tich_lam_nghiep": 93.64,
       "dien_tich_rung": 47.7,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
-	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn B",
-	  "So dien thoai": "0939.000.222",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 46 km <p> Chi cục Kiểm lâm 21 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn B",
+	  "So_dien_thoai": "0939.000.222",
 	  "Toa_do": "10.54144, 106.33095"
     }
   },
@@ -149,9 +149,9 @@
       "dien_tich_lam_nghiep": 273.44,
       "dien_tich_rung": 121.99,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
-	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn B",
-	  "So dien thoai": "0939.000.222",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 40 km <p> Chi cục Kiểm lâm 66 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn B",
+	  "So_dien_thoai": "0939.000.222",
 	  "Toa_do": "10.34149, 105.79223"
     }
   },
@@ -175,9 +175,9 @@
       "dien_tich_lam_nghiep": 680.68,
       "dien_tich_rung": 490.71,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
-	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn B",
-	  "So dien thoai": "0939.000.222",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 49 km <p> Chi cục Kiểm lâm 68 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn B",
+	  "So_dien_thoai": "0939.000.222",
 	  "Toa_do": "10.52502, 105.76471"
     }
   },
@@ -201,9 +201,9 @@
       "dien_tich_lam_nghiep": 1488.19,
       "dien_tich_rung": 1157.08,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
-	  "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn A",
-	  "So dien thoai": "0939.000.111",
+	  "Cu_ly_di_chuyen": "Hạt KLKV I 12 km <p> Chi cục Kiểm lâm 102 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn A",
+	  "So_dien_thoai": "0939.000.111",
 	  "Toa_do": "10.53285, 105.58049"
     }
   },
@@ -227,9 +227,9 @@
       "dien_tich_lam_nghiep": 179.28,
       "dien_tich_rung": 99.59,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
-	   "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn A",
-	  "So dien thoai": "0939.000.111",
+	   "Cu_ly_di_chuyen": "Hạt KLKV I 42 km <p> Chi cục Kiểm lâm 107 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn A",
+	  "So_dien_thoai": "0939.000.111",
 	  "Toa_do": "10.67079, 105.60687"
     }
   },
@@ -253,9 +253,9 @@
       "dien_tich_lam_nghiep": 2154.62,
       "dien_tich_rung": 551.69,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
-	  "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn A",
-	  "So dien thoai": "0939.000.111",
+	  "Cu_ly_di_chuyen": "Hạt KLKV I 40 km <p> Chi cục Kiểm lâm 126 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn A",
+	  "So_dien_thoai": "0939.000.111",
 	  "Toa_do": "10.69083, 105.43436"
     }
   },
@@ -279,10 +279,10 @@
       "dien_tich_lam_nghiep":  115.55 ,
       "dien_tich_rung": 0,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
-	   "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn B",
-	  "So dien thoai": "0939.000.222",
-	  "Toa_do": "10.69083, 105.43436"
+	   "Cu_ly_di_chuyen": "Hạt KLKV II 68 km <p> Chi cục Kiểm lâm 96 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn B",
+	  "So_dien_thoai": "0939.000.222",
+	  "Toa_do": "10.66505, 105.701923"
     }
   },
   {
@@ -305,9 +305,9 @@
       "dien_tich_lam_nghiep": 2409.97,
       "dien_tich_rung": 811.69,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
-	   "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn A",
-	  "So dien thoai": "0939.000.111",
+	   "Cu_ly_di_chuyen": "Hạt KLKV I 48 km <p> Chi cục Kiểm lâm 124 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn A",
+	  "So_dien_thoai": "0939.000.111",
 	  "Toa_do": "10.76931, 105.50543"
     }
   },
@@ -331,9 +331,9 @@
       "dien_tich_lam_nghiep": 575.66,
       "dien_tich_rung": 12.1,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
-	   "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn C",
-	  "So dien thoai": "0939.000.333",
+	   "Cu_ly_di_chuyen": "Hạt KLKV III 15 km <p> Chi cục Kiểm lâm 52 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn C",
+	  "So_dien_thoai": "0939.000.333",
 	  "Toa_do": "10.35564, 106.75759"
     }
   },
@@ -357,9 +357,9 @@
       "dien_tich_lam_nghiep": 60.95,
       "dien_tich_rung": 60.95,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
-	  "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn C",
-	  "So dien thoai": "0939.000.333",
+	  "Cu_ly_di_chuyen": "Hạt KLKV III 16 km <p> Chi cục Kiểm lâm 50 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn C",
+	  "So_dien_thoai": "0939.000.333",
 	  "Toa_do": "10.40174, 106.71627"
     }
   },
@@ -383,9 +383,9 @@
       "dien_tich_lam_nghiep": 47.39,
       "dien_tich_rung": 39.53,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
-	  "Cu_ly_di_chuyen": "Hạt KLKV I 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn A",
-	  "So dien thoai": "0939.000.111",
+	  "Cu_ly_di_chuyen": "Hạt KLKV I 77 km <p> Chi cục Kiểm lâm 140 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn A",
+	  "So_dien_thoai": "0939.000.111",
 	  "Toa_do": "10.93953, 105.44553"
     }
   },
@@ -409,9 +409,9 @@
       "dien_tich_lam_nghiep": 45.76,
       "dien_tich_rung": 26.02,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
-	   "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn C",
-	  "So dien thoai": "0939.000.333",
+	   "Cu_ly_di_chuyen": "Hạt KLKV III 15 km <p> Chi cục Kiểm lâm 50 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn C",
+	  "So_dien_thoai": "0939.000.333",
 	  "Toa_do": "10.31623, 106.71479"
     }
   },
@@ -435,9 +435,9 @@
       "dien_tich_lam_nghiep": 5065.64,
       "dien_tich_rung": 851.94,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
-	   "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn C",
-	  "So dien thoai": "0939.000.333",
+	   "Cu_ly_di_chuyen": "Hạt KLKV III 25 km <p> Chi cục Kiểm lâm 53 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn C",
+	  "So_dien_thoai": "0939.000.333",
 	  "Toa_do": "10.28563, 106.68036"
     }
   },
@@ -461,9 +461,9 @@
       "dien_tich_lam_nghiep": 864.79,
       "dien_tich_rung": 84.89,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
-	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn B",
-	  "So dien thoai": "0939.000.222",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 25 km <p> Chi cục Kiểm lâm 20 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn B",
+	  "So_dien_thoai": "0939.000.222",
 	  "Toa_do": "10.47700, 106.19244"
     }
   },
@@ -487,9 +487,9 @@
       "dien_tich_lam_nghiep": 1463.61,
       "dien_tich_rung": 842.75,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
-	   "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn B",
-	  "So dien thoai": "0939.000.222",
+	   "Cu_ly_di_chuyen": "Hạt KLKV II 32 km <p> Chi cục Kiểm lâm 33 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn B",
+	  "So_dien_thoai": "0939.000.222",
 	  "Toa_do": "10.55079, 106.14907"
     }
   },
@@ -513,10 +513,10 @@
       "dien_tich_lam_nghiep": 211.33,
       "dien_tich_rung": 103.39,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
-	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn B",
-	  "So dien thoai": "0939.000.222",
-	  "Toa_do": "10.47680, 106.29656"
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 36 km <p> Chi cục Kiểm lâm 12 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn B",
+	  "So_dien_thoai": "0939.000.222",
+	  "Toa_do": "10.47671, 106.296486"
     }
   },
   {
@@ -539,9 +539,9 @@
       "dien_tich_lam_nghiep": 24.36,
       "dien_tich_rung": 24.36,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
-	  "Cu_ly_di_chuyen": "Hạt KLKV III 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn C",
-	  "So dien thoai": "0939.000.333",
+	  "Cu_ly_di_chuyen": "Hạt KLKV III 25 km <p> Chi cục Kiểm lâm 45 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn C",
+	  "So_dien_thoai": "0939.000.333",
 	  "Toa_do": "10.27846, 106.60192"
     }
   },
@@ -566,8 +566,8 @@
       "dien_tich_rung": 1119.18,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
 	  "Cu_ly_di_chuyen": "Hạt KLKV I 36 km <p> Chi cục Kiểm lâm 132 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn A",
-	  "So dien thoai": "0939.000.111",
+	  "Kiem_lam_vien": "Nguyễn Văn A",
+	  "So_dien_thoai": "0939.000.111",
 	  "Toa_do": "10.67003, 105.56459"
     }
   },
@@ -591,10 +591,1672 @@
       "dien_tich_lam_nghiep": 1286.07,
       "dien_tich_rung": 773.35,
       "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
-	  "Cu_ly_di_chuyen": "Hạt KLKV II 50 km <p> Chi cục Kiểm lâm 100 km<p>",
-	  "Kiem lam vien": "Nguyễn Văn B",
-	  "So dien thoai": "0939.000.222",
+	  "Cu_ly_di_chuyen": "Hạt KLKV II 57 km <p> Chi cục Kiểm lâm 74 km<p>",
+	  "Kiem_lam_vien": "Nguyễn Văn B",
+	  "So_dien_thoai": "0939.000.222",
 	  "Toa_do": "10.65061, 105.78886"
+    }
+  },
+ 
+  
+  
+  {
+    "id": "phuong_an_binh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường An Bình",
+    "keywords": ["phường an bình", "an bình", "phuong an binh"],
+    "searchText": "phuong an binh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 24,
+      "xa_cu": "phường An Bình A, phường An Bình B, phường An Lộc",
+      "xa_moi": "Phường An Bình",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 5.008,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_binh_xuan",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Bình Xuân",
+    "keywords": ["phường bình xuân", "bình xuân", "phuong binh xuan"],
+    "searchText": "phuong binh xuan dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 25,
+      "xa_cu": "phường Long Chánh, xã Bình Xuân",
+      "xa_moi": "Phường Bình Xuân",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 3.442,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_cai_lay",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Cai Lậy",
+    "keywords": ["phường cai lậy", "cai lậy", "phuong cai lay"],
+    "searchText": "phuong cai lay dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 26,
+      "xa_cu": "Phường 4, Phường 5, xã Long Khánh",
+      "xa_moi": "Phường Cai Lậy",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 2.522,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_cao_lanh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Cao Lãnh",
+    "keywords": ["phường cao lãnh", "cao lãnh", "phuong cao lanh"],
+    "searchText": "phuong cao lanh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 27,
+      "xa_cu": "Phường 1, Phường 3, Phường 4, Phường 6, phường Hòa Thuận, xã Hòa An, xã Tân Thuận Tây, xã Tân Thuận Đông, xã Tịnh Thới",
+      "xa_moi": "Phường Cao Lãnh",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 7.333,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_dao_thanh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Đạo Thạnh",
+    "keywords": ["phường đạo thạnh", "đạo thạnh", "phuong dao thanh"],
+    "searchText": "phuong dao thanh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 28,
+      "xa_cu": "Phường 4, Phường 5, xã Đạo Thạnh",
+      "xa_moi": "Phường Đạo Thạnh",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 1.428,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_go_cong",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Gò Công",
+    "keywords": ["phường gò công", "gò công", "phuong go cong"],
+    "searchText": "phuong go cong dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 29,
+      "xa_cu": "Phường 1, Phường 5, phường Long Hòa",
+      "xa_moi": "Phường Gò Công",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 1.006,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_hong_ngu",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Hồng Ngự",
+    "keywords": ["phường hồng ngự", "hồng ngự", "phuong hong ngu"],
+    "searchText": "phuong hong ngu dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 30,
+      "xa_cu": "phường An Thạnh, xã Tân Hội, xã Bình Thạnh",
+      "xa_moi": "Phường Hồng Ngự",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 6.428,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_long_thuan",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Long Thuận",
+    "keywords": ["phường long thuận", "long thuận", "phuong long thuan"],
+    "searchText": "phuong long thuan dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 31,
+      "xa_cu": "Phường 2, phường Long Thuận",
+      "xa_moi": "Phường Long Thuận",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 0.826,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_my_ngai",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Mỹ Ngãi",
+    "keywords": ["phường mỹ ngãi", "mỹ ngãi", "phuong my ngai"],
+    "searchText": "phuong my ngai dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 32,
+      "xa_cu": "phường Mỹ Ngãi, xã Mỹ Tân, xã Tân Nghĩa",
+      "xa_moi": "Phường Mỹ Ngãi",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.901,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_my_phong",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Mỹ Phong",
+    "keywords": ["phường mỹ phong", "mỹ phong", "phuong my phong"],
+    "searchText": "phuong my phong dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 33,
+      "xa_cu": "Phường 9, xã Mỹ Phong, xã Tân Mỹ Chánh",
+      "xa_moi": "Phường Mỹ Phong",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 2.300,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_my_phuoc_tay",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Mỹ Phước Tây",
+    "keywords": ["phường mỹ phước tây", "mỹ phước tây", "phuong my phuoc tay"],
+    "searchText": "phuong my phuoc tay dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 34,
+      "xa_cu": "Phường 1, Phường 3, xã Mỹ Hạnh Trung, xã Mỹ Phước Tây",
+      "xa_moi": "Phường Mỹ Phước Tây",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 3.574,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_my_tho",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Mỹ Tho",
+    "keywords": ["phường mỹ tho", "mỹ tho", "phuong my tho"],
+    "searchText": "phuong my tho dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 35,
+      "xa_cu": "Phường 1, Phường 2, phường Tân Long",
+      "xa_moi": "Phường Mỹ Tho",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 0.638,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_my_tra",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Mỹ Trà",
+    "keywords": ["phường mỹ trà", "mỹ trà", "phuong my tra"],
+    "searchText": "phuong my tra dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 36,
+      "xa_cu": "phường Mỹ Phú, xã Mỹ Trà, xã An Bình, xã Nhị Mỹ",
+      "xa_moi": "Phường Mỹ Trà",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.628,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_nhi_quy",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Nhị Quý",
+    "keywords": ["phường nhị quý", "nhị quý", "phuong nhi quy"],
+    "searchText": "phuong nhi quy dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 37,
+      "xa_cu": "phường Nhị Mỹ, xã Phú Quý, xã Nhị Quý",
+      "xa_moi": "Phường Nhị Quý",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 2.141,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_sa_dec",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Sa Đéc",
+    "keywords": ["phường sa đéc", "sa đéc", "phuong sa dec"],
+    "searchText": "phuong sa dec dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 38,
+      "xa_cu": "Phường 1, Phường 2, Phường 3, Phường 4, phường An Hòa, phường Tân Quy Đông, xã Tân Khánh Đông",
+      "xa_moi": "Phường Sa Đéc",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.692,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_son_qui",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Sơn Qui",
+    "keywords": ["phường sơn qui", "sơn qui", "phuong son qui"],
+    "searchText": "phuong son qui dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 39,
+      "xa_cu": "phường Long Hưng, xã Tân Trung, xã Bình Đông",
+      "xa_moi": "Phường Sơn Qui",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.896,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_thanh_hoa",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Thanh Hòa",
+    "keywords": ["phường thanh hòa", "thanh hòa", "phuong thanh hoa"],
+    "searchText": "phuong thanh hoa dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 40,
+      "xa_cu": "Phường 2, xã Tân Bình, xã Thanh Hòa",
+      "xa_moi": "Phường Thanh Hòa",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 1.934,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_thoi_son",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Thới Sơn",
+    "keywords": ["phường thới sơn", "thới sơn", "phuong thoi son"],
+    "searchText": "phuong thoi son dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 41,
+      "xa_cu": "Phường 6, xã Thới Sơn",
+      "xa_moi": "Phường Thới Sơn",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 1.521,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_thuong_lac",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Thường Lạc",
+    "keywords": ["phường thường lạc", "thường lạc", "phuong thuong lac"],
+    "searchText": "phuong thuong lac dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 42,
+      "xa_cu": "phường An Lạc, xã Thường Thới Hậu A, xã Thường Lạc",
+      "xa_moi": "Phường Thường Lạc",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.372,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "phuong_trung_an",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Phường Trung An",
+    "keywords": ["phường trung an", "trung an", "phuong trung an"],
+    "searchText": "phuong trung an dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 43,
+      "xa_cu": "Phường 10, xã Trung An, xã Phước Thạnh",
+      "xa_moi": "Phường Trung An",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 2.338,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_an_huu",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã An Hữu",
+    "keywords": ["xã an hữu", "an hữu", "xa an huu"],
+    "searchText": "xa an huu dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 44,
+      "xa_cu": "xã An Hữu, xã Hòa Hưng, xã Mỹ Lương",
+      "xa_moi": "Xã An Hữu",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.394,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_an_long",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã An Long",
+    "keywords": ["xã an long", "an long", "xa an long"],
+    "searchText": "xa an long dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 45,
+      "xa_cu": "xã An Long, xã Phú Ninh và xã An Phong",
+      "xa_moi": "Xã An Long",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 7.219,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_an_phuoc",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã An Phước",
+    "keywords": ["xã an phước", "an phước", "xa an phuoc"],
+    "searchText": "xa an phuoc dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 46,
+      "xa_cu": "xã An Phước, xã Tân Phước",
+      "xa_moi": "Xã An Phước",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 6.492,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_an_thanh_thuy",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã An Thạnh Thủy",
+    "keywords": ["xã an thạnh thủy", "an thạnh thủy", "xa an thanh thuy"],
+    "searchText": "xa an thanh thuy dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 47,
+      "xa_cu": "xã An Thạnh Thủy, xã Bình Phan, xã Bình Phục Nhứt",
+      "xa_moi": "Xã An Thạnh Thủy",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.267,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_ba_sao",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Ba Sao",
+    "keywords": ["xã ba sao", "ba sao", "xa ba sao"],
+    "searchText": "xa ba sao dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 48,
+      "xa_cu": "xã Phương Trà, xã Ba Sao",
+      "xa_moi": "Xã Ba Sao",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 8.112,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_binh_hang_trung",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Bình Hàng Trung",
+    "keywords": ["xã bình hàng trung", "bình hàng trung", "xa binh hang trung"],
+    "searchText": "xa binh hang trung dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 49,
+      "xa_cu": "xã Bình Hàng Tây, xã Bình Hàng Trung, xã Tân Hội Trung",
+      "xa_moi": "Xã Bình Hàng Trung",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 7.822,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_binh_ninh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Bình Ninh",
+    "keywords": ["xã bình ninh", "bình ninh", "xa binh ninh"],
+    "searchText": "xa binh ninh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 50,
+      "xa_cu": "xã Bình Ninh, xã Hòa Định, xã Xuân Đông",
+      "xa_moi": "Xã Bình Ninh",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.663,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_binh_phu",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Bình Phú",
+    "keywords": ["xã bình phú", "bình phú", "xa binh phu"],
+    "searchText": "xa binh phu dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 51,
+      "xa_cu": "thị trấn Bình Phú, xã Phú An, xã Cẩm Sơn",
+      "xa_moi": "Xã Bình Phú",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.703,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_binh_thanh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Bình Thành",
+    "keywords": ["xã bình thành", "bình thành", "xa binh thanh"],
+    "searchText": "xa binh thanh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 52,
+      "xa_cu": "xã Bình Thành, xã Bình Tấn",
+      "xa_moi": "Xã Bình Thành",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 7.214,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_binh_trung",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Bình Trưng",
+    "keywords": ["xã bình trưng", "bình trưng", "xa binh trung"],
+    "searchText": "xa binh trung dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 53,
+      "xa_cu": "xã Bình Trưng, xã Điềm Hy",
+      "xa_moi": "Xã Bình Trưng",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 3.122,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_cai_be",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Cái Bè",
+    "keywords": ["xã cái bè", "cái bè", "xa cai be"],
+    "searchText": "xa cai be dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 54,
+      "xa_cu": "thị trấn Cái Bè, xã Đông Hòa Hiệp, xã Hòa Khánh",
+      "xa_moi": "Xã Cái Bè",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.114,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_chau_thanh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Châu Thành",
+    "keywords": ["xã châu thành", "châu thành", "xa chau thanh"],
+    "searchText": "xa chau thanh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 55,
+      "xa_cu": "thị trấn Tân Hiệp, xã Thân Cửu Nghĩa, xã Long An",
+      "xa_moi": "Xã Châu Thành",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 2.429,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_cho_gao",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Chợ Gạo",
+    "keywords": ["xã chợ gạo", "chợ gạo", "xa cho gao"],
+    "searchText": "xa cho gao dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 56,
+      "xa_cu": "thị trấn Chợ Gạo, xã Long Bình Điền, xã Song Bình",
+      "xa_moi": "Xã Chợ Gạo",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 2.516,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_dong_son",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Đồng Sơn",
+    "keywords": ["xã đồng sơn", "đồng sơn", "xa dong son"],
+    "searchText": "xa dong son dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 57,
+      "xa_cu": "xã Bình Nhì, xã Đồng Thạnh, xã Đồng Sơn",
+      "xa_moi": "Xã Đồng Sơn",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.427,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_hau_my",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Hậu Mỹ",
+    "keywords": ["xã hậu mỹ", "hậu mỹ", "xa hau my"],
+    "searchText": "xa hau my dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 58,
+      "xa_cu": "xã Hậu Mỹ Bắc A, xã Hậu Mỹ Bắc B, xã Hậu Mỹ Trinh",
+      "xa_moi": "Xã Hậu Mỹ",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 7.861,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_hiep_duc",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Hiệp Đức",
+    "keywords": ["xã hiệp đức", "hiệp đức", "xa hiep duc"],
+    "searchText": "xa hiep duc dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 59,
+      "xa_cu": "xã Hiệp Đức, xã Tân Phong, xã Hội Xuân",
+      "xa_moi": "Xã Hiệp Đức",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.633,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_hoa_long",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Hòa Long",
+    "keywords": ["xã hòa long", "hòa long", "xa hoa long"],
+    "searchText": "xa hoa long dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 60,
+      "xa_cu": "xã Long Hậu, thị trấn Lai Vung, xã Hòa Long, xã Long Thắng",
+      "xa_moi": "Xã Hòa Long",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 8.130,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_hoi_cu",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Hội Cư",
+    "keywords": ["xã hội cư", "hội cư", "xa hoi cu"],
+    "searchText": "xa hoi cu dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 61,
+      "xa_cu": "xã An Cư, xã Mỹ Hội, xã Hậu Thành, xã Hậu Mỹ Phú",
+      "xa_moi": "Xã Hội Cư",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.866,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_kim_son",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Kim Sơn",
+    "keywords": ["xã kim sơn", "kim sơn", "xa kim son"],
+    "searchText": "xa kim son dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 62,
+      "xa_cu": "xã Kim Sơn, xã Song Thuận, xã Bình Đức",
+      "xa_moi": "Xã Kim Sơn",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 2.942,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_lai_vung",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Lai Vung",
+    "keywords": ["xã lai vung", "lai vung", "xa lai vung"],
+    "searchText": "xa lai vung dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 63,
+      "xa_cu": "xã Định An, xã Định Yên, xã Tân Phước, xã Tân Thành",
+      "xa_moi": "Xã Lai Vung",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 7.124,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_lap_vo",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Lấp Vò",
+    "keywords": ["xã lấp vò", "lấp vò", "xa lap vo"],
+    "searchText": "xa lap vo dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 64,
+      "xa_cu": "xã Bình Thành, xã Vĩnh Thạnh, xã Bình Thạnh Trung và thị trấn Lấp Vò",
+      "xa_moi": "Xã Lấp Vò",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 8.520,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_long_binh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Long Bình",
+    "keywords": ["xã long bình", "long bình", "xa long binh"],
+    "searchText": "xa long binh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 65,
+      "xa_cu": "xã Long Bình, xã Bình Tân",
+      "xa_moi": "Xã Long Bình",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 3.662,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_long_dinh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Long Định",
+    "keywords": ["xã long định", "long định", "xa long dinh"],
+    "searchText": "xa long dinh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 66,
+      "xa_cu": "xã Long Định, xã Nhị Bình, xã Đông Hòa",
+      "xa_moi": "Xã Long Định",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.378,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_long_hung",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Long Hưng",
+    "keywords": ["xã long hưng", "long hưng", "xa long hung"],
+    "searchText": "xa long hung dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 67,
+      "xa_cu": "xã Long Hưng, xã Tam Hiệp, xã Thạnh Phú",
+      "xa_moi": "Xã Long Hưng",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.325,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_long_khanh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Long Khánh",
+    "keywords": ["xã long khánh", "long khánh", "xa long khanh"],
+    "searchText": "xa long khanh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 68,
+      "xa_cu": "xã Long Khánh A, xã Long Khánh B",
+      "xa_moi": "Xã Long Khánh",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 2.855,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_long_phu_thuan",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Long Phú Thuận",
+    "keywords": ["xã long phú thuận", "long phú thuận", "xa long phu thuan"],
+    "searchText": "xa long phu thuan dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 69,
+      "xa_cu": "xã Long Thuận, xã Phú Thuận A và ấp Phú Lợi A, ấp Phú Lợi B, xã Phú Thuận B",
+      "xa_moi": "Xã Long Phú Thuận",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 5.718,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_long_tien",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Long Tiên",
+    "keywords": ["xã long tiên", "long tiên", "xa long tien"],
+    "searchText": "xa long tien dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 70,
+      "xa_cu": "xã Long Tiên, xã Long Trung, xã Mỹ Long",
+      "xa_moi": "Xã Long Tiên",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.439,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_luong_hoa_lac",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Lương Hòa Lạc",
+    "keywords": ["xã lương hòa lạc", "lương hòa lạc", "xa luong hoa lac"],
+    "searchText": "xa luong hoa lac dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 71,
+      "xa_cu": "xã Thanh Bình, xã Phú Kiết, xã Lương Hòa Lạc",
+      "xa_moi": "Xã Lương Hòa Lạc",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 3.528,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_my_an_hung",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Mỹ An Hưng",
+    "keywords": ["xã mỹ an hưng", "mỹ an hưng", "xa my an hung"],
+    "searchText": "xa my an hung dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 72,
+      "xa_cu": "xã Hội An Đông, xã Mỹ An Hưng A, xã Mỹ An Hưng B, xã Tân Mỹ",
+      "xa_moi": "Xã Mỹ An Hưng",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 6.530,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_my_duc_tay",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Mỹ Đức Tây",
+    "keywords": ["xã mỹ đức tây", "mỹ đức tây", "xa my duc tay"],
+    "searchText": "xa my duc tay dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 73,
+      "xa_cu": "xã Mỹ Đức Tây, xã Mỹ Đức Đông, xã Thiện Trí",
+      "xa_moi": "Xã Mỹ Đức Tây",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.579,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_my_loi",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Mỹ Lợi",
+    "keywords": ["xã mỹ lợi", "mỹ lợi", "xa my loi"],
+    "searchText": "xa my loi dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 74,
+      "xa_cu": "xã An Thái Đông, xã Mỹ Lợi A, xã Mỹ Lợi B",
+      "xa_moi": "Xã Mỹ Lợi",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.376,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_my_thanh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Mỹ Thành",
+    "keywords": ["xã mỹ thành", "mỹ thành", "xa my thanh"],
+    "searchText": "xa my thanh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 75,
+      "xa_cu": "xã Mỹ Thành Bắc, xã Mỹ Thành Nam, xã Phú Nhuận",
+      "xa_moi": "Xã Mỹ Thành",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 5.299,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_my_thien",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Mỹ Thiện",
+    "keywords": ["xã mỹ thiện", "mỹ thiện", "xa my thien"],
+    "searchText": "xa my thien dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 76,
+      "xa_cu": "xã Mỹ Tân, xã Mỹ Trung, xã Thiện Trung",
+      "xa_moi": "Xã Mỹ Thiện",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 6.259,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_my_tho",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Mỹ Thọ",
+    "keywords": ["xã mỹ thọ", "mỹ thọ", "xa my tho"],
+    "searchText": "xa my tho dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 77,
+      "xa_cu": "xã Mỹ Thọ, xã Mỹ Hội, xã Mỹ Xương, thị trấn Mỹ Thọ",
+      "xa_moi": "Xã Mỹ Thọ",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 6.149,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_my_tinh_an",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Mỹ Tịnh An",
+    "keywords": ["xã mỹ tịnh an", "mỹ tịnh an", "xa my tinh an"],
+    "searchText": "xa my tinh an dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 78,
+      "xa_cu": "xã Trung Hòa, xã Hòa Tịnh, xã Mỹ Tịnh An, xã Tân Bình Thạnh",
+      "xa_moi": "Xã Mỹ Tịnh An",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.121,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_ngu_hiep",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Ngũ Hiệp",
+    "keywords": ["xã ngũ hiệp", "ngũ hiệp", "xa ngu hiep"],
+    "searchText": "xa ngu hiep dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 79,
+      "xa_cu": "xã Ngũ Hiệp, xã Tam Bình",
+      "xa_moi": "Xã Ngũ Hiệp",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.888,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_phong_hoa",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Phong Hòa",
+    "keywords": ["xã phong hòa", "phong hòa", "xa phong hoa"],
+    "searchText": "xa phong hoa dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 80,
+      "xa_cu": "xã Vĩnh Thới, xã Tân Hòa, xã Định Hòa, xã Phong Hòa",
+      "xa_moi": "Xã Phong Hòa",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 8.788,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_phu_huu",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Phú Hựu",
+    "keywords": ["xã phú hựu", "phú hựu", "xa phu huu"],
+    "searchText": "xa phu huu dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 81,
+      "xa_cu": "xã An Hiệp, xã An Nhơn, xã Phú Hựu, xã An Phú Thuận, thị trấn Cái Tàu Hạ",
+      "xa_moi": "Xã Phú Hựu",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 7.127,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_phu_thanh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Phú Thành",
+    "keywords": ["xã phú thành", "phú thành", "xa phu thanh"],
+    "searchText": "xa phu thanh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 82,
+      "xa_cu": "xã Bình Phú, xã Thành Công, xã Yên Luông",
+      "xa_moi": "Xã Phú Thành",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 3.192,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_tan_duong",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tân Dương",
+    "keywords": ["xã tân dương", "tân dương", "xa tan duong"],
+    "searchText": "xa tan duong dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 83,
+      "xa_cu": "xã Tân Phú Đông, xã Tân Dương, xã Hòa Thành",
+      "xa_moi": "Xã Tân Dương",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 4.666,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_tan_hong",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tân Hồng",
+    "keywords": ["xã tân hồng", "tân hồng", "xa tan hong"],
+    "searchText": "xa tan hong dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 84,
+      "xa_cu": "xã Tân Công Chí, xã Bình Phú và thị trấn Sa Rài",
+      "xa_moi": "Xã Tân Hồng",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 10.282,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_tan_huong",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tân Hương",
+    "keywords": ["xã tân hương", "tân hương", "xa tan huong"],
+    "searchText": "xa tan huong dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 85,
+      "xa_cu": "xã Tân Hương, xã Tân Lý Đông, xã Tân Hội Đông",
+      "xa_moi": "Xã Tân Hương",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 3.504,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_tan_khanh_trung",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tân Khánh Trung",
+    "keywords": ["xã tân khánh trung", "tân khánh trung", "xa tan khanh trung"],
+    "searchText": "xa tan khanh trung dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 86,
+      "xa_cu": "xã Tân Khánh Trung, xã Long Hưng A, xã Long Hưng B",
+      "xa_moi": "Xã Tân Khánh Trung",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 6.013,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_tan_long",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tân Long",
+    "keywords": ["xã tân long", "tân long", "xa tan long"],
+    "searchText": "xa tan long dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 87,
+      "xa_cu": "xã Tân Hòa, xã Tân Huề, xã Tân Long, xã Tân Bình, xã Tân Quới",
+      "xa_moi": "Xã Tân Long",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 9.468,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_tan_nhuan_dong",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tân Nhuận Đông",
+    "keywords": ["xã tân nhuận đông", "tân nhuận đông", "xa tan nhuan dong"],
+    "searchText": "xa tan nhuan dong dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 88,
+      "xa_cu": "xã Tân Nhuận Đông, xã Hòa Tân, xã An Khánh",
+      "xa_moi": "Xã Tân Nhuận Đông",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 9.200,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_tan_phu",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tân Phú",
+    "keywords": ["xã tân phú", "tân phú", "xa tan phu"],
+    "searchText": "xa tan phu dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 89,
+      "xa_cu": "xã Tân Phú, xã Tân Hội, xã Mỹ Hạnh Đông",
+      "xa_moi": "Xã Tân Phú",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 3.812,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_tan_phu_trung",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tân Phú Trung",
+    "keywords": ["xã tân phú trung", "tân phú trung", "xa tan phu trung"],
+    "searchText": "xa tan phu trung dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 90,
+      "xa_cu": "xã Tân Bình, xã Tân Phú Trung, xã Tân Phú, xã Phú Long",
+      "xa_moi": "Xã Tân Phú Trung",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 8.263,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_tan_thanh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tân Thành",
+    "keywords": ["xã tân thành", "tân thành", "xa tan thanh"],
+    "searchText": "xa tan thanh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 91,
+      "xa_cu": "xã Thông Bình, xã Tân Thành A",
+      "xa_moi": "Xã Tân Thành",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 6.480,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_tan_thanh_2",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tân Thạnh",
+    "keywords": ["xã tân thạnh", "tân thạnh", "xa tan thanh"],
+    "searchText": "xa tan thanh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 92,
+      "xa_cu": "ấp Bắc, ấp Trung, ấp Tây, xã Tân Thạnh và xã Phú Lợi",
+      "xa_moi": "Xã Tân Thạnh",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 5.968,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_tan_thuan_binh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tân Thuận Bình",
+    "keywords": ["xã tân thuận bình", "tân thuận bình", "xa tan thuan binh"],
+    "searchText": "xa tan thuan binh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 93,
+      "xa_cu": "xã Tân Thuận Bình, xã Đăng Hưng Phước, xã Quơn Long",
+      "xa_moi": "Xã Tân Thuận Bình",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 3.994,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_thanh_binh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Thanh Bình",
+    "keywords": ["xã thanh bình", "thanh bình", "xa thanh binh"],
+    "searchText": "xa thanh binh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 94,
+      "xa_cu": "xã Tân Phú, thị trấn Thanh Bình, xã Tân Mỹ và ấp Nam",
+      "xa_moi": "Xã Thanh Bình",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 8.581,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_thanh_hung",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Thanh Hưng",
+    "keywords": ["xã thanh hưng", "thanh hưng", "xa thanh hung"],
+    "searchText": "xa thanh hung dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 95,
+      "xa_cu": "xã Tân Thanh, xã Tân Hưng, xã An Thái Trung",
+      "xa_moi": "Xã Thanh Hưng",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 5.189,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_thanh_my",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Thanh Mỹ",
+    "keywords": ["xã thanh mỹ", "thanh mỹ", "xa thanh my"],
+    "searchText": "xa thanh my dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 96,
+      "xa_cu": "xã Thanh Mỹ, xã Phú Điền",
+      "xa_moi": "Xã Thanh Mỹ",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 9.315,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_thanh_phu",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Thạnh Phú",
+    "keywords": ["xã thạnh phú", "thạnh phú", "xa thanh phu"],
+    "searchText": "xa thanh phu dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 97,
+      "xa_cu": "xã Phú Cường, xã Thạnh Lộc",
+      "xa_moi": "Xã Thạnh Phú",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 5.642,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_thap_muoi",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Tháp Mười",
+    "keywords": ["xã tháp mười", "tháp mười", "xa thap muoi"],
+    "searchText": "xa thap muoi dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 98,
+      "xa_cu": "xã Mỹ An, xã Mỹ Hòa và thị trấn Mỹ An",
+      "xa_moi": "Xã Tháp Mười",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 7.040,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_thuong_phuoc",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Thường Phước",
+    "keywords": ["xã thường phước", "thường phước", "xa thuong phuoc"],
+    "searchText": "xa thuong phuoc dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 99,
+      "xa_cu": "xã Thường Phước 1, xã Thường Phước 2, thị trấn Thường Thới Tiền",
+      "xa_moi": "Xã Thường Phước",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 8.055,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực I",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn A",
+      "So_dien_thoai": "0939.000.111",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_vinh_binh",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Vĩnh Bình",
+    "keywords": ["xã vĩnh bình", "vĩnh bình", "xa vinh binh"],
+    "searchText": "xa vinh binh dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 100,
+      "xa_cu": "thị trấn Vĩnh Bình, xã Thạnh Nhựt, xã Thạnh Trị",
+      "xa_moi": "Xã Vĩnh Bình",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 3.978,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_vinh_huu",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Vĩnh Hựu",
+    "keywords": ["xã vĩnh hựu", "vĩnh hựu", "xa vinh huu"],
+    "searchText": "xa vinh huu dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 101,
+      "xa_cu": "xã Vĩnh Hựu, xã Long Vĩnh",
+      "xa_moi": "Xã Vĩnh Hựu",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 3.189,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực III",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn C",
+      "So_dien_thoai": "0939.000.333",
+      "Toa_do": 0
+    }
+  },
+  {
+    "id": "xa_vinh_kim",
+    "type": "xa_khong_lam_nghiep",
+    "title": "Xã Vĩnh Kim",
+    "keywords": ["xã vĩnh kim", "vĩnh kim", "xa vinh kim"],
+    "searchText": "xa vinh kim dien tich tu nhien hat quan ly",
+    "data": {
+      "stt": 102,
+      "xa_cu": "xã Vĩnh Kim, xã Bàn Long, xã Phú Phong",
+      "xa_moi": "Xã Vĩnh Kim",
+      "chu_rung": 0,
+      "dien_tich_tu_nhien": 2.558,
+      "dien_tich_lam_nghiep": 0,
+      "dien_tich_rung": 0,
+      "hat_quan_ly": "Hạt Kiểm lâm khu vực II",
+      "Cu_ly_di_chuyen": 0,
+      "Kiem_lam_vien": "Nguyễn Văn B",
+      "So_dien_thoai": "0939.000.222",
+      "Toa_do": 0
     }
   }
 ]

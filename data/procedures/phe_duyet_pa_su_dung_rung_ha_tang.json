@@ -1,0 +1,27 @@
+{
+  "id": "phe_duyet_pa_su_dung_rung_ha_tang",
+  "code": "1.012690",
+  "title": "Phê duyệt phương án sử dụng rừng đối với các công trình kết cấu hạ tầng",
+  "aiKeywords": ["sử dụng rừng", "kết cấu hạ tầng"],
+  "steps": "Nộp hồ sơ => Sở NN&MT kiểm tra, xác minh => UBND cấp tỉnh phê duyệt.",
+  "location": [
+    "(1) Trung tâm PVHCC tỉnh Đồng Tháp",
+    "(2) Bưu chính",
+    "(3) Trực tuyến"
+  ],
+  "method": "Trực tiếp, bưu chính, trực tuyến.",
+  "processingTime": "15 ngày.",
+  "target": "Chủ rừng.",
+  "authority": "UBND Tỉnh.",
+  "result": "Quyết định phê duyệt (Mẫu 30).",
+  "aiFees": "Không.",
+  "forms_info": "Mẫu 28, Mẫu 29 (NĐ 91/2024/NĐ-CP).",
+  "condition": "Không.",
+  "legal_basis": "Nghị định 91/2024/NĐ-CP.",
+  "digital_docs": "Phương án, Đề nghị, Tờ trình, Báo cáo xác minh.",
+  "digital_result": "Quyết định phê duyệt (Mẫu 30).",
+  "documents": [
+    { "name": "Bản chính Phương án (Mẫu số 28)", "file": "/forms/Mau-28.docx" },
+    { "name": "Bản chính Đề nghị (Mẫu số 29)", "file": "/forms/Mau-29.docx" }
+  ]
+}

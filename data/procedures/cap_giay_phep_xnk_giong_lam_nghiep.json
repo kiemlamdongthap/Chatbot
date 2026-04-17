@@ -1,0 +1,29 @@
+{
+  "id": "cap_giay_phep_xnk_giong_lam_nghiep",
+  "code": "3.000179",
+  "title": "Cấp giấy phép xuất khẩu, nhập khẩu giống cây trồng lâm nghiệp",
+  "aiKeywords": ["xuất khẩu giống", "nhập khẩu giống", "giấy phép XNK", "giống cây lâm nghiệp"],
+  "steps": "Nộp hồ sơ => Kiểm tra, tiếp nhận => Thẩm định và cấp giấy phép.",
+  "location": [
+    "(1) Trung tâm Phục vụ hành chính công tỉnh Đồng Tháp",
+    "(2) Trung tâm phục vụ hành chính công các xã, phường",
+    "(3) Tiếp nhận và trả kết quả qua dịch vụ bưu chính công ích",
+    "(4) Thực hiện qua dịch vụ công trực tuyến"
+  ],
+  "method": "Nộp trực tiếp, bưu chính công ích, trực tuyến.",
+  "processingTime": "04 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.",
+  "target": "Tổ chức, cá nhân.",
+  "authority": "Sở Nông nghiệp và Phát triển nông thôn.",
+  "result": "Giấy phép xuất khẩu, nhập khẩu giống (Mẫu 13).",
+  "aiFees": "Không có lệ phí",
+  "forms_info": "Mẫu 11, 12 Phụ lục I ban hành kèm Thông tư số 84/2025/TT-BNNMT.",
+  "condition": "Không.",
+  "legal_basis": "Điều 9 Thông tư số 84/2025/TT-BNNMT.",
+  "digital_docs": "Văn bản đề nghị (Mẫu 11), Lý lịch giống (Mẫu 12) và tài liệu minh chứng mục đích.",
+  "digital_result": "Giấy phép xuất khẩu, nhập khẩu giống.",
+  "documents": [
+    { "name": "Bản chính Đề nghị cấp phép (Mẫu số 11)", "file": "/forms/Mau-11.docx" },
+    { "name": "Bản chính Lý lịch giống (Mẫu số 12)", "file": "/forms/Mau-12.docx" },
+    { "name": "Bản sao tài liệu minh chứng mục đích (hợp tác, triển lãm, dự án...)", "file": "/forms/Tai-lieu-kem-theo.pdf" }
+  ]
+}

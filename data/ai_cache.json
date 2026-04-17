@@ -1010,5 +1010,402 @@
       "debug_info": "Không có dữ liệu JSON được cung cấp để thực hiện tính toán. Áp dụng logic 'context TRỐNG' cho tra cứu thống kê."
     },
     "createdAt": "2026-04-14T10:49:34.033Z"
+  },
+  "dHLDoG0gY2hpbV9DaOG6vyDEkeG7mTogSG90bGluZS4gS2jDtG5nIGPDsyBk4buvIGxp4buHdSB4w6Mu": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "Tràm Chim"
+      ],
+      "debug_info": "Người dùng hỏi về số liệu rừng cho khu vực Tràm Chim nhưng không có dữ liệu được cung cấp."
+    },
+    "createdAt": "2026-04-14T15:10:48.356Z"
+  },
+  "Y2l0ZXNfQ2jhur8gxJHhu5k6IHRodV90dWMuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Bạn đang hỏi về các thủ tục liên quan đến CITES. Vui lòng cung cấp thêm thông tin chi tiết về nội dung bạn muốn tìm hiểu để tôi có thể hỗ trợ tốt nhất.",
+      "keywords": [
+        "cites"
+      ],
+      "debug_info": "Phân loại ý định là hỏi thủ tục dựa trên từ khóa 'cites' được cung cấp."
+    },
+    "createdAt": "2026-04-15T05:21:53.246Z"
+  },
+  "bOG6pW4gY2hp4bq/bSBy4burbmdfQ2jhur8gxJHhu5k6IHh1X3BoYXQuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Kính chào quý khách. Hành vi lấn chiếm rừng là vi phạm pháp luật về bảo vệ và phát triển rừng. Để được hỗ trợ thông tin chi tiết về các quy định, thủ tục xử lý vi phạm hoặc báo cáo tình hình, xin vui lòng cung cấp thêm thông tin cụ thể về yêu cầu của quý khách.",
+      "keywords": [
+        "lấn chiếm rừng"
+      ],
+      "debug_info": "Phân loại yêu cầu về hành vi vi phạm pháp luật liên quan đến rừng vào intent hỏi_thủ_tục và trích xuất từ khóa."
+    },
+    "createdAt": "2026-04-15T05:22:31.724Z"
+  },
+  "dnFnX0No4bq/IMSR4buZOiBIb3RsaW5lLiBLaMO0bmcgY8OzIGThu68gbGnhu4d1IHjDoy4=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "vườn quốc gia"
+      ],
+      "debug_info": "Không tìm thấy dữ liệu rừng cho khu vực 'vườn quốc gia' trong hệ thống được cung cấp."
+    },
+    "createdAt": "2026-04-15T05:22:43.886Z"
+  },
+  "dnFnX0No4bq/IMSR4buZOiBIb3RsaW5lLiDEkGFuZyB4ZW06IFt7InRlbiI6IljDoyBBbiBIw7JhIiwiZHQiOjg2LjEyfV0=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực Vườn Quốc gia này.",
+      "keywords": [
+        "Vườn Quốc gia"
+      ],
+      "debug_info": "Người dùng hỏi về 'vqg'. Dữ liệu hệ thống cung cấp không chứa thông tin về 'vqg', chỉ có 'Xã An Hòa'. Do đó, không có dữ liệu phù hợp để tính toán."
+    },
+    "createdAt": "2026-04-15T06:02:47.266Z"
+  },
+  "bOG6pW4gcuG7q25nX0No4bq/IMSR4buZOiB4dV9waGF0LiBLaMO0bmcgY8OzIGThu68gbGnhu4d1IHjDoy4=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Hành vi lấn chiếm rừng là vi phạm pháp luật. Để được hướng dẫn về các thủ tục liên quan đến xử lý vi phạm lấn chiếm rừng, xin quý vị vui lòng cung cấp thêm thông tin chi tiết về trường hợp cụ thể.",
+      "keywords": [
+        "lấn rừng"
+      ],
+      "debug_info": "Phân loại ý định 'hỏi_thủ_tục' dựa trên từ khóa 'lấn rừng' liên quan đến hành vi vi phạm và chế độ 'xu_phat' của hệ thống, giả định người dùng muốn tìm hiểu thủ tục xử lý."
+    },
+    "createdAt": "2026-04-15T06:08:03.159Z"
+  },
+  "dHJhbSBjaGltX0No4bq/IMSR4buZOiBIb3RsaW5lLiBLaMO0bmcgY8OzIGThu68gbGnhu4d1IHjDoy4=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực Tràm Chim. Vui lòng cung cấp thêm thông tin hoặc dữ liệu để tôi có thể hỗ trợ.",
+      "keywords": [
+        "Tràm Chim"
+      ],
+      "debug_info": "Người dùng hỏi về số liệu rừng cho khu vực 'Tràm Chim', nhưng không có dữ liệu JSON được cung cấp để tính toán."
+    },
+    "createdAt": "2026-04-15T06:23:48.635Z"
+  },
+  "Y2l0ZXNf": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để được hướng dẫn về thủ tục liên quan đến CITES, xin vui lòng cung cấp thêm thông tin chi tiết về loại hình hoạt động hoặc đối tượng cụ thể mà bạn quan tâm. Chúng tôi sẽ hỗ trợ bạn tra cứu thông tin chính xác nhất.",
+      "keywords": [
+        "cites"
+      ],
+      "debug_info": "Xác định ý định hỏi thủ tục và trích xuất từ khóa 'cites'."
+    },
+    "createdAt": "2026-04-15T06:45:05.154Z"
+  },
+  "Y8OieSBnaeG7kW5nXw==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để tôi có thể hỗ trợ tốt nhất về các thủ tục liên quan đến cây giống, xin vui lòng cho biết cụ thể bạn muốn tìm hiểu về vấn đề gì (ví dụ: thủ tục gây nuôi, vận chuyển, khai thác, hay mã số liên quan đến cây giống)?",
+      "keywords": [
+        "cây giống"
+      ],
+      "debug_info": "Phân loại ý định 'hỏi_thủ_tục' vì từ khóa 'cây giống' liên quan đến các quy trình hành chính. Trích xuất từ khóa 'cây giống'."
+    },
+    "createdAt": "2026-04-15T06:45:30.126Z"
+  },
+  "Z2nhu5FuZyBsw6JtIG5naGnhu4dwX0No4bq/IMSR4buZOiB0aHVfdHVjLiBLaMO0bmcgY8OzIGThu68gbGnhu4d1IHjDoy4=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Chào quý khách, tôi có thể hỗ trợ quý khách về các thủ tục liên quan đến giống lâm nghiệp. Quý khách vui lòng cho biết cụ thể hơn về loại thủ tục hoặc thông tin quý khách đang tìm kiếm (ví dụ: thủ tục cấp phép gây nuôi, vận chuyển, khai thác giống lâm nghiệp)?",
+      "keywords": [
+        "giống lâm nghiệp"
+      ],
+      "debug_info": "Phân loại ý định là hỏi thủ tục dựa trên từ khóa 'giống lâm nghiệp'."
+    },
+    "createdAt": "2026-04-15T06:48:00.239Z"
+  },
+  "bmd14buTbiBnaeG7kW5nX0No4bq/IMSR4buZOiB0aHVfdHVjLiBLaMO0bmcgY8OzIGThu68gbGnhu4d1IHjDoy4=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Chào bạn, tôi có thể hỗ trợ thông tin về các thủ tục liên quan đến nguồn giống. Vui lòng cho biết bạn muốn tìm hiểu cụ thể về khía cạnh nào của nguồn giống?",
+      "keywords": [
+        "nguồn giống"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' do từ khóa 'nguồn giống' liên quan đến các quy trình hành chính. Trích xuất từ khóa 'nguồn giống'."
+    },
+    "createdAt": "2026-04-15T06:54:23.456Z"
+  },
+  "8J+PmyBO4buZcCDhu58gxJHDonVfQ2jhur8gxJHhu5k6IHRodV90dWMuIEtow7RuZyBjw7MgZOG7ryBsaeG7h3UgeMOjLg==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để tôi có thể hỗ trợ chính xác, xin quý khách vui lòng cho biết quý khách muốn nộp hồ sơ hoặc thực hiện thủ tục gì ạ?",
+      "keywords": [
+        "nộp",
+        "thủ tục",
+        "hồ sơ"
+      ],
+      "debug_info": "Phân loại ý định là hỏi về thủ tục hành chính, trích xuất từ khóa liên quan đến việc nộp hồ sơ."
+    },
+    "createdAt": "2026-04-15T06:54:46.632Z"
+  },
+  "bmd14buTbiBnaeG7kW5nX0No4bq/IMSR4buZOiB0aHVfdHVjLiDEkGFuZyB4ZW06IFt7InRlbiI6IljDoyBBbiBIw7JhIiwiZHQiOjg2LjEyfV0=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để được hướng dẫn chi tiết về các thủ tục liên quan đến nguồn giống, xin quý khách vui lòng cung cấp thêm thông tin về loại giống hoặc mục đích sử dụng cụ thể.",
+      "keywords": [
+        "nguồn giống"
+      ],
+      "debug_info": "Phân loại ý định hỏi thủ tục và trích xuất từ khóa 'nguồn giống'."
+    },
+    "createdAt": "2026-04-15T07:00:12.824Z"
+  },
+  "bOG6pW4gcuG7q25nX0No4bq/IMSR4buZOiB4dV9waGF0LiDEkGFuZyB4ZW06IFt7InRlbiI6IljDoyBBbiBIw7JhIiwiZHQiOjg2LjEyfV0=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để được hỗ trợ về các thủ tục liên quan đến hành vi lấn rừng, xin vui lòng cung cấp thêm thông tin chi tiết về yêu cầu của bạn.",
+      "keywords": [
+        "lấn rừng",
+        "Xã An Hòa"
+      ],
+      "debug_info": "Phân loại ý định liên quan đến thủ tục dựa trên ngữ cảnh 'xu_phat' và từ khóa 'lấn rừng'. Trích xuất từ khóa 'lấn rừng' từ yêu cầu người dùng và đơn vị hành chính 'Xã An Hòa' từ dữ liệu hệ thống."
+    },
+    "createdAt": "2026-04-15T07:01:59.787Z"
+  },
+  "dHJhbSBjaGltX0No4bq/IMSR4buZOiBIb3RsaW5lLiDEkGFuZyB4ZW06IFt7InRlbiI6IljDoyBBbiBIw7JhIiwiZHQiOjg2LjEyfV0=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "Tràm Chim"
+      ],
+      "debug_info": "Người dùng hỏi về 'Tràm Chim'. Dữ liệu hệ thống 'Đang xem' chỉ chứa thông tin về 'Xã An Hòa'. Không tìm thấy dữ liệu phù hợp cho 'Tràm Chim', do đó áp dụng quy tắc 'context TRỐNG'."
+    },
+    "createdAt": "2026-04-15T07:13:55.068Z"
+  },
+  "bOG6pW4gY2hp4bq/bSBy4burbmdfTMSpbmggduG7sWM6IFRyYSBj4bupdSB2aSBwaOG6oW0gaMOgbmggY2jDrW5oIGzDom0gbmdoaeG7h3Au": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Kính chào quý khách, chúng tôi đã ghi nhận yêu cầu tra cứu thông tin về 'lấn chiếm rừng'. Để cung cấp thông tin chính xác và đầy đủ nhất về các quy định, thủ tục xử lý hoặc các vấn đề liên quan đến vi phạm này, xin quý khách vui lòng cung cấp thêm chi tiết về nội dung cần tra cứu.",
+      "keywords": [
+        "lấn chiếm rừng"
+      ],
+      "debug_info": "Phân loại ý định liên quan đến tra cứu thông tin về vi phạm hành chính lâm nghiệp và trích xuất từ khóa."
+    },
+    "createdAt": "2026-04-15T07:58:40.139Z"
+  },
+  "bOG6pW4gcuG7q25nX0zEqW5oIHbhu7FjOiBUcmEgY+G7qXUgdmkgcGjhuqFtIGjDoG5oIGNow61uaCBsw6JtIG5naGnhu4dwLg==": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để tra cứu thông tin hoặc quy định liên quan đến hành vi lấn rừng, quý khách vui lòng cung cấp thêm chi tiết về trường hợp cụ thể hoặc loại thông tin cần tìm kiếm.",
+      "keywords": [
+        "lấn rừng"
+      ],
+      "debug_info": "Phân loại ý định dựa trên từ khóa liên quan đến vi phạm hành chính lâm nghiệp."
+    },
+    "createdAt": "2026-04-15T08:15:46.307Z"
+  },
+  "bOG6pW4gY2hp4bq/bV9C4bqhbiBsw6AgY2h1ecOqbiBnaWEgcGjDoXAgbHXhuq10IEtp4buDbSBsw6JtIMSQ4buTbmcgVGjDoXAuIFRyw61jaCBk4bqrbiBOZ2jhu4sgxJHhu4tuaCAzNS8yMDE5L07EkC1DUCB2w6AgMDcvMjAyMi9OxJAtQ1Au": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Chào bạn, hành vi lấn chiếm đất rừng, đất lâm nghiệp là hành vi vi phạm pháp luật về lâm nghiệp. Theo quy định tại Nghị định số 35/2019/NĐ-CP ngày 25/4/2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực lâm nghiệp (được sửa đổi, bổ sung bởi Nghị định số 07/2022/NĐ-CP ngày 28/01/2022), hành vi này sẽ bị xử lý nghiêm theo quy định của pháp luật. Tùy thuộc vào mức độ và diện tích lấn chiếm, có thể áp dụng các hình thức xử phạt hành chính hoặc truy cứu trách nhiệm hình sự. Để được hướng dẫn cụ thể về quy trình xử lý hoặc báo cáo vụ việc, bạn vui lòng liên hệ trực tiếp với cơ quan Kiểm lâm địa phương tại Đồng Tháp.",
+      "keywords": [
+        "lấn chiếm",
+        "vi phạm",
+        "Nghị định 35/2019/NĐ-CP",
+        "Nghị định 07/2022/NĐ-CP"
+      ],
+      "debug_info": "Phân loại ý định dựa trên từ khóa 'lấn chiếm' liên quan đến vi phạm pháp luật lâm nghiệp và trích dẫn các nghị định liên quan."
+    },
+    "createdAt": "2026-04-15T09:20:57.399Z"
+  },
+  "dHLDrG5oIHThu7Ega2hhaSB0aMOhYyBsw6JtIHPhuqNuX0LhuqFuIGzDoCBjaHV5w6puIGdpYSBwaMOhcCBsdeG6rXQgS2nhu4NtIGzDom0gxJDhu5NuZyBUaMOhcC4gVHLDrWNoIGThuqtuIE5naOG7iyDEkeG7i25oIDM1LzIwMTkvTsSQLUNQIHbDoCAwNy8yMDIyL07EkC1DUC4=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Chào bạn, về trình tự khai thác lâm sản, bạn vui lòng tham khảo các quy định tại Nghị định số 35/2019/NĐ-CP ngày 25/4/2019 của Chính phủ quy định chi tiết một số điều của Luật Lâm nghiệp và Nghị định số 07/2022/NĐ-CP ngày 28/01/2022 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 35/2019/NĐ-CP. Để biết chi tiết về từng loại lâm sản và quy mô khai thác, bạn có thể liên hệ trực tiếp Chi cục Kiểm lâm Đồng Tháp để được hướng dẫn cụ thể.",
+      "keywords": [
+        "khai thác lâm sản",
+        "trình tự"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' và trích xuất từ khóa liên quan đến thủ tục khai thác lâm sản."
+    },
+    "createdAt": "2026-04-15T10:06:44.311Z"
+  },
+  "Ly8gNC4gWOG7rSBsw70gdmkgcGjhuqFtICAgdmlfcGhhbTogKGRhdGEpID0+IHsgICAgIGNvbnN0IHB1bmlzaG1lbnRzID0gZGF0YS5wdW5pc2htZW50cy5tYXAocCA9PiB7ICAgICAgICAgY29uc3QgZGV0YWlsID0gcC5jYXNlcy5tYXAoYyA9PiBgICR7Y31gKS5qb2luKCI8YnI+Iik7ICAgICAgICAgcmV0dXJuIGA8ZGV0YWlscyBzdHlsZT0ibWFyZ2luLXRvcDoxMHB4O2JvcmRlcjoxcHggc29saWQgI2NjYztwYWRkaW5nOjhweDtib3JkZXItcmFkaXVzOjRweDtjdXJzb3I6cG9pbnRlcjsiPjxzdW1tYXJ5IHN0eWxlPSJmb250LXdlaWdodDpib2xkO2NvbG9yOiNiOTFjMWM7b3V0bGluZTpub25lOyI+IEtob+G6o24gJHtwLmNsYXVzZX06ICR7cC5maW5lX3JhbmdlfSAoWGVtIGNoaSB0aeG6v3QpPC9zdW1tYXJ5PjxkaXYgc3R5bGU9InBhZGRpbmc6MTBweCAwIDVweCAyMHB4O2NvbG9yOiMzMzM7Ym9yZGVyLXRvcDoxcHggZGFzaGVkICNlZWU7bWFyZ2luLXRvcDo1cHg7Ij4ke2RldGFpbH08L2Rpdj48L2RldGFpbHM+YDsgICAgIH0pLmpvaW4oIiIpOyAJIC8vIC0tLSBQSOG6pk4gVknhur5UIFRJ4bq+UDogVOG6oW8gdGjDtG5nIGLDoW8gZ+G7o2kgw70gxJHGoW4gduG7iyB0w61uaCAtLS0gICAgIGxldCB1bml0R3VpZGUgPSAiIjsgICAgIGlmIChkYXRhLmNhbGN1bGF0aW9uX3VuaXQpIHsgICAgICAgICB1bml0R3VpZGUgPSBgPGRpdiBzdHlsZT0ibWFyZ2luLXRvcDoxNXB4O3BhZGRpbmc6MTBweDtiYWNrZ3JvdW5kOiNlM2YyZmQ7Ym9yZGVyLXJhZGl1czo0cHg7Ym9yZGVyLWxlZnQ6NHB4IHNvbGlkICMyMTk2ZjM7Ij4gICAgICAgICAgICAgPHN0cm9uZz7wn5SNIEPDtG5nIGPhu6UgdMOtbmggbmhhbmg6PC9zdHJvbmc+PGJyPiAgICAgICAgICAgICBWdWkgbMOybmcgY2jhu41uIG3hu6ljIMSR4buZIHZpIHBo4bqhbSB0aGVvIMSRxqFuIHbhu4sgPGI+JHtkYXRhLmNhbGN1bGF0aW9uX3VuaXR9PC9iPiBiw6puIGTGsOG7m2kgxJHhu4MgeMOhYyDEkeG7i25oIGNow61uaCB4w6FjIEtob+G6o24gcGjhuqF0LiAgICAgICAgIDwvZGl2PmA7ICAgICB9ICAgICAgY29uc3QgaHRtbCA9IGA8ZGl2IGNsYXNzPSJsZWdhbC1yZXNwb25zZSIgc3R5bGU9ImZvbnQtZmFtaWx5OnNhbnMtc2VyaWY7bGluZS1oZWlnaHQ6MS41OyI+PGgzIHN0eWxlPSJjb2xvcjojYjkxYzFjO2JvcmRlci1ib3R0b206MnB4IHNvbGlkICNiOTFjMWM7cGFkZGluZy1ib3R0b206NXB4OyI+4pqW77iPICR7ZGF0YS5hcnRpY2xlfTogJHtkYXRhLnRpdGxlLnRvVXBwZXJDYXNlKCl9PC9oMz48cCBzdHlsZT0ibWFyZ2luOjEwcHggMDsiPjxzdHJvbmc+8J+TliBNw7QgdOG6ozo8L3N0cm9uZz4gJHtkYXRhLmRlc2NyaXB0aW9ufTwvcD4ke3B1bmlzaG1lbnRzfSR7dW5pdEd1aWRlfTxkaXYgc3R5bGU9Im1hcmdpbi10b3A6MTVweDtwYWRkaW5nOjEwcHg7YmFja2dyb3VuZDojZmZmM2UwO2JvcmRlci1yYWRpdXM6NHB4OyI+PHN0cm9uZz7wn5ug77iPIEto4bqvYyBwaOG7pWM6PC9zdHJvbmc+ICR7ZGF0YS5yZW1lZHk/LmNvbnRlbnQgfHwgIlRoZW8gcXV5IMSR4buLbmguIn08L2Rpdj48cCBzdHlsZT0iZm9udC1zaXplOjEycHg7Y29sb3I6IzY2NjttYXJnaW4tdG9wOjEwcHg7Ij7wn5OcIDxiPkPEg24gY+G7qTo8L2I+ICR7ZGF0YS5sZWdhbF9iYXNpcz8uam9pbigiLCAiKX08L3A+PC9kaXY+YDsgICAgICByZXR1cm4gaHRtbC5yZXBsYWNlKC9cbi9nLCAiIikucmVwbGFjZSgvXHNccysvZywgIiAiKTsgICB9LF9C4bqhbiBsw6AgY2h1ecOqbiBnaWEgcGjDoXAgbHXhuq10IEtp4buDbSBsw6JtIMSQ4buTbmcgVGjDoXAuIFRyw61jaCBk4bqrbiBOZ2jhu4sgxJHhu4tuaCAzNS8yMDE5L07EkC1DUCB2w6AgMDcvMjAyMi9OxJAtQ1Au": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Kính gửi Quý vị, chúng tôi đã tiếp nhận thông tin về cấu trúc hàm xử lý vi phạm. Đây là một công cụ quan trọng để trình bày các quy định về xử phạt vi phạm hành chính trong lĩnh vực lâm nghiệp, giúp tra cứu nhanh chóng các khoản phạt, mức độ vi phạm và căn cứ pháp lý. Việc này đặc biệt hữu ích trong việc áp dụng các quy định từ Nghị định 35/2019/NĐ-CP và Nghị định 07/2022/NĐ-CP, đảm bảo tính minh bạch và chính xác trong công tác thực thi pháp luật.",
+      "keywords": [
+        "xử lý vi phạm",
+        "khoản phạt",
+        "căn cứ pháp lý",
+        "Nghị định 35/2019/NĐ-CP",
+        "Nghị định 07/2022/NĐ-CP",
+        "đơn vị tính"
+      ],
+      "debug_info": "Phân tích nội dung cung cấp là định nghĩa hàm xử lý vi phạm, liên quan đến các quy trình pháp luật và hành chính. Phân loại vào 'hỏi_thủ_tục' do tính chất liên quan đến quy trình pháp lý và trích xuất các từ khóa hành chính, pháp luật."
+    },
+    "createdAt": "2026-04-15T10:16:49.685Z"
+  },
+  "UuG7q25nIHPhuqNuIHh14bqldF9C4bqhbiBsw6AgY2h1ecOqbiBnaWEgcGjDoXAgbHXhuq10IEtp4buDbSBsw6JtIMSQ4buTbmcgVGjDoXAuIFRyw61jaCBk4bqrbiBOZ2jhu4sgxJHhu4tuaCAzNS8yMDE5L07EkC1DUCB2w6AgMDcvMjAyMi9OxJAtQ1Au": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "Rừng sản xuất"
+      ],
+      "debug_info": "Người dùng hỏi về loại rừng sản xuất nhưng không có dữ liệu JSON được cung cấp để tính toán tổng diện tích."
+    },
+    "createdAt": "2026-04-15T10:38:51.028Z"
+  },
+  "MTAwMF9C4bqhbiBsw6AgY2h1ecOqbiBnaWEgcGjDoXAgbHXhuq10IEtp4buDbSBsw6JtIMSQ4buTbmcgVGjDoXAuIFRyw61jaCBk4bqrbiBOZ2jhu4sgxJHhu4tuaCAzNS8yMDE5L07EkC1DUCB2w6AgMDcvMjAyMi9OxJAtQ1Au": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [],
+      "debug_info": "Không có dữ liệu JSON được cung cấp để tính toán. Áp dụng logic 'context TRỐNG' cho intent 'tra_cuu_thong_ke'."
+    },
+    "createdAt": "2026-04-15T10:39:12.897Z"
+  },
+  "8J+PoCBNZW51IGNow61uaF9C4bqhbiBsw6AgY2h1ecOqbiBnaWEgcGjDoXAgbHXhuq10IEtp4buDbSBsw6JtIMSQ4buTbmcgVGjDoXAuIFRyw61jaCBk4bqrbiBOZ2jhu4sgxJHhu4tuaCAzNS8yMDE5L07EkC1DUCB2w6AgMDcvMjAyMi9OxJAtQ1Au": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào mừng quý khách đến với hệ thống. Tôi là chuyên gia pháp luật Kiểm lâm Đồng Tháp. Tôi có thể hỗ trợ gì cho quý khách về các vấn đề liên quan đến pháp luật lâm nghiệp, Nghị định 35/2019/NĐ-CP và 07/2022/NĐ-CP, hoặc các thủ tục hành chính khác?",
+      "keywords": [],
+      "debug_info": "Phân loại ý định là 'chào_hỏi' vì yêu cầu 'Menu chính' là một tương tác chung, không phải tra cứu thống kê hay hỏi thủ tục cụ thể."
+    },
+    "createdAt": "2026-04-15T10:40:04.658Z"
+  },
+  "UuG7q25nIHBow7JuZyBo4buZX0LhuqFuIGzDoCBjaHV5w6puIGdpYSBwaMOhcCBsdeG6rXQgS2nhu4NtIGzDom0gxJDhu5NuZyBUaMOhcC4gVHLDrWNoIGThuqtuIE5naOG7iyDEkeG7i25oIDM1LzIwMTkvTsSQLUNQIHbDoCAwNy8yMDIyL07EkC1DUC4=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Chào bạn, với yêu cầu về Rừng phòng hộ, hệ thống hiện chưa ghi nhận số liệu cụ thể cho khu vực này. Nếu bạn cần tra cứu thông tin pháp lý liên quan đến Rừng phòng hộ theo Nghị định 35/2019/NĐ-CP và 07/2022/NĐ-CP, vui lòng cho biết thêm chi tiết.",
+      "keywords": [
+        "Rừng phòng hộ"
+      ],
+      "debug_info": "Phân loại intent là 'tra_cuu_thong_ke' do từ khóa liên quan đến loại rừng. Dữ liệu JSON để tính toán diện tích không được cung cấp (context trống), nên trả lời theo quy định."
+    },
+    "createdAt": "2026-04-15T10:47:03.145Z"
+  },
+  "UuG7q25nIMSR4bq3YyBk4bulbmdfQuG6oW4gbMOgIGNodXnDqm4gZ2lhIHBow6FwIGx14bqtdCBLaeG7g20gbMOibSDEkOG7k25nIFRow6FwLiBUcsOtY2ggZOG6q24gTmdo4buLIMSR4buLbmggMzUvMjAxOS9OxJAtQ1AgdsOgIDA3LzIwMjIvTsSQLUNQLg==": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Kính chào quý vị, hiện tại hệ thống chưa ghi nhận số liệu thống kê cụ thể về diện tích rừng đặc dụng cho khu vực này. Tuy nhiên, với vai trò là chuyên gia pháp luật Kiểm lâm Đồng Tháp, tôi xin thông tin thêm về rừng đặc dụng theo quy định hiện hành. Cụ thể, theo Nghị định số 35/2019/NĐ-CP ngày 25/4/2019 và Nghị định số 07/2022/NĐ-CP ngày 28/01/2022 của Chính phủ, rừng đặc dụng là loại rừng được sử dụng chủ yếu để bảo tồn thiên nhiên, mẫu chuẩn hệ sinh thái rừng của quốc gia, nguồn gen sinh vật rừng; nghiên cứu khoa học; bảo vệ di tích lịch sử - văn hóa, danh lam thắng cảnh; phục vụ nghỉ ngơi, du lịch sinh thái, giải trí, kết hợp phòng hộ, góp phần bảo vệ môi trường.",
+      "keywords": [
+        "Rừng đặc dụng"
+      ],
+      "debug_info": "Phân loại ý định là tra cứu thống kê do từ khóa liên quan đến loại rừng. Không có dữ liệu đầu vào để tính toán diện tích, đồng thời cung cấp thông tin pháp luật theo vai trò chuyên gia."
+    },
+    "createdAt": "2026-04-15T10:47:24.465Z"
+  },
+  "8J+SsCBM4buHIHBow61fQ2jhur8gxJHhu5k6IHRodV90dWM=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để có thể cung cấp thông tin chính xác về lệ phí, xin quý khách vui lòng cho biết cụ thể thủ tục hành chính hoặc loại hồ sơ mà quý khách quan tâm.",
+      "keywords": [
+        "Lệ phí"
+      ],
+      "debug_info": "Phân loại ý định 'hỏi_thủ_tục' dựa trên từ khóa 'Lệ phí'."
+    },
+    "createdAt": "2026-04-15T13:50:38.742Z"
+  },
+  "dnFnX0No4bq/IMSR4buZOiBjaHVfcnVuZw==": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "vqg"
+      ],
+      "debug_info": "Không có dữ liệu JSON được cung cấp để tính toán diện tích. Người dùng hỏi về 'vqg' (vườn quốc gia), được phân loại là tra cứu thống kê."
+    },
+    "createdAt": "2026-04-15T13:51:08.251Z"
+  },
+  "RGFuaCBzw6FjaCBjw6FjIHjDoyBjw7MgcuG7q25nX0No4bq/IMSR4buZOiBkdV9saWV1": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "xã",
+        "rừng"
+      ],
+      "debug_info": "Không có dữ liệu đầu vào được cung cấp để thực hiện tra cứu và tính toán."
+    },
+    "createdAt": "2026-04-15T14:39:03.691Z"
+  },
+  "bMOibSBuZ2hp4buHcF9DaOG6vyDEkeG7mTogZHVfbGlldQ==": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này.",
+      "keywords": [
+        "lâm nghiệp"
+      ],
+      "debug_info": "Không có dữ liệu JSON được cung cấp để tính toán diện tích."
+    },
+    "createdAt": "2026-04-15T14:42:52.774Z"
+  },
+  "8J+UjiBYw6Mga2jDoWNfQ2jhur8gxJHhu5k6IGR1X2xpZXU=": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Hệ thống chưa ghi nhận số liệu rừng cho khu vực này. Vui lòng cung cấp dữ liệu cụ thể để tôi có thể tra cứu thông tin về các xã khác.",
+      "keywords": [
+        "xã khác"
+      ],
+      "debug_info": "Xác định ý định tra cứu thống kê. Không có dữ liệu hệ thống được cung cấp để thực hiện tính toán hoặc so sánh."
+    },
+    "createdAt": "2026-04-15T14:43:34.635Z"
+  },
+  "8J+PoCBW4buBIG1lbnUgY2jDrW5oX0No4bq/IMSR4buZOiB0aHVfdHVj": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào bạn. Bạn đã chọn quay về menu chính. Tôi sẵn sàng hỗ trợ bạn với các yêu cầu khác.",
+      "keywords": [],
+      "debug_info": "Yêu cầu của người dùng là điều hướng chung, không liên quan đến tra cứu thống kê hay thủ tục. Do đó, phân loại là 'chào_hỏi'."
+    },
+    "createdAt": "2026-04-16T01:46:09.112Z"
+  },
+  "S2hhaSB0aMOhYyBy4burbmdfQ2jhur8gxJHhu5k6IHRodV90dWM=": {
+    "data": {
+      "intent": "hỏi_thủ_tục",
+      "reply": "Để được hướng dẫn chi tiết về thủ tục khai thác rừng, xin vui lòng cung cấp thêm thông tin cụ thể về loại rừng, mục đích khai thác hoặc các giấy tờ liên quan.",
+      "keywords": [
+        "khai thác rừng"
+      ],
+      "debug_info": "Phân loại ý định là 'hỏi_thủ_tục' và trích xuất từ khóa 'khai thác rừng'."
+    },
+    "createdAt": "2026-04-16T01:57:53.281Z"
+  },
+  "QWJjX0No4bq/IMSR4buZOiB0aHVfdHVj": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Xin lỗi, tôi chưa hiểu rõ yêu cầu của bạn. Bạn có thể vui lòng cung cấp thêm thông tin hoặc đặt câu hỏi cụ thể hơn không?",
+      "keywords": [],
+      "debug_info": "Người dùng cung cấp thông tin không rõ ràng ('Abc'), không thể phân loại vào các ý định cụ thể như tra cứu thống kê hay hỏi thủ tục. Phản hồi chung để yêu cầu làm rõ."
+    },
+    "createdAt": "2026-04-17T01:32:02.353Z"
+  },
+  "aHVuZ19DaOG6vyDEkeG7mTogZHVfbGlldQ==": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào bạn! Tôi là chuyên gia dữ liệu của Lực lượng Kiểm lâm. Bạn cần hỗ trợ gì?",
+      "keywords": [],
+      "debug_info": "Phân loại ý định là chào hỏi."
+    },
+    "createdAt": "2026-04-17T07:48:48.857Z"
+  },
+  "Q29uIGPhurdjX0No4bq/IMSR4buZOiBkdV9saWV1": {
+    "data": {
+      "intent": "chào_hỏi",
+      "reply": "Chào bạn. Để hệ thống có thể hỗ trợ bạn hiệu quả, vui lòng sử dụng ngôn ngữ phù hợp và rõ ràng hơn. Chúng tôi sẵn sàng giải đáp các thắc mắc về dữ liệu kiểm lâm hoặc thủ tục hành chính.",
+      "keywords": [],
+      "debug_info": "Người dùng sử dụng ngôn ngữ không phù hợp. Phân loại tạm thời là 'chào_hỏi' để đưa ra phản hồi yêu cầu ngôn ngữ lịch sự, chuyên nghiệp."
+    },
+    "createdAt": "2026-04-17T07:49:28.032Z"
+  },
+  "R8OhbyBnaeG7k25nX0LhuqFuIGzDoCBjaHV5w6puIHZpw6puIHF14bqjbiBsw70gY2jhu6cgcuG7q25nLiBIw6N5IGNow6BvIHbDoCBoxrDhu5tuZyBk4bqrbiBraMOhY2ggdHJhIGPhu6l1IGRhbmggc8OhY2ggY2jhu6cgcuG7q25nIGhv4bq3YyBkaeG7h24gdMOtY2ggdGhlbyDEkcahbiB24buLLg==": {
+    "data": {
+      "intent": "tra_cuu_thong_ke",
+      "reply": "Chào quý khách. Với yêu cầu tra cứu thông tin về Gáo Giồng, hệ thống hiện chưa ghi nhận số liệu rừng cụ thể cho khu vực này. Quý khách có thể tra cứu danh sách chủ rừng hoặc diện tích theo các đơn vị khác.",
+      "keywords": [
+        "Gáo giồng"
+      ],
+      "debug_info": "Người dùng cung cấp tên đơn vị hành chính 'Gáo giồng'. Không có dữ liệu JSON được cung cấp để tính toán diện tích, nên áp dụng logic 'context TRỐNG' cho intent 'tra_cuu_thong_ke'."
+    },
+    "createdAt": "2026-04-17T09:12:55.474Z"
   }
 }
