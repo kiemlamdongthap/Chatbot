@@ -5,7 +5,9 @@ const formatDocs = (documents) => {
     if (!documents || !Array.isArray(documents) || documents.length === 0) {
         return "— Không có yêu cầu hồ sơ cụ thể.";
     }
-    const BASE_URL = "http://localhost:10000"; 
+    const BASE_URL = (window.location.hostname.includes("localhost") || window.location.hostname.includes("127.0.0.1"))
+        ? "http://localhost:10000"
+        : "https://chatbot-jqsw.onrender.com";
     return documents.map((d) => {
         const name = typeof d === "string" ? d : (d?.name || "Tài liệu");
         const fileUrl = d?.file || d?.url;
