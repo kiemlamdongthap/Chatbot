@@ -34,6 +34,9 @@ app.use(express.json());
     🔐 SESSION (ĐÃ TỐI ƯU CHO LOCAL & RENDER)
 ========================= */
 const isProduction = process.env.NODE_ENV === 'production';
+if (isProduction) {
+    app.set('trust proxy', 1);
+}
 
 app.use(session({
   secret: "kiem-lam-secret-key",
