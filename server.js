@@ -31,17 +31,24 @@ app.use(cors({
 app.use(express.json());
 
 /* =========================
-    🔐 SESSION
+    🔐 SESSION (ĐÃ TỐI ƯU CHO LOCAL & RENDER)
 ========================= */
+const isProduction = process.env.NODE_ENV === 'production';
+
 app.use(session({
   secret: "kiem-lam-secret-key",
   resave: false,
   saveUninitialized: false,
   cookie: {
-    secure: false, 
+    // TRÊN WEB (HTTPS): Bắt buộc secure = true và sameSite = 'none'
+    // DƯỚI LOCAL (HTTP): Bắt buộc secure = false và sameSite = 'lax'
+    secure: isProduction, 
     httpOnly: true,
-    sameSite: "lax"
-  }
+    sameSite: isProduction ? "none" : "lax", 
+    maxAge: 24 * 60 * 60 * 1000 // Session tồn tại trong 24 giờ
+  },
+  // Giúp session ổn định hơn trên một số server proxy
+  proxy: isProduction ? true : undefined 
 }));
 
 /* =========================
